@@ -1,0 +1,3 @@
+[diag] domtblout rows: 13680, unique tokens: 3665
+[diag] tokens mapped to >=1 assemblies: 3665 / 3665
+Wrote -> results/nif_hdk_hits.csv  |  H=465 D=376 K=309
