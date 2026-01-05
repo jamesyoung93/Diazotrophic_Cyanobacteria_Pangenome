@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "FOX pangenome unified pipeline"
+type: software
+version: "2026.01.02"
+date-released: "2026-01-02"
+authors:
+  - family-names: "Young"
+    given-names: "James"
+    affiliation: "South Dakota State University"
+    email: "james.young@jacks.sdstate.edu"
+  - name: "ADD CO-AUTHORS HERE"
+repository-code: "https://github.com/jamesyoung93/pangenome_nif"
+license: "MIT"
+keywords:
+  - cyanobacteria
+  - nitrogen fixation
+  - pangenome
+  - nifH
+  - nifD
+  - nifK
+  - hmmer
+  - mmseqs2
+  - machine learning

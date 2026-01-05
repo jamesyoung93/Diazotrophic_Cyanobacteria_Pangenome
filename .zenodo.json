@@ -1,0 +1,27 @@
+{
+  "title": "FOX pangenome unified pipeline",
+  "description": "Reproducible pipeline for marker based detection and predictively enriched pangenome analysis of oxic nitrogen fixation gene families in cyanobacteria. This archive contains code only. Large NCBI downloads are fetched at runtime.",
+  "version": "2026.01.02",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Young, James",
+      "affiliation": "South Dakota State University",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "cyanobacteria",
+    "nitrogen fixation",
+    "pangenome",
+    "nifH",
+    "nifD",
+    "nifK",
+    "hmmer",
+    "mmseqs2",
+    "machine learning"
+  ]
+}

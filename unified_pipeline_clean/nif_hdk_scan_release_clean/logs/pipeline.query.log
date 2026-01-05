@@ -1,0 +1,10 @@
+Overriding assembly levels via NIF_ASSEMBLY_LEVELS -> ['complete genome']
+NCBI Entrez query: txid1117[Organism:exp] AND ("complete genome"[Assembly Level])
+Found 489 assembly IDs
+Fetch docsum:   0%|          | 0/2 [00:00<?, ?it/s]Fetch docsum:  50%|█████     | 1/2 [00:00<00:00,  2.44it/s]Fetch docsum: 100%|██████████| 2/2 [00:00<00:00,  2.36it/s]Fetch docsum: 100%|██████████| 2/2 [00:00<00:00,  2.37it/s]
+Wrote 489 assemblies -> /mmfs1/scratch/jacks.local/jyoung67391/fox_pangenome_publication_package_codeonly_20260103/fox_pangenome_publication_package_codeonly_20260103/unified_pipeline_clean/nif_hdk_scan_release_clean/results/assemblies/assemblies.tsv
+Overriding assembly levels via NIF_ASSEMBLY_LEVELS -> ['complete genome']
+NCBI Entrez query: txid1117[Organism:exp] AND ("complete genome"[Assembly Level])
+Found 489 assembly IDs
+Fetch docsum:   0%|          | 0/2 [00:00<?, ?it/s]Fetch docsum:  50%|█████     | 1/2 [00:00<00:00,  2.20it/s]Fetch docsum: 100%|██████████| 2/2 [00:00<00:00,  2.43it/s]Fetch docsum: 100%|██████████| 2/2 [00:00<00:00,  2.39it/s]
+Wrote 489 assemblies -> /mmfs1/scratch/jacks.local/jyoung67391/fox_pangenome_publication_package_codeonly_20260103/fox_pangenome_publication_package_codeonly_20260103/unified_pipeline_clean/nif_hdk_scan_release_clean/results/assemblies/assemblies.tsv

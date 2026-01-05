@@ -1,0 +1,14 @@
+# Never commit run outputs or downloads
+**/unified_pipeline_run/
+**/downloads/
+**/__pycache__/
+**/*.pyc
+**/*.out
+**/*.err
+
+# Generated run outputs (do not commit)
+unified_pipeline_clean/nif_hdk_scan_release_clean/results/
+unified_pipeline_clean/unified_pipeline_run/
+**/downloads/
+**/__pycache__/
+**/*.pyc
