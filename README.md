@@ -76,6 +76,9 @@ Run from the unified pipeline directory.
 ```bash
 cd unified_pipeline_clean
 chmod u+x run_unified_pipeline.sh run_postprocess_09_12.sh
+grep '^GCF_' unified_pipeline_run/genome_accessions.txt > unified_pipeline_run/genome_accessions.gcf.txt
+mv unified_pipeline_run/genome_accessions.gcf.txt unified_pipeline_run/genome_accessions.txt
+
 ./run_unified_pipeline.sh
 ```
 
@@ -88,6 +91,7 @@ If UniProt is blocked, run with `SKIP_UNIPROT_GO=1` to bypass UniProt GO enrichm
 python nif_downstream_code/build_protein_family_cds_from_gff3.py --run-dir unified_pipeline_run
 
 SKIP_UNIPROT_GO=1 ./run_postprocess_09_12.sh
+python regen_tier2_tables.py --run-dir unified_pipeline_run --clean
 ```
 
 Outputs are written under `unified_pipeline_clean/unified_pipeline_run/`.
