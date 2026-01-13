@@ -38,8 +38,8 @@ NCBI Datasets CLI is required to fetch genome packages and metadata. Installatio
 
 ```bash
 # load your site conda or mamba module first if needed
-mamba env create -f environment.yml
-mamba activate pangenome_fox
+conda env create -f environment.yml
+conda activate pangenome_fox
 ```
 
 Alternatively, install `ncbi-datasets-cli` from conda-forge, or install the official binary from NCBI.
@@ -85,6 +85,8 @@ Some compute environments block outbound requests to UniProt.
 If UniProt is blocked, run with `SKIP_UNIPROT_GO=1` to bypass UniProt GO enrichment.
 
 ```bash
+python nif_downstream_code/build_protein_family_cds_from_gff3.py --run-dir unified_pipeline_run
+
 SKIP_UNIPROT_GO=1 ./run_postprocess_09_12.sh
 ```
 
