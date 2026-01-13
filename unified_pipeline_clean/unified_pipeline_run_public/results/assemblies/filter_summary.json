@@ -1,0 +1,8 @@
+{
+  "total": 489,
+  "kept": 426,
+  "dropped_by_refseq": 63,
+  "dropped_by_completeness": 0,
+  "require_refseq_gcf": true,
+  "require_complete_genome": true
+}
