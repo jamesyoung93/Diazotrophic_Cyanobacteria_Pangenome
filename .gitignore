@@ -12,3 +12,15 @@ unified_pipeline_clean/unified_pipeline_run/
 **/downloads/
 **/__pycache__/
 **/*.pyc
+
+# Keep large and non-reproducible artifacts out of GitHub
+unified_pipeline_clean/unified_pipeline_run/
+**/downloads/
+**/__pycache__/
+**/*.pyc
+**/*.out
+**/*.err
+
+# Allow the small public mirror to be committed
+!unified_pipeline_clean/unified_pipeline_run_public/
+!unified_pipeline_clean/unified_pipeline_run_public/**
