@@ -1,0 +1,10 @@
+component,rule,interpretation
+model_score,2.0 for Model-Supported; 1.0 for Highly Pure,Separates classifier-supported accessory candidates from near-diagnostic carrier-purity features.
+literature_proteomics_score,"1.0 per external active-phase-up proteomics study, capped at 3; +0.5 for two active-up context groups; +1.0 for three","Rewards only proteins that increase in the organism-appropriate N-fix-active phase/cell. Broad response, active-phase-down, transition, and non-target phase rows are retained as metadata but do not score."
+related_atlas_score,+0.5 related protein-family atlas match; +0.25 exact product match; +0.25 top-quartile atlas ranking,Caps collaborator/related-atlas convergence at 1.0 so it supports but does not dominate the biological filter.
+condensate_score,+0.2 top 20%; +0.3 top 10%; +0.4 top 5%; +0.5 top 1% condensate-driver rank,Keeps the condensate-associated layer as a minor prioritization signal.
+morphotype_breadth_score,+1.25 broad unicellular/filament bridge; +1.5 strict unicellular breadth,Makes cross-morphotype conservation a primary biological support axis.
+story_penalty,-1.0 housekeeping/lineage; -1.0 core nif/nitrogenase; -0.75 HGT-passenger flag,"Does not delete these features, but prevents them from leading the accessory-biology narrative."
+accessory_story_score,composite_evidence_score minus story_penalty,Raw biological-story score before scope adjustment.
+related_atlas_scope_adjustment_score,For Highly Pure only: 1.0 minus observed related_atlas_score,Neutralizes missing collaborator-atlas evidence when the related atlas was scoped around Model-Supported families.
+scope_adjusted_story_score,accessory_story_score plus related_atlas_scope_adjustment_score,Primary tiering/sort score for top-family tables.

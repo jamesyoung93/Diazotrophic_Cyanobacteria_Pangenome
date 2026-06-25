@@ -1,0 +1,15 @@
+baseline_priority_tier,current_priority_tier,n_families
+Core/diagnostic control,Core/diagnostic control,11
+De-emphasize: housekeeping/lineage,De-emphasize: housekeeping/lineage,140
+Tier A: story-leading accessory,Tier A: story-leading accessory,68
+Tier A: story-leading accessory,Tier B: strong cross-evidence accessory,21
+Tier A: story-leading accessory,Tier E: lower current evidence,6
+Tier B: strong cross-evidence accessory,Tier A: story-leading accessory,12
+Tier B: strong cross-evidence accessory,Tier B: strong cross-evidence accessory,35
+Tier B: strong cross-evidence accessory,Tier E: lower current evidence,22
+Tier C: cross-evidence diagnostic/support,Tier E: lower current evidence,12
+Tier C: cross-evidence diagnostic/support,Tier HP: evidence-supported high-purity marker,3
+Tier D: literature-supported background,Tier E: lower current evidence,1
+Tier E: lower current evidence,Tier B: strong cross-evidence accessory,44
+Tier E: lower current evidence,Tier E: lower current evidence,749
+Tier E: lower current evidence,Tier HP: evidence-supported high-purity marker,2

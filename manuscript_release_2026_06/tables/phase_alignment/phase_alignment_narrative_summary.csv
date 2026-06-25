@@ -1,0 +1,11 @@
+narrative_id,narrative_title,n_families,n_phase_aligned_families,n_phase_up_families,n_phase_aligned_rows,n_phase_up_rows,phase_aligned_studies
+N1,Carbon capture may be a diazotrophy control knob,13,13,7,28,9,Held et al. 2022; Panda et al. 2025; Sandh et al. 2014
+N10,Annotation collisions may themselves reveal family-boundary problems worth checking,4,2,2,5,2,Held et al. 2022; Panda et al. 2025; Sandh et al. 2014
+N2,A shared envelope/matrix microenvironment may replace a single morphotype solution,9,8,2,19,4,Held et al. 2022; Panda et al. 2025; Sandh et al. 2014
+N3,Light-harvesting and tetrapyrrole metabolism may be part of the nitrogen-fixing state,19,17,6,38,7,Held et al. 2022; Panda et al. 2025; Sandh et al. 2014; Welkie et al. 2014
+N4,Electron valves and O2 drawdown are the most conventional but still powerful signal,27,16,9,27,12,Held et al. 2022; Panda et al. 2025; Sandh et al. 2014; Welkie et al. 2014
+N5,Diazotrophy may impose a protein- and RNA-maintenance regime,19,18,16,30,22,Held et al. 2022; Panda et al. 2025; Sandh et al. 2014
+N6,The top signal may be the metabolic sink for fixed nitrogen,19,17,11,37,15,Held et al. 2022; Panda et al. 2025; Sandh et al. 2014; Welkie et al. 2014
+N7,Nucleotide economy and methylation may be quietly important,14,12,5,25,6,Held et al. 2022; Panda et al. 2025; Sandh et al. 2014; Welkie et al. 2014
+N8,Condensate-ranked families cluster around assembly and state transitions,52,46,23,84,26,Held et al. 2022; Panda et al. 2025; Sandh et al. 2014; Welkie et al. 2014
+N9,Cell architecture and positioning may be part of the physiology,9,6,3,11,6,Held et al. 2022; Panda et al. 2025; Sandh et al. 2014

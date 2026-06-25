@@ -1,20 +1,39 @@
-# FOX pangenome unified pipeline
+# Protein-family pangenome analysis of cyanobacterial diazotrophy
 
-This repository contains a reproducible, publication ready code package for the FOX pangenome analysis workflow.
-The workflow integrates
+This repository contains the reproducible code and manuscript-facing result tables for a cyanobacterial pangenome analysis of diazotrophy beyond canonical `nif` genes.
 
-- Upstream detection of nifH, nifD, nifK marker hits using profile HMM search
-- Assembly quality metadata enrichment and filtering to RefSeq accessions and complete genomes
-- Downstream pangenome construction using MMseqs2 gene family clustering
-- Supervised classification and feature ranking to identify gene families associated with oxic nitrogen fixation
-- Postprocessing scripts that generate tiered result tables, narrative summaries, and manuscript facing figures
+The original unified workflow performs:
 
-The runtime workflow downloads public reference data at execution time and therefore does not include large data payloads in this code archive.
+- upstream detection of `nifH`, `nifD`, and `nifK` marker hits using profile HMM search;
+- assembly metadata enrichment and filtering to complete RefSeq (`GCF`) cyanobacterial genomes;
+- MMseqs2 protein-family clustering and presence/absence matrix construction;
+- supervised classification and feature ranking of protein families associated with diazotrophy;
+- postprocessing to separate model-selected accessory families from near-diagnostic high-purity `nif`/context families.
+
+## Current manuscript release
+
+The current manuscript-facing June 2026 release is in:
+
+`manuscript_release_2026_06/`
+
+That folder contains the current tables and scripts used to align the core 426-genome protein-family model with biological interpretation layers:
+
+- `476` Model-Supported accessory candidate families;
+- `981` Highly Pure `nif`/near-core context families;
+- related protein-family atlas product/function concordance;
+- external literature proteomics evidence restricted to nitrogen-fixation-relevant active-phase-up responses;
+- morphotype-breadth proxy and annotation review;
+- HGT-proximity and alternative-nitrogenase audit summaries where available;
+- condensate-driver ranking overlays used only as indirect prioritization evidence.
+
+The local Cyanothece proteomics screen and FOX ensemble probability are retained only as historical/contextual analyses in older materials; they are not part of the current composite scoring used in the June 2026 manuscript release.
 
 ## Directory layout
 
+- `manuscript_release_2026_06/`  
+  Current manuscript-facing result tables, release notes, figure assets, and overlay scripts.
 - `unified_pipeline_clean/`  
-  Primary entrypoint for end to end reproducible runs.
+  Primary entrypoint for the core pangenome/modeling workflow.
 - `unified_pipeline_clean/nif_hdk_scan_release_clean/`  
   Upstream marker scan, hit summarization, and assembly metadata enrichment.
 - `unified_pipeline_clean/nif_downstream_code/`  
@@ -28,13 +47,11 @@ The runtime workflow downloads public reference data at execution time and there
 
 ## Quick start for HPC environments
 
-These steps reflect the environment used during pipeline bring up on an Lmod based HPC cluster.
-If your site uses different module names, adapt accordingly.
+These steps reflect the environment used during pipeline bring up on an Lmod based HPC cluster. If your site uses different module names, adapt accordingly.
 
 ### 1. Create and activate the conda environment
 
 NCBI Datasets CLI is required to fetch genome packages and metadata. Installation options are documented by NCBI at https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/.
-
 
 ```bash
 # load your site conda or mamba module first if needed
@@ -43,7 +60,6 @@ conda activate pangenome_fox
 ```
 
 Alternatively, install `ncbi-datasets-cli` from conda-forge, or install the official binary from NCBI.
-
 
 ### 2. Load external tool modules
 
@@ -84,8 +100,7 @@ mv unified_pipeline_run/genome_accessions.gcf.txt unified_pipeline_run/genome_ac
 
 ### 4. Run postprocessing and manuscript tables
 
-Some compute environments block outbound requests to UniProt.
-If UniProt is blocked, run with `SKIP_UNIPROT_GO=1` to bypass UniProt GO enrichment.
+Some compute environments block outbound requests to UniProt. If UniProt is blocked, run with `SKIP_UNIPROT_GO=1` to bypass UniProt GO enrichment.
 
 ```bash
 python nif_downstream_code/build_protein_family_cds_from_gff3.py --run-dir unified_pipeline_run
@@ -99,10 +114,8 @@ Outputs are written under `unified_pipeline_clean/unified_pipeline_run/`.
 ## Citation and archival
 
 - GitHub citation files: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files
-
 - Zenodo GitHub release archiving: https://help.zenodo.org/docs/github/archive-software/github-upload/
 - Zenodo software metadata guidance: https://help.zenodo.org/docs/github/describe-software/
-
 
 See `docs/ZENODO_GITHUB.md` for a step by step release workflow.
 
@@ -115,4 +128,3 @@ bash scripts/capture_repro_metadata.sh
 ```
 
 This writes `reproducibility/` artifacts such as module lists and package inventories.
-

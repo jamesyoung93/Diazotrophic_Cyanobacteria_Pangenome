@@ -1,0 +1,9 @@
+metric	value
+input_rows	31021
+mapped_rows	2125
+mapped_unique_families	1311
+mapping_conflict_rows	22
+uniprot_id_direct_mapped_rows	1321
+cluster_id_mapped_rows	1048
+model_supported_mapped_families	369
+highly_pure_mapped_families	934
