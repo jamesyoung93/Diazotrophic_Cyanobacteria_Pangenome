@@ -21,7 +21,7 @@ INFO_CSV  = "gene_family_info.csv"          # gene_family, representative
 DIRCSV    = "feature_directionality_full.csv"
 MATRIX    = "gene_family_matrix.csv"
 MAPGZ     = "idmapping_selected.tab.gz"
-OUT       = "llm_context_features.csv"
+OUT       = "context_features.csv"
 
 ACC_RE = re.compile(r"^(?:[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9][A-Z0-9]{4}[0-9]{3})$")
 GO_RE  = re.compile(r"\bGO:\d{7}\b", re.I)

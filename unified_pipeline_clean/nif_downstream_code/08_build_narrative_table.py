@@ -10,7 +10,7 @@ TOP_N = int(os.environ.get("TOP_N", "100"))
 IMP_RF       = "feature_importance_Random_Forest.csv"
 DIR_FULL     = "feature_directionality_full.csv"
 MEMBERS_META = "gf_members_with_metadata.csv"
-LLM_MERGED   = "llm_context_features.csv"
+CONTEXT_MERGED   = "context_features.csv"
 MATRIX_CSV   = "gene_family_matrix.csv"
 
 OUT_CSV      = "narrative_top_features.csv"
@@ -53,8 +53,8 @@ def load_members(path):
     return mm
 
 def attach_annotations(df):
-    if os.path.exists(LLM_MERGED):
-        ann = pd.read_csv(LLM_MERGED)
+    if os.path.exists(CONTEXT_MERGED):
+        ann = pd.read_csv(CONTEXT_MERGED)
         keep = [c for c in ["gene_family","GeneName","ProteinName","EC","GO","target","pident","evalue"] if c in ann.columns]
         if keep:
             return df.merge(ann[keep].drop_duplicates("gene_family"), on="gene_family", how="left")
@@ -65,7 +65,7 @@ def attach_annotations(top_gf):
     import pandas as pd
     import numpy as np
 
-    LLM_MERGED = "llm_context_features.csv"
+    CONTEXT_MERGED = "context_features.csv"
     SP_HITS    = "gf_reps_vs_sprot.tsv"
     CLUSTERS_TSV = "gene_families_clusters.tsv"
 
@@ -79,9 +79,9 @@ def attach_annotations(top_gf):
         vals = [str(x).strip() for x in series if pd.notna(x) and str(x).strip()]
         return ";".join(sorted(set(vals)))
 
-    # Prefer the merged LLM annotations
-    if os.path.exists(LLM_MERGED):
-        ann = pd.read_csv(LLM_MERGED)
+    # Prefer the merged contextual annotations
+    if os.path.exists(CONTEXT_MERGED):
+        ann = pd.read_csv(CONTEXT_MERGED)
         # Guard: if there are no expected columns, bail out gracefully
         expected_any = {"GeneName","ProteinName","EC","GO","target","pident","evalue"} & set(ann.columns)
         if "gene_family" in ann.columns and expected_any:
