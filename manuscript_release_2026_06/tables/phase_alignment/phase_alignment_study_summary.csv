@@ -1,0 +1,14 @@
+study_id,paper_short,phase_alignment_class,n_rows,n_families,n_active_phase_response,n_active_phase_up,n_active_phase_down,n_transition_or_ambiguous
+Held_2022_Trichodesmium_IMS101,Held et al. 2022,aligned_daytime_active_phase_high,85,84,85,85,0,0
+Held_2022_Trichodesmium_IMS101,Held et al. 2022,aligned_daytime_active_phase_low,59,59,59,0,59,0
+Held_2022_Trichodesmium_IMS101,Held et al. 2022,not_active_phase_night_only_dynamic,8,8,0,0,0,0
+Held_2022_Trichodesmium_IMS101,Held et al. 2022,transition_window_dynamic,13,13,0,0,0,13
+Panda_2025_Crocosphaera_ATCC51142,Panda et al. 2025,aligned_dark_active_contrast_broad_minusN,134,134,134,78,56,0
+Panda_2025_Crocosphaera_ATCC51142,Panda et al. 2025,aligned_dark_active_contrast_only,12,12,12,5,7,0
+Panda_2025_Crocosphaera_ATCC51142,Panda et al. 2025,aligned_dark_active_contrast_with_light_dark_interaction,6,6,6,2,4,0
+Panda_2025_Crocosphaera_ATCC51142,Panda et al. 2025,not_active_phase_light_only,12,12,0,0,0,0
+Sandh_2014_Nostoc_punctiforme,Sandh et al. 2014,aligned_heterocyst_active_cell_high,45,33,45,45,0,0
+Sandh_2014_Nostoc_punctiforme,Sandh et al. 2014,aligned_heterocyst_active_cell_low_or_supporting_filament,242,133,242,0,242,0
+Welkie_2014_Cyanothece_PCC7822,Welkie et al. 2014,aligned_CT_D_active_window_high,3,3,3,3,0,0
+Welkie_2014_Cyanothece_PCC7822,Welkie et al. 2014,aligned_CT_D_active_window_low,11,11,11,0,11,0
+Welkie_2014_Cyanothece_PCC7822,Welkie et al. 2014,not_CT_D_active_window_extreme,1,1,0,0,0,0
