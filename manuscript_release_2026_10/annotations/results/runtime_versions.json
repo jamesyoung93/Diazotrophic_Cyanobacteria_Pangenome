@@ -1,0 +1,33 @@
+{
+  "python": "3.10.16",
+  "packages": {
+    "numpy": {
+      "module_version": "2.2.6",
+      "distribution_metadata_version": "2.2.6"
+    },
+    "pandas": {
+      "module_version": "2.3.3",
+      "distribution_metadata_version": "2.3.3"
+    },
+    "scipy": {
+      "module_version": "1.13.1",
+      "distribution_metadata_version": "1.13.0"
+    },
+    "statsmodels": {
+      "module_version": "0.14.4",
+      "distribution_metadata_version": "0.14.4"
+    },
+    "openpyxl": {
+      "module_version": "3.1.5",
+      "distribution_metadata_version": "3.1.5"
+    },
+    "matplotlib": {
+      "module_version": "3.10.7",
+      "distribution_metadata_version": "3.10.7"
+    },
+    "pillow": {
+      "module_version": "11.1.0",
+      "distribution_metadata_version": "10.4.0"
+    }
+  }
+}

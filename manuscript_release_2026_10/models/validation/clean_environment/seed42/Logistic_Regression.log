@@ -1,0 +1,63 @@
+
+============================================================
+Running Logistic Regression with Genus-level CV
+============================================================
+
+Fold 1/5
+  Train: 380 genomes, Test: 46 genomes
+  Train diazotroph: 80/380 (21.1%)
+  Test  diazotroph: 32/46 (69.6%)
+  Accuracy: 0.8696
+  Precision: 0.8421
+  Recall: 1.0000
+  F1: 0.9143
+  ROC-AUC: 0.9955
+
+Fold 2/5
+  Train: 309 genomes, Test: 117 genomes
+  Train diazotroph: 91/309 (29.4%)
+  Test  diazotroph: 21/117 (17.9%)
+  Accuracy: 0.9402
+  Precision: 0.7917
+  Recall: 0.9048
+  F1: 0.8444
+  ROC-AUC: 0.9643
+
+Fold 3/5
+  Train: 397 genomes, Test: 29 genomes
+  Train diazotroph: 95/397 (23.9%)
+  Test  diazotroph: 17/29 (58.6%)
+  Accuracy: 0.6552
+  Precision: 0.7333
+  Recall: 0.6471
+  F1: 0.6875
+  ROC-AUC: 0.8039
+
+Fold 4/5
+  Train: 282 genomes, Test: 144 genomes
+  Train diazotroph: 84/282 (29.8%)
+  Test  diazotroph: 28/144 (19.4%)
+  Accuracy: 0.8403
+  Precision: 0.5676
+  Recall: 0.7500
+  F1: 0.6462
+  ROC-AUC: 0.8381
+
+Fold 5/5
+  Train: 336 genomes, Test: 90 genomes
+  Train diazotroph: 98/336 (29.2%)
+  Test  diazotroph: 14/90 (15.6%)
+  Accuracy: 0.6667
+  Precision: 0.2778
+  Recall: 0.7143
+  F1: 0.4000
+  ROC-AUC: 0.7904
+
+============================================================
+Logistic Regression - AGGREGATE RESULTS
+============================================================
+ACCURACY    : 0.7944 +/- 0.1272
+PRECISION   : 0.6425 +/- 0.2286
+RECALL      : 0.8032 +/- 0.1451
+F1          : 0.6985 +/- 0.1999
+ROC_AUC     : 0.8784 +/- 0.0949

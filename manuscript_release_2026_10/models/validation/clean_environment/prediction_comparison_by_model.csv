@@ -1,0 +1,5 @@
+model,n,n_exactly_equal,strict_failures,max_abs_probability_difference,max_difference_over_original_allowance,decision_changes,minimum_clean_margin_from_half
+Gradient Boosting,426,418,0,1.1102230246251565e-16,1.2456099111712798e-06,0,0.014899802798715722
+Logistic Regression,426,6,140,4.669040709615047e-10,15.772527694590924,0,0.07354640054987782
+Random Forest,426,426,0,0.0,0.0,0,0.0017167994114590246
+XGBoost,426,426,0,0.0,0.0,0,0.00025767087936401367

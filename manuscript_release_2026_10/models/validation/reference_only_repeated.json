@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "independent_metric_checks": 960,
+  "reference_prediction_rows": 17040,
+  "maximum_reference_probability_delta": 0.0,
+  "maximum_independent_metric_delta": 2.886579864025407e-15
+}

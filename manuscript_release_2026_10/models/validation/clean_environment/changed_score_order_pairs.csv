@@ -1,0 +1,3 @@
+model,scope_fold,accession_a,accession_b,y_a,y_b,reference_probability_a,reference_probability_b,clean_probability_a,clean_probability_b
+Logistic Regression,pooled,GCF_019704275.1,GCF_976987195.1,0,0,0.7888818348501115,0.7888818348501128,0.7888818349481395,0.7888818349481389
+Logistic Regression,5,GCF_019704275.1,GCF_976987195.1,0,0,0.7888818348501115,0.7888818348501128,0.7888818349481395,0.7888818349481389

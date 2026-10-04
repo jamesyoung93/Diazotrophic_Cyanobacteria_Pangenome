@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "reference_prediction_rows": 4920,
+  "maximum_reference_probability_difference": 0.0,
+  "exact_fold_assignments_and_feature_masks_match": true,
+  "independent_verification": {
+    "status": "PASS",
+    "independent_score_checks": 432,
+    "maximum_score_discrepancy": 2.6645352591003757e-15,
+    "official_genus_numeric_sort_seed42_splits_verified": true,
+    "group_and_sample_overlap_checks_passed": true,
+    "independently_verified_masks": 10,
+    "LR_predictions_reconstructed": 2460,
+    "total_prediction_rows": 4920,
+    "single_class_test_folds": 0
+  },
+  "fresh_copy_directory": "portable_model_audit_v2_recheck_02"
+}

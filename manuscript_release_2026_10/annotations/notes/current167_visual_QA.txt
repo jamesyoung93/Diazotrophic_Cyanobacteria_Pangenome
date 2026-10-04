@@ -1,0 +1,17 @@
+Visual QA of the author-review v2 workbook and figures.
+
+All seven workbook sheet previews were opened and inspected after the first export:
+Summary, CorrectedTop, CorrectedAll, Migrations, ReleasedTop, ReleasedAll and ReadMe.
+After adding the historical-inventory note, the regenerated Summary and lower
+ReadMe previews were opened again. The explanatory cells wrap and are readable;
+no clipping or overlapping cells was observed. Existing CSV/source data remain
+available because the compact workbook intentionally displays selected columns.
+
+Figure3 and Figure5 numerical source summaries and PNGs are byte-identical to the
+preceding visually inspected figures. Figure3 preserves the compact 6.2 x 4.85-inch
+layout and all22 TierA rows. Figure5 preserves the frozen476 diagnostic strata.
+Only their v2 captions/source flags change to describe ubiquitous-control exclusion.
+The earlier full-resolution and print-width visual inspections therefore apply.
+
+Independent saved-XLSX verification: independent_export_verification.json.
+Original workbook and preceding169-family correction snapshot are unchanged.

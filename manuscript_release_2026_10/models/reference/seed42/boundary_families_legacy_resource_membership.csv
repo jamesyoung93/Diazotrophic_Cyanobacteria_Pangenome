@@ -1,0 +1,4 @@
+gene_family,total_genomes,diazotroph_count,diazotroph_pct,is_pure,direction,effect_size,importance,in_released_model_supported,in_released_ranked_model_supported,in_released_highly_pure_positive
+GF_00110,40,4,0.1,True,Negative,-0.1797927461139896,0.0155207016616494,False,False,False
+GF_00310,40,4,0.1,True,Negative,-0.1797927461139896,0.0133110396291345,False,False,False
+GF_01630,60,6,0.1,True,Negative,-0.1896174863387978,0.0281235949524329,False,False,False

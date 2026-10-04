@@ -1,0 +1,11 @@
+scenario,fold,n_train,n_test,n_train_pos,n_test_pos,n_train_genera,n_test_genera,n_features
+exclude_currently_suppressed22,1,361,43,75,31,56,14,662
+exclude_currently_suppressed22,2,292,112,87,19,57,13,561
+exclude_currently_suppressed22,3,376,28,89,17,55,15,581
+exclude_currently_suppressed22,4,270,134,81,25,55,15,646
+exclude_currently_suppressed22,5,317,87,92,14,57,13,614
+current_assemblies_only401,1,359,42,75,31,56,14,664
+current_assemblies_only401,2,289,112,87,19,57,13,561
+current_assemblies_only401,3,373,28,89,17,55,15,585
+current_assemblies_only401,4,267,134,81,25,55,15,646
+current_assemblies_only401,5,316,85,92,14,57,13,612

@@ -1,0 +1,147 @@
+CURRENT PUBLIC ASSEMBLY STATUS SENSITIVITY -- AUDIT ONLY
+
+Scope and provenance
+The exact426 retained assembly versions were reconciled against NCBI Datasets
+API reports retrieved2026-09-30 UTC. Nine batch snapshots supplied422 reports;
+an all_assemblies historical-version query resolved the remaining four. There
+are401 current,22 suppressed and3 previous versions, with no unresolved records.
+The model script independently parses the raw JSON and exactly agrees with the
+separately produced cohort_status_reconciled.csv. Current status is not asserted
+to describe the records at their original collection date. Suppression reasons
+are heterogeneous; not all are contamination. Previous versions are not
+categorized as demonstrated quality failures.
+
+Class counts by public status:
+    status  is_diazotroph   n
+   current              0 295
+   current              1 106
+  previous              0   3
+suppressed              0  16
+suppressed              1   6
+
+Design
+Two predeclared bounded exclusions are analyzed separately: remove22 currently
+suppressed records (404 remain:106 positive and298 negative) and retain only
+401 currently current records (106 positive and295 negative; also removes the
+three older versions). Both preserve every surviving genome's original seed42
+fold assignment and stored-genus label. Both retain70 stored genera. Four
+classifiers and two size-only LR baselines use unchanged original parameters,
+exact training-only purity and>=3-genus filters, and training-only scaling.
+One CPU/BLAS thread is used; there is no retuning or inventory reranking.
+The original2286-family vocabulary/clustering and prevalence criterion remain
+defined on the full426-panel, so this is fixed-matrix sensitivity, not an end-to-end
+reconstruction or an independently collected external validation cohort.
+
+Results: all metric views retained
+                      scenario                         model  roc_auc_mean  roc_auc_sd  genus_balanced_auc_mean  pooled_roc_auc  pooled_genus_balanced_auc  average_precision_mean
+exclude_currently_suppressed22                 Random Forest      0.808413    0.270672                 0.802457        0.908066                   0.767047                0.797332
+exclude_currently_suppressed22             Gradient Boosting      0.877133    0.074423                 0.834448        0.867228                   0.746430                0.830945
+exclude_currently_suppressed22           Logistic Regression      0.858597    0.094579                 0.813666        0.878593                   0.757020                0.779738
+exclude_currently_suppressed22                       XGBoost      0.876941    0.098628                 0.842557        0.903492                   0.784982                0.814806
+exclude_currently_suppressed22       assembly_length_only_LR      0.823970    0.128611                 0.687166        0.882044                   0.654950                0.734150
+exclude_currently_suppressed22 retained_family_count_only_LR      0.738784    0.220940                 0.722768        0.749858                   0.746521                0.698679
+    current_assemblies_only401                 Random Forest      0.805903    0.260069                 0.784332        0.905724                   0.752747                0.783230
+    current_assemblies_only401             Gradient Boosting      0.873830    0.104142                 0.830547        0.872242                   0.739907                0.844083
+    current_assemblies_only401           Logistic Regression      0.863973    0.098236                 0.818310        0.880141                   0.756531                0.781225
+    current_assemblies_only401                       XGBoost      0.880854    0.100520                 0.837700        0.907115                   0.783521                0.816015
+    current_assemblies_only401       assembly_length_only_LR      0.821722    0.129675                 0.686839        0.882539                   0.654246                0.735023
+    current_assemblies_only401 retained_family_count_only_LR      0.739886    0.218997                 0.722768        0.749648                   0.747703                0.699587
+
+Per-fold sample/class/genus and selected-feature counts:
+                      scenario  fold  n_train  n_test  n_train_pos  n_test_pos  n_train_genera  n_test_genera  n_features
+exclude_currently_suppressed22     1      361      43           75          31              56             14         662
+exclude_currently_suppressed22     2      292     112           87          19              57             13         561
+exclude_currently_suppressed22     3      376      28           89          17              55             15         581
+exclude_currently_suppressed22     4      270     134           81          25              55             15         646
+exclude_currently_suppressed22     5      317      87           92          14              57             13         614
+    current_assemblies_only401     1      359      42           75          31              56             14         664
+    current_assemblies_only401     2      289     112           87          19              57             13         561
+    current_assemblies_only401     3      373      28           89          17              55             15         585
+    current_assemblies_only401     4      267     134           81          25              55             15         646
+    current_assemblies_only401     5      316      85           92          14              57             13         612
+
+Paired differences against original426 and original-OOF scores restricted to
+the same surviving rows (the latter removes evaluation-population change):
+                      scenario                         model  roc_auc_mean_minus_original426  roc_auc_mean_minus_same_rows_original_OOF  genus_balanced_auc_mean_minus_original426  genus_balanced_auc_mean_minus_same_rows_original_OOF  average_precision_mean_minus_original426  average_precision_mean_minus_same_rows_original_OOF  pooled_roc_auc_minus_original426  pooled_roc_auc_minus_same_rows_original_OOF  pooled_genus_balanced_auc_minus_original426  pooled_genus_balanced_auc_minus_same_rows_original_OOF
+exclude_currently_suppressed22                 Random Forest                       -0.044395                                  -0.040409                                  -0.039270                                             -0.020643                                 -0.007714                                            -0.007131                         -0.013055                                    -0.009307                                    -0.015283                                                0.001958
+exclude_currently_suppressed22             Gradient Boosting                        0.009605                                   0.017385                                  -0.010378                                              0.007050                                  0.041156                                             0.048891                          0.010839                                     0.020815                                    -0.042321                                               -0.022380
+exclude_currently_suppressed22           Logistic Regression                       -0.019845                                  -0.011413                                  -0.038190                                             -0.027635                                 -0.017498                                            -0.002421                         -0.014691                                    -0.007060                                    -0.047092                                               -0.028620
+exclude_currently_suppressed22                       XGBoost                       -0.016165                                  -0.009972                                  -0.028938                                             -0.020998                                 -0.032391                                            -0.021704                         -0.010720                                    -0.005619                                    -0.030423                                               -0.008295
+exclude_currently_suppressed22       assembly_length_only_LR                        0.007479                                   0.000000                                  -0.021504                                              0.000000                                  0.007369                                             0.000000                         -0.002084                                    -0.001076                                    -0.020608                                                0.000501
+exclude_currently_suppressed22 retained_family_count_only_LR                       -0.009869                                   0.000000                                  -0.010412                                              0.000000                                 -0.010607                                             0.000000                         -0.010806                                    -0.001140                                    -0.020227                                               -0.004171
+    current_assemblies_only401                 Random Forest                       -0.046904                                  -0.044501                                  -0.057394                                             -0.038767                                 -0.021816                                            -0.022625                         -0.015397                                    -0.012952                                    -0.029583                                               -0.012350
+    current_assemblies_only401             Gradient Boosting                        0.006302                                   0.012019                                  -0.014280                                              0.003118                                  0.054294                                             0.060040                          0.015852                                     0.020867                                    -0.048845                                               -0.028934
+    current_assemblies_only401           Logistic Regression                       -0.014469                                  -0.008505                                  -0.033546                                             -0.023097                                 -0.016011                                            -0.002863                         -0.013143                                    -0.007899                                    -0.047581                                               -0.030836
+    current_assemblies_only401                       XGBoost                       -0.012251                                  -0.006914                                  -0.033794                                             -0.025815                                 -0.031183                                            -0.021225                         -0.007096                                    -0.003917                                    -0.031884                                               -0.009695
+    current_assemblies_only401       assembly_length_only_LR                        0.005231                                   0.000000                                  -0.021830                                              0.000000                                  0.008241                                             0.000000                         -0.001588                                    -0.001407                                    -0.021313                                                0.000218
+    current_assemblies_only401 retained_family_count_only_LR                       -0.008768                                   0.000000                                  -0.010412                                              0.000000                                 -0.009699                                             0.000000                         -0.011015                                    -0.001119                                    -0.019045                                               -0.002940
+
+Interpretation
+Family-content discrimination remains for the surviving records, but its
+strength is model- and metric-dependent. The suppressed-exclusion mean-fold
+AUC range is0.8084–0.8771; the current-only range is0.8059–0.8809. The LR
+family-content mean-fold AUC remains above the assembly-length baseline,
+while RF's mean-fold AUC is below that baseline in these two sensitivities.
+Equal-genus pooled scores are lower than genome-pooled scores, and their
+population weights change when records/genera are removed. The same-row
+reference therefore helps distinguish different comparison questions.
+
+These results qualify the primary panel's current assembly-status provenance.
+They do not justify silently replacing the reported426-genome evaluation or
+recalculating the frozen476-family resource. They are single-fixed-partition
+sensitivity checks; no inferential p value, threshold optimization or extra
+classifier search is performed. Status filtering does not resolve all taxonomic
+uncertainty or the global definition of the family matrix.
+
+Suggested compact manuscript wording
+"As a sensitivity analysis using public assembly statuses retrieved on30
+September2026, we retained the original fold assignments and repeated model
+fitting after excluding22 currently suppressed assembly records. The remaining
+404 genomes included106 nif-labeled positives; mean fold AUCs were0.808,
+0.877,0.859 and0.877 for random forest, gradient boosting, logistic regression
+and XGBoost, respectively. A separate401-current-assemblies analysis also
+excluded three previous versions and yielded0.806,0.874,0.864 and0.881.
+These fixed-family-matrix checks used training-only feature filtering and did
+not alter the frozen candidate inventory. Current status may differ from status
+at original collection, and suppression reasons were heterogeneous."
+
+Verification
+{
+  "status": "PASS",
+  "independent_score_checks": 432,
+  "maximum_score_discrepancy": 1.4432899320127035e-15,
+  "original_fold_ids_retained_for_both_status_exclusion_arms": true,
+  "group_and_sample_overlap_checks_passed": true,
+  "independently_verified_masks": 10,
+  "LR_predictions_reconstructed": 2415,
+  "total_prediction_rows": 4830,
+  "single_class_test_folds": 0,
+  "exact_version_status_matches_independent_root_reconciliation": true,
+  "status_counts": {
+    "current": 401,
+    "suppressed": 22,
+    "previous": 3
+  },
+  "suppressed_positive": 6,
+  "suppressed_negative": 16,
+  "previous_positive": 0,
+  "previous_negative": 3
+}
+All ten train-only masks, fixed original fold IDs, disjoint groups and saved
+sample labels are independently checked. Pairwise AUC/threshold AP checks
+include genome and genus weights; every LR prediction is rebuilt from saved
+parameters and independently recomputed training means/scales. All test folds
+contain both classes. Raw snapshot and core-input SHA256 hashes are saved.
+
+Artifacts
+model_current_status_sensitivity/: summary.csv, fold_metrics.csv,
+oof_predictions.csv, fold_assignments.csv, fold_family_features.csv,
+fold_cohort_and_mask_counts.csv, lr_scalers_and_coefficients.csv,
+original_OOF_same_rows_reference.csv, sensitivity_differences.csv,
+frozen_current_status_with_labels.csv, status_class_counts.csv,
+design_manifest.json, independent_metric_verification.csv,
+verification_summary.json. Inputs are sample_identity_public/cohort_batch_*.json
+and historical_versions.json, with independent comparison to
+sample_identity_public/cohort_status_reconciled.csv.
+
+Portable commands are in README.md; use run_audit.py or run_sensitivities.py.

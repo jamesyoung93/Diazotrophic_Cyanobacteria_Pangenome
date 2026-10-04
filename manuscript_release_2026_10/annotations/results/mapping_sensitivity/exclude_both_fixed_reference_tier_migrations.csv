@@ -1,0 +1,2 @@
+gene_family,product,candidate_set,prior_tier,priority_tier,prior_condensate_score,condensate_score,prior_adjusted_score,scope_adjusted_story_score,n_literature_active_phase_up_studies
+GF_02157,acetolactate synthase small subunit,Model-Supported,Tier B: strong cross-evidence accessory,Tier E: lower current evidence,0.3,0.2,4.55,4.45,1

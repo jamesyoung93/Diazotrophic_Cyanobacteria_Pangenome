@@ -1,0 +1,331 @@
+[
+  {
+    "package_file": "inputs/released/proteomics_composite_family_evidence.xlsx",
+    "source_file": "outputs/preprint_edits_2026-09-30/pkg/source_documents/proteomics_composite_family_evidence.xlsx",
+    "source_sha256": "a7348b545657e05563753bde14f8e4ddc37d099ce8ae333803e3bd7a25262708",
+    "package_sha256": "a7348b545657e05563753bde14f8e4ddc37d099ce8ae333803e3bd7a25262708",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/morphotype_bridge_family_inventory.tsv",
+    "source_file": "evidence_tables/morphotype_bridge_family_inventory.tsv",
+    "source_sha256": "c81dafb48e47ceecd521ac24f9f441bfdd898be4ba5cb68350f70e4272510441",
+    "package_sha256": "c81dafb48e47ceecd521ac24f9f441bfdd898be4ba5cb68350f70e4272510441",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/normalized_proteins.csv",
+    "source_file": "evidence_tables/literature_proteomics_family_mapping/normalized_proteins.csv",
+    "source_sha256": "5f62339ba7ea0053be617376d7f043cfd89a8501fc45168ff2b55f5734c29bd5",
+    "package_sha256": "5f62339ba7ea0053be617376d7f043cfd89a8501fc45168ff2b55f5734c29bd5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/aryal_task7_hgt_proximity_from_github.csv",
+    "source_file": "evidence_tables/aryal_task7_hgt_proximity_from_github.csv",
+    "source_sha256": "439db6aeb24f4821315e0b8b9f40dc81e121d9feca90c362815cc319875b7f9a",
+    "package_sha256": "439db6aeb24f4821315e0b8b9f40dc81e121d9feca90c362815cc319875b7f9a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/condensate_protein_ranking.csv",
+    "source_file": "data/full_ranking_conditionC_cyano_seed42_rescued_direct_plus_homologs.csv",
+    "source_sha256": "2e6e3ef3490a72f23de3d8dfdffd97ef43e42a460d10ed2ec253f73ba61b2246",
+    "package_sha256": "2e6e3ef3490a72f23de3d8dfdffd97ef43e42a460d10ed2ec253f73ba61b2246",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/genome_protein_family_map.tsv",
+    "source_file": "_pangenome_data/genome_protein_family_map.tsv",
+    "source_sha256": "d7d562ea80c127494cadffc4b71a4d20575e3fbde7052c61a2a8c420c0c388f5",
+    "package_sha256": "d7d562ea80c127494cadffc4b71a4d20575e3fbde7052c61a2a8c420c0c388f5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/gene_family_matrix.csv",
+    "source_file": "outputs/repo_cleanup_work/unified_pipeline_clean/unified_pipeline_run_public/gene_family_matrix.csv",
+    "source_sha256": "e6d330006b66ad2272a72767ac5e92f0ad01ec4f106ed0447bf274d2512fce59",
+    "package_sha256": "e6d330006b66ad2272a72767ac5e92f0ad01ec4f106ed0447bf274d2512fce59",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/complete_genomes_labeled.csv",
+    "source_file": "outputs/repo_cleanup_work/unified_pipeline_clean/unified_pipeline_run_public/complete_genomes_labeled.csv",
+    "source_sha256": "b2fb0638a2fd5cff9da431801e0f80da910b299cee0383c4e5612fa5304ebc43",
+    "package_sha256": "b2fb0638a2fd5cff9da431801e0f80da910b299cee0383c4e5612fa5304ebc43",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/condensate_ranking_family_overlay.tsv",
+    "source_file": "evidence_tables/condensate_ranking_family_overlay.tsv",
+    "source_sha256": "5fd4cc867d71b1b2094b31319297ad8232b8c72b675b84d7abfdb1c8214a75eb",
+    "package_sha256": "5fd4cc867d71b1b2094b31319297ad8232b8c72b675b84d7abfdb1c8214a75eb",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/feature_importance_Random_Forest.csv",
+    "source_file": "outputs/repo_cleanup_work/unified_pipeline_clean/unified_pipeline_run_public/feature_importance_Random_Forest.csv",
+    "source_sha256": "93e2c7a4afc5a548bfdcbb8313e5eda956a9fbe738a1d23c4f92dc6a5a02a96e",
+    "package_sha256": "93e2c7a4afc5a548bfdcbb8313e5eda956a9fbe738a1d23c4f92dc6a5a02a96e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/feature_importance_Gradient_Boosting.csv",
+    "source_file": "outputs/repo_cleanup_work/unified_pipeline_clean/unified_pipeline_run_public/feature_importance_Gradient_Boosting.csv",
+    "source_sha256": "f6986a862cdd447a4d3e38db82a02cba129f7917c48967170cce40748b636d00",
+    "package_sha256": "f6986a862cdd447a4d3e38db82a02cba129f7917c48967170cce40748b636d00",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/feature_importance_Logistic_Regression.csv",
+    "source_file": "outputs/repo_cleanup_work/unified_pipeline_clean/unified_pipeline_run_public/feature_importance_Logistic_Regression.csv",
+    "source_sha256": "cd82dc6c397792efc247d9ef638ed728c858b49974e417e3833b6fda076f2f75",
+    "package_sha256": "cd82dc6c397792efc247d9ef638ed728c858b49974e417e3833b6fda076f2f75",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/feature_importance_XGBoost.csv",
+    "source_file": "outputs/repo_cleanup_work/unified_pipeline_clean/unified_pipeline_run_public/feature_importance_XGBoost.csv",
+    "source_sha256": "70232f0b309f2815385deb501ed7351cac98d950a9d99612d34866b9f9c65ddb",
+    "package_sha256": "70232f0b309f2815385deb501ed7351cac98d950a9d99612d34866b9f9c65ddb",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "inputs/raw/genome_metadata.csv",
+    "source_file": "outputs/repo_cleanup_work/unified_pipeline_clean/unified_pipeline_run_public/top_features_members.csv",
+    "source_sha256": "6af2284bf8f37a498ef9c0d00ae8391e5d5f40cdd65f69418a8c6164a42a7200",
+    "package_sha256": "044087de8d407fa7d070efbf33906e806a9c3c47498b0ba224050d5bc76804f9",
+    "transformation": "Select assembly_accession, genus, is_diazotroph; drop duplicate assemblies;426 rows. All columns used by independent morphology reconstruction retained."
+  },
+  {
+    "package_file": "provenance/released_composite_scorer.py",
+    "source_file": "scripts/build_proteomics_composite_evidence.py",
+    "source_sha256": "c5179fae71253a1d56eb8f472d6e99bc63e65d9e84d4497f625462008fc72345",
+    "package_sha256": "c5179fae71253a1d56eb8f472d6e99bc63e65d9e84d4497f625462008fc72345",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "provenance/released_atlas_join_generator.py",
+    "source_file": "scripts/audit_aryal_cv_split_overlap.py",
+    "source_sha256": "18850780cfa4323f8358a0fb5a005575a918a7aa3eecca550ab104aa546701d9",
+    "package_sha256": "18850780cfa4323f8358a0fb5a005575a918a7aa3eecca550ab104aa546701d9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "provenance/released_condensate_mapper.py",
+    "source_file": "scripts/analyze_condensate_ranking_overlay.py",
+    "source_sha256": "90a1cc4fd9bac93ce73743e33a65e99b3645cc46b2b1583788f33c9960d4766d",
+    "package_sha256": "90a1cc4fd9bac93ce73743e33a65e99b3645cc46b2b1583788f33c9960d4766d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "provenance/released_model_rank_generator.py",
+    "source_file": "outputs/repo_cleanup_work/unified_pipeline_clean/nif_downstream_code/11_build_fox_gene_report.py",
+    "source_sha256": "776d2b93e9a5e01735d5bc4526f519ded8778790e7d94a78e71ba39dbad99c98",
+    "package_sha256": "776d2b93e9a5e01735d5bc4526f519ded8778790e7d94a78e71ba39dbad99c98",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "provenance/original_editorial_diagnostics.py",
+    "source_file": "outputs/preprint_edits_2026-09-30/pkg/scripts/editorial_diagnostics.py",
+    "source_sha256": "1465807d584ced003bbf4a926d307768220b97afd365798e130c99e25d18d4c2",
+    "package_sha256": "1465807d584ced003bbf4a926d307768220b97afd365798e130c99e25d18d4c2",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "snapshots/current167_author_review.xlsx",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/proposed_corrected_scoring_v2_author_review.xlsx",
+    "source_sha256": "69994e9c1804716913bbbcdc3eb9241d55e8eb0c80df099f99180979beeda3eb",
+    "package_sha256": "69994e9c1804716913bbbcdc3eb9241d55e8eb0c80df099f99180979beeda3eb",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "notes/current167_saved_workbook_verification.json",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/independent_export_verification.json",
+    "source_sha256": "41bf77e8026ebf12be56b61bab237abb695d6d0d5e62b0a9e9aa37bd345b680f",
+    "package_sha256": "41bf77e8026ebf12be56b61bab237abb695d6d0d5e62b0a9e9aa37bd345b680f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "notes/current167_visual_QA.txt",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/visual_QA.txt",
+    "source_sha256": "1468ce37ebd37489f11aed32aacbf8f80ad286e0c4e92918bdf54d79edf658ad",
+    "package_sha256": "1468ce37ebd37489f11aed32aacbf8f80ad286e0c4e92918bdf54d79edf658ad",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "notes/condensate_mapping_interpretation.txt",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/condensate_mapping_sensitivity/author_interpretation.txt",
+    "source_sha256": "b25d7777af56850f24f1cb9966527544195e30b0837ad52e65f0d11d826e8019",
+    "package_sha256": "b25d7777af56850f24f1cb9966527544195e30b0837ad52e65f0d11d826e8019",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "notes/original_regression_interpretation.txt",
+    "source_file": "outputs/preprint_edits_2026-09-30/stats/interpretation_notes.txt",
+    "source_sha256": "727e1c3e7ba5c700d32fc7a047a46b1021c14b9f09cb9472e7cb1fe53fa5397f",
+    "package_sha256": "727e1c3e7ba5c700d32fc7a047a46b1021c14b9f09cb9472e7cb1fe53fa5397f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "scripts/reconstruct_annotations.py",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/score_reconstruct.py",
+    "source_sha256": "a03c7de6ddc9e14ba00e7436ff451bf3d41d6f8cef03a8e2fcdd7731423324f5",
+    "package_sha256": "7914308264a8fbb3a92a9ad659d5225c420d181a53616d9c65a1f7e6c7419714",
+    "transformation": "Portable review-only copy with relative CLI inputs and provenance paths; same scientific reconstruction; fail on genuine component mismatches; compare verified empty active-up context sets with released blanks as0 and disclose this normalization"
+  },
+  {
+    "package_file": "scripts/score_rules.py",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/score_proposed_revision.py",
+    "source_sha256": "9584870ef3294de7b1f106cb4c7ab9c60280772878ba2f4a1e5cb49e589590c0",
+    "package_sha256": "ff2eaeb8e46f0546cb6af5670eabb0a5b7f1413fa897c848cd49de3bb6b2c498",
+    "transformation": "portable review-only copy; relative input defaults/CLI and provenance paths; calculations retained unless noted in README"
+  },
+  {
+    "package_file": "scripts/score_current.py",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/score_proposed_revision_v2.py",
+    "source_sha256": "f6e2fa44636daa8f91eb6bd33b573fd8cf24669fff1f7aad9b410b5ffb6d5ba4",
+    "package_sha256": "a7bb69fd4f6312e0b2cd4d0f0b4539231b328093f028790bdad139c5cc58a53e",
+    "transformation": "portable review-only copy; relative input defaults/CLI and provenance paths; calculations retained unless noted in README"
+  },
+  {
+    "package_file": "scripts/mapping_sensitivity.py",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/audit_condensate_mapping_sensitivity.py",
+    "source_sha256": "f9857a6220fe9323f50cd7ba8eea0e2972330b3d8bf83de42e177986a1a1d1dd",
+    "package_sha256": "09363f36bcb2d069f0ced1363d28e3ab7ed0b1c51a08f3fc3849030052f53004",
+    "transformation": "portable review-only copy; relative input defaults/CLI and provenance paths; calculations retained unless noted in README"
+  },
+  {
+    "package_file": "scripts/plot_figures.py",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/plot_corrected_score_figures_v2.py",
+    "source_sha256": "2bf4ec6246c97e76183006c40fb64c58a7b6cac89d226f99d28da711e14ad71b",
+    "package_sha256": "8e501c67b4aae71d57b9f962b7254ffcdb4dfb3e4414f760e76bab491f00b8f8",
+    "transformation": "portable review-only copy; relative input defaults/CLI and provenance paths; calculations retained unless noted in README"
+  },
+  {
+    "package_file": "scripts/independent_regressions.py",
+    "source_file": "outputs/preprint_edits_2026-09-30/stats/independent_checks.py",
+    "source_sha256": "1f7a8ce0d9e3fd9dc89149b65b24dbc93f66ae71c7512064fb0b968cc55bf4ee",
+    "package_sha256": "e14717426446bf60e4db5b764d5069eb9d80196f517a85ab3d6fd646d8da4dab",
+    "transformation": "portable review-only copy; relative input defaults/CLI and provenance paths; calculations retained unless noted in README"
+  },
+  {
+    "package_file": "scripts/historical_diagnostics.py",
+    "source_file": "outputs/preprint_edits_2026-09-30/pkg/scripts/editorial_diagnostics.py",
+    "source_sha256": "1465807d584ced003bbf4a926d307768220b97afd365798e130c99e25d18d4c2",
+    "package_sha256": "3a22143d25314193c604cb5b2e6812eb4c5ece5ea18cfde330726a477a30f776",
+    "transformation": "portable review-only copy; relative input defaults/CLI and provenance paths; calculations retained unless noted in README"
+  },
+  {
+    "package_file": "expected/corrected_AllComposite.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/corrected_AllComposite.csv",
+    "source_sha256": "3b3ebe290eed8a49f03c3a30c137010df9ed1b812d5a5dff46f08bd1b0930c7d",
+    "package_sha256": "3b3ebe290eed8a49f03c3a30c137010df9ed1b812d5a5dff46f08bd1b0930c7d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/corrected_TopFamilies.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/corrected_TopFamilies.csv",
+    "source_sha256": "c3441472ba7e8041d1986e63e8e4678c17f04eba05f9265192ef9aee91eb6256",
+    "package_sha256": "c3441472ba7e8041d1986e63e8e4678c17f04eba05f9265192ef9aee91eb6256",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/score_migrations.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/score_migrations.csv",
+    "source_sha256": "aaab62636a30efe602cb603c469649d6068070fb3e4ffa12b4cda0d9011d6184",
+    "package_sha256": "aaab62636a30efe602cb603c469649d6068070fb3e4ffa12b4cda0d9011d6184",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/tier_migrations.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/tier_migrations.csv",
+    "source_sha256": "3a73f50c0a57911567e9e87363efadb136a1b80159e2d4f583e7595c7fcdf26a",
+    "package_sha256": "3a73f50c0a57911567e9e87363efadb136a1b80159e2d4f583e7595c7fcdf26a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/ubiquitous_controls.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/ubiquitous_controls.csv",
+    "source_sha256": "7d13a76af0586a8fbc03633488743691e31b77b15daca09e0053f33b779ecc7e",
+    "package_sha256": "7d13a76af0586a8fbc03633488743691e31b77b15daca09e0053f33b779ecc7e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/control_migrations_vs169.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/control_migrations_vs169.csv",
+    "source_sha256": "68e6c705694910681fa052b999640555475c60a4cd0685dc36c5597435d3b41f",
+    "package_sha256": "68e6c705694910681fa052b999640555475c60a4cd0685dc36c5597435d3b41f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/figures/Figure3_source.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/figures/Figure3_source.csv",
+    "source_sha256": "497263cad6399f95c3d9de244e7519658cd74be3846c72330f20d02684e031a9",
+    "package_sha256": "497263cad6399f95c3d9de244e7519658cd74be3846c72330f20d02684e031a9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/figures/Figure5_AC_family_source.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/figures/Figure5_AC_family_source.csv",
+    "source_sha256": "1f58fe8933b2e656ee95031b10b1d1a060d52f81318e8e7a0e91fbbcb800ddde",
+    "package_sha256": "1f58fe8933b2e656ee95031b10b1d1a060d52f81318e8e7a0e91fbbcb800ddde",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/figures/Figure5_B_family_source.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/figures/Figure5_B_family_source.csv",
+    "source_sha256": "8b5d1bd48fffb145cc7c7cacc3225fe5d177772cc724365c03b73b57ad6bcb43",
+    "package_sha256": "8b5d1bd48fffb145cc7c7cacc3225fe5d177772cc724365c03b73b57ad6bcb43",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/figures/Figure5_summary_source.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/figures/Figure5_summary_source.csv",
+    "source_sha256": "945f5e243b3d65a6b2d28d7cac8c41b814f6ac42df558f64050904d886ab59fa",
+    "package_sha256": "945f5e243b3d65a6b2d28d7cac8c41b814f6ac42df558f64050904d886ab59fa",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/score_family_reconstruction.json",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/score_family_reconstruction.json",
+    "source_sha256": "d9ffbe741587de66a6f2fb3d1fc2043ea056f1b6b186d381ecfa7c2905bf8d43",
+    "package_sha256": "d9ffbe741587de66a6f2fb3d1fc2043ea056f1b6b186d381ecfa7c2905bf8d43",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/original_independent_regression_stdout.txt",
+    "source_file": "outputs/preprint_edits_2026-09-30/stats/independent_checks.txt",
+    "source_sha256": "5a036aa933724311cc09826f0a67e9685f0a5272509405f09bcceb49e967458b",
+    "package_sha256": "5a036aa933724311cc09826f0a67e9685f0a5272509405f09bcceb49e967458b",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/current_MS_shortlist162_rank_stability.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/current_MS_shortlist162_rank_stability.csv",
+    "source_sha256": "84e0af6426efef7e1f93d9957f5f8cd6933b43442007ead994c381b09ea6bfe9",
+    "package_sha256": "84e0af6426efef7e1f93d9957f5f8cd6933b43442007ead994c381b09ea6bfe9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/current_TierA22_rank_stability.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/current_TierA22_rank_stability.csv",
+    "source_sha256": "1dedca6029d39cfaa3232c3735ca143bfd26465d3aa67ec93d1149f6d0cd3e48",
+    "package_sha256": "1dedca6029d39cfaa3232c3735ca143bfd26465d3aa67ec93d1149f6d0cd3e48",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/current_TierB140_rank_stability.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/current_TierB140_rank_stability.csv",
+    "source_sha256": "fb92f095c927ab307b62173df4063fe4cc004cf6370a30f5e47dc93adaced27f",
+    "package_sha256": "fb92f095c927ab307b62173df4063fe4cc004cf6370a30f5e47dc93adaced27f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "package_file": "expected/frozen476_rank_stability.csv",
+    "source_file": "outputs/preprint_edits_2026-09-30/extended_audit/proposed_score_revision_v2/frozen476_rank_stability.csv",
+    "source_sha256": "201f6a4deab8046689a52339be760b72ed8da8269a2c7c5c2b13f4888f7f5dc3",
+    "package_sha256": "201f6a4deab8046689a52339be760b72ed8da8269a2c7c5c2b13f4888f7f5dc3",
+    "transformation": "byte-identical copy"
+  }
+]

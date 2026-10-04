@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "changed_columns_vs169": [
+    {
+      "column": "priority_tier",
+      "changed_rows": 3
+    },
+    {
+      "column": "score_revision_rule",
+      "changed_rows": 1457
+    }
+  ],
+  "csv_row_counts": {
+    "CorrectedAll": 1457,
+    "CorrectedTop": 167,
+    "ReleasedAll": 1457,
+    "ReleasedTop": 174
+  },
+  "headline_cached_values_verified": {
+    "6": 1457,
+    "7": 167,
+    "8": 162,
+    "9": 22,
+    "10": 140,
+    "11": 5,
+    "12": 65,
+    "13": 62,
+    "14": 3,
+    "15": 78,
+    "16": 16,
+    "17": 0.7272727272727273,
+    "18": 3,
+    "32": 473
+  },
+  "formula_error_count": 0,
+  "figure_checks": {
+    "Figure3_source.csv": "byte-identical to preceding verified figure/data",
+    "Figure5_summary_source.csv": "byte-identical to preceding verified figure/data",
+    "Figure3_TierA_evidence.png": "byte-identical to preceding verified figure/data",
+    "Figure5_annotation_diagnostics.png": "byte-identical to preceding verified figure/data"
+  },
+  "source_workbook_unchanged": true,
+  "new_workbook_sha256": "69994e9c1804716913bbbcdc3eb9241d55e8eb0c80df099f99180979beeda3eb",
+  "notes": "Artifact Tool recalculated formulas; saved XLSX cached results independently read with openpyxl. This does not claim native Excel execution."
+}

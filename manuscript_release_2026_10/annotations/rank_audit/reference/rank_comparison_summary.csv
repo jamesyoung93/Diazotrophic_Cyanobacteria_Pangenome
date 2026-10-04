@@ -1,0 +1,19 @@
+comparison,model,scope,n_shared,spearman,top50_overlap,top50_jaccard,top100_overlap,top100_jaccard
+released_vs_corrected,Random Forest,all_shared_residual,624,0.7086578532978091,32,0.47058823529411764,74,0.5873015873015873
+current_global_replay_vs_corrected,Random Forest,all_shared_residual,624,0.7086578532978091,32,0.47058823529411764,74,0.5873015873015873
+released_vs_corrected,Random Forest,positive_inventory,476,0.7383178882950455,32,0.47058823529411764,75,0.6
+current_global_replay_vs_corrected,Random Forest,positive_inventory,476,0.7383178882950455,32,0.47058823529411764,75,0.6
+released_vs_corrected,Gradient Boosting,all_shared_residual,624,0.5514587770847114,34,0.5151515151515151,60,0.42857142857142855
+current_global_replay_vs_corrected,Gradient Boosting,all_shared_residual,624,0.5514101765848551,34,0.5151515151515151,60,0.42857142857142855
+released_vs_corrected,Gradient Boosting,positive_inventory,476,0.5691681953828078,31,0.4492753623188406,59,0.41843971631205673
+current_global_replay_vs_corrected,Gradient Boosting,positive_inventory,476,0.5679697975632729,31,0.4492753623188406,60,0.42857142857142855
+released_vs_corrected,Logistic Regression,all_shared_residual,624,0.9612172784229714,44,0.7857142857142857,90,0.8181818181818182
+current_global_replay_vs_corrected,Logistic Regression,all_shared_residual,624,0.9612172784229714,44,0.7857142857142857,90,0.8181818181818182
+released_vs_corrected,Logistic Regression,positive_inventory,476,0.9614898425842282,49,0.9607843137254902,91,0.8348623853211009
+current_global_replay_vs_corrected,Logistic Regression,positive_inventory,476,0.9614898425842282,49,0.9607843137254902,91,0.8348623853211009
+released_vs_corrected,XGBoost,all_shared_residual,624,0.6921327119156209,26,0.35135135135135137,58,0.4084507042253521
+current_global_replay_vs_corrected,XGBoost,all_shared_residual,624,0.6948094237570467,26,0.35135135135135137,62,0.4492753623188406
+released_vs_corrected,XGBoost,positive_inventory,476,0.6949619672926602,28,0.3888888888888889,63,0.45985401459854014
+current_global_replay_vs_corrected,XGBoost,positive_inventory,476,0.702482433510507,30,0.42857142857142855,66,0.4925373134328358
+released_vs_corrected,four_model_consensus,all_shared_residual,624,0.8364312991508336,36,0.5625,74,0.5873015873015873
+released_vs_corrected,four_model_consensus,positive_inventory,476,0.8313395687451218,33,0.4925373134328358,77,0.6260162601626016

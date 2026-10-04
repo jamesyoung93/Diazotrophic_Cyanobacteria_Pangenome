@@ -1,0 +1,2 @@
+# Frozen release manifests hash exact bytes, including original line endings.
+manuscript_release_2026_10/** -text

@@ -1,0 +1,8 @@
+# Python 3.10.16; pin imported module versions. See runtime_versions.json for metadata disagreements.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.13.1
+statsmodels==0.14.4
+openpyxl==3.1.5
+matplotlib==3.10.7
+pillow==11.1.0

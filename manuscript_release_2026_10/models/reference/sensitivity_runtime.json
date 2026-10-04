@@ -1,0 +1,11 @@
+{
+  "python": "3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]",
+  "distribution_metadata": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.13.0",
+    "scikit-learn": "1.6.1",
+    "xgboost": "3.1.1",
+    "threadpoolctl": "3.5.0"
+  }
+}

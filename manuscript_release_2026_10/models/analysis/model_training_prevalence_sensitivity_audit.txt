@@ -1,0 +1,74 @@
+ADDITIONAL TRAINING-PREVALENCE SENSITIVITY (20 FITS; NOT PRIMARY REPLACEMENT)
+
+The primary corrected evaluation holds the released family vocabulary fixed.
+Here we additionally require at least 40 training carriers in each original
+seed-42 fold, together with the same exact training-only purity boundaries and
+minimum-three-training-genus filter. All 426 genomes, labels, folds, models and
+hyperparameters remain unchanged. No retuning or candidate reranking occurs.
+
+This nested eligibility rule is identifiable from the supplied 2286-family matrix:
+a fixed family present in fewer than 40 genomes globally cannot reach 40 carriers
+in a training subset. It does not reconstruct the global clustering/family definitions.
+An absolute threshold of 40 also becomes a stricter relative-prevalence requirement
+in smaller training cohorts (about 10.1–14.2%, versus 9.39% of the full426).
+It is therefore an altered-eligibility sensitivity, not an estimate that isolates
+the causal bias of unsupervised global selection or a replacement primary analysis.
+
+All four classifiers use their original settings and one CPU/BLAS thread. LR
+scaling remains training-only. The exact saved masks are nested inside the primary
+training masks; no family is newly added. Full metrics and OOF probabilities are
+saved separately and no original outputs or frozen inventories are overwritten.
+
+Metrics (fold SD is sample SD, not a confidence interval):
+              model  roc_auc_mean  roc_auc_sd  average_precision_mean  average_precision_sd  genus_balanced_auc_mean  pooled_roc_auc  pooled_genus_balanced_auc
+      Random Forest   0.807828124 0.268141265             0.801342507           0.275954091              0.799961980     0.911737944                0.770168503
+  Gradient Boosting   0.883446626 0.092961864             0.855737639           0.118607627              0.876470326     0.927135464                0.814453962
+Logistic Regression   0.864641595 0.126671690             0.784975243           0.237232624              0.868707525     0.898657871                0.800918966
+            XGBoost   0.890831255 0.082690342             0.852416336           0.106015283              0.862208390     0.918064718                0.800524352
+
+Fold eligibility:
+                      scenario  fold  n_train  n_test  n_train_pos  n_test_pos  n_train_genera  n_test_genera  n_features  primary_family_count  families_removed_by_training_prevalence  training_prevalence_fraction_at40
+training_prevalence_at_least40     1      380      46           80          32              60             15         555         650.000000000                             95.000000000                        0.105263158
+training_prevalence_at_least40     2      309     117           91          21              60             15         518         568.000000000                             50.000000000                        0.129449838
+training_prevalence_at_least40     3      397      29           95          17              60             15         552         584.000000000                             32.000000000                        0.100755668
+training_prevalence_at_least40     4      282     144           84          28              60             15         543         653.000000000                            110.000000000                        0.141843972
+training_prevalence_at_least40     5      336      90           98          14              60             15         449         620.000000000                            171.000000000                        0.119047619
+
+Comparison with the primary corrected run:
+              model  roc_auc_mean  roc_auc_mean_minus_primary  roc_auc_sd  roc_auc_sd_minus_primary  average_precision_mean  average_precision_mean_minus_primary  genus_balanced_auc_mean  genus_balanced_auc_mean_minus_primary  pooled_roc_auc  pooled_roc_auc_minus_primary  pooled_genus_balanced_auc  pooled_genus_balanced_auc_minus_primary
+      Random Forest   0.807828124                -0.044979070 0.268141265               0.087149682             0.801342507                          -0.003703811              0.799961980                           -0.041764819     0.911737944                  -0.009383530                0.770168503                             -0.012161628
+  Gradient Boosting   0.883446626                 0.015918727 0.092961864              -0.031194841             0.855737639                           0.065948612              0.876470326                            0.031643866     0.927135464                   0.070746133                0.814453962                              0.025702120
+Logistic Regression   0.864641595                -0.013800549 0.126671690               0.031785492             0.784975243                          -0.012260848              0.868707525                            0.016851981     0.898657871                   0.005374204                0.800918966                             -0.003193244
+            XGBoost   0.890831255                -0.002273988 0.082690342               0.004396792             0.852416336                           0.005219023              0.862208390                           -0.009286193     0.918064718                   0.003852934                0.800524352                             -0.014881029
+
+The result is model-dependent. RF mean fold AUC decreases by about0.045, GB
+increases by about0.016, LR decreases by about0.014 and XGBoost decreases by
+about0.002. It would be incorrect to claim the global prevalence criterion
+necessarily inflated every model's performance. The retained family counts
+range449–555, compared with568–653 for the primary train-only purity/breadth
+procedure. The primary result and this additional sensitivity remain distinct.
+
+Independent verification:
+{
+  "status": "PASS",
+  "independent_score_checks": 144,
+  "maximum_score_discrepancy": 2.4424906541753444e-15,
+  "original_fold_ids_retained_for_all426": true,
+  "group_and_sample_overlap_checks_passed": true,
+  "independently_verified_masks": 5,
+  "LR_predictions_reconstructed": 426,
+  "total_prediction_rows": 1704,
+  "single_class_test_folds": 0
+}
+The verifier checks unchanged fold IDs, group disjointness, all five count/purity/
+breadth masks, every weighted/unweighted fold and pooled AUC/AP, and all426 LR
+probabilities from independently recalculated training scalers and saved coefficients.
+
+Artifacts are in model_training_prevalence_sensitivity/: summary.csv,
+fold_metrics.csv, oof_predictions.csv, fold_assignments.csv, fold_family_features.csv,
+prevalence_filter_counts.csv, nested_feature_eligibility.csv,
+lr_scalers_and_coefficients.csv, paired_primary_comparison.csv,
+independent_metric_verification.csv, verification_summary.json and design_manifest.json.
+
+Portable command: python run_training_prevalence.py --out extra_prevalence_outputs
+This is additional to the main five modes'460 fits.

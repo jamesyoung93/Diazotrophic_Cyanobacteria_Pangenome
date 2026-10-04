@@ -1,0 +1,25 @@
+model,fold,n,n_unordered_pairs,changed_pair_order_or_tie,reference_tied_pairs,clean_tied_pairs
+Gradient Boosting,pooled,426,90525,0,3054,3054
+Gradient Boosting,1,46,1035,0,2,2
+Gradient Boosting,2,117,6786,0,832,832
+Gradient Boosting,3,29,406,0,10,10
+Gradient Boosting,4,144,10296,0,1776,1776
+Gradient Boosting,5,90,4005,0,434,434
+Logistic Regression,pooled,426,90525,1,460,460
+Logistic Regression,1,46,1035,0,0,0
+Logistic Regression,2,117,6786,0,275,275
+Logistic Regression,3,29,406,0,0,0
+Logistic Regression,4,144,10296,0,67,67
+Logistic Regression,5,90,4005,1,118,118
+Random Forest,pooled,426,90525,0,1611,1611
+Random Forest,1,46,1035,0,1,1
+Random Forest,2,117,6786,0,1063,1063
+Random Forest,3,29,406,0,1,1
+Random Forest,4,144,10296,0,365,365
+Random Forest,5,90,4005,0,181,181
+XGBoost,pooled,426,90525,0,1364,1364
+XGBoost,1,46,1035,0,1,1
+XGBoost,2,117,6786,0,730,730
+XGBoost,3,29,406,0,1,1
+XGBoost,4,144,10296,0,426,426
+XGBoost,5,90,4005,0,206,206

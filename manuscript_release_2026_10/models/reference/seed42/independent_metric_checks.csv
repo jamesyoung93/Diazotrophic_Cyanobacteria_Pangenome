@@ -1,0 +1,97 @@
+seed,model,fold,metric,delta
+42,Gradient Boosting,1,roc_auc,1.1102230246251565e-16
+42,Gradient Boosting,1,genus_balanced_auc,1.1102230246251565e-16
+42,Gradient Boosting,1,average_precision,1.1102230246251565e-16
+42,Gradient Boosting,1,genus_balanced_average_precision,0.0
+42,Gradient Boosting,2,roc_auc,-1.1102230246251565e-16
+42,Gradient Boosting,2,genus_balanced_auc,-5.551115123125783e-16
+42,Gradient Boosting,2,average_precision,-2.220446049250313e-16
+42,Gradient Boosting,2,genus_balanced_average_precision,2.220446049250313e-16
+42,Gradient Boosting,3,roc_auc,-1.1102230246251565e-16
+42,Gradient Boosting,3,genus_balanced_auc,0.0
+42,Gradient Boosting,3,average_precision,1.1102230246251565e-16
+42,Gradient Boosting,3,genus_balanced_average_precision,0.0
+42,Gradient Boosting,4,roc_auc,1.1102230246251565e-16
+42,Gradient Boosting,4,genus_balanced_auc,2.220446049250313e-16
+42,Gradient Boosting,4,average_precision,1.1102230246251565e-16
+42,Gradient Boosting,4,genus_balanced_average_precision,-1.1102230246251565e-16
+42,Gradient Boosting,5,roc_auc,0.0
+42,Gradient Boosting,5,genus_balanced_auc,5.551115123125783e-16
+42,Gradient Boosting,5,average_precision,-5.551115123125783e-17
+42,Gradient Boosting,5,genus_balanced_average_precision,2.220446049250313e-16
+42,Logistic Regression,1,roc_auc,-1.1102230246251565e-16
+42,Logistic Regression,1,genus_balanced_auc,4.440892098500626e-16
+42,Logistic Regression,1,average_precision,-1.1102230246251565e-16
+42,Logistic Regression,1,genus_balanced_average_precision,0.0
+42,Logistic Regression,2,roc_auc,-1.1102230246251565e-16
+42,Logistic Regression,2,genus_balanced_auc,-4.440892098500626e-16
+42,Logistic Regression,2,average_precision,-2.220446049250313e-16
+42,Logistic Regression,2,genus_balanced_average_precision,2.220446049250313e-16
+42,Logistic Regression,3,roc_auc,1.1102230246251565e-16
+42,Logistic Regression,3,genus_balanced_auc,-1.1102230246251565e-16
+42,Logistic Regression,3,average_precision,1.1102230246251565e-16
+42,Logistic Regression,3,genus_balanced_average_precision,1.1102230246251565e-16
+42,Logistic Regression,4,roc_auc,0.0
+42,Logistic Regression,4,genus_balanced_auc,4.440892098500626e-16
+42,Logistic Regression,4,average_precision,1.1102230246251565e-16
+42,Logistic Regression,4,genus_balanced_average_precision,0.0
+42,Logistic Regression,5,roc_auc,0.0
+42,Logistic Regression,5,genus_balanced_auc,4.440892098500626e-16
+42,Logistic Regression,5,average_precision,0.0
+42,Logistic Regression,5,genus_balanced_average_precision,1.1102230246251565e-16
+42,Random Forest,1,roc_auc,0.0
+42,Random Forest,1,genus_balanced_auc,1.1102230246251565e-16
+42,Random Forest,1,average_precision,0.0
+42,Random Forest,1,genus_balanced_average_precision,0.0
+42,Random Forest,2,roc_auc,0.0
+42,Random Forest,2,genus_balanced_auc,-4.440892098500626e-16
+42,Random Forest,2,average_precision,0.0
+42,Random Forest,2,genus_balanced_average_precision,1.1102230246251565e-16
+42,Random Forest,3,roc_auc,0.0
+42,Random Forest,3,genus_balanced_auc,0.0
+42,Random Forest,3,average_precision,-1.1102230246251565e-16
+42,Random Forest,3,genus_balanced_average_precision,0.0
+42,Random Forest,4,roc_auc,1.1102230246251565e-16
+42,Random Forest,4,genus_balanced_auc,2.220446049250313e-16
+42,Random Forest,4,average_precision,2.220446049250313e-16
+42,Random Forest,4,genus_balanced_average_precision,-2.220446049250313e-16
+42,Random Forest,5,roc_auc,0.0
+42,Random Forest,5,genus_balanced_auc,2.220446049250313e-16
+42,Random Forest,5,average_precision,-5.551115123125783e-17
+42,Random Forest,5,genus_balanced_average_precision,0.0
+42,XGBoost,1,roc_auc,0.0
+42,XGBoost,1,genus_balanced_auc,1.1102230246251565e-16
+42,XGBoost,1,average_precision,1.1102230246251565e-16
+42,XGBoost,1,genus_balanced_average_precision,0.0
+42,XGBoost,2,roc_auc,0.0
+42,XGBoost,2,genus_balanced_auc,0.0
+42,XGBoost,2,average_precision,0.0
+42,XGBoost,2,genus_balanced_average_precision,-1.1102230246251565e-16
+42,XGBoost,3,roc_auc,-1.1102230246251565e-16
+42,XGBoost,3,genus_balanced_auc,-1.1102230246251565e-16
+42,XGBoost,3,average_precision,1.1102230246251565e-16
+42,XGBoost,3,genus_balanced_average_precision,0.0
+42,XGBoost,4,roc_auc,-1.1102230246251565e-16
+42,XGBoost,4,genus_balanced_auc,4.440892098500626e-16
+42,XGBoost,4,average_precision,5.551115123125783e-16
+42,XGBoost,4,genus_balanced_average_precision,-1.1102230246251565e-16
+42,XGBoost,5,roc_auc,0.0
+42,XGBoost,5,genus_balanced_auc,4.440892098500626e-16
+42,XGBoost,5,average_precision,-1.1102230246251565e-16
+42,XGBoost,5,genus_balanced_average_precision,0.0
+42,Gradient Boosting,pooled,roc_auc,-1.1102230246251565e-16
+42,Gradient Boosting,pooled,genus_balanced_auc,-1.3322676295501878e-15
+42,Gradient Boosting,pooled,average_precision,3.3306690738754696e-16
+42,Gradient Boosting,pooled,genus_balanced_average_precision,-1.1102230246251565e-16
+42,Logistic Regression,pooled,roc_auc,-1.1102230246251565e-16
+42,Logistic Regression,pooled,genus_balanced_auc,-8.881784197001252e-16
+42,Logistic Regression,pooled,average_precision,3.3306690738754696e-16
+42,Logistic Regression,pooled,genus_balanced_average_precision,2.220446049250313e-16
+42,Random Forest,pooled,roc_auc,-1.1102230246251565e-16
+42,Random Forest,pooled,genus_balanced_auc,-2.3314683517128287e-15
+42,Random Forest,pooled,average_precision,4.440892098500626e-16
+42,Random Forest,pooled,genus_balanced_average_precision,-2.220446049250313e-16
+42,XGBoost,pooled,roc_auc,1.1102230246251565e-16
+42,XGBoost,pooled,genus_balanced_auc,-1.7763568394002505e-15
+42,XGBoost,pooled,average_precision,3.3306690738754696e-16
+42,XGBoost,pooled,genus_balanced_average_precision,3.3306690738754696e-16

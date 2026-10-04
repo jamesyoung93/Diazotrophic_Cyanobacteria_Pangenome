@@ -1,0 +1,15 @@
+{
+  "statement": "The released476-family Model-Supported inventory,981-family Highly Pure positive inventory and all released rankings remain frozen. No bundled command invokes downstream inventory writers. Audit-only CV importances are not substituted into released resources.",
+  "original_release_relative_sha256": {
+    "unified_pipeline_clean\\unified_pipeline_run_public\\fox_report\\tier1_positive_model_selected.tsv": "fb4db77725739fb71303a972d8eb16933bd206082c50de729cbff36495142920",
+    "unified_pipeline_clean\\unified_pipeline_run_public\\results_tables\\tier1_ranked_annotated.tsv": "a30eb1dc4fb327a614d7ffdca2b7eedfc9986b80cb1e10540afaa6c7d114ad25",
+    "unified_pipeline_clean\\unified_pipeline_run_public\\fox_report\\tier2_pure_positive_heldout.tsv": "3ae775961311789e89af3697c165ad9a58cc6956f4d13a6fea68af4667d96284",
+    "unified_pipeline_clean\\unified_pipeline_run_public\\feature_directionality_full.csv": "998888d230d87e50a3e2a3f929b017bf599318b9ea85136fc6ed984f2e394617",
+    "unified_pipeline_clean\\unified_pipeline_run_public\\feature_importance_Gradient_Boosting.csv": "f6986a862cdd447a4d3e38db82a02cba129f7917c48967170cce40748b636d00",
+    "unified_pipeline_clean\\unified_pipeline_run_public\\feature_importance_Logistic_Regression.csv": "cd82dc6c397792efc247d9ef638ed728c858b49974e417e3833b6fda076f2f75",
+    "unified_pipeline_clean\\unified_pipeline_run_public\\feature_importance_Random_Forest.csv": "93e2c7a4afc5a548bfdcbb8313e5eda956a9fbe738a1d23c4f92dc6a5a02a96e",
+    "unified_pipeline_clean\\unified_pipeline_run_public\\feature_importance_top.csv": "d32179c0d626074dd12f26f9674fda637b9ab084b4097787488449ea48db4c56",
+    "unified_pipeline_clean\\unified_pipeline_run_public\\feature_importance_XGBoost.csv": "70232f0b309f2815385deb501ed7351cac98d950a9d99612d34866b9f9c65ddb"
+  },
+  "boundary_note": "Exact10% removes GF_00110(4/40),GF_00310(4/40),GF_01630(6/60) from all-data non-pure mask627->624. All three have negative direction and belong to neither positive inventory; the positive purity count remains981. Future refitting could still change model ranks."
+}

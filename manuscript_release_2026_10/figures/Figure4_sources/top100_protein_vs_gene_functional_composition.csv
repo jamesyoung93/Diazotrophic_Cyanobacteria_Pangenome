@@ -1,0 +1,21 @@
+functional_bin,n,pct,set_type
+Other (misc.),47,47.0,Gene-driven
+Unknown / uncharacterized,19,19.0,Gene-driven
+Central metabolism (C/N/energy),12,12.0,Gene-driven
+DNA replication/repair,5,5.0,Gene-driven
+Regulation & signaling,4,4.0,Gene-driven
+Transporters (non-metal specific),4,4.0,Gene-driven
+Heterocyst differentiation & envelope,3,3.0,Gene-driven
+Stress response / ROS / proteostasis,2,2.0,Gene-driven
+Redox & electron transport / respiration,2,2.0,Gene-driven
+Photosynthesis & carbon fixation,1,1.0,Gene-driven
+Metal/cofactor transport,1,1.0,Gene-driven
+Other (misc.),25,25.0,Protein-driven
+Central metabolism (C/N/energy),20,20.0,Protein-driven
+Redox & electron transport / respiration,14,14.000000000000002,Protein-driven
+Translation & ribosome,11,11.0,Protein-driven
+Unknown / uncharacterized,9,9.0,Protein-driven
+Transporters (non-metal specific),7,7.000000000000001,Protein-driven
+Stress response / ROS / proteostasis,5,5.0,Protein-driven
+Photosynthesis & carbon fixation,5,5.0,Protein-driven
+Regulation & signaling,4,4.0,Protein-driven

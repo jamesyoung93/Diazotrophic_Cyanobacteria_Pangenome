@@ -1,0 +1,504 @@
+gene_family,n_loci_in_cds,n_assemblies_in_cds,n_proximal_loci,n_proximal_assemblies,frac_assemblies_proximal,fisher_p_vs_background,hgt_passenger_flag,gene,product,module_bin,consensus_rank_pct_mean,used_in_any_final_set
+GF_00975,103,79,25,25,0.3165,0.00042,True,cysK,cysteine synthase A,Other / unassigned,0.1297666902303358,True
+GF_00671,109,109,30,30,0.2752,2e-05,False,,type I glyceraldehyde-3-phosphate dehydrogenase,Other / unassigned,0.5833452520100859,True
+GF_01071,53,52,11,11,0.2115,0.02081,False,,type II toxin-antitoxin system Phd/YefM family antitoxin,Other / unassigned,0.6681715403017445,True
+GF_02205,135,131,27,27,0.2061,0.001,False,ctaD,cytochrome c oxidase subunit I,Respiration & bioenergetics,0.8761780410152099,True
+GF_00355,40,40,7,7,0.175,0.15546,False,ndk,nucleoside-diphosphate kinase,Other / unassigned,0.9442651061690112,True
+GF_01602,46,46,8,8,0.1739,0.09864,False,rbfA,30S ribosome-binding factor RbfA,Housekeeping / lineage marker,0.474998143044947,True
+GF_00387,112,102,17,17,0.1667,0.02502,False,ctaD,cytochrome c oxidase subunit I,Respiration & bioenergetics,0.98759465420856,True
+GF_02443,58,58,9,9,0.1552,0.11921,False,,peroxiredoxin,O2 protection & redox homeostasis,0.4530918132025984,True
+GF_01953,56,56,8,8,0.1429,0.1801,False,,histidine triad nucleotide-binding protein,Other / unassigned,0.3550884634445377,True
+GF_01103,81,81,11,11,0.1358,0.09335,False,,metal ABC transporter permease,Transport,0.3531971935911503,True
+GF_00186,74,74,10,10,0.1351,0.13788,False,efp,elongation factor P,Other / unassigned,0.5206542045506085,True
+GF_01087,66,60,9,8,0.1333,0.121,False,,DUF433 domain-containing protein,Stress / membrane / uncharacterized,0.6356893879877361,True
+GF_00595,45,45,6,6,0.1333,0.24225,False,,NAD(P)H-quinone oxidoreductase subunit N,Other / unassigned,0.4932255347325019,True
+GF_00199,72,72,9,9,0.125,0.19984,False,,2Fe-2S iron-sulfur cluster-binding protein,Metallocluster & Fe-S biogenesis,0.3024843009661396,True
+GF_01199,57,56,7,7,0.125,0.26387,False,,4Fe-4S dicluster domain-containing protein,Metallocluster & Fe-S biogenesis,0.8642741225591475,True
+GF_01967,194,194,24,24,0.1237,0.04138,False,ychF,redox-regulated ATPase YchF,O2 protection & redox homeostasis,0.3624407568170677,True
+GF_01043,141,141,17,17,0.1206,0.07425,False,purU,formyltetrahydrofolate deformylase,Other / unassigned,0.4683556025953587,True
+GF_01031,75,75,9,9,0.12,0.20035,False,,Bax inhibitor-1 family protein,Other / unassigned,0.2407998592712768,True
+GF_02403,127,127,15,15,0.1181,0.09433,False,psbH,photosystem II reaction center phosphoprotein PsbH,Housekeeping / lineage marker,0.9509186336887804,True
+GF_02131,87,69,9,8,0.1159,0.29523,False,,zinc-dependent alcohol dehydrogenase,Other / unassigned,0.8029221473065188,True
+GF_02106,110,105,12,12,0.1143,0.16866,False,,Npun_R2479 family HD domain-containing metalloprotein,Other / unassigned,0.5527263691507597,True
+GF_00028,115,115,13,13,0.113,0.12074,False,,hypothetical protein,Stress / membrane / uncharacterized,0.4628781534976299,True
+GF_01905,63,62,7,7,0.1129,0.26493,False,,O-acetylhomoserine aminocarboxypropyltransferase/cysteine synthase family protein,Other / unassigned,0.5883618684124435,True
+GF_02373,74,74,8,8,0.1081,0.28151,False,,NADH-quinone oxidoreductase subunit K,Other / unassigned,0.7877205331515666,True
+GF_00439,88,88,9,9,0.1023,0.29533,False,,photosystem II reaction center protein I,Housekeeping / lineage marker,0.7104220266028722,True
+GF_00688,150,108,11,11,0.1019,0.5,False,,RNA recognition motif domain-containing protein,Other / unassigned,0.3127923189220411,True
+GF_01958,69,69,7,7,0.1014,0.2658,False,ntrB,nitrate ABC transporter permease,Transport,0.182651557834998,True
+GF_00610,61,61,6,6,0.0984,0.3716,False,,response regulator transcription factor,Regulation,0.191982914990941,True
+GF_00646,41,41,4,4,0.0976,0.5,False,,DUF433 domain-containing protein,Stress / membrane / uncharacterized,0.2303649175827085,True
+GF_00184,134,134,13,13,0.097,0.25263,False,uvrB,excinuclease ABC subunit UvrB,Other / unassigned,0.2873903526894061,True
+GF_00615,124,124,12,12,0.0968,0.24254,False,,aminodeoxychorismate/anthranilate synthase component II,Other / unassigned,0.3327931569569928,True
+GF_02159,85,85,8,8,0.0941,0.39068,False,,glycosyltransferase family 2 protein,Other / unassigned,0.2951524984632979,True
+GF_00616,47,43,4,4,0.093,0.5,False,,CPBP family intramembrane glutamic endopeptidase,Stress / membrane / uncharacterized,0.4596313094859037,True
+GF_00670,98,98,9,9,0.0918,0.29623,False,rpsU,30S ribosomal protein S21,Housekeeping / lineage marker,0.8383143637649302,True
+GF_01022,98,98,9,9,0.0918,0.29623,False,,asparagine--tRNA ligase,Housekeeping / lineage marker,0.4034318274431743,True
+GF_00397,120,120,11,11,0.0917,0.31681,False,ndk,nucleoside-diphosphate kinase,Other / unassigned,0.9468945877751396,True
+GF_01922,99,99,9,9,0.0909,0.2963,False,,(Fe-S)-binding protein,Metallocluster & Fe-S biogenesis,0.3446981272519381,True
+GF_01537,45,44,4,4,0.0909,0.5,False,,bleomycin hydrolase,Other / unassigned,0.4400513303691709,True
+GF_02157,235,121,22,11,0.0909,0.15204,False,prfB,peptide chain release factor 2,Other / unassigned,0.4032527233870338,True
+GF_00823,168,168,15,15,0.0893,0.27048,False,hisB,imidazoleglycerol-phosphate dehydratase HisB,Other / unassigned,0.5794639173503259,True
+GF_00241,79,79,7,7,0.0886,0.38268,False,,secondary thiamine-phosphate synthase enzyme YjbQ,Other / unassigned,0.3669176833453335,True
+GF_01494,69,68,6,6,0.0882,0.37226,False,rpsU,30S ribosomal protein S21,Housekeeping / lineage marker,0.2920584917418151,True
+GF_01206,57,57,5,5,0.0877,0.5,False,,response regulator transcription factor,Regulation,0.4276488965067664,True
+GF_00077,80,80,7,7,0.0875,0.38274,False,trpS,tryptophan--tRNA ligase,Housekeeping / lineage marker,0.4187636304122785,True
+GF_00172,82,82,7,7,0.0854,0.38285,False,purB,adenylosuccinate lyase,Other / unassigned,0.2717971426586972,True
+GF_01909,360,131,11,11,0.084,0.98946,False,gvpA,gas vesicle structural protein GvpA,Other / unassigned,0.7311588770707015,True
+GF_00506,91,48,8,4,0.0833,0.391,False,,ATP-binding protein,Other / unassigned,0.5957638150474789,True
+GF_02361,62,61,5,5,0.082,0.5,False,,type II toxin-antitoxin system HicB family antitoxin,Other / unassigned,0.6227133861504562,True
+GF_00128,49,49,4,4,0.0816,0.5,False,,membrane protein,Stress / membrane / uncharacterized,0.2775787683871105,True
+GF_01198,62,62,5,5,0.0806,0.5,False,,glutathione peroxidase,Respiration & bioenergetics,0.372766046604806,True
+GF_02209,62,62,5,5,0.0806,0.5,False,,RtcB family protein,Other / unassigned,0.6253303286387469,True
+GF_00177,202,175,14,14,0.08,0.5,False,ilvD,dihydroxy-acid dehydratase,Other / unassigned,0.7105652904882727,True
+GF_00721,101,101,8,8,0.0792,0.5,False,,DUF6679 family protein,Stress / membrane / uncharacterized,0.4167681944652343,True
+GF_00320,89,89,7,7,0.0787,0.5,False,chlG,chlorophyll synthase ChlG,Other / unassigned,0.4485969495796436,True
+GF_01630,129,129,10,10,0.0775,0.40386,False,,fasciclin domain-containing protein,Other / unassigned,0.368724663658436,True
+GF_00877,104,104,8,8,0.0769,0.5,False,,hypothetical protein,Stress / membrane / uncharacterized,0.4028747308252044,True
+GF_00364,66,66,5,5,0.0758,0.5,False,,adenylosuccinate synthase,Other / unassigned,0.2092586005297414,True
+GF_02440,121,121,9,9,0.0744,0.5,False,ahcY,adenosylhomocysteinase,Other / unassigned,0.5404390242619569,True
+GF_00209,54,54,4,4,0.0741,0.64206,False,proS,proline--tRNA ligase,Housekeeping / lineage marker,0.7336710280921743,True
+GF_00011,108,108,8,8,0.0741,0.5,False,,hypothetical protein,Stress / membrane / uncharacterized,0.371939190703744,True
+GF_00148,122,122,9,9,0.0738,0.5,False,clpP_2,ATP-dependent Clp protease proteolytic subunit,Other / unassigned,0.613117823835977,True
+GF_01682,68,68,5,5,0.0735,0.5,False,hisIE,bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP diphosphatase HisIE,Other / unassigned,0.3060761328510867,True
+GF_02073,655,300,26,22,0.0733,0.98733,False,psbA,photosystem II q(b) protein,Housekeeping / lineage marker,0.4611590392857463,True
+GF_00686,97,96,7,7,0.0729,0.5,False,,sigma-70 family RNA polymerase sigma factor,Housekeeping / lineage marker,0.6883392961213594,True
+GF_01816,57,55,4,4,0.0727,0.64176,False,cysK,cysteine synthase A,Other / unassigned,0.276189089158029,True
+GF_00149,139,139,10,10,0.0719,0.5,False,serA,D-3-phosphoglycerate dehydrogenase,Other / unassigned,0.3984559085671211,True
+GF_00656,57,56,4,4,0.0714,0.64176,False,,DUF433 domain-containing protein,Stress / membrane / uncharacterized,0.8387057912658834,True
+GF_00542,101,99,7,7,0.0707,0.60856,False,cas2,CRISPR-associated endonuclease Cas2,Other / unassigned,0.7306864806172615,True
+GF_00274,99,99,7,7,0.0707,0.5,False,apcB,allophycocyanin subunit beta,Other / unassigned,0.5875533481156157,True
+GF_01907,57,57,4,4,0.0702,0.64176,False,,DUF3285 domain-containing protein,Stress / membrane / uncharacterized,0.180736751184125,True
+GF_01902,76,72,5,5,0.0694,0.62729,False,,fasciclin domain-containing protein,Other / unassigned,0.3739480200246672,True
+GF_00104,289,289,20,20,0.0692,0.5,False,typA,translational GTPase TypA,Other / unassigned,0.296401765175392,True
+GF_00237,145,145,10,10,0.069,0.5,False,petG,cytochrome b6-f complex subunit V,Respiration & bioenergetics,0.4561987105494716,True
+GF_00454,54,44,3,3,0.0682,0.78133,False,,Uma2 family endonuclease,Other / unassigned,0.6927072812694411,True
+GF_00333,255,255,17,17,0.0667,0.5703,False,,NAD-dependent epimerase/dehydratase family protein,Other / unassigned,0.7383549027812277,True
+GF_00074,105,105,7,7,0.0667,0.6084,False,lptB,LPS export ABC transporter ATP-binding protein,Transport,0.3382492218571544,True
+GF_02178,60,60,4,4,0.0667,0.6415,False,,Lin0512 family protein,Other / unassigned,0.5029499253289632,True
+GF_00580,105,105,7,7,0.0667,0.6084,False,,ferredoxin thioredoxin reductase catalytic beta subunit,O2 protection & redox homeostasis,0.4278807206898407,True
+GF_02444,290,290,19,19,0.0655,0.56651,False,,form I ribulose bisphosphate carboxylase large subunit,Other / unassigned,0.2459867140861658,True
+GF_01606,107,107,7,7,0.0654,0.60833,False,,Fur family transcriptional regulator,Regulation,0.8623380728924922,True
+GF_00396,92,92,6,6,0.0652,0.61665,False,clpS,ATP-dependent Clp protease adapter ClpS,Other / unassigned,0.3369595865142422,True
+GF_01650,49,46,3,3,0.0652,0.66124,False,,response regulator,Regulation,0.3401445739060049,True
+GF_00217,93,93,6,6,0.0645,0.61661,False,,ABC transporter ATP-binding protein,Transport,0.4616038264082002,True
+GF_00876,50,47,3,3,0.0638,0.66113,False,,CpeR family transcriptional regulator,Regulation,0.6914788099017628,True
+GF_00221,64,63,4,4,0.0635,0.64118,False,folE,GTP cyclohydrolase I FolE,Other / unassigned,0.3018859437496705,True
+GF_00533,159,159,10,10,0.0629,0.591,False,ilvN,acetolactate synthase small subunit,Other / unassigned,0.4426954838472993,True
+GF_02377,286,271,17,17,0.0627,0.69697,False,ndhI,NAD(P)H-quinone oxidoreductase subunit I,Respiration & bioenergetics,0.2433178731114553,True
+GF_00993,80,80,5,5,0.0625,0.62707,False,,methionine gamma-lyase family protein,Other / unassigned,0.3017851950400796,True
+GF_02375,272,272,17,17,0.0625,0.63639,False,rpsD,30S ribosomal protein S4,Housekeeping / lineage marker,0.318614941092421,True
+GF_00218,161,161,10,10,0.0621,0.59096,False,,phosphoglycerate kinase,Other / unassigned,0.37376083699573,True
+GF_00224,243,242,15,15,0.062,0.64448,False,aroC,chorismate synthase,Other / unassigned,0.7462746291813473,True
+GF_00451,146,146,9,9,0.0616,0.68188,False,ahcY,adenosylhomocysteinase,Other / unassigned,0.6166161309627999,True
+GF_01663,49,49,3,3,0.0612,0.66124,False,ilvB,biosynthetic-type acetolactate synthase large subunit,Other / unassigned,0.6663562954620734,True
+GF_01576,55,50,3,3,0.06,0.78118,False,,metallophosphoesterase family protein,Other / unassigned,0.3714784860769584,True
+GF_01016,50,50,3,3,0.06,0.66113,False,,hypothetical protein,Stress / membrane / uncharacterized,0.3924320913976324,True
+GF_01810,50,50,3,3,0.06,0.66113,False,,ferredoxin:protochlorophyllide reductase (ATP-dependent) subunit N,O2 protection & redox homeostasis,0.5449522036335332,True
+GF_00946,134,134,8,8,0.0597,0.69126,False,,response regulator,Regulation,0.4533686950195105,True
+GF_01062,101,101,6,6,0.0594,0.71597,False,clpP,ATP-dependent Clp endopeptidase proteolytic subunit ClpP,Stress / membrane / uncharacterized,0.5254579264102406,True
+GF_01058,71,51,3,3,0.0588,0.86258,False,cpcA,phycocyanin subunit alpha,Other / unassigned,0.4992653050748269,True
+GF_00036,136,136,8,8,0.0588,0.69117,False,,threonine synthase,Other / unassigned,0.4051142835836499,True
+GF_00079,291,291,17,17,0.0584,0.69686,False,,TRC40/GET3/ArsA family transport-energizing ATPase,Transport,0.2510867595183579,True
+GF_00935,90,86,5,5,0.0581,0.73211,False,,sodium-dependent bicarbonate transport family permease,Transport,0.5101982774128901,True
+GF_01817,105,104,7,6,0.0577,0.6084,False,minD,septum site-determining protein MinD,Other / unassigned,0.4846603013405332,True
+GF_01656,52,52,3,3,0.0577,0.66094,False,moaC,cyclic pyranopterin monophosphate synthase MoaC,Other / unassigned,0.539487101503109,True
+GF_00693,105,105,6,6,0.0571,0.71571,False,,B12-binding domain-containing radical SAM protein,Other / unassigned,0.4639343408694678,True
+GF_00331,194,194,11,11,0.0567,0.73596,False,psbC,photosystem II reaction center protein CP43,Housekeeping / lineage marker,0.6059044156959424,True
+GF_00855,196,196,11,11,0.0561,0.73589,False,prfC,peptide chain release factor 3,Other / unassigned,0.4443988852979957,True
+GF_00040,108,108,6,6,0.0556,0.71553,False,,glutamyl-tRNA(Gln) amidotransferase subunit A,Other / unassigned,0.3607270147107563,True
+GF_00058,73,73,4,4,0.0548,0.7531,False,,hypothetical protein,Stress / membrane / uncharacterized,0.2557562458484794,True
+GF_00866,73,73,4,4,0.0548,0.7531,False,gltD,glutamate synthase small subunit,Other / unassigned,0.7477031700329946,True
+GF_00136,129,129,7,7,0.0543,0.70192,False,,hypothetical protein,Stress / membrane / uncharacterized,0.592490937849467,True
+GF_02332,295,295,16,16,0.0542,0.75688,False,,photosystem II reaction center protein K,Housekeeping / lineage marker,0.7123633460731541,True
+GF_02118,148,148,8,8,0.0541,0.76669,False,,AAA family ATPase,Other / unassigned,0.3888398389340369,True
+GF_00867,204,204,11,11,0.0539,0.73563,False,miaB,tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB,Other / unassigned,0.3487454641629894,True
+GF_01604,130,130,7,7,0.0538,0.70188,False,queF,preQ(1) synthase,Other / unassigned,0.5980665338346816,True
+GF_00498,57,56,3,3,0.0536,0.7809,False,,B12-binding domain-containing radical SAM protein,Other / unassigned,0.3311794436801027,True
+GF_00606,75,75,4,4,0.0533,0.75291,False,gltB,glutamate synthase large subunit,Other / unassigned,0.746416175813573,True
+GF_01657,169,169,9,9,0.0533,0.75492,False,cysK,cysteine synthase A,Other / unassigned,0.7830911564627547,True
+GF_00996,170,170,9,9,0.0529,0.75488,False,leuB,3-isopropylmalate dehydrogenase,Other / unassigned,0.5244339415382591,True
+GF_00266,57,57,3,3,0.0526,0.7809,False,acpP,acyl carrier protein,Other / unassigned,0.7855537380561989,True
+GF_00240,95,95,5,5,0.0526,0.73175,False,groL,chaperonin GroEL,Other / unassigned,0.6196394562549727,True
+GF_01858,60,57,3,3,0.0526,0.78051,False,,hypothetical protein,Stress / membrane / uncharacterized,0.6617083036133468,True
+GF_01923,96,96,5,5,0.0521,0.73168,False,,acetyl-CoA carboxylase carboxyltransferase subunit alpha,Other / unassigned,0.3176627089595186,True
+GF_01825,235,231,12,12,0.0519,0.78581,False,dxs,1-deoxy-D-xylulose-5-phosphate synthase,Other / unassigned,0.6267339501602043,True
+GF_00408,290,290,15,15,0.0517,0.81146,False,ilvC,ketol-acid reductoisomerase,Other / unassigned,0.3548405123881947,True
+GF_00620,379,332,17,17,0.0512,0.92385,False,psaB,photosystem I core protein PsaB,Housekeeping / lineage marker,0.3031253418090643,True
+GF_01733,138,137,7,7,0.0511,0.77963,False,infC,translation initiation factor IF-3,Other / unassigned,0.5031561642132127,True
+GF_02021,59,59,3,3,0.0508,0.78063,False,fmdA,formamidase,Other / unassigned,0.5795079967534682,True
+GF_01138,289,277,14,14,0.0505,0.85901,False,nuoK,NADH-quinone oxidoreductase subunit NuoK,Other / unassigned,0.6472566478109401,True
+GF_02525,165,139,8,7,0.0504,0.82757,False,trpB,tryptophan synthase subunit beta,Other / unassigned,0.6645170411090608,True
+GF_00143,121,119,6,6,0.0504,0.79508,False,,delta(24)-sterol C-methyltransferase,Other / unassigned,0.5320907955573574,True
+GF_00450,41,40,2,2,0.05,0.82036,False,,RidA family protein,Other / unassigned,0.4053283626102379,True
+GF_02518,60,60,3,3,0.05,0.78051,False,,potassium channel family protein,Other / unassigned,0.2487063706876818,True
+GF_01928,263,263,13,13,0.0494,0.82631,False,,DNA-directed RNA polymerase subunit gamma,Housekeeping / lineage marker,0.4261658470719752,True
+GF_00662,61,61,3,3,0.0492,0.78039,False,,energy-coupling factor ABC transporter ATP-binding protein,Transport,0.3631702141167062,True
+GF_00335,224,224,11,11,0.0491,0.84381,False,thiC,phosphomethylpyrimidine synthase ThiC,Other / unassigned,0.6801437610327882,True
+GF_00899,41,41,2,2,0.0488,0.82036,False,carB,carbamoyl-phosphate synthase large subunit,Other / unassigned,0.4442244235991076,True
+GF_01647,41,41,2,2,0.0488,0.82036,False,,HigA family addiction module antitoxin,Other / unassigned,0.5414817441040767,True
+GF_01135,165,165,8,8,0.0485,0.82757,False,,type IV pilus twitching motility protein PilT,Other / unassigned,0.3475768085770151,True
+GF_00668,189,189,9,9,0.0476,0.81523,False,ycf46,stress-responsive protein Ycf46,Other / unassigned,0.4907801506113001,True
+GF_01678,126,126,6,6,0.0476,0.79479,False,,photosystem II reaction center protein T,Housekeeping / lineage marker,0.7611238666020927,True
+GF_01729,54,42,2,2,0.0476,0.89726,False,,chlorophyll a/b-binding protein,Other / unassigned,0.31840912814776,True
+GF_00700,64,64,3,3,0.0469,0.78005,False,,branched-chain amino acid ABC transporter permease,Transport,0.3576827686606477,True
+GF_02460,43,43,2,2,0.0465,0.81999,False,,small RNA NsiR4-regulated ssr1528 family protein,Other / unassigned,0.5921024439690213,True
+GF_00401,43,43,2,2,0.0465,0.81999,False,,DUF6679 family protein,Stress / membrane / uncharacterized,0.77286196681877,True
+GF_02183,172,172,8,8,0.0465,0.82726,False,ilvA,"threonine ammonia-lyase, biosynthetic",Other / unassigned,0.5670642301005404,True
+GF_00628,108,108,5,5,0.0463,0.81308,False,eno,phosphopyruvate hydratase,Other / unassigned,0.404186331566098,True
+GF_02517,65,65,3,3,0.0462,0.77995,False,,DUF2256 domain-containing protein,Stress / membrane / uncharacterized,0.5322312266529502,True
+GF_00739,91,88,4,4,0.0455,0.83508,False,groES,co-chaperone GroES,Other / unassigned,0.5993422137799321,True
+GF_00601,44,44,2,2,0.0455,0.81981,False,,chlorophyll a/b binding light-harvesting protein,Other / unassigned,0.7720973638463127,True
+GF_00140,89,89,4,4,0.0449,0.83524,False,,adenosine deaminase,Other / unassigned,0.2633644275117589,True
+GF_00622,267,267,12,12,0.0449,0.87421,False,,DUF3155 domain-containing protein,Stress / membrane / uncharacterized,0.5555601636776373,True
+GF_01962,180,180,8,8,0.0444,0.87525,False,,CTP synthase,Other / unassigned,0.6844420982393922,True
+GF_02136,45,45,2,2,0.0444,0.81964,False,,sodium:solute symporter family protein,Other / unassigned,0.6022159794476452,True
+GF_00431,209,206,9,9,0.0437,0.90139,False,mnmG,tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG,Other / unassigned,0.396857997846159,True
+GF_02406,115,115,5,5,0.0435,0.81264,False,,homocysteine biosynthesis protein,Other / unassigned,0.5650213257024285,True
+GF_00294,46,46,2,2,0.0435,0.81948,False,,UPF0175 family protein,Other / unassigned,0.4795105501965249,True
+GF_01955,46,46,2,2,0.0435,0.81948,False,ftsH4,ATP-dependent zinc metalloprotease FtsH4,Housekeeping / lineage marker,0.3684361044822575,True
+GF_00336,93,93,4,4,0.043,0.83492,False,gap,type I glyceraldehyde-3-phosphate dehydrogenase,Other / unassigned,0.2737593251608713,True
+GF_02412,186,186,8,8,0.043,0.87502,False,psbM,photosystem II reaction center protein PsbM,Housekeeping / lineage marker,0.8260023857709315,True
+GF_01908,47,47,2,2,0.0426,0.81933,False,atpB,F0F1 ATP synthase subunit A,Housekeeping / lineage marker,0.2991580286519805,True
+GF_00403,47,47,2,2,0.0426,0.81933,False,,YqaE/Pmp3 family membrane protein,Stress / membrane / uncharacterized,0.9290950752359436,True
+GF_01952,357,354,15,15,0.0424,0.93373,False,psaA,photosystem I core protein PsaA,Housekeeping / lineage marker,0.3498221407281808,True
+GF_02104,142,142,6,6,0.0423,0.85574,False,,photosystem I assembly protein Ycf3,Housekeeping / lineage marker,0.5138046615615758,True
+GF_01813,143,143,6,6,0.042,0.85569,False,ndhK,photosynthetic/respiratory NAD(P)H-quinone oxidoreductase subunit K,Respiration & bioenergetics,0.4662227752001494,True
+GF_01128,96,96,4,4,0.0417,0.83471,False,glnA,type I glutamate--ammonia ligase,Other / unassigned,0.6610593327230012,True
+GF_00754,72,72,3,3,0.0417,0.86248,False,,phosphoketolase,Other / unassigned,0.1839478670473631,True
+GF_00873,288,288,12,12,0.0417,0.93074,False,dnaK,molecular chaperone DnaK,Other / unassigned,0.2065573722423525,True
+GF_00505,48,48,2,2,0.0417,0.81919,False,,creatininase family protein,Other / unassigned,0.4997172206361921,True
+GF_00124,96,96,4,4,0.0417,0.83471,False,tpiA,triosephosphate isomerase,Other / unassigned,0.1870094379948421,True
+GF_01730,120,120,5,5,0.0417,0.87328,False,rpmF,50S ribosomal protein L32,Housekeeping / lineage marker,0.6265732258475106,True
+GF_00392,217,217,9,9,0.0415,0.90115,False,ureA,urease subunit gamma,Other / unassigned,0.7048603982155961,True
+GF_00629,146,145,6,6,0.0414,0.90134,False,,response regulator transcription factor,Regulation,0.8235328989691585,True
+GF_01600,77,73,3,3,0.0411,0.86201,False,,DUF433 domain-containing protein,Stress / membrane / uncharacterized,0.8168915989313084,True
+GF_00690,196,196,8,8,0.0408,0.91142,False,argB,acetylglutamate kinase,Other / unassigned,0.512550504189955,True
+GF_00809,49,49,2,2,0.0408,0.81905,False,,ferredoxin family protein,O2 protection & redox homeostasis,0.5345105402442915,True
+GF_00801,98,98,4,4,0.0408,0.83457,False,aspS,aspartate--tRNA ligase,Housekeeping / lineage marker,0.5171202388212534,True
+GF_00001,99,99,4,4,0.0404,0.8345,False,,hypothetical protein,Stress / membrane / uncharacterized,0.421580430843979,True
+GF_01507,99,99,4,4,0.0404,0.8345,False,gndA,NADP-dependent phosphogluconate dehydrogenase,Carbon metabolism & NAD(P)H supply,0.8268238310615186,True
+GF_00114,446,445,18,18,0.0404,0.96445,False,clpC,ATP-dependent Clp protease ATP-binding subunit ClpC,Other / unassigned,0.0660987660935782,True
+GF_01855,50,50,2,2,0.04,0.81891,False,,MSMEG_0572/Sll0783 family nitrogen starvation response protein,Other / unassigned,0.6366920534387996,True
+GF_00407,251,251,10,10,0.0398,0.92128,False,,UDP-glucuronic acid decarboxylase family protein,Other / unassigned,0.6538444698763141,True
+GF_01919,76,76,3,3,0.0395,0.8621,False,,homospermidine biosynthesis protein,Other / unassigned,0.2880810566758473,True
+GF_01735,76,76,3,3,0.0395,0.8621,False,,hypothetical protein,Stress / membrane / uncharacterized,0.3034794161015869,True
+GF_02216,127,127,5,5,0.0394,0.8729,False,,citrate synthase,Other / unassigned,0.3854013358497035,True
+GF_01236,51,51,2,2,0.0392,0.81878,False,,cupin domain-containing protein,Other / unassigned,0.7082169023684568,True
+GF_00494,77,77,3,3,0.039,0.86201,False,,cysteine hydrolase family protein,Other / unassigned,0.4594795691462996,True
+GF_01263,206,206,8,8,0.0388,0.91112,False,glyQ,glycine--tRNA ligase subunit alpha,Housekeeping / lineage marker,0.4800866120117327,True
+GF_01012,262,258,10,10,0.0388,0.94379,False,,ribose-phosphate pyrophosphokinase,Other / unassigned,0.504045020078174,True
+GF_00357,52,52,2,2,0.0385,0.81866,False,,histidine triad nucleotide-binding protein,Other / unassigned,0.2621429818949471,True
+GF_01765,159,159,6,6,0.0377,0.90081,False,pdhA,pyruvate dehydrogenase (acetyl-transferring) E1 component subunit alpha,Other / unassigned,0.5868268843647045,True
+GF_02052,53,53,2,2,0.0377,0.81854,False,,RNA-binding protein,Other / unassigned,0.1752970001193743,True
+GF_01675,160,160,6,6,0.0375,0.90077,False,rimO,30S ribosomal protein S12 methylthiotransferase RimO,Housekeeping / lineage marker,0.330926397012059,True
+GF_01652,108,107,4,4,0.0374,0.8928,False,nuoH,NADH-quinone oxidoreductase subunit NuoH,Other / unassigned,0.4203037108836649,True
+GF_00665,296,295,11,11,0.0373,0.9549,False,rpoB,DNA-directed RNA polymerase subunit beta,Housekeeping / lineage marker,0.5397410363381427,True
+GF_02109,161,161,6,6,0.0373,0.90073,False,,chlorophyll a/b-binding protein,Other / unassigned,0.5380613757552745,True
+GF_00613,134,134,5,5,0.0373,0.916,False,,acetolactate synthase large subunit,Other / unassigned,0.5449301111393735,True
+GF_01090,268,268,10,10,0.0373,0.94369,False,psbB,photosystem II chlorophyll-binding protein CP47,Housekeeping / lineage marker,0.4483348465106248,True
+GF_01146,243,243,9,9,0.037,0.95066,False,,cysteine synthase A,Other / unassigned,0.6945107553378356,True
+GF_00715,74,54,2,2,0.037,0.94196,False,,RNA recognition motif domain-containing protein,Other / unassigned,0.5219257371494918,True
+GF_00799,221,216,8,8,0.037,0.93797,False,hemB,porphobilinogen synthase,Other / unassigned,0.3532861006527414,True
+GF_00509,54,54,2,2,0.037,0.89726,False,rpsP,30S ribosomal protein S16,Housekeeping / lineage marker,0.6506050056579764,True
+GF_00689,108,108,4,4,0.037,0.8928,False,,YciI family protein,Other / unassigned,0.5692771695641113,True
+GF_01951,273,273,10,10,0.0366,0.96045,False,pyrH,UMP kinase,Other / unassigned,0.3234825481945129,True
+GF_00631,301,301,11,11,0.0365,0.96821,False,rpe,ribulose-phosphate 3-epimerase,Other / unassigned,0.4680535381280198,True
+GF_02519,55,55,2,2,0.0364,0.89714,False,psbX,photosystem II reaction center X protein,Housekeeping / lineage marker,0.2466682651341987,True
+GF_01495,282,277,10,10,0.0361,0.96032,False,hemL,"glutamate-1-semialdehyde 2,1-aminomutase",Other / unassigned,0.6445180720364578,True
+GF_01514,250,250,9,9,0.036,0.95053,False,,magnesium chelatase subunit H,Other / unassigned,0.5403165502455493,True
+GF_01818,56,56,2,2,0.0357,0.89702,False,nusA,transcription termination factor NusA,Regulation,0.6726315930549364,True
+GF_01957,56,56,2,2,0.0357,0.89702,False,,TIGR00300 family protein,Other / unassigned,0.4430449494448772,True
+GF_01498,282,282,10,10,0.0355,0.96032,False,chlP,geranylgeranyl reductase,Other / unassigned,0.5276466608413994,True
+GF_01969,170,170,6,6,0.0353,0.93332,False,recR,recombination mediator RecR,Other / unassigned,0.7305344757976754,True
+GF_01960,199,199,7,7,0.0352,0.94692,False,rplS,50S ribosomal protein L19,Housekeeping / lineage marker,0.7598352673923506,True
+GF_01932,260,259,9,9,0.0347,0.96586,False,thrS,threonine--tRNA ligase,Housekeeping / lineage marker,0.7533839645322181,True
+GF_02167,147,147,5,5,0.034,0.94547,False,,aspartate aminotransferase,Other / unassigned,0.8751459944663351,True
+GF_01731,118,118,4,4,0.0339,0.93218,False,,bacterioferritin,Other / unassigned,0.563101491753306,True
+GF_02153,266,266,9,9,0.0338,0.96578,False,,phycobilisome linker polypeptide,Other / unassigned,0.3798210082700414,True
+GF_00297,297,297,10,10,0.0337,0.97241,False,,DUF1257 domain-containing protein,Stress / membrane / uncharacterized,0.2998009234133744,True
+GF_01961,119,119,4,4,0.0336,0.93213,False,rpsB,30S ribosomal protein S2,Housekeeping / lineage marker,0.9531908125303624,True
+GF_01959,269,269,9,9,0.0335,0.97677,False,leuC,3-isopropylmalate dehydratase large subunit,Other / unassigned,0.543712059947829,True
+GF_00825,121,120,4,4,0.0333,0.93205,False,,DUF1815 family protein,Stress / membrane / uncharacterized,0.9465703001360664,True
+GF_00389,60,60,2,2,0.0333,0.89658,False,,helix-turn-helix domain-containing protein,Other / unassigned,0.2979115395730696,True
+GF_01880,90,90,3,3,0.0333,0.9157,False,,NUDIX hydrolase,Other / unassigned,0.3130999676664833,True
+GF_01956,60,60,2,2,0.0333,0.89658,False,,transaldolase,Carbon metabolism & NAD(P)H supply,0.3818009089470892,True
+GF_02379,121,121,4,4,0.0331,0.93205,False,map,type I methionyl aminopeptidase,Housekeeping / lineage marker,0.7125374997974668,True
+GF_01253,62,61,2,2,0.0328,0.89639,False,,DUF433 domain-containing protein,Stress / membrane / uncharacterized,0.7143909913001609,True
+GF_01827,276,275,9,9,0.0327,0.9767,False,sufB,Fe-S cluster assembly protein SufB,Metallocluster & Fe-S biogenesis,0.733899922929395,True
+GF_00902,275,275,9,9,0.0327,0.97671,False,,inorganic diphosphatase,Other / unassigned,0.7123604024053107,True
+GF_01720,246,246,8,8,0.0325,0.97123,False,,LL-diaminopimelate aminotransferase,Other / unassigned,0.5611237817745495,True
+GF_00634,220,216,7,7,0.0324,0.96435,False,dxr,1-deoxy-D-xylulose-5-phosphate reductoisomerase,Other / unassigned,0.3395045768582696,True
+GF_01033,124,124,4,4,0.0323,0.93192,False,sufC,Fe-S cluster assembly ATPase SufC,Metallocluster & Fe-S biogenesis,0.4530358532673563,True
+GF_01723,124,124,4,4,0.0323,0.93192,False,btpA,photosystem I biogenesis protein BtpA,Housekeeping / lineage marker,0.4314300060847691,True
+GF_01603,93,93,3,3,0.0323,0.91552,False,,,Other / unassigned,0.7546761863941326,True
+GF_00377,125,125,4,4,0.032,0.93188,False,,bifunctional nuclease family protein,Other / unassigned,0.9233236970034052,True
+GF_01964,95,94,3,3,0.0319,0.91541,False,,class I fructose-bisphosphate aldolase,Carbon metabolism & NAD(P)H supply,0.8203456426835324,True
+GF_00828,190,188,6,6,0.0319,0.9558,False,,HNH endonuclease,Other / unassigned,0.5886796809882353,True
+GF_00400,63,63,2,2,0.0317,0.8963,False,hisIE,bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP diphosphatase HisIE,Other / unassigned,0.5741450822756268,True
+GF_00874,126,126,4,4,0.0317,0.93184,False,rpsN,30S ribosomal protein S14,Housekeeping / lineage marker,0.7523727850693712,True
+GF_00212,126,126,4,4,0.0317,0.93184,False,,polyribonucleotide nucleotidyltransferase,Other / unassigned,0.4703946307253581,True
+GF_01821,226,222,7,7,0.0315,0.97657,False,,NDP-sugar synthase,Other / unassigned,0.6101683695980504,True
+GF_00635,193,191,6,6,0.0314,0.97141,False,trxA,thioredoxin,O2 protection & redox homeostasis,0.5915745467605416,True
+GF_00608,287,287,9,9,0.0314,0.98433,False,bchL,ferredoxin:protochlorophyllide reductase (ATP-dependent) iron-sulfur ATP-binding protein,Metallocluster & Fe-S biogenesis,0.6507474574171979,True
+GF_01553,96,96,3,3,0.0312,0.91535,False,,NAD(P)H-quinone oxidoreductase subunit N,Other / unassigned,0.4652013877686377,True
+GF_01201,65,64,2,2,0.0312,0.89612,False,,transketolase C-terminal domain-containing protein,Other / unassigned,0.6475921091947296,True
+GF_01931,193,193,6,6,0.0311,0.97141,False,,30S ribosomal protein S1,Housekeeping / lineage marker,0.5778953964072419,True
+GF_02206,129,129,4,4,0.031,0.93173,False,,STAS domain-containing protein,Other / unassigned,0.4220663175256162,True
+GF_00593,268,258,9,8,0.031,0.96575,False,clpB,ATP-dependent chaperone ClpB,Other / unassigned,0.6225879648279272,True
+GF_00861,131,131,4,4,0.0305,0.95786,False,gyrB,DNA topoisomerase (ATP-hydrolyzing) subunit B,Housekeeping / lineage marker,0.8252452174521518,True
+GF_00677,165,165,5,5,0.0303,0.96512,False,,CO2 hydration protein,Other / unassigned,0.5875586348274638,True
+GF_00034,165,165,5,5,0.0303,0.96512,False,,S-adenosylmethionine synthetase,Other / unassigned,0.7184340138414405,True
+GF_01770,99,99,3,3,0.0303,0.91519,False,acsF,magnesium-protoporphyrin IX monomethyl ester (oxidative) cyclase,Other / unassigned,0.3866401863568045,True
+GF_00120,99,99,3,3,0.0303,0.91519,False,fabG,beta-ketoacyl-ACP reductase,Other / unassigned,0.8067469663092773,True
+GF_01860,134,134,4,4,0.0299,0.95777,False,,pyridoxine 5'-phosphate synthase,Other / unassigned,0.4449669228372015,True
+GF_00103,202,201,6,6,0.0299,0.97127,False,lipA,lipoyl synthase,Other / unassigned,0.3964830572464006,True
+GF_00896,168,168,5,5,0.0298,0.96506,False,rpsP,30S ribosomal protein S16,Housekeeping / lineage marker,0.5010265788181058,True
+GF_00365,242,238,7,7,0.0294,0.98473,False,glpX,class II fructose-bisphosphatase,Other / unassigned,0.5672181945703187,True
+GF_00916,204,204,6,6,0.0294,0.97124,False,clpX,ATP-dependent protease ATP-binding subunit ClpX,Other / unassigned,0.465229331440968,True
+GF_02513,105,102,3,3,0.0294,0.94952,False,,CobW family GTP-binding protein,Other / unassigned,0.6713003811924151,True
+GF_01333,274,274,8,8,0.0292,0.98735,False,,ferredoxin family protein,O2 protection & redox homeostasis,0.677369082559543,True
+GF_00869,206,206,6,6,0.0291,0.97121,False,,peroxiredoxin,O2 protection & redox homeostasis,0.4838262153821706,True
+GF_00238,138,138,4,4,0.029,0.95766,False,,hypothetical protein,Stress / membrane / uncharacterized,0.5119366514838992,True
+GF_02217,173,173,5,5,0.0289,0.96496,False,,response regulator transcription factor,Regulation,0.7546538145148804,True
+GF_00624,278,278,8,8,0.0288,0.98732,False,rpmG,50S ribosomal protein L33,Housekeeping / lineage marker,0.7669318357132379,True
+GF_00675,105,105,3,3,0.0286,0.94952,False,rplL,50S ribosomal protein L7/L12,Housekeeping / lineage marker,0.5920362146469967,True
+GF_02393,140,140,4,4,0.0286,0.9576,False,,long-chain acyl-[acyl-carrier-protein] reductase,Other / unassigned,0.5020487251003494,True
+GF_01568,141,140,4,4,0.0286,0.95758,False,glgB,"1,4-alpha-glucan branching enzyme",Carbon metabolism & NAD(P)H supply,0.8235115345439455,True
+GF_00133,70,70,2,2,0.0286,0.94222,False,,glyoxalase,Other / unassigned,0.1960042645287753,True
+GF_01361,350,350,10,10,0.0286,0.99427,False,apcB,allophycocyanin subunit beta,Other / unassigned,0.3168249535328306,True
+GF_02522,141,141,4,4,0.0284,0.95758,False,rplT,50S ribosomal protein L20,Housekeeping / lineage marker,0.7492068769981635,True
+GF_02464,106,106,3,3,0.0283,0.94948,False,clpS,ATP-dependent Clp protease adapter ClpS,Other / unassigned,0.6983007887705417,True
+GF_00196,247,247,7,7,0.0283,0.98469,False,bchB,ferredoxin:protochlorophyllide reductase (ATP-dependent) subunit B,O2 protection & redox homeostasis,0.3345213522420467,True
+GF_00676,142,142,4,4,0.0282,0.95755,False,,Rrf2 family transcriptional regulator,Regulation,0.4529473728489693,True
+GF_01502,285,285,8,8,0.0281,0.99177,False,menB,"1,4-dihydroxy-2-naphthoyl-CoA synthase",Other / unassigned,0.3399575647923245,True
+GF_01160,147,146,4,4,0.0274,0.9742,False,,phycocyanin subunit beta,Other / unassigned,0.5106341979975565,True
+GF_01232,256,256,7,7,0.0273,0.99018,False,moeB,molybdopterin-synthase adenylyltransferase MoeB,Other / unassigned,0.7085901312389672,True
+GF_01158,258,258,7,7,0.0271,0.99017,False,,"Coenzyme F420 hydrogenase/dehydrogenase, beta subunit C-terminal domain",Other / unassigned,0.3159426429455098,True
+GF_00284,583,295,16,8,0.0271,0.99942,False,ccmK1,Carbon dioxide-concentrating mechanism protein CcmK homolog 1,Other / unassigned,0.3073227527618988,True
+GF_01787,295,295,8,8,0.0271,0.99173,False,,alpha-ketoacid dehydrogenase subunit beta,Other / unassigned,0.4973605892002724,True
+GF_01659,82,74,3,2,0.027,0.8616,False,,phycocyanin subunit beta,Other / unassigned,0.4739939353886124,True
+GF_00213,120,111,3,3,0.027,0.97029,False,psbA,photosystem II q(b) protein,Housekeeping / lineage marker,0.5632110592807121,True
+GF_00457,113,113,3,3,0.0265,0.94922,False,purE,5-(carboxyamino)imidazole ribonucleotide mutase,Other / unassigned,0.6644632279202497,True
+GF_00643,227,227,6,6,0.0264,0.98837,False,rplK,50S ribosomal protein L11,Housekeeping / lineage marker,0.4235188241098908,True
+GF_01819,229,229,6,6,0.0262,0.98836,False,ureC,urease subunit alpha,Other / unassigned,0.5989429531497352,True
+GF_00673,153,153,4,4,0.0261,0.97409,False,fabF,beta-ketoacyl-ACP synthase II,Other / unassigned,0.5096432174332537,True
+GF_01011,116,116,3,3,0.0259,0.9704,False,,sulfate/molybdate ABC transporter ATP-binding protein,Transport,0.4352143688097127,True
+GF_00604,116,116,3,3,0.0259,0.9704,False,hemE,uroporphyrinogen decarboxylase,Other / unassigned,0.7262740057612969,True
+GF_01635,91,78,2,2,0.0256,0.96784,False,,ABC transporter permease,Transport,0.7888120187366836,True
+GF_00071,158,158,4,4,0.0253,0.974,False,,S-methyl-5'-thioadenosine phosphorylase,Other / unassigned,0.3534183615654964,True
+GF_00139,79,79,2,2,0.0253,0.94168,False,ycf54,hypothetical protein,Stress / membrane / uncharacterized,0.3371047090308212,True
+GF_00137,119,119,3,3,0.0252,0.97032,False,atpG,ATP synthase gamma chain,Housekeeping / lineage marker,0.614634764275817,True
+GF_00981,278,278,7,7,0.0252,0.99373,False,,glutamine-hydrolyzing GMP synthase,Other / unassigned,0.2884785478108329,True
+GF_01654,283,279,7,7,0.0251,0.99371,False,ispG,(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase,Other / unassigned,0.2793264743120555,True
+GF_01500,120,120,3,3,0.025,0.97029,False,,Ycf34 family protein,Other / unassigned,0.9326824317743044,True
+GF_01234,41,40,1,1,0.025,0.9421,False,cobA,uroporphyrinogen-III C-methyltransferase,Other / unassigned,0.5256571576299445,True
+GF_00334,40,40,1,1,0.025,0.94222,False,,NAD-dependent epimerase/dehydratase family protein,Other / unassigned,0.596082734357905,True
+GF_00402,241,241,6,6,0.0249,0.99273,False,,peroxiredoxin,O2 protection & redox homeostasis,0.90213911216583,True
+GF_01501,458,441,11,11,0.0249,0.99943,False,groL,chaperonin GroEL,Other / unassigned,0.2464716553152618,True
+GF_01000,202,201,5,5,0.0249,0.98635,False,,UbiD family decarboxylase,Other / unassigned,0.3715824554806513,True
+GF_01722,161,161,4,4,0.0248,0.97395,False,hisF,imidazole glycerol phosphate synthase subunit HisF,Other / unassigned,0.5007909944713154,True
+GF_02459,82,81,2,2,0.0247,0.94153,False,,DUF433 domain-containing protein,Stress / membrane / uncharacterized,0.7613455934980631,True
+GF_00682,81,81,2,2,0.0247,0.94158,False,sppA,signal peptide peptidase SppA,Stress / membrane / uncharacterized,0.4016286550518866,True
+GF_01462,446,446,11,11,0.0247,0.99912,False,petB,cytochrome b6,Respiration & bioenergetics,0.10506716278929,True
+GF_01712,43,41,1,1,0.0244,0.94189,False,,P-II family nitrogen regulator,Regulation,0.5403233353384241,True
+GF_00265,123,123,3,3,0.0244,0.97022,False,,CoB--CoM heterodisulfide reductase iron-sulfur subunit B family protein,Metallocluster & Fe-S biogenesis,0.4575905819739471,True
+GF_01935,41,41,1,1,0.0244,0.9421,False,cydB,cytochrome d ubiquinol oxidase subunit II,Respiration & bioenergetics,0.2265901017298133,True
+GF_00211,42,42,1,1,0.0238,0.94199,False,,phasin family protein,Other / unassigned,0.4305131959789063,True
+GF_02411,127,127,3,3,0.0236,0.97013,False,,ATP-dependent Clp protease proteolytic subunit,Other / unassigned,0.5048757679424635,True
+GF_00182,43,43,1,1,0.0233,0.94189,False,hetR,heterocyst differentiation master regulator HetR,Regulation,0.4559888602834986,True
+GF_00178,217,216,5,5,0.0231,0.99164,False,rpoD,RNA polymerase sigma factor RpoD,Housekeeping / lineage marker,0.6128932828685254,True
+GF_00296,87,87,2,2,0.023,0.96798,False,rpsU,30S ribosomal protein S21,Housekeeping / lineage marker,0.2248285878674052,True
+GF_00667,87,87,2,2,0.023,0.96798,False,,TIGR02652 family protein,Other / unassigned,0.592173723706371,True
+GF_01743,196,175,4,4,0.0229,0.99453,False,gmd,"GDP-mannose 4,6-dehydratase",Other / unassigned,0.3885262253443815,True
+GF_01182,277,263,6,6,0.0228,0.99723,False,,NAD(P)H-quinone oxidoreductase subunit H,Other / unassigned,0.4402105081749806,True
+GF_00332,219,219,5,5,0.0228,0.99163,False,,NADP-dependent isocitrate dehydrogenase,Other / unassigned,0.368285379059649,True
+GF_00881,54,44,1,1,0.0227,0.97163,False,,nif11-class peptide radical SAM maturase 3,Nitrogenase / nif machinery,0.5048412501026874,True
+GF_00395,88,88,2,2,0.0227,0.96794,False,hpnH,adenosyl-hopene transferase HpnH,Other / unassigned,0.3742839879039474,True
+GF_02485,88,88,2,2,0.0227,0.96794,False,,precorrin-8X methylmutase,Other / unassigned,0.4633820639600799,True
+GF_01637,44,44,1,1,0.0227,0.94178,False,pstB,phosphate ABC transporter ATP-binding protein PstB,Transport,0.1794053483335446,True
+GF_01510,224,223,5,5,0.0224,0.99497,False,,HU family DNA-binding protein,Other / unassigned,0.6872310904457708,True
+GF_01276,45,45,1,1,0.0222,0.94169,False,pstA,phosphate ABC transporter permease PstA,Transport,0.2546830364094083,True
+GF_00398,45,45,1,1,0.0222,0.94169,False,,NAD(P) transhydrogenase subunit alpha,Other / unassigned,0.6141411122692193,True
+GF_00903,45,45,1,1,0.0222,0.94169,False,pstC,phosphate ABC transporter permease subunit PstC,Transport,0.1512602877261736,True
+GF_02107,272,272,6,6,0.0221,0.99724,False,,glycoside hydrolase family 57 protein,Other / unassigned,0.6735301631376274,True
+GF_00638,273,273,6,6,0.022,0.99724,False,ftsH2,ATP-dependent zinc metalloprotease FtsH2,Housekeeping / lineage marker,0.8295730107390211,True
+GF_01699,92,92,2,2,0.0217,0.96781,False,ureG,urease accessory protein UreG,Other / unassigned,0.6594583880187339,True
+GF_01667,93,92,2,2,0.0217,0.96777,False,,manganese catalase family protein,O2 protection & redox homeostasis,0.629356664398159,True
+GF_00147,232,232,5,5,0.0216,0.99494,False,guaB,inositol-5-monophosphate dehydrogenase,Other / unassigned,0.435287624771375,True
+GF_01963,187,186,4,4,0.0215,0.99067,False,sat,sulfate adenylyltransferase,Other / unassigned,0.4234909817978974,True
+GF_01673,94,94,2,2,0.0213,0.96774,False,,methionine gamma-lyase family protein,Other / unassigned,0.3391179771637405,True
+GF_01660,47,47,1,1,0.0213,0.94151,False,galT,galactose-1-phosphate uridylyltransferase,Other / unassigned,0.6434156147944461,True
+GF_01605,47,47,1,1,0.0213,0.94151,False,rfbB,"dTDP-glucose 4,6-dehydratase",Other / unassigned,0.3356047565520089,True
+GF_02435,47,47,1,1,0.0213,0.94151,False,,TIGR02652 family protein,Other / unassigned,0.4361739675280428,True
+GF_02020,94,94,2,2,0.0213,0.96774,False,,sodium-dependent bicarbonate transport family permease,Transport,0.6184615204914985,True
+GF_02387,288,288,6,6,0.0208,0.99833,False,,NYN domain-containing protein,Other / unassigned,0.4274656205550454,True
+GF_01658,48,48,1,1,0.0208,0.94143,False,,DUF433 domain-containing protein,Stress / membrane / uncharacterized,0.7160659602664561,True
+GF_01032,193,193,4,4,0.0207,0.99455,False,rplA,50S ribosomal protein L1,Housekeeping / lineage marker,0.4418481818897604,True
+GF_00435,145,145,3,3,0.0207,0.98263,False,,zinc-dependent dehydrogenase,Other / unassigned,0.6051747285085666,True
+GF_02396,97,97,2,2,0.0206,0.96765,False,ppsA,phosphoenolpyruvate synthase,Housekeeping / lineage marker,0.5645724879399865,True
+GF_00893,97,97,2,2,0.0206,0.96765,False,,peptide-methionine (S)-S-oxide reductase MsrA,Other / unassigned,0.5899336682449615,True
+GF_00872,99,99,2,2,0.0202,0.9676,False,,TldD/PmbA family protein,Other / unassigned,0.6187909523828953,True
+GF_00679,99,99,2,2,0.0202,0.9676,False,psbX,photosystem II reaction center X protein,Housekeeping / lineage marker,0.2809239709911828,True
+GF_00591,50,50,1,1,0.02,0.94127,False,,sulfite oxidase-like oxidoreductase,Respiration & bioenergetics,0.3985395827905686,True
+GF_01767,101,101,2,2,0.0198,0.98253,False,glcD,glycolate oxidase subunit GlcD,Respiration & bioenergetics,0.4057837045739507,True
+GF_01001,101,101,2,2,0.0198,0.98253,False,petC,cytochrome b6-f complex iron-sulfur subunit,Metallocluster & Fe-S biogenesis,0.3483524107995772,True
+GF_00173,153,153,3,3,0.0196,0.99011,False,argH,argininosuccinate lyase,Other / unassigned,0.3672692409755921,True
+GF_01918,153,153,3,3,0.0196,0.99011,False,,phosphoribulokinase,Other / unassigned,0.3582405374529525,True
+GF_00672,259,259,5,5,0.0193,0.9982,False,rpmA,50S ribosomal protein L27,Housekeeping / lineage marker,0.54329538242026,True
+GF_01496,156,156,3,3,0.0192,0.99008,False,grxD,Grx4 family monothiol glutaredoxin,O2 protection & redox homeostasis,0.4399196896639519,True
+GF_00974,104,104,2,2,0.0192,0.98247,False,,dihydroorotase,Other / unassigned,0.6443329354803033,True
+GF_00393,53,53,1,1,0.0189,0.94105,False,rpmB,50S ribosomal protein L28,Housekeeping / lineage marker,0.778490197081501,True
+GF_00382,159,159,3,3,0.0189,0.99006,False,,flavin prenyltransferase UbiX,Other / unassigned,0.4627683591204564,True
+GF_00708,161,160,3,3,0.0187,0.99004,False,,adenylosuccinate synthase,Other / unassigned,0.3406427727907246,True
+GF_00792,214,214,4,4,0.0187,0.99681,False,rpsS,30S ribosomal protein S19,Housekeeping / lineage marker,0.561429381977735,True
+GF_01801,54,54,1,1,0.0185,0.97163,False,arsJ,organoarsenical effux MFS transporter ArsJ,Transport,0.4557663755195817,True
+GF_00800,54,54,1,1,0.0185,0.97163,False,hemB,porphobilinogen synthase,Other / unassigned,0.2590026685837096,True
+GF_01555,378,378,7,7,0.0185,0.9998,False,kaiB,circadian clock protein KaiB,Other / unassigned,0.410124178507831,True
+GF_00612,163,163,3,3,0.0184,0.99442,False,pyk,pyruvate kinase,Other / unassigned,0.3145262496968631,True
+GF_00614,221,219,4,4,0.0183,0.99679,False,aroF,3-deoxy-7-phosphoheptulonate synthase,Other / unassigned,0.5980469158310924,True
+GF_01143,56,55,1,1,0.0182,0.97153,False,,cation:proton antiporter,Other / unassigned,0.3601507230184287,True
+GF_01532,56,55,1,1,0.0182,0.97153,False,cynS,cyanase,Other / unassigned,0.3140043493422481,True
+GF_00982,276,276,5,5,0.0181,0.99894,False,kaiC,circadian clock protein KaiC,Other / unassigned,0.628812220208629,True
+GF_01223,111,111,2,2,0.018,0.98235,False,,mannose-1-phosphate guanyltransferase,Other / unassigned,0.5300912329995306,True
+GF_00490,56,56,1,1,0.0179,0.97153,False,,hypothetical protein,Stress / membrane / uncharacterized,0.4601935274432165,True
+GF_01789,56,56,1,1,0.0179,0.97153,False,tatC,twin-arginine translocase subunit TatC,Other / unassigned,0.2305768968113087,True
+GF_00618,56,56,1,1,0.0179,0.97153,False,,"RNA polymerase sigma factor, RpoD/SigA family",Housekeeping / lineage marker,0.5879922185847066,True
+GF_00984,284,284,5,5,0.0176,0.99893,False,,ATP-dependent zinc metalloprotease FtsH3,Housekeeping / lineage marker,0.2650352893221872,True
+GF_01741,114,114,2,2,0.0175,0.9823,False,,argininosuccinate synthase,Other / unassigned,0.2596831448106872,True
+GF_00687,285,285,5,5,0.0175,0.99938,False,lepA,translation elongation factor 4,Other / unassigned,0.3460063050437112,True
+GF_02516,58,58,1,1,0.0172,0.97143,False,folE,GTP cyclohydrolase I FolE,Other / unassigned,0.4161490725016024,True
+GF_01237,174,174,3,3,0.0172,0.99437,False,,NYN domain-containing protein,Other / unassigned,0.4903217864720145,True
+GF_00000,118,118,2,2,0.0169,0.99053,False,ureG,urease accessory protein G,Other / unassigned,0.7158247708694416,True
+GF_00175,59,59,1,1,0.0169,0.97139,False,,LuxR C-terminal-related transcriptional regulator,Regulation,0.4276743281927474,True
+GF_02179,118,118,2,2,0.0169,0.99053,False,atpB,F0F1 ATP synthase subunit A,Housekeeping / lineage marker,0.3027406787672657,True
+GF_01761,60,60,1,1,0.0167,0.97134,False,,peroxiredoxin,O2 protection & redox homeostasis,0.4042993431708273,True
+GF_02166,120,120,2,2,0.0167,0.99051,False,,succinate dehydrogenase/fumarate reductase flavoprotein subunit,Respiration & bioenergetics,0.9772998553920677,True
+GF_01898,121,121,2,2,0.0165,0.9905,False,hpnH,adenosyl-hopene transferase HpnH,Other / unassigned,0.3842647195066817,True
+GF_00666,121,121,2,2,0.0165,0.9905,False,,LON peptidase substrate-binding domain-containing protein,Transport,0.6549987699764848,True
+GF_01742,121,121,2,2,0.0165,0.9905,False,,NYN domain-containing protein,Other / unassigned,0.4779009354486512,True
+GF_00788,366,366,6,6,0.0164,0.99988,False,,NifU family protein,Nitrogenase / nif machinery,0.2328602258692653,True
+GF_01674,123,123,2,2,0.0163,0.99048,False,,small RNA NsiR4-regulated ssr1528 family protein,Other / unassigned,0.6301725039372212,True
+GF_01277,128,126,2,2,0.0159,0.99044,False,arsH,arsenical resistance protein ArsH,Other / unassigned,0.591449014544358,True
+GF_02389,193,193,3,3,0.0155,0.99826,False,petN,cytochrome b6-f complex subunit PetN,Respiration & bioenergetics,0.5111209296294545,True
+GF_01822,65,65,1,1,0.0154,0.97114,False,fabI,enoyl-ACP reductase FabI,Other / unassigned,0.4966094264684187,True
+GF_00900,68,66,1,1,0.0152,0.97104,False,,ArsJ-associated glyceraldehyde-3-phosphate dehydrogenase,Other / unassigned,0.8379914476690711,True
+GF_01906,199,199,3,3,0.0151,0.99825,False,atpD,F0F1 ATP synthase subunit beta,Housekeeping / lineage marker,0.880654027944093,True
+GF_02397,139,135,2,2,0.0148,0.99489,False,,Fur family transcriptional regulator,Regulation,0.3972494768676391,True
+GF_01662,69,69,1,1,0.0145,0.97101,False,,protochlorophyllide reductase,Other / unassigned,0.4686057273348132,True
+GF_01245,139,139,2,2,0.0144,0.99489,False,rplB,50S ribosomal protein L2,Housekeeping / lineage marker,0.8952870243591162,True
+GF_00985,277,277,4,4,0.0144,0.99966,False,fba,fructose-bisphosphate aldolase class II,Carbon metabolism & NAD(P)H supply,0.2960697152544678,True
+GF_00187,142,141,2,2,0.0142,0.99488,False,,30S ribosomal protein PSRP-3,Housekeeping / lineage marker,0.3158676193757884,True
+GF_00225,143,143,2,2,0.014,0.99487,False,,NAD(P)H-quinone oxidoreductase subunit 3,Other / unassigned,0.4529639580243971,True
+GF_01499,72,72,1,1,0.0139,0.98598,False,,TldD/PmbA family protein,Other / unassigned,0.6540263489031436,True
+GF_02514,95,72,1,1,0.0139,0.99303,False,,ferredoxin,O2 protection & redox homeostasis,0.8803017401732742,True
+GF_00123,146,145,2,2,0.0138,0.9973,False,accC,acetyl-CoA carboxylase biotin carboxylase subunit,Other / unassigned,0.6440087546155921,True
+GF_00746,219,219,3,3,0.0137,0.99903,False,petD,cytochrome b6-f complex subunit IV,Respiration & bioenergetics,0.7808928233658263,True
+GF_02145,73,73,1,1,0.0137,0.98596,False,rpsE,30S ribosomal protein S5,Housekeeping / lineage marker,0.6269919783779088,True
+GF_00856,221,221,3,3,0.0136,0.99903,False,,ferredoxin:protochlorophyllide reductase (ATP-dependent) subunit N,O2 protection & redox homeostasis,0.7561857559221189,True
+GF_01759,149,148,2,2,0.0135,0.99729,False,ispF,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",Other / unassigned,0.5318841995809348,True
+GF_01190,79,74,1,1,0.0135,0.98584,False,,DevA family ABC transporter ATP-binding protein,Transport,0.2120225006699747,True
+GF_01006,297,297,4,4,0.0135,0.99981,False,,P-II family nitrogen regulator,Regulation,0.2719888692464303,True
+GF_00207,450,448,6,6,0.0134,0.99999,False,,response regulator transcription factor,Regulation,0.0439885416697772,True
+GF_01221,227,226,3,3,0.0133,0.99947,False,acs,acetate--CoA ligase,Other / unassigned,0.453183774989355,True
+GF_00630,305,305,4,4,0.0131,0.99989,False,tuf,elongation factor Tu,Other / unassigned,0.6560288547914003,True
+GF_02466,77,77,1,1,0.013,0.98588,False,,histone deacetylase family protein,Other / unassigned,0.3175860746836348,True
+GF_01785,89,80,1,1,0.0125,0.99309,False,kdpB,potassium-transporting ATPase subunit KdpB,Transport,0.6246300387415831,True
+GF_01596,333,326,5,4,0.0123,0.99988,False,,ferredoxin,O2 protection & redox homeostasis,0.6025809474363151,True
+GF_01672,81,81,1,1,0.0123,0.9858,False,fabI,enoyl-ACP reductase FabI,Other / unassigned,0.7878426427156217,True
+GF_01184,82,82,1,1,0.0122,0.98579,False,pgsA,CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase,Other / unassigned,0.2417414860926709,True
+GF_00366,82,82,1,1,0.0122,0.98579,False,rpmH,50S ribosomal protein L34,Housekeeping / lineage marker,0.2178470572242923,True
+GF_00658,248,248,3,3,0.0121,0.99971,False,rplV,50S ribosomal protein L22,Housekeeping / lineage marker,0.7225591879028628,True
+GF_00386,83,83,1,1,0.012,0.98577,False,urtD,urea ABC transporter ATP-binding protein UrtD,Transport,0.4795194649783337,True
+GF_02152,83,83,1,1,0.012,0.98577,False,,phosphoglucomutase/phosphomannomutase family protein,Other / unassigned,0.4118927859363878,True
+GF_00992,252,252,3,3,0.0119,0.99971,False,psbF,cytochrome b559 subunit beta,Housekeeping / lineage marker,0.6243214547130054,True
+GF_01122,254,254,3,3,0.0118,0.99984,False,,2-isopropylmalate synthase,Other / unassigned,0.3903267469756787,True
+GF_02494,85,85,1,1,0.0118,0.99313,False,,cysteine desulfurase,Regulation,0.2928784387669682,True
+GF_00368,257,257,3,3,0.0117,0.99984,False,ntcA,global nitrogen regulator NtcA,Regulation,0.645062318310731,True
+GF_00661,175,175,2,2,0.0114,0.99855,False,,DUF1825 family protein,Stress / membrane / uncharacterized,0.6472318858144263,True
+GF_00748,88,88,1,1,0.0114,0.9931,False,zds,"9,9'-di-cis-zeta-carotene desaturase",Other / unassigned,0.2411014555283632,True
+GF_02181,442,442,5,5,0.0113,1.0,False,rpsJ,30S ribosomal protein S10,Housekeeping / lineage marker,0.0420328226545005,True
+GF_00150,177,177,2,2,0.0113,0.99925,False,ndhD1,NADH dehydrogenase subunit 4,Respiration & bioenergetics,0.3693344558919704,True
+GF_01156,90,90,1,1,0.0111,0.99308,False,ndhD1,photosynthetic/respiratory NAD(P)H-quinone oxidoreductase subunit D1,Respiration & bioenergetics,0.480457964376456,True
+GF_02135,94,94,1,1,0.0106,0.99304,False,hypB,hydrogenase nickel incorporation protein HypB,Other / unassigned,0.6417052818124849,True
+GF_02371,189,189,2,2,0.0106,0.99924,False,fusA,elongation factor G,Other / unassigned,0.4283408158356915,True
+GF_00808,188,188,2,2,0.0106,0.99924,False,remA,extracellular matrix/biofilm regulator RemA,Regulation,0.7043825968196478,True
+GF_01758,188,188,2,2,0.0106,0.99924,False,atpE,ATP synthase F0 subunit C,Housekeeping / lineage marker,0.4162707962671335,True
+GF_01020,284,284,3,3,0.0106,0.99991,False,,50S ribosomal protein L16,Housekeeping / lineage marker,0.1883997645405877,True
+GF_00659,95,95,1,1,0.0105,0.99303,False,,YifB family Mg chelatase-like AAA ATPase,Other / unassigned,0.2444207885776344,True
+GF_00657,97,97,1,1,0.0103,0.99302,False,,amino acid ABC transporter ATP-binding protein,Transport,0.5684099165745179,True
+GF_00741,99,99,1,1,0.0101,0.993,False,,NUDIX hydrolase,Other / unassigned,0.6129509003955264,True
+GF_00704,102,102,1,1,0.0098,0.99661,False,,GNAT family N-acetyltransferase,Other / unassigned,0.5795020912239447,True
+GF_00571,104,104,1,1,0.0096,0.9966,False,arsB,ACR3 family arsenite efflux transporter,Transport,0.4739874777192652,True
+GF_01954,319,319,3,3,0.0094,0.99999,False,,photosystem II reaction center protein L,Housekeeping / lineage marker,0.3300578968746312,True
+GF_01028,109,109,1,1,0.0092,0.99658,False,psbE,cytochrome b559 subunit alpha,Housekeeping / lineage marker,0.3541767996603264,True
+GF_00663,109,109,1,1,0.0092,0.99658,False,rplX,50S ribosomal protein L24,Housekeeping / lineage marker,0.736670371224822,True
+GF_00239,111,111,1,1,0.009,0.99657,False,,DUF4327 family protein,Stress / membrane / uncharacterized,0.5644156981523553,True
+GF_02068,112,112,1,1,0.0089,0.99657,False,acnB,bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase,Other / unassigned,0.4146563160788059,True
+GF_02458,447,447,4,4,0.0089,1.0,False,rpsL,30S ribosomal protein S12,Housekeeping / lineage marker,0.0512532086320397,True
+GF_00206,115,115,1,1,0.0087,0.99656,False,tkt,transketolase,Other / unassigned,0.5353746920023568,True
+GF_00930,115,115,1,1,0.0087,0.99656,False,,ABC transporter ATP-binding protein,Transport,0.8347221057269311,True
+GF_00619,245,236,2,2,0.0085,0.99994,False,,LysR family transcriptional regulator,Regulation,0.5258609491888455,True
+GF_00376,126,126,1,1,0.0079,0.99832,False,pds,15-cis-phytoene desaturase,Other / unassigned,0.5233277131207178,True
+GF_00588,132,132,1,1,0.0076,0.99918,False,secG,preprotein translocase subunit SecG,Other / unassigned,0.3747293685217203,True
+GF_01559,131,131,1,1,0.0076,0.99918,False,rpsG,30S ribosomal protein S7,Housekeeping / lineage marker,0.5927026995255777,True
+GF_02111,134,134,1,1,0.0075,0.99918,False,prfA,peptide chain release factor 1,Other / unassigned,0.6708411734202541,True
+GF_00108,138,138,1,1,0.0072,0.99918,False,map,type I methionyl aminopeptidase,Housekeeping / lineage marker,0.8331962415917877,True
+GF_00066,140,140,1,1,0.0071,0.99917,False,,F0F1 ATP synthase subunit alpha,Housekeeping / lineage marker,0.6914205945749258,True
+GF_01102,140,140,1,1,0.0071,0.99917,False,rpsQ,30S ribosomal protein S17,Housekeeping / lineage marker,0.6386234174450981,True
+GF_00625,285,285,2,2,0.007,0.99999,False,infA,translation initiation factor IF-1,Other / unassigned,0.5999677896411524,True
+GF_00865,145,145,1,1,0.0069,0.99917,False,gloA,lactoylglutathione lyase,Other / unassigned,0.627597313231244,True
+GF_00863,289,289,2,2,0.0069,0.99999,False,rplN,50S ribosomal protein L14,Housekeeping / lineage marker,0.3730609925363754,True
+GF_00337,291,291,2,2,0.0069,0.99999,False,thrC,threonine synthase,Other / unassigned,0.3095604952298595,True
+GF_00694,292,292,2,2,0.0068,0.99999,False,rplE,50S ribosomal protein L5,Housekeeping / lineage marker,0.2915137574294065,True
+GF_01136,155,155,1,1,0.0065,0.99959,False,,photosystem II reaction center protein J,Housekeeping / lineage marker,0.3645882385176507,True
+GF_01566,159,157,1,1,0.0064,0.99959,False,,GDP-L-fucose synthase family protein,Other / unassigned,0.7326621716270042,True
+GF_00390,164,164,1,1,0.0061,0.9998,False,,S-(hydroxymethyl)glutathione dehydrogenase/class III alcohol dehydrogenase,Other / unassigned,0.5159215600723899,True
+GF_00112,168,168,1,1,0.006,0.9998,False,,radical SAM protein,Other / unassigned,0.6210428142200971,True
+GF_00979,175,175,1,1,0.0057,0.9998,False,glyA,serine hydroxymethyltransferase,Other / unassigned,0.4704445314497001,True
+GF_00915,174,174,1,1,0.0057,0.9998,False,,ABC-F family ATP-binding cassette domain-containing protein,Other / unassigned,0.4264032731701196,True
+GF_02395,185,185,1,1,0.0054,0.9999,False,bchI,magnesium chelatase ATPase subunit I,Other / unassigned,0.7718497342911622,True
+GF_00360,449,448,2,2,0.0045,1.0,False,rpsK,30S ribosomal protein S11,Housekeeping / lineage marker,0.0426209567148008,True
+GF_02028,248,247,1,1,0.004,0.99999,False,rpsM,30S ribosomal protein S13,Housekeeping / lineage marker,0.311216324767492,True
+GF_02162,309,308,1,1,0.0032,1.0,False,rpmJ,50S ribosomal protein L36,Housekeeping / lineage marker,0.363710586010994,True
+GF_01609,93,93,0,0,0.0,1.0,False,,hypothetical protein,Stress / membrane / uncharacterized,0.40772549402166,True
+GF_00052,53,53,0,0,0.0,1.0,False,,ribosome-binding factor A,Other / unassigned,0.2694145502589259,True
+GF_00208,100,100,0,0,0.0,1.0,False,,NAD(P)/FAD-dependent oxidoreductase,Other / unassigned,0.4593054199690096,True
+GF_00176,108,108,0,0,0.0,1.0,False,rplM,50S ribosomal protein L13,Housekeeping / lineage marker,0.5395587736031057,True
+GF_00202,55,55,0,0,0.0,1.0,False,,DUF3593 domain-containing protein,Stress / membrane / uncharacterized,0.1803169157628719,True
+GF_00970,63,63,0,0,0.0,1.0,False,,photosystem I reaction center subunit IV,Housekeeping / lineage marker,0.4924484743333832,True
+GF_00099,50,49,0,0,0.0,1.0,False,,type II toxin-antitoxin system HicB family antitoxin,Other / unassigned,0.6891516925593809,True
+GF_00185,62,62,0,0,0.0,1.0,False,fbp,class 1 fructose-bisphosphatase,Other / unassigned,0.5779214470249266,True
+GF_01867,56,56,0,0,0.0,1.0,False,,ABA4-like family protein,Other / unassigned,0.3816671113973355,True
+GF_01670,169,169,0,0,0.0,1.0,False,rpsE,30S ribosomal protein S5,Housekeeping / lineage marker,0.5272551099158577,True
+GF_00146,41,41,0,0,0.0,1.0,False,ndhA,NADH dehydrogenase subunit 1,Respiration & bioenergetics,0.5941738404637582,True
+GF_02515,72,72,0,0,0.0,1.0,False,,DUF2499 domain-containing protein,Stress / membrane / uncharacterized,0.1908341685865429,True
+GF_01668,126,126,0,0,0.0,1.0,False,clpS,ATP-dependent Clp protease adapter ClpS,Other / unassigned,0.601135568279539,True
+GF_00216,40,40,0,0,0.0,1.0,False,,carbon-nitrogen hydrolase family protein,Other / unassigned,0.3293628973816312,True
+GF_00824,53,53,0,0,0.0,1.0,False,,NIL domain-containing protein,Other / unassigned,0.5102901268947356,True
+GF_02394,54,54,0,0,0.0,1.0,False,hisD,histidinol dehydrogenase,Other / unassigned,0.3647608201589379,True
+GF_00969,118,118,0,0,0.0,1.0,False,aspA,aspartate ammonia-lyase,Other / unassigned,0.6544249324056237,True
+GF_01949,84,84,0,0,0.0,1.0,False,,Na(+)/H(+) antiporter subunit B,Other / unassigned,0.4193253365605845,True
+GF_00829,48,48,0,0,0.0,1.0,False,,NUDIX hydrolase,Other / unassigned,0.6615670959972709,True
+GF_00859,40,40,0,0,0.0,1.0,False,zwf,glucose-6-phosphate dehydrogenase,Other / unassigned,0.4580616129866074,True
+GF_01649,99,99,0,0,0.0,1.0,False,,phosphomannose isomerase type II C-terminal cupin domain,Other / unassigned,0.5648880877740253,True
+GF_00691,42,41,0,0,0.0,1.0,False,kdpB,potassium-transporting ATPase subunit KdpB,Transport,0.6154378600818324,True
+GF_01965,117,117,0,0,0.0,1.0,False,,response regulator transcription factor,Regulation,0.5926834116293166,True
+GF_01925,69,69,0,0,0.0,1.0,False,,DUF3593 domain-containing protein,Stress / membrane / uncharacterized,0.6633119157989414,True
+GF_01736,43,43,0,0,0.0,1.0,False,urtE,urea ABC transporter ATP-binding subunit UrtE,Transport,0.3874179000147656,True
+GF_00644,40,40,0,0,0.0,1.0,False,ndhK,photosynthetic/respiratory NAD(P)H-quinone oxidoreductase subunit K,Respiration & bioenergetics,0.4183265487480856,True
+GF_00910,71,71,0,0,0.0,1.0,False,,hypothetical protein,Stress / membrane / uncharacterized,0.3283984471202701,True
+GF_02113,163,163,0,0,0.0,1.0,False,rpsH,30S ribosomal protein S8,Housekeeping / lineage marker,0.3353395357414177,True
+GF_01222,95,95,0,0,0.0,1.0,False,,Dps family protein,Other / unassigned,0.5339888198366053,True
+GF_01823,55,55,0,0,0.0,1.0,False,,creatininase family protein,Other / unassigned,0.2460063763628154,True
+GF_00584,107,107,0,0,0.0,1.0,False,,iron-sulfur cluster assembly accessory protein,Metallocluster & Fe-S biogenesis,0.2617722094970969,True
+GF_01503,106,106,0,0,0.0,1.0,False,ilvN,acetolactate synthase small subunit,Other / unassigned,0.3639930709440737,True
+GF_00558,140,140,0,0,0.0,1.0,False,rpmE,50S ribosomal protein L31,Housekeeping / lineage marker,0.6154556826999682,True
+GF_01701,100,100,0,0,0.0,1.0,False,dusB,tRNA dihydrouridine synthase DusB,Other / unassigned,0.3797655236599617,True
+GF_01700,69,69,0,0,0.0,1.0,False,,type II toxin-antitoxin system HicB family antitoxin,Other / unassigned,0.5236011178024061,True
+GF_02212,134,134,0,0,0.0,1.0,False,,DUF3318 domain-containing protein,Stress / membrane / uncharacterized,0.7440742045684606,True
+GF_00945,69,69,0,0,0.0,1.0,False,,amino acid ABC transporter ATP-binding protein,Transport,0.3925123405006731,True
+GF_02360,63,63,0,0,0.0,1.0,False,psbE,cytochrome b559 subunit alpha,Housekeeping / lineage marker,0.6108856811263198,True
+GF_00330,208,208,0,0,0.0,1.0,False,,rod shape-determining protein,Other / unassigned,0.7120510231842242,True
+GF_00957,53,53,0,0,0.0,1.0,False,hpnJ,hopanoid biosynthesis associated radical SAM protein HpnJ,Other / unassigned,0.4074847433673739,True
+GF_00406,51,51,0,0,0.0,1.0,False,rpsQ,30S ribosomal protein S17,Housekeeping / lineage marker,0.3862550514444879,True

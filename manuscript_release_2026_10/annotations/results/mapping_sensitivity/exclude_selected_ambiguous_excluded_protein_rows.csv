@@ -1,0 +1,6 @@
+uniprot_id,driver_score,driver_rank,protein_name,organism,length,in_training_positive,withheld_family,cluster_id,label_name,label_source,driver_rank_cyano,direct_family,cluster_family,gene_family,cluster_only,selected_accession,selected_ambiguous
+WP_010995115.1,3.620542919592323e-07,30023,photosystem II reaction center X protein,Nostoc sp. PCC 7120,39,False,False,Q31LM3,,,30016,GF_00410,,GF_00410,False,WP_010995115.1,True
+WP_010995197.1,4.97524156388834e-07,27697,TIGR02652 family protein,Nostoc sp. PCC 7120,170,False,False,Q31LS9,,,27690,GF_01480,,GF_01480,False,WP_010995197.1,True
+WP_010995757.1,6.633866544007407e-06,9152,Hsp33 family molecular chaperone HslO,Nostoc sp. PCC 7120,301,False,False,Q31QS8,,,9146,GF_00621,,GF_00621,False,WP_010995757.1,True
+WP_010998954.1,5.906840566920187e-07,26130,GDP-L-fucose synthase family protein,Nostoc sp. PCC 7120,314,False,False,B0JKM3,,,26123,GF_02184,,GF_02184,False,WP_010998954.1,True
+WP_010994181.1,0.0256816515079884,714,F0F1 ATP synthase subunit gamma,Nostoc sp. PCC 7120,315,False,False,P12408,,,712,GF_00615,,GF_00615,False,WP_010994181.1,True

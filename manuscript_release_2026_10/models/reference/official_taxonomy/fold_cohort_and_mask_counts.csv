@@ -1,0 +1,11 @@
+scenario,fold,n_train,n_test,n_train_pos,n_test_pos,n_train_genera,n_test_genera,n_train_official_genera,n_test_official_genera,n_features
+official_genus_resolved422,1,378,44,100,8,60,16,58,15,607
+official_genus_resolved422,2,276,146,93,15,61,15,58,15,635
+official_genus_resolved422,3,378,44,95,13,58,17,58,15,624
+official_genus_resolved422,4,269,153,55,53,61,14,59,14,636
+official_genus_resolved422,5,387,35,89,19,59,15,59,14,573
+official_genus_current_only,1,302,96,93,10,55,15,56,14,542
+official_genus_current_only,2,346,52,83,20,56,15,56,14,614
+official_genus_current_only,3,339,59,61,42,57,14,56,14,633
+official_genus_current_only,4,232,166,87,16,58,14,56,14,629
+official_genus_current_only,5,373,25,88,15,56,14,56,14,613

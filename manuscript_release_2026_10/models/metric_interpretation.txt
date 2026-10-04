@@ -1,0 +1,57 @@
+Metric definitions and manuscript interpretation
+
+Mean fold ROC-AUC gives each of the five held-out-genus folds equal weight and then
+averages the within-fold genome-weighted AUCs. The accompanying SD describes their
+spread; it is not a confidence interval. The folds contain 15 genera each but have
+29-144 genomes and different class proportions, so this average does not give each
+genome or each genus equal influence.
+
+Pooled genome-weighted OOF AUC combines the 426 out-of-fold probabilities and gives
+each genome equal weight. It also compares positives and negatives belonging to
+different test folds, whose scores come from separately fitted models. It therefore
+differs from mean fold AUC; the pooling should be explicitly labeled descriptive.
+
+Equal-total-genus-weighted pooled OOF AUC uses weight 1/n_g for each genome in genus
+g, where n_g is that genus's number of genomes in the evaluation panel. Every genus
+has total weight one. Weighted AUC is the probability that a weighted positive has
+a larger score than a weighted negative, counting ties as one half. The positive
+and negative weights are normalized separately in that calculation. A mixed-label
+genus contributes its positive fraction to positive weight and its negative fraction
+to negative weight; this is not exactly equal weight per class-contributing genus.
+
+Coverage: 75 genera contribute 112 positive and
+314 negative genomes. Positive genomes occur in 44 genera and
+negative genomes in 42 genera; 33 genera are positive-only,
+31 negative-only and 11 mixed. Equal-total-genus weighting yields
+positive class weight 37.677 and negative class weight 37.323, with
+Kish effective class-contributing genus counts 39.59 and
+39.24, respectively. These effective counts are (sum a_g)^2/sum a_g^2,
+where a_g is the genus's total class weight; they describe weight concentration,
+not independent sample sizes, degrees of freedom or inferential confidence bounds.
+The corresponding genome-weighted genus concentration equivalents are
+12.11 positive and 6.49 negative genera.
+Positive class prevalence is 112/426 = 26.29% with genome weights and
+50.24% with equal total genus weights. Average precision changes with this
+weight-dependent prevalence; compare AP between models under the same weighting,
+not directly across the genome-weighted and genus-weighted tasks.
+
+Suggested compact Results wording:
+"Mean fold ROC-AUC was 0.853-0.893 across the four classifiers (fold SD 0.078-0.181).
+Descriptive pooled OOF AUC was 0.856-0.921 with equal genome weights and 0.782-0.815
+when each genus had equal total weight. The latter comparison reduced the influence
+of genera represented by many genomes; positive and negative genomes occurred in
+44 and 42 genera, respectively. These summaries estimate different weighted
+prediction tasks, and none replaces independent external validation."
+
+Report all three definitions together if pooled results are shown. Do not select
+the largest AUC. Family-content and size-only models below use identical splits,
+metrics, runtime and default logistic-regression hyperparameters, without retuning.
+
+Per-class genus coverage by fold:
+ scope  n_genomes  n_genera  positive_genomes  negative_genomes  positive_contributing_genera  negative_contributing_genera  positive_only_genera  negative_only_genera  mixed_genera  positive_genus_weight  negative_genus_weight  positive_effective_genus_count  negative_effective_genus_count  positive_genome_weighted_effective_genus_count  negative_genome_weighted_effective_genus_count
+pooled        426        75               112               314                            44                            42                    33                    31            11              37.677315              37.322685                       39.594289                       39.240586                                       12.108108                                        6.492559
+     1         46        15                32                14                             6                             9                     6                     9             0               6.000000               9.000000                        6.000000                        9.000000                                        1.395095                                        7.538462
+     2        117        15                21                96                             8                             9                     6                     7             2               6.961039               8.038961                        7.243243                        8.319640                                        4.200000                                        1.791602
+     3         29        15                17                12                             9                            10                     5                     6             4               7.541667               7.458333                        8.476326                        8.394289                                        4.587302                                        9.000000
+     4        144        15                28               116                            14                             3                    12                     1             2              12.074610               2.925390                       12.146390                        2.998531                                        7.840000                                        1.616142
+     5         90        15                14                76                             7                            11                     4                     8             3               5.100000               9.900000                        5.844944                       10.595676                                        5.764706                                        3.450418

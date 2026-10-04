@@ -1,0 +1,485 @@
+{
+  "status": "Proposed revision for author review \u2014 ubiquitous-control exclusion",
+  "source_workbook_name": "proteomics_composite_family_evidence.xlsx",
+  "source_workbook_sha256": "a7348b545657e05563753bde14f8e4ddc37d099ce8ae333803e3bd7a25262708",
+  "original_workbook_unchanged": true,
+  "matrix_sha256": "e6d330006b66ad2272a72767ac5e92f0ad01ec4f106ed0447bf274d2512fce59",
+  "prior169_csv_sha256": null,
+  "independent_reconstruction_sha256": "d9ffbe741587de66a6f2fb3d1fc2043ea056f1b6b186d381ecfa7c2905bf8d43",
+  "rule": "Remove raw-ID atlas bonus and imported HGT penalty; retain HP offset 1.0; exclude ubiquitous families before tier assignment without changing their numeric scores or frozen inventory membership",
+  "composition_regex": "clp|chaperon|dnak|groe|grol|dnaj|grpe|release factor|translation|elongation factor|typa|trna|nyn|ribosom|isopropylmalate|threonine synthase|ketol-acid|dihydroxy-acid|aminomutase|amino acid",
+  "released": {
+    "all_families": 1457,
+    "all_crosstab": {
+      "Highly Pure": {
+        "Core/diagnostic control": 11,
+        "De-emphasize: housekeeping/lineage": 79,
+        "Tier A: story-leading accessory": 0,
+        "Tier B: strong cross-evidence accessory": 0,
+        "Tier E: lower current evidence": 886,
+        "Tier HP: evidence-supported high-purity marker": 5
+      },
+      "Model-Supported": {
+        "Core/diagnostic control": 1,
+        "De-emphasize: housekeeping/lineage": 81,
+        "Tier A: story-leading accessory": 31,
+        "Tier B: strong cross-evidence accessory": 138,
+        "Tier E: lower current evidence": 225,
+        "Tier HP: evidence-supported high-purity marker": 0
+      }
+    },
+    "shortlist_count": 174,
+    "shortlist_crosstab": {
+      "Highly Pure": {
+        "Tier A: story-leading accessory": 0,
+        "Tier B: strong cross-evidence accessory": 0,
+        "Tier HP: evidence-supported high-purity marker": 5
+      },
+      "Model-Supported": {
+        "Tier A: story-leading accessory": 31,
+        "Tier B: strong cross-evidence accessory": 138,
+        "Tier HP: evidence-supported high-purity marker": 0
+      }
+    },
+    "activeup_shortlist": 71,
+    "activeup_shortlist_crosstab": {
+      "Highly Pure": {
+        "Tier A: story-leading accessory": 0,
+        "Tier B: strong cross-evidence accessory": 0,
+        "Tier HP: evidence-supported high-purity marker": 3
+      },
+      "Model-Supported": {
+        "Tier A: story-leading accessory": 31,
+        "Tier B: strong cross-evidence accessory": 37,
+        "Tier HP: evidence-supported high-purity marker": 0
+      }
+    },
+    "MS_AplusB_count": 169,
+    "MS_AplusB_mean_score": 5.3840236686390535,
+    "MS_AplusB_score_decomposition": {
+      "model_score": {
+        "mean": 2.0,
+        "fraction_of_mean_score": 0.3714693922409056
+      },
+      "literature_proteomics_score": {
+        "mean": 0.5088757396449705,
+        "fraction_of_mean_score": 0.09451588086602924
+      },
+      "related_atlas_score": {
+        "mean": 0.1257396449704142,
+        "fraction_of_mean_score": 0.023354214748873503
+      },
+      "condensate_score": {
+        "mean": 0.07928994082840236,
+        "fraction_of_mean_score": 0.014726893065171996
+      },
+      "morphotype_breadth_score": {
+        "mean": 2.6701183431952664,
+        "fraction_of_mean_score": 0.49593361907901967
+      }
+    },
+    "TierB_zero_scored_external_components": 60,
+    "TierA_both_morphotype_flags": 31,
+    "TierA_regex_composition_count": 18,
+    "TierA_regex_composition_denominator": 31,
+    "TierA_regex_composition_fraction": 0.5806451612903226,
+    "TierA_regex_composition_ids": [
+      "GF_00658",
+      "GF_00143",
+      "GF_00623",
+      "GF_01387",
+      "GF_00051",
+      "GF_00771",
+      "GF_01233",
+      "GF_01542",
+      "GF_01689",
+      "GF_00614",
+      "GF_00741",
+      "GF_00079",
+      "GF_00622",
+      "GF_01799",
+      "GF_00290",
+      "GF_02262",
+      "GF_01376",
+      "GF_01479"
+    ],
+    "TierA_story_role_counts": {
+      "Other / unassigned": 10,
+      "Proteostasis, translation, and repair": 8,
+      "Carbon flux and reductant supply": 5,
+      "Transport and envelope remodeling": 2,
+      "Respiration and bioenergetics": 2,
+      "Metallocluster and cofactor support": 2,
+      "Oxygen, redox, and stress protection": 2
+    },
+    "TierA_module_bin_counts": {
+      "Other / unassigned": 27,
+      "O2 protection & redox homeostasis": 1,
+      "Transport": 1,
+      "Respiration & bioenergetics": 1,
+      "Stress / membrane / uncharacterized": 1
+    },
+    "model_importance_vs_score_spearman": 0.10274891643963287,
+    "median_model_importance_percentile_TierA": 0.5446570972886763,
+    "median_model_importance_percentile_other_than_A_B": 0.4784688995215311,
+    "shortlist_top10_condensate": 29,
+    "shortlist_broad_flag": 174,
+    "shortlist_strict_flag": 163
+  },
+  "prior169": {
+    "all_families": 1457,
+    "all_crosstab": {
+      "Highly Pure": {
+        "Core/diagnostic control": 11,
+        "De-emphasize: housekeeping/lineage": 79,
+        "Tier A: story-leading accessory": 0,
+        "Tier B: strong cross-evidence accessory": 0,
+        "Tier E: lower current evidence": 886,
+        "Tier HP: evidence-supported high-purity marker": 5
+      },
+      "Model-Supported": {
+        "Core/diagnostic control": 1,
+        "De-emphasize: housekeeping/lineage": 81,
+        "Tier A: story-leading accessory": 22,
+        "Tier B: strong cross-evidence accessory": 142,
+        "Tier E: lower current evidence": 230,
+        "Tier HP: evidence-supported high-purity marker": 0
+      }
+    },
+    "shortlist_count": 169,
+    "shortlist_crosstab": {
+      "Highly Pure": {
+        "Tier A: story-leading accessory": 0,
+        "Tier B: strong cross-evidence accessory": 0,
+        "Tier HP: evidence-supported high-purity marker": 5
+      },
+      "Model-Supported": {
+        "Tier A: story-leading accessory": 22,
+        "Tier B: strong cross-evidence accessory": 142,
+        "Tier HP: evidence-supported high-purity marker": 0
+      }
+    },
+    "activeup_shortlist": 66,
+    "activeup_shortlist_crosstab": {
+      "Highly Pure": {
+        "Tier A: story-leading accessory": 0,
+        "Tier B: strong cross-evidence accessory": 0,
+        "Tier HP: evidence-supported high-purity marker": 3
+      },
+      "Model-Supported": {
+        "Tier A: story-leading accessory": 22,
+        "Tier B: strong cross-evidence accessory": 41,
+        "Tier HP: evidence-supported high-purity marker": 0
+      }
+    },
+    "MS_AplusB_count": 164,
+    "MS_AplusB_mean_score": 5.289024390243903,
+    "MS_AplusB_score_decomposition": {
+      "model_score": {
+        "mean": 2.0,
+        "fraction_of_mean_score": 0.3781415725155637
+      },
+      "literature_proteomics_score": {
+        "mean": 0.49390243902439024,
+        "fraction_of_mean_score": 0.09338252248097761
+      },
+      "related_atlas_score": {
+        "mean": 0.0,
+        "fraction_of_mean_score": 0.0
+      },
+      "condensate_score": {
+        "mean": 0.08170731707317072,
+        "fraction_of_mean_score": 0.01544846668203827
+      },
+      "morphotype_breadth_score": {
+        "mean": 2.7134146341463414,
+        "fraction_of_mean_score": 0.5130274383214203
+      }
+    },
+    "TierB_zero_scored_external_components": 78,
+    "TierA_both_morphotype_flags": 22,
+    "TierA_regex_composition_count": 16,
+    "TierA_regex_composition_denominator": 22,
+    "TierA_regex_composition_fraction": 0.7272727272727273,
+    "TierA_regex_composition_ids": [
+      "GF_00658",
+      "GF_00623",
+      "GF_01387",
+      "GF_00051",
+      "GF_00143",
+      "GF_00771",
+      "GF_01233",
+      "GF_01542",
+      "GF_01689",
+      "GF_00614",
+      "GF_01799",
+      "GF_00290",
+      "GF_02262",
+      "GF_00741",
+      "GF_01376",
+      "GF_01479"
+    ],
+    "TierA_story_role_counts": {
+      "Other / unassigned": 8,
+      "Proteostasis, translation, and repair": 7,
+      "Carbon flux and reductant supply": 3,
+      "Transport and envelope remodeling": 1,
+      "Oxygen, redox, and stress protection": 1,
+      "Respiration and bioenergetics": 1,
+      "Metallocluster and cofactor support": 1
+    },
+    "TierA_module_bin_counts": {
+      "Other / unassigned": 22
+    },
+    "model_importance_vs_score_spearman": 0.10397218199770628,
+    "median_model_importance_percentile_TierA": 0.5187400318979266,
+    "median_model_importance_percentile_other_than_A_B": 0.47747208931419455,
+    "shortlist_top10_condensate": 29,
+    "shortlist_broad_flag": 169,
+    "shortlist_strict_flag": 163
+  },
+  "corrected": {
+    "all_families": 1457,
+    "all_crosstab": {
+      "Highly Pure": {
+        "Core/diagnostic control": 11,
+        "De-emphasize: housekeeping/lineage": 79,
+        "Tier A: story-leading accessory": 0,
+        "Tier B: strong cross-evidence accessory": 0,
+        "Tier E: lower current evidence": 886,
+        "Tier HP: evidence-supported high-purity marker": 5,
+        "Ubiquitous control: no presence/absence contrast": 0
+      },
+      "Model-Supported": {
+        "Core/diagnostic control": 1,
+        "De-emphasize: housekeeping/lineage": 80,
+        "Tier A: story-leading accessory": 22,
+        "Tier B: strong cross-evidence accessory": 140,
+        "Tier E: lower current evidence": 230,
+        "Tier HP: evidence-supported high-purity marker": 0,
+        "Ubiquitous control: no presence/absence contrast": 3
+      }
+    },
+    "shortlist_count": 167,
+    "shortlist_crosstab": {
+      "Highly Pure": {
+        "Tier A: story-leading accessory": 0,
+        "Tier B: strong cross-evidence accessory": 0,
+        "Tier HP: evidence-supported high-purity marker": 5
+      },
+      "Model-Supported": {
+        "Tier A: story-leading accessory": 22,
+        "Tier B: strong cross-evidence accessory": 140,
+        "Tier HP: evidence-supported high-purity marker": 0
+      }
+    },
+    "activeup_shortlist": 65,
+    "activeup_shortlist_crosstab": {
+      "Highly Pure": {
+        "Tier A: story-leading accessory": 0,
+        "Tier B: strong cross-evidence accessory": 0,
+        "Tier HP: evidence-supported high-purity marker": 3
+      },
+      "Model-Supported": {
+        "Tier A: story-leading accessory": 22,
+        "Tier B: strong cross-evidence accessory": 40,
+        "Tier HP: evidence-supported high-purity marker": 0
+      }
+    },
+    "MS_AplusB_count": 162,
+    "MS_AplusB_mean_score": 5.288271604938272,
+    "MS_AplusB_score_decomposition": {
+      "model_score": {
+        "mean": 2.0,
+        "fraction_of_mean_score": 0.3781954009571612
+      },
+      "literature_proteomics_score": {
+        "mean": 0.49382716049382713,
+        "fraction_of_mean_score": 0.09338158048324967
+      },
+      "related_atlas_score": {
+        "mean": 0.0,
+        "fraction_of_mean_score": 0.0
+      },
+      "condensate_score": {
+        "mean": 0.08148148148148147,
+        "fraction_of_mean_score": 0.015407960779736194
+      },
+      "morphotype_breadth_score": {
+        "mean": 2.712962962962963,
+        "fraction_of_mean_score": 0.5130150577798529
+      }
+    },
+    "TierB_zero_scored_external_components": 78,
+    "TierA_both_morphotype_flags": 22,
+    "TierA_regex_composition_count": 16,
+    "TierA_regex_composition_denominator": 22,
+    "TierA_regex_composition_fraction": 0.7272727272727273,
+    "TierA_regex_composition_ids": [
+      "GF_00658",
+      "GF_00623",
+      "GF_01387",
+      "GF_00051",
+      "GF_00143",
+      "GF_00771",
+      "GF_01233",
+      "GF_01542",
+      "GF_01689",
+      "GF_00614",
+      "GF_01799",
+      "GF_00290",
+      "GF_02262",
+      "GF_00741",
+      "GF_01376",
+      "GF_01479"
+    ],
+    "TierA_story_role_counts": {
+      "Other / unassigned": 8,
+      "Proteostasis, translation, and repair": 7,
+      "Carbon flux and reductant supply": 3,
+      "Transport and envelope remodeling": 1,
+      "Oxygen, redox, and stress protection": 1,
+      "Respiration and bioenergetics": 1,
+      "Metallocluster and cofactor support": 1
+    },
+    "TierA_module_bin_counts": {
+      "Other / unassigned": 22
+    },
+    "model_importance_vs_score_spearman": 0.10397218199770628,
+    "median_model_importance_percentile_TierA": 0.5187400318979266,
+    "median_model_importance_percentile_other_than_A_B": 0.4758771929824561,
+    "shortlist_top10_condensate": 29,
+    "shortlist_broad_flag": 167,
+    "shortlist_strict_flag": 161,
+    "model_importance_vs_score_spearman_scope": "All 476 frozen Model-Supported families, including the three excluded ubiquitous controls; numeric scores unchanged.",
+    "model_importance_vs_score_spearman_estimable473": 0.11551128287480088,
+    "model_importance_vs_score_spearman_estimable_n": 473,
+    "frozen_MS_count": 476,
+    "ubiquitous_control_count": 3,
+    "activeup_control_count": 1,
+    "Figure3_TierA_unchanged": true,
+    "Figure5_scope": "Keep the frozen 476 Model-Supported families in diagnostic strata; 16/22 Tier A composition is unchanged. These full-inventory diagnostics include three ubiquitous controls excluded from shortlist eligibility."
+  },
+  "score_changed_count": 111,
+  "tier_changed_count": 17,
+  "tier_changed_vs169_count": 3,
+  "numeric_score_changed_vs169_count": 0,
+  "removed_ids": [
+    "GF_01297",
+    "GF_01945",
+    "GF_00866",
+    "GF_00969",
+    "GF_01635",
+    "GF_01675",
+    "GF_01819"
+  ],
+  "removed_vs169_ids": [
+    "GF_01297",
+    "GF_01945"
+  ],
+  "added_ids": [],
+  "control_records": [
+    {
+      "gene_family": "GF_01297",
+      "product": "cytochrome b6",
+      "candidate_set": "Model-Supported",
+      "prior169_priority_tier": "Tier B: strong cross-evidence accessory",
+      "priority_tier": "Ubiquitous control: no presence/absence contrast",
+      "scope_adjusted_story_score": 5.75,
+      "n_literature_active_phase_up_studies": 1,
+      "n_literature_mapped_studies": 3,
+      "consensus_rank_pct_mean": 0.0466507177,
+      "verified_carrier_count": 426,
+      "noncarrier_genome_count": 0
+    },
+    {
+      "gene_family": "GF_01945",
+      "product": "response regulator transcription factor RpaB",
+      "candidate_set": "Model-Supported",
+      "prior169_priority_tier": "Tier B: strong cross-evidence accessory",
+      "priority_tier": "Ubiquitous control: no presence/absence contrast",
+      "scope_adjusted_story_score": 4.95,
+      "n_literature_active_phase_up_studies": 0,
+      "n_literature_mapped_studies": 3,
+      "consensus_rank_pct_mean": 0.0466507177,
+      "verified_carrier_count": 426,
+      "noncarrier_genome_count": 0
+    },
+    {
+      "gene_family": "GF_01899",
+      "product": "30S ribosomal protein S10",
+      "candidate_set": "Model-Supported",
+      "prior169_priority_tier": "De-emphasize: housekeeping/lineage",
+      "priority_tier": "Ubiquitous control: no presence/absence contrast",
+      "scope_adjusted_story_score": 3.95,
+      "n_literature_active_phase_up_studies": 0,
+      "n_literature_mapped_studies": 4,
+      "consensus_rank_pct_mean": 0.0466507177,
+      "verified_carrier_count": 426,
+      "noncarrier_genome_count": 0
+    }
+  ],
+  "independent_raw_input_reconstruction_agreement": "All 1457 numeric scores match the existing independent raw-input reconstruction; tiers match after the independently matrix-verified ubiquitous-control exclusion.",
+  "importance_checks": [
+    {
+      "gene_family": "GF_01297",
+      "model": "Random_Forest",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01899",
+      "model": "Random_Forest",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01945",
+      "model": "Random_Forest",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01297",
+      "model": "Gradient_Boosting",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01899",
+      "model": "Gradient_Boosting",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01945",
+      "model": "Gradient_Boosting",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01297",
+      "model": "Logistic_Regression",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01899",
+      "model": "Logistic_Regression",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01945",
+      "model": "Logistic_Regression",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01297",
+      "model": "XGBoost",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01899",
+      "model": "XGBoost",
+      "importance": 0.0
+    },
+    {
+      "gene_family": "GF_01945",
+      "model": "XGBoost",
+      "importance": 0.0
+    }
+  ]
+}

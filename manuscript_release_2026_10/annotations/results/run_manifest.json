@@ -1,0 +1,124 @@
+[
+  {
+    "step": "01_reconstruction",
+    "seconds": 35.297,
+    "returncode": 0,
+    "command": [
+      "python",
+      "scripts/reconstruct_annotations.py",
+      "--inputs",
+      "inputs",
+      "--output-dir",
+      "results\\reconstruction"
+    ]
+  },
+  {
+    "step": "02_current167",
+    "seconds": 28.328,
+    "returncode": 0,
+    "command": [
+      "python",
+      "scripts/score_current.py",
+      "--workbook",
+      "inputs/released/proteomics_composite_family_evidence.xlsx",
+      "--matrix",
+      "inputs/raw/gene_family_matrix.csv",
+      "--independent-reconstruction",
+      "results\\reconstruction\\score_family_reconstruction.json",
+      "--output-dir",
+      "results\\current167"
+    ]
+  },
+  {
+    "step": "03_historical_diagnostics",
+    "seconds": 45.266,
+    "returncode": 0,
+    "command": [
+      "python",
+      "scripts/historical_diagnostics.py",
+      "--workbook",
+      "inputs/released/proteomics_composite_family_evidence.xlsx",
+      "--matrix",
+      "inputs/raw/gene_family_matrix.csv",
+      "--labels",
+      "inputs/raw/complete_genomes_labeled.csv"
+    ]
+  },
+  {
+    "step": "04_independent_regressions",
+    "seconds": 18.469,
+    "returncode": 0,
+    "command": [
+      "python",
+      "scripts/independent_regressions.py",
+      "--workbook",
+      "inputs/released/proteomics_composite_family_evidence.xlsx",
+      "--output-json",
+      "results\\diagnostics\\independent_regressions.json"
+    ]
+  },
+  {
+    "step": "05_mapping_sensitivity",
+    "seconds": 14.343,
+    "returncode": 0,
+    "command": [
+      "python",
+      "scripts/mapping_sensitivity.py",
+      "--corrected-csv",
+      "results\\current167\\corrected_AllComposite.csv",
+      "--output-dir",
+      "results\\mapping_sensitivity"
+    ]
+  },
+  {
+    "step": "06_model_rank_from_saved_outputs",
+    "seconds": 58.454,
+    "returncode": 0,
+    "command": [
+      "python",
+      "rank_audit/run_rank_audit.py",
+      "--out",
+      "results\\model_rank",
+      "--verify"
+    ]
+  },
+  {
+    "step": "07_current_shortlist_rank",
+    "seconds": 2.046,
+    "returncode": 0,
+    "command": [
+      "python",
+      "scripts/current_shortlist_rank.py",
+      "--all-composite-csv",
+      "results\\current167\\corrected_AllComposite.csv",
+      "--rank-dir",
+      "results\\model_rank",
+      "--output-dir",
+      "results\\rank_sensitivity"
+    ]
+  },
+  {
+    "step": "08_figures",
+    "seconds": 10.516,
+    "returncode": 0,
+    "command": [
+      "python",
+      "scripts/plot_figures.py",
+      "--all-composite-csv",
+      "results\\current167\\corrected_AllComposite.csv",
+      "--output-dir",
+      "results\\figures"
+    ]
+  },
+  {
+    "step": "09_verification",
+    "seconds": 2.359,
+    "returncode": 0,
+    "command": [
+      "python",
+      "scripts/verify_reproduction.py",
+      "--results",
+      "results"
+    ]
+  }
+]

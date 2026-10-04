@@ -1,0 +1,63 @@
+CONDENSATE MAPPING SENSITIVITY — author-review analysis, not a source-data rewrite
+
+The independent reconstruction matches all 1,311 released family best scores,
+ranks and mapped-row counts. It also reproduces the v2 condensate component and
+tier for all1,457 candidate rows before applying any sensitivity exclusions.
+Every source file and the current167-family scoring artifact remains unchanged.
+
+1. Accession ambiguity
+The source protein accession map has55 accessions with multiple retained GF
+memberships. Only5 selected condensate mappings use those ambiguous accessions.
+Excluding those5 rows makes five family annotations missing. Only one scored
+condensate component changes: GF_00615 (F0F1 ATP synthase gamma),0.4→0.0. It remains
+excluded as housekeeping. All167 shortlisted families and all22 TierA remain,
+with65 active-phase-up annotations. This result does not resolve the underlying
+accession ambiguity; it bounds its effect on this prioritization rule.
+
+2. Homolog-cluster fallback
+804/2,125 mapped protein rows use cluster_id because the direct protein accession
+does not map. Removing these804 rows leaves1,321 direct rows covering ALL1,311
+families. Thus fallback adds no family coverage in this dataset, but it changes
+the released best score/rank for164 families (218 families have at least one
+fallback row). This distinction matters when describing the overlay: some best
+scores come from the homolog-cluster transfer, not the directly mapped protein.
+
+Two prespecified analyses keep the original1,311-family denominator/reference:
+- Conservative missing annotation: if the retained direct rows no longer supply
+  the released best score/rank, disable that family's condensate annotation and
+  set its component to0. Unaffected family ranks remain fixed.36 candidate
+  numeric scores change.
+- Fixed-reference placement: for a changed best value, position the best retained
+  direct score (then cyano rank) against the ORIGINAL family reference, excluding
+  its own original entry, with denominator1,311. This is a sensitivity placement,
+  not a reranking of all surviving families.22 candidate numeric scores change.
+
+Both analyses produce the same sole tier migration: GF_02157 (acetolactate
+synthase small subunit) falls from TierB to TierE. Its released percentile is
+76/1,311 (5.80%) and composite score4.55. The direct-only best score places at
+145/1,311 (11.06%), lowering the condensate component0.30→0.20 and final score
+4.55→4.45, just below4.5. Disabling the annotation entirely gives4.25.
+The sensitivity shortlist is166 =22A+139B+5HP, with64 active-up annotations.
+All22 TierA memberships and condensate best annotations remain unchanged.
+
+3. Combined exclusion
+Removing both types excludes809 rows. The same sole GF_02157 tier migration
+occurs. No additional family leaves the shortlist. Selected direct mappings
+retain the source direct-first policy, including the22 cases where the mapped
+cluster ID points to another family. These conflicts are disclosed separately;
+they are not automatically evidence that the direct mapping is wrong.
+
+Interpretation for manuscript/author decision
+The22-family TierA band is insensitive to these two mapping choices; the broader
+shortlist has one borderline family whose TierB placement depends on fallback
+scoring. This is robustness of a heuristic threshold, not biological validation,
+equivalence of mapping strategies, or a demonstrated causal role of condensates.
+Keep167 as the explicitly defined v2 rule if retaining the historical mapping,
+and report166 in the direct-only sensitivity. Alternatively choose a direct-only
+rule explicitly and update dependent counts; do not silently replace the167
+artifact or recompute all percentiles using a smaller denominator. Full-inventory
+diagnostics should identify which mapping/percentile convention they use.
+
+Execution: audit_condensate_mapping_sensitivity.py --help lists portable inputs.
+summary.json provides hashes and exact results; row-level excluded mappings,
+family annotation changes and all score/tier tables are stored alongside this note.

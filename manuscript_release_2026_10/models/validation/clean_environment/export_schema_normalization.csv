@@ -1,0 +1,7 @@
+source,table,derived_field,definition
+reference,fold_metrics.csv,genus_overlap,checked literal-genus fold disjointness
+reference,summary.csv,pooled_accuracy,independently calculated from saved OOF labels/predicted classes
+reference,summary.csv,pooled_precision,independently calculated from saved OOF labels/predicted classes
+reference,summary.csv,pooled_recall,independently calculated from saved OOF labels/predicted classes
+reference,summary.csv,pooled_f1,independently calculated from saved OOF labels/predicted classes
+clean,summary.csv,pooled_minus_mean_auc,pooled_roc_auc minus roc_auc_mean
