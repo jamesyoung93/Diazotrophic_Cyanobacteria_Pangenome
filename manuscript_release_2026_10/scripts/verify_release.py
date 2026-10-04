@@ -70,8 +70,26 @@ def main():
         assert digest(ROOT / f'figures/Figure5.{extension}') == digest(
             ROOT / f'annotations/results/figures/Figure5_annotation_diagnostics.{extension}')
 
-    # Check current release documentation, not historical quoted source material.
-    documents = [ROOT / 'README.md', ROOT / 'RELEASE_NOTES.md', *sorted((ROOT / 'docs').glob('*.md'))]
+    supporting = json.loads((ROOT / 'validation/SUPPORTING_TABLES_SOURCE.json').read_text(encoding='utf-8'))
+    for name, source in supporting.items():
+        assert digest(ROOT / name) == source['sha256'], f'Supporting table changed: {name}'
+    counts['supporting_tables'] = len(supporting)
+
+    # Guard the current-release layout and the user-facing navigation.
+    repo = ROOT.parent
+    for obsolete in ('manuscript_release_2026_06', 'analysis', '.zenodo.json',
+                     'unified_pipeline_clean/unified_pipeline_run_public',
+                     'unified_pipeline_clean/nif_hdk_scan_release_clean/logs'):
+        assert not (repo / obsolete).exists(), f'Superseded material returned: {obsolete}'
+    for obsolete in ('prior169_AllComposite.csv', 'prior169_TopFamilies.csv',
+                     'released_AllComposite.csv', 'released_TopFamilies.csv', 'workbook_payload.json'):
+        assert not (ROOT / 'annotations/results/current167' / obsolete).exists(), obsolete
+    documents = [repo / 'README.md', ROOT / 'README.md',
+                 ROOT / 'annotations/README.md', ROOT / 'models/README.md',
+                 ROOT / 'models/validation/VALIDATION.md', ROOT / 'tables/README.md',
+                 repo / 'unified_pipeline_clean/README.md',
+                 *sorted((repo / 'unified_pipeline_clean/docs').glob('*.md')),
+                 *sorted((ROOT / 'docs').glob('*.md'))]
     link_count = 0
     for document in documents:
         for target in re.findall(r'\]\(([^)]+)\)', document.read_text(encoding='utf-8')):

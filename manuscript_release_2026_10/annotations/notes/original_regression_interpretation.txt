@@ -1,5 +1,5 @@
-Independent statistical audit of source package v2 diagnostics
-Source: outputs/repo_cleanup_work/manuscript_release_2026_06/workbooks/proteomics_composite_family_evidence.xlsx, AllComposite.
+Detection-opportunity and prevalence diagnostics
+Source: inputs/released/proteomics_composite_family_evidence.xlsx, AllComposite.
 Reproducibility: independent_checks.py; numerical output independent_checks.txt.
 
 The original regressions reproduce. They justify cautious annotation/resource framing but do not establish that every external evidence layer is explained by prevalence or detectability.

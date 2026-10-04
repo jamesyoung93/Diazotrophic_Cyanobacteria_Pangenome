@@ -1,120 +1,32 @@
-# Protein-family pangenome analysis of cyanobacterial diazotrophy
+# Beyond nif
 
-This repository contains the reproducible code and manuscript-facing result tables for a cyanobacterial pangenome analysis of diazotrophy beyond canonical `nif` genes.
+Data and code for **Predicting cyanobacterial diazotrophy and prioritizing candidate protein families beyond Nif**.
 
-The original unified workflow performs:
+The analysis uses 426 cyanobacterial assemblies and 2,286 protein families. It evaluates prediction across held-out genus groups and supplies two candidate inventories: 476 Model-Supported and 981 Highly Pure families. The current experimental shortlist contains **167 families: 22 Tier A, 140 Tier B and 5 Highly Pure**. External annotations guide experimental selection; they do not independently validate biological function.
 
-- upstream detection of `nifH`, `nifD`, and `nifK` marker hits using profile HMM search;
-- assembly metadata enrichment and filtering to complete RefSeq (`GCF`) cyanobacterial genomes;
-- MMseqs2 protein-family clustering and presence/absence matrix construction;
-- supervised classification and feature ranking of protein families associated with diazotrophy;
-- postprocessing to separate historically Model-Supported candidates from high-purity diagnostic/context families.
+## Read the results
 
-## Current manuscript release
+| Resource | Contents |
+|---|---|
+| [Candidate workbook](manuscript_release_2026_10/annotations/results/current167/candidate_families.xlsx) | Formatted candidate tables |
+| [167-family shortlist](manuscript_release_2026_10/annotations/results/current167/corrected_TopFamilies.csv) | Current scores and tiers |
+| [Complete inventory](manuscript_release_2026_10/annotations/results/current167/corrected_AllComposite.csv) | All 1,457 families and annotations |
+| [Figures and captions](manuscript_release_2026_10/figures/) | Figures 1–5 and source material |
+| [Prediction results](manuscript_release_2026_10/models/reference/) | Fold metrics, predictions, feature masks and sensitivities |
+| [Cohort sensitivity](manuscript_release_2026_10/docs/COHORT_AND_TAXONOMY_SENSITIVITY.md) | Assembly status, sample profiles, taxonomy and prevalence |
+| [Annotation methods](manuscript_release_2026_10/docs/FUNCTIONAL_ANNOTATION.md) | Product-name patterns, keyword bins and interpretation limits |
 
-The [October 2026 release](manuscript_release_2026_10/README.md) contains the current analysis, figure assets, frozen inputs and reproducibility checks. Start with its [cohort sensitivity](manuscript_release_2026_10/docs/COHORT_AND_TAXONOMY_SENSITIVITY.md) and [functional annotation](manuscript_release_2026_10/docs/FUNCTIONAL_ANNOTATION.md) notes.
+## Reproduce the release
 
-The release preserves 476 historically Model-Supported and 981 Highly Pure families. The corrected shortlist contains 167 families. External proteomics, morphotype-proxy and condensate annotations guide experimental prioritization; they do not provide independent validation. The [June release](manuscript_release_2026_06/) remains available as a historical record.
+Use Python 3.10.16. From the repository root:
 
-## Directory layout
-
-- `manuscript_release_2026_10/`
-  Current frozen analysis, figures, detailed audit notes and automated checks.
-- `manuscript_release_2026_06/`
-  Historical June result tables, figure assets and overlay scripts.
-- `unified_pipeline_clean/`
-  Primary entrypoint for the core pangenome/modeling workflow.
-- `unified_pipeline_clean/nif_hdk_scan_release_clean/`
-  Upstream marker scan, hit summarization, and assembly metadata enrichment.
-- `unified_pipeline_clean/nif_downstream_code/`
-  Downstream pangenome build, modeling, and postprocessing scripts.
-- `tests/`
-  Lightweight unit tests for filtering and mode selection logic.
-- `docs/`
-  Reproducibility and archival guidance.
-- `scripts/`
-  Helper scripts for capturing environment metadata.
-
-## Quick start for HPC environments
-
-These steps reflect the environment used during pipeline bring up on an Lmod based HPC cluster. If your site uses different module names, adapt accordingly.
-
-### 1. Create and activate the conda environment
-
-NCBI Datasets CLI is required to fetch genome packages and metadata. Installation options are documented by NCBI at https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/.
-
-```bash
-# load your site conda or mamba module first if needed
-conda env create -f environment.yml
-conda activate pangenome_fox
+```sh
+python -m pip install -r requirements.txt
+python manuscript_release_2026_10/scripts/run_release_checks.py --out release_verification
 ```
 
-Alternatively, install `ncbi-datasets-cli` from conda-forge, or install the official binary from NCBI.
+Choose a new output directory. This command checks file integrity, reconstructs annotations, reproduces current scores and figure tables, and independently checks saved model metrics. It performs no model refits. GitHub Actions runs these checks on Windows.
 
-### 2. Load external tool modules
+For model refits, use the [model instructions](manuscript_release_2026_10/models/README.md). The [release guide](manuscript_release_2026_10/README.md) describes the data and reproducibility limits. The separate [sequence-processing workflow](unified_pipeline_clean/README.md) supplies acquisition, HMM scanning and clustering code.
 
-The pipeline expects the following command line tools to be available on PATH.
-
-```bash
-module load hmmer/3.4
-module load mmseqs2/15-6f452
-```
-
-Confirm availability.
-
-```bash
-which hmmsearch
-which mmseqs
-datasets --version
-python -V
-```
-
-### 3. Run the unified pipeline
-
-Set the NCBI Entrez email required by the download utilities.
-
-```bash
-export ENTREZ_EMAIL="your.email@institution.edu"
-```
-
-Run from the unified pipeline directory.
-
-```bash
-cd unified_pipeline_clean
-chmod u+x run_unified_pipeline.sh run_postprocess_09_12.sh
-grep '^GCF_' unified_pipeline_run/genome_accessions.txt > unified_pipeline_run/genome_accessions.gcf.txt
-mv unified_pipeline_run/genome_accessions.gcf.txt unified_pipeline_run/genome_accessions.txt
-
-./run_unified_pipeline.sh
-```
-
-### 4. Run postprocessing and manuscript tables
-
-Some compute environments block outbound requests to UniProt. If UniProt is blocked, run with `SKIP_UNIPROT_GO=1` to bypass UniProt GO enrichment.
-
-```bash
-python nif_downstream_code/build_protein_family_cds_from_gff3.py --run-dir unified_pipeline_run
-
-SKIP_UNIPROT_GO=1 ./run_postprocess_09_12.sh
-python regen_tier2_tables.py --run-dir unified_pipeline_run --clean
-```
-
-Outputs are written under `unified_pipeline_clean/unified_pipeline_run/`.
-
-## Citation and archival
-
-- GitHub citation files: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files
-- Zenodo GitHub release archiving: https://help.zenodo.org/docs/github/archive-software/github-upload/
-- Zenodo software metadata guidance: https://help.zenodo.org/docs/github/describe-software/
-
-See `docs/ZENODO_GITHUB.md` for a step by step release workflow.
-
-## Reproducibility checklist
-
-Before creating an archival release, capture the environment used for the run.
-
-```bash
-bash scripts/capture_repro_metadata.sh
-```
-
-This writes `reproducibility/` artifacts such as module lists and package inventories.
+The working tree contains the current release and its required source material. Prior versions are available through Git history.

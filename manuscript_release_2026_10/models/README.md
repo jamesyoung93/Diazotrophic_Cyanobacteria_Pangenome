@@ -1,4 +1,4 @@
-# Portable model audit v2
+# Prediction analysis and model replay
 
 For the October repository release, the [release check runner](../scripts/run_release_checks.py)
 verifies a copy of the saved model outputs, preserving the frozen references and
@@ -44,7 +44,7 @@ The included fresh-copy validation results record the actual reproducibility che
 
 The existing reference runtime reports SciPy module version 1.13.1 but installed
 distribution metadata 1.13.0. This disagreement is disclosed rather than treated
-as a clean installation. The reference runtime used threadpoolctl 3.5.0. The v2
+as a clean installation. The reference runtime used threadpoolctl 3.5.0. The
 installation specification uses threadpoolctl 3.6.0 because its documented Windows
 long-library-path fix addresses the suspected cause of a crash observed in a deeply nested isolated virtual
 environment; joblib 1.4.2 is explicitly pinned. No scientific model parameters or
@@ -79,7 +79,7 @@ total-proteome protein count was available. Retained-family protein-map rows wer
 not treated as total proteins.
 
 `source/04_classify_original.py` and `source/04_classify_proposed.py` are the original
-and review-only proposed source; a unified diff is also provided. The CLI extracts
+and training-fold-filtered source; a unified diff is also provided. The CLI extracts
 the required pure functions from the proposed source AST, avoiding its legacy main
 inventory writer and optional plotting dependencies. The seed42 run invokes its
 actual run_genus_cv function. The repeated runner uses an independently checked,

@@ -1,4 +1,4 @@
-# V2 validation
+# Model validation
 
 Fresh separate copies of the bundle regenerated all five analysis modes in the
 existing Windows scientific runtime. All **38,706** OOF probabilities exactly
@@ -37,7 +37,7 @@ LR pair reverses order; it does not change metrics. Reported numerical values ag
 to four decimals. The reference SciPy uses MKL; the isolated wheel uses OpenBLAS.
 
 See [clean-environment report](clean_environment/REPORT.txt), saved clean outputs,
-runtime/native-library provenance, original failure logs and the independent
+runtime/native-library provenance and the independent
 comparison tables. Only the primary run was fitted in the isolated environment;
 the460-fit exact fresh-copy validation above used the original existing runtime.
 The diagnostic compare_clean_backend.py can regenerate the comparison, and its

@@ -1,7 +1,7 @@
 CONDENSATE MAPPING SENSITIVITY — author-review analysis, not a source-data rewrite
 
 The independent reconstruction matches all 1,311 released family best scores,
-ranks and mapped-row counts. It also reproduces the v2 condensate component and
+ranks and mapped-row counts. It also reproduces the current condensate component and
 tier for all1,457 candidate rows before applying any sensitivity exclusions.
 Every source file and the current167-family scoring artifact remains unchanged.
 
@@ -47,17 +47,15 @@ retain the source direct-first policy, including the22 cases where the mapped
 cluster ID points to another family. These conflicts are disclosed separately;
 they are not automatically evidence that the direct mapping is wrong.
 
-Interpretation for manuscript/author decision
+Interpretation
 The22-family TierA band is insensitive to these two mapping choices; the broader
 shortlist has one borderline family whose TierB placement depends on fallback
 scoring. This is robustness of a heuristic threshold, not biological validation,
 equivalence of mapping strategies, or a demonstrated causal role of condensates.
-Keep167 as the explicitly defined v2 rule if retaining the historical mapping,
-and report166 in the direct-only sensitivity. Alternatively choose a direct-only
-rule explicitly and update dependent counts; do not silently replace the167
-artifact or recompute all percentiles using a smaller denominator. Full-inventory
-diagnostics should identify which mapping/percentile convention they use.
+The primary rule retains 167 families. The direct-only sensitivity retains 166.
+Both preserve the original percentile reference; neither silently reranks
+unaffected families against a smaller denominator.
 
-Execution: audit_condensate_mapping_sensitivity.py --help lists portable inputs.
+Execution: scripts/mapping_sensitivity.py --help lists portable inputs.
 summary.json provides hashes and exact results; row-level excluded mappings,
 family annotation changes and all score/tier tables are stored alongside this note.

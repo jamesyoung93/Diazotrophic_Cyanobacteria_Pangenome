@@ -1,0 +1,30 @@
+{
+  "tables/related_atlas/aryal_current_product_overlap_summary.csv": {
+    "sha256": "4814b1592b67024c305049944bdf78f8b771c0867578e9ae56f2058b31bd17cd",
+    "source": "https://github.com/jamesyoung93/Diazotrophic_Cyanobacteria_Pangenome/blob/2348717847698d8d564a3109e5eee091e31d0956/manuscript_release_2026_06/tables/related_atlas/aryal_current_product_overlap_summary.csv"
+  },
+  "tables/related_atlas/aryal_current_shared_family_detail.csv": {
+    "sha256": "f0be6a9f5b48f1c43bd450386f96f4278c8a22e02c0e3b8ecf255dd3c80d8ede",
+    "source": "https://github.com/jamesyoung93/Diazotrophic_Cyanobacteria_Pangenome/blob/2348717847698d8d564a3109e5eee091e31d0956/manuscript_release_2026_06/tables/related_atlas/aryal_current_shared_family_detail.csv"
+  },
+  "tables/related_atlas/aryal_cv_split_overlap_audit.md": {
+    "sha256": "16c5a239d413d667a3aa5cc3a50c0b823b3f0b5975f4641bb70a9647931c69b6",
+    "source": "https://github.com/jamesyoung93/Diazotrophic_Cyanobacteria_Pangenome/blob/2348717847698d8d564a3109e5eee091e31d0956/manuscript_release_2026_06/tables/related_atlas/aryal_cv_split_overlap_audit.md"
+  },
+  "tables/related_atlas/aryal_cv_split_overlap_summary.tsv": {
+    "sha256": "52ae3f673508723a1057053cc1683ad682639ec85ebcf795cfd66d8437c2aba1",
+    "source": "https://github.com/jamesyoung93/Diazotrophic_Cyanobacteria_Pangenome/blob/2348717847698d8d564a3109e5eee091e31d0956/manuscript_release_2026_06/tables/related_atlas/aryal_cv_split_overlap_summary.tsv"
+  },
+  "tables/related_atlas/core_nif_family_audit.tsv": {
+    "sha256": "0bd4f00ea0113ef867921c8c0b3e2cc9db20515b375d9994592f8bd51cf539d1",
+    "source": "https://github.com/jamesyoung93/Diazotrophic_Cyanobacteria_Pangenome/blob/2348717847698d8d564a3109e5eee091e31d0956/manuscript_release_2026_06/tables/related_atlas/core_nif_family_audit.tsv"
+  },
+  "tables/proteomics_sources/source_map.csv": {
+    "sha256": "c788eaca6d91b354d2f5a9c53b2cc772e01db980957649cdb61a334758b64ec0",
+    "source": "https://github.com/jamesyoung93/Diazotrophic_Cyanobacteria_Pangenome/blob/2348717847698d8d564a3109e5eee091e31d0956/manuscript_release_2026_06/tables/literature_proteomics_family_mapping/source_map.csv"
+  },
+  "tables/proteomics_sources/mapping_summary.csv": {
+    "sha256": "529f245c6af2b1bd4b5c7f2587f50bb9ab5d9592811c3ac2e5a2adf1bf034c95",
+    "source": "https://github.com/jamesyoung93/Diazotrophic_Cyanobacteria_Pangenome/blob/2348717847698d8d564a3109e5eee091e31d0956/manuscript_release_2026_06/tables/literature_proteomics_family_mapping/mapping_summary.csv"
+  }
+}
