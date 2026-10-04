@@ -1,6 +1,6 @@
 # Manuscript data and analysis
 
-This directory contains the data, code, figures and methods notes for *Beyond nif*. The primary panel contains 426 assembly versions (112 nifHDK-positive and 314 comparison genomes) and 2,286 retained protein families. The inventories contain 476 Model-Supported and 981 Highly Pure families. The experimental shortlist contains 22 Tier A, 140 Tier B and 5 Highly Pure families.
+This directory contains the data, code, figures and methods notes for *Beyond nif*. The primary panel contains 426 assembly versions (112 nifHDK-positive and 314 comparison genomes) and 2,286 retained protein families. The inventories contain 476 residual-association and 981 high-purity families. The experimental shortlist contains 22 Tier A, 140 Tier B and 5 high-purity families.
 
 ## Contents
 
@@ -26,6 +26,8 @@ This check does not fit models or rebuild sequence clusters from raw genomes. Se
 
 ## Interpretation and provenance
 
-Clustering and the full-panel vocabulary remain fixed in the prediction sensitivities. Current NCBI status is not backdated to collection, and a verified original retrieval timestamp is unavailable. Three ubiquitous Model-Supported families remain in the inventory but are excluded from prioritization. Tier labels describe heuristic score bands.
+Clustering and the full-panel vocabulary remain fixed in the prediction sensitivities. Current NCBI status is not backdated to collection, and a verified original retrieval timestamp is unavailable. Three ubiquitous residual-association families remain in the inventory but are excluded from prioritization. Tier labels describe heuristic score bands.
 
 `RELEASE_SHA256.json` covers this directory. Input and reference manifests preserve the exact data used by the analyses. Baseline inputs and comparison outputs remain where a current manuscript result or verification depends on them. Acquisition code revisions and data hashes are identified in the cohort note and model input manifest.
+
+[Terminology and data fields](docs/TERMINOLOGY.md) define the two inventories, model rankings and prioritization tiers. [Related-atlas comparison](docs/RELATED_ATLAS.md) provides the versioned external source, reported performance and limits of the comparison. [Analysis provenance](docs/ANALYSIS_PROVENANCE.md) records filtering and scoring revisions.

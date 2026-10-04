@@ -1,0 +1,102 @@
+[
+  {
+    "repo": "erise-bnerc/predictive-comparative-genomics-for-diazotropy",
+    "commit": "85277c79a0639129fada046ff2638660603dee89",
+    "path": "Gene-fetch-for-paper.ipynb",
+    "url": "https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/85277c79a0639129fada046ff2638660603dee89/Gene-fetch-for-paper.ipynb",
+    "retrieved_utc": "2026-09-30T02:37:28.328200+00:00",
+    "bytes": 135035,
+    "sha256": "ee37418879fb6984feb05a3e79e5d93ff27a1dd9ac1079f6204fff40f0b77825",
+    "git_blob_sha": "bf6c0fee2de058dd902b24dda30641a5f9f2fa1e"
+  },
+  {
+    "repo": "erise-bnerc/predictive-comparative-genomics-for-diazotropy",
+    "commit": "85277c79a0639129fada046ff2638660603dee89",
+    "path": "ML Notebook.ipynb",
+    "url": "https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/85277c79a0639129fada046ff2638660603dee89/ML%20Notebook.ipynb",
+    "retrieved_utc": "2026-09-30T02:37:28.465305+00:00",
+    "bytes": 33346,
+    "sha256": "3892484c6c84acc9893a188543fc10facf76f307f15c7cd01c9be681ac8cc1ed",
+    "git_blob_sha": "d885f0ec02aa02a30f0d6b818f9fb1e24f204ca7"
+  },
+  {
+    "repo": "erise-bnerc/predictive-comparative-genomics-for-diazotropy",
+    "commit": "85277c79a0639129fada046ff2638660603dee89",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/85277c79a0639129fada046ff2638660603dee89/README.md",
+    "retrieved_utc": "2026-09-30T02:37:28.606840+00:00",
+    "bytes": 2914,
+    "sha256": "c31e8abddbae54585a6d93e80147afc84f7f9ade723e08d659200874ae194e52",
+    "git_blob_sha": "a8da418e30cbd5ca5501d611c51c6e2758b1dcf4"
+  },
+  {
+    "repo": "erise-bnerc/predictive-comparative-genomics-for-diazotropy",
+    "commit": "85277c79a0639129fada046ff2638660603dee89",
+    "path": "new_analytical_scripts/task5_stratified_cv.py",
+    "url": "https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/85277c79a0639129fada046ff2638660603dee89/new_analytical_scripts/task5_stratified_cv.py",
+    "retrieved_utc": "2026-09-30T02:37:28.844960+00:00",
+    "bytes": 5863,
+    "sha256": "af0d73230f5a19839fdd618fbfcd3713445cc7c9333cc9649ef09b14c3ce1b89",
+    "git_blob_sha": "07d249baa47063f3e107cc893caec245bf89636e"
+  },
+  {
+    "repo": "erise-bnerc/predictive-comparative-genomics-for-diazotropy",
+    "commit": "85277c79a0639129fada046ff2638660603dee89",
+    "path": "new_analytical_scripts/task7_hgt_proximity.py",
+    "url": "https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/85277c79a0639129fada046ff2638660603dee89/new_analytical_scripts/task7_hgt_proximity.py",
+    "retrieved_utc": "2026-09-30T02:37:29.079445+00:00",
+    "bytes": 8866,
+    "sha256": "67fe06215e7e56364b9bd52fd36f820a5ae9521688fa2cd274167686f87e716a",
+    "git_blob_sha": "ae24177beecceab2d0678b2e651afb58a6e225ef"
+  },
+  {
+    "repo": "erise-bnerc/predictive-comparative-genomics-for-diazotropy",
+    "commit": "85277c79a0639129fada046ff2638660603dee89",
+    "path": "new_analytical_scripts/task4_morphotype_annotation.py",
+    "url": "https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/85277c79a0639129fada046ff2638660603dee89/new_analytical_scripts/task4_morphotype_annotation.py",
+    "retrieved_utc": "2026-09-30T02:37:29.194852+00:00",
+    "bytes": 9420,
+    "sha256": "725b20827aa208aafdb4f677709eb04149d66cd1243477d03aa403220b68b98f",
+    "git_blob_sha": "c4ffbff72e12415863f1b1b155f89f7436e8cdc5"
+  },
+  {
+    "repo": "erise-bnerc/predictive-comparative-genomics-for-diazotropy",
+    "commit": "85277c79a0639129fada046ff2638660603dee89",
+    "path": "new_analytical_task_results/task4_morphotype_table.csv",
+    "url": "https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/85277c79a0639129fada046ff2638660603dee89/new_analytical_task_results/task4_morphotype_table.csv",
+    "retrieved_utc": "2026-09-30T02:37:29.316816+00:00",
+    "bytes": 39323,
+    "sha256": "32a18bad13db5cd6a585141da3a33625375cef3d9f47f8662c0b059f4640413a",
+    "git_blob_sha": "5f38d5b2d4bc61f39f2b9a456345d9e2d8ba0c1a"
+  },
+  {
+    "repo": "erise-bnerc/predictive-comparative-genomics-for-diazotropy",
+    "commit": "85277c79a0639129fada046ff2638660603dee89",
+    "path": "new_analytical_task_results/task5_stratified_cv_fold_metrics.csv",
+    "url": "https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/85277c79a0639129fada046ff2638660603dee89/new_analytical_task_results/task5_stratified_cv_fold_metrics.csv",
+    "retrieved_utc": "2026-09-30T02:37:29.566227+00:00",
+    "bytes": 2654,
+    "sha256": "6ee74877162ef4d6ef92c132e7a0ef8feece98caf8ef6ff8a4610b1e2f93de67",
+    "git_blob_sha": "ff8c5baf4d8971fdffda36ea671e13a5b0d0fb3b"
+  },
+  {
+    "repo": "erise-bnerc/predictive-comparative-genomics-for-diazotropy",
+    "commit": "85277c79a0639129fada046ff2638660603dee89",
+    "path": "new_analytical_task_results/task5_stratified_cv_summary.csv",
+    "url": "https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/85277c79a0639129fada046ff2638660603dee89/new_analytical_task_results/task5_stratified_cv_summary.csv",
+    "retrieved_utc": "2026-09-30T02:37:29.697130+00:00",
+    "bytes": 1194,
+    "sha256": "fc1db94c99218cdb64b734e881e03fdfe61ae7da44a1b1770bab667a9b3842db",
+    "git_blob_sha": "7f6469abdee9b5666384eb847ac9af84a73e5104"
+  },
+  {
+    "repo": "erise-bnerc/predictive-comparative-genomics-for-diazotropy",
+    "commit": "85277c79a0639129fada046ff2638660603dee89",
+    "path": "new_analytical_task_results/task7_hgt_proximity.csv",
+    "url": "https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/85277c79a0639129fada046ff2638660603dee89/new_analytical_task_results/task7_hgt_proximity.csv",
+    "retrieved_utc": "2026-09-30T02:37:30.002668+00:00",
+    "bytes": 62722,
+    "sha256": "439db6aeb24f4821315e0b8b9f40dc81e121d9feca90c362815cc319875b7f9a",
+    "git_blob_sha": "b9909052ea3ae6fb250724d79eb08147d98ebd3e"
+  }
+]

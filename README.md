@@ -2,7 +2,7 @@
 
 Data and code for **Predicting cyanobacterial diazotrophy and prioritizing candidate protein families beyond Nif**.
 
-The analysis uses 426 cyanobacterial assemblies and 2,286 protein families. It evaluates prediction across held-out genus groups and supplies two candidate inventories: 476 Model-Supported and 981 Highly Pure families. The current experimental shortlist contains **167 families: 22 Tier A, 140 Tier B and 5 Highly Pure**. External annotations guide experimental selection; they do not independently validate biological function.
+The analysis uses 426 cyanobacterial assemblies and 2,286 protein families. It evaluates prediction across held-out genus groups and supplies two candidate inventories: 476 residual-association and 981 high-purity families. The current experimental shortlist contains **167 families: 22 Tier A, 140 Tier B and 5 high-purity**. External annotations guide experimental selection; they do not independently validate biological function.
 
 ## Read the results
 
@@ -30,3 +30,5 @@ Choose a new output directory. This command checks file integrity, reconstructs 
 For model refits, use the [model instructions](manuscript_release_2026_10/models/README.md). The [release guide](manuscript_release_2026_10/README.md) describes the data and reproducibility limits. The separate [sequence-processing workflow](unified_pipeline_clean/README.md) supplies acquisition, HMM scanning and clustering code.
 
 The working tree contains the current release and its required source material. Prior versions are available through Git history.
+
+The [terminology guide](manuscript_release_2026_10/docs/TERMINOLOGY.md) maps manuscript labels to unchanged identifiers in the data and workbook. The residual-association inventory includes 473 estimable positive associations and three ubiquitous controls; the controls cannot enter the shortlist.
