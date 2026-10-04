@@ -8,7 +8,7 @@
     "expected/current_MS_shortlist162_rank_stability.csv": "84e0af6426efef7e1f93d9957f5f8cd6933b43442007ead994c381b09ea6bfe9",
     "expected/current_TierA22_rank_stability.csv": "1dedca6029d39cfaa3232c3735ca143bfd26465d3aa67ec93d1149f6d0cd3e48",
     "expected/current_TierB140_rank_stability.csv": "fb92f095c927ab307b62173df4063fe4cc004cf6370a30f5e47dc93adaced27f",
-    "expected/figures/Figure3_source.csv": "497263cad6399f95c3d9de244e7519658cd74be3846c72330f20d02684e031a9",
+    "expected/figures/Figure3_source.csv": "26e069b2888a53283630a86fd9a16ea1e7e7aa8d3f3464ac1aaa349052448184",
     "expected/figures/Figure5_AC_family_source.csv": "1f58fe8933b2e656ee95031b10b1d1a060d52f81318e8e7a0e91fbbcb800ddde",
     "expected/figures/Figure5_B_family_source.csv": "8b5d1bd48fffb145cc7c7cacc3225fe5d177772cc724365c03b73b57ad6bcb43",
     "expected/figures/Figure5_summary_source.csv": "945f5e243b3d65a6b2d28d7cac8c41b814f6ac42df558f64050904d886ab59fa",
@@ -68,10 +68,10 @@
     "scripts/historical_diagnostics.py": "3a22143d25314193c604cb5b2e6812eb4c5ece5ea18cfde330726a477a30f776",
     "scripts/independent_regressions.py": "e14717426446bf60e4db5b764d5069eb9d80196f517a85ab3d6fd646d8da4dab",
     "scripts/mapping_sensitivity.py": "09363f36bcb2d069f0ced1363d28e3ab7ed0b1c51a08f3fc3849030052f53004",
-    "scripts/plot_figures.py": "2d24397f34d2e8f3a4cb0feb0feadffe24b90c8a0c0a1f8194432042b023c13d",
+    "scripts/plot_figures.py": "0df0d591a57d2685eeeb3a8421b3b58b90630fe0182a74e2d3e172ce42ed09f6",
     "scripts/reconstruct_annotations.py": "7914308264a8fbb3a92a9ad659d5225c420d181a53616d9c65a1f7e6c7419714",
     "scripts/score_current.py": "1e9d19a6a5f09d779a9cd428fc3fbc70ff88d5e524b3c2ecf138656c111caeb8",
     "scripts/score_rules.py": "ff2eaeb8e46f0546cb6af5670eabb0a5b7f1413fa897c848cd49de3bb6b2c498",
-    "scripts/verify_reproduction.py": "6fb725fdc6f8f874889b91505e0e24787792b17236912007e11853cd6fcddee4"
+    "scripts/verify_reproduction.py": "3ffbb2e8492b27d1ed44ac885944d1e812a0884b7997bedac3376defd30c2391"
   }
 }

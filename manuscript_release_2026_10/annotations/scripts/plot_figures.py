@@ -9,6 +9,7 @@ import argparse
 import hashlib
 import json
 import shutil
+import textwrap
 from pathlib import Path
 
 import matplotlib
@@ -78,62 +79,133 @@ def save(fig, dest, stem):
                 metadata={'Title': stem, 'Author': 'Beyond nif manuscript revision'})
     plt.close(fig)
 
+FIGURE3_GROUPS = [
+    ('Amino-acid biosynthesis', ('GF_00741','GF_01387','GF_00143','GF_01376','GF_00051')),
+    ('Protein quality control', ('GF_00658','GF_00614','GF_00290','GF_02262','GF_01689','GF_01799')),
+    ('Translation/RNA-associated products', ('GF_00623','GF_00771','GF_01542','GF_01479')),
+    ('Tetrapyrrole-associated products', ('GF_00300','GF_01233')),
+    ('Other products', ('GF_00303','GF_00122','GF_00536','GF_00916','GF_01449')),
+]
+FIGURE3_ORGANISMS = {
+    'Crocosphaera subtropica ATCC 51142': 'Cr',
+    'Trichodesmium erythraeum IMS101': 'Tr',
+    'Nostoc punctiforme PCC 73102': 'No',
+}
+
+
 def figure3(a, dest):
+    """Display the unchanged Tier A selection with matrix-checked carrier fractions."""
     t = a[a.priority_tier.str.startswith('Tier A', na=False)].copy()
-    t = t.sort_values(['scope_adjusted_story_score','gene_family'], ascending=[False,True])
     assert len(t)==22 and t.gene_family.is_unique
     assert truth(t.primary_bridge_broad_ge1u_ge1f).all()
     assert truth(t.strict_unicellular_breadth_ge3u_ge1f).all()
+    grouping = {gf: (i, name) for i, (name, ids) in enumerate(FIGURE3_GROUPS, 1) for gf in ids}
+    assert set(t.gene_family) == set(grouping)
+    raw = Path(__file__).resolve().parent.parent/'inputs/raw'
+    matrix = pd.read_csv(raw/'gene_family_matrix.csv', index_col=0)
+    labels = pd.read_csv(raw/'complete_genomes_labeled.csv').set_index('assembly_accession')
+    assert matrix.index.is_unique and labels.index.is_unique
+    positive = truth(labels.loc[matrix.index, 'is_diazotroph'])
+    assert matrix.shape == (426,2286) and int(positive.sum()) == 112
+    present = matrix[t.gene_family].gt(0)
+    counts, positive_counts = present.sum(), present.loc[positive].sum()
     t['short_product'] = t.gene_family.map(SHORT)
+    t['display_group_index'] = t.gene_family.map(lambda gf: grouping[gf][0])
+    t['display_group'] = t.gene_family.map(lambda gf: grouping[gf][1])
+    t['panel_genomes'], t['panel_nifHDK_positive'] = len(matrix), int(positive.sum())
+    t['carrier_count'] = t.gene_family.map(counts).astype(int)
+    t['nifHDK_positive_carrier_count'] = t.gene_family.map(positive_counts).astype(int)
+    t['carrier_purity_fraction'] = t.nifHDK_positive_carrier_count/t.carrier_count
+    assert t.carrier_count.eq(t.verified_carrier_count).all()
+    assert np.allclose(t.carrier_purity_fraction,t.diazotroph_pct_mean,rtol=0,atol=1e-15)
     assert t.short_product.notna().all()
+    t['active_up_organism_codes'] = t.active_phase_up_organisms.map(
+        lambda value: '+'.join(FIGURE3_ORGANISMS[name] for name in value.split('; ')))
+    t['supplied_gene_top100_mapping_overlap'] = t.gene_top100_overlap.astype(int)
+    assert t.loc[t.supplied_gene_top100_mapping_overlap.ne(0),'gene_family'].tolist() == ['GF_01387']
+    t['marker_display'] = np.where(t.supplied_gene_top100_mapping_overlap.ne(0),'*','')
+    t['marker_provenance'] = np.where(t.supplied_gene_top100_mapping_overlap.ne(0),
+        'figures/Figure4_sources/gene_to_protein_top100_agreement.csv; '
+        'supplied feature genome_GCF_000015665.1_CDS_1351; rank 71; mapped to GF_01387','')
     t['model_percentile_display'] = 100*t.consensus_rank_pct_mean
     t['condensate_percentile_display'] = 100*t.condensate_family_percentile
-    cols=['gene_family','product','short_product','priority_tier','candidate_set',
-          'scope_adjusted_story_score','consensus_rank_pct_mean','model_percentile_display',
+    t['carrier_purity_percent_display'] = t.carrier_purity_fraction.map(lambda p:f'{100*p:.1f}')
+    t['corrected_score_display'] = t.scope_adjusted_story_score.map(lambda s:f'{s:.2f}')
+    t = t.sort_values(['display_group_index','carrier_purity_fraction','gene_family'],ascending=[True,False,True])
+    t['display_row'] = np.arange(1,len(t)+1)
+    cols=['display_row','display_group_index','display_group','gene_family','product','short_product',
+          'priority_tier','candidate_set','panel_genomes','panel_nifHDK_positive','carrier_count',
+          'nifHDK_positive_carrier_count','carrier_purity_fraction','carrier_purity_percent_display',
           'n_literature_active_phase_up_studies','n_literature_mapped_studies',
+          'active_up_organism_codes','active_phase_up_organisms',
           'condensate_family_percentile','condensate_percentile_display',
+          'scope_adjusted_story_score','corrected_score_display',
+          'supplied_gene_top100_mapping_overlap','marker_display','marker_provenance',
+          'consensus_rank_pct_mean','model_percentile_display',
           'primary_bridge_broad_ge1u_ge1f','strict_unicellular_breadth_ge3u_ge1f']
-    t[cols].to_csv(dest/'Figure3_source.csv',index=False)
-    fig = plt.figure(figsize=(6.2,4.85))
-    fig.text(.025,.975,'All 22 Tier A Model-Supported families',ha='left',va='top',
-             fontsize=10.6,fontweight='bold',color=INK)
-    fig.text(.025,.940,'Corrected score; rows ordered by score, then family ID',ha='left',va='top',
-             fontsize=7.4,color=GREY)
-    ax=fig.add_axes([.018,.110,.966,.777]); ax.set_xlim(0,1); ax.set_ylim(22,-3); ax.axis('off')
-    edges=[0,.434,.555,.645,.79,.89,1]
-    # Labels occupy the first two columns; values use four independent scales.
-    headers=['Product (abbreviated)','Family','Corrected\nscore','Released model\nimportance\npercentile','Active-up /\nmapped','Condensate\npercentile']
+    t[cols].to_csv(dest/'Figure3_source.csv',index=False,lineterminator='\n')
+    fig = plt.figure(figsize=(6.2,7.2))
+    fig.text(.025,.980,'Family prevalence and annotations',ha='left',va='top',
+             fontsize=11,fontweight='bold',color=INK)
+    fig.text(.025,.950,'All 22 Tier A families; product-annotation groups',ha='left',va='top',
+             fontsize=8,color=GREY)
+    ax=fig.add_axes([.020,.147,.960,.778]); ax.set_xlim(0,1); ax.set_ylim(28.0,-2.3); ax.axis('off')
+    edges=[0,.31,.425,.515,.645,.80,.91,1]
+    headers=['Product (abbreviated)','Family','Carriers\n(n/426)',
+             'nifHDK+\namong carriers\n(%)','Active-up /\nmapped;\norganism(s)',
+             'Condensate\npercentile','Score']
     for j,label in enumerate(headers):
         x=(edges[j]+edges[j+1])/2
-        ax.text(edges[j]+.006 if j==0 else x,-1.50,label,ha='left' if j==0 else 'center',
-                va='center',fontsize=6.5,fontweight='bold',color=INK,linespacing=1.1)
-    ax.plot([0,1],[-.46,-.46],color=INK,lw=.65)
+        ax.text(edges[j]+.005 if j==0 else x,-1.40,label,
+                ha='left' if j==0 else 'center',va='center',fontsize=6.5 if j==5 else 6.8,
+                fontweight='bold',color=INK,linespacing=1.13)
+    ax.plot([0,1],[-.45,-.45],color=INK,lw=.7)
     cmap=plt.get_cmap('Blues')
-    for i,(_,r) in enumerate(t.iterrows()):
-        if i%2==0:
-            ax.add_patch(Rectangle((0,i-.45),1,.94,facecolor=LIGHT,edgecolor='none',zorder=-5))
-        ax.text(.006,i,r.short_product,ha='left',va='center',fontsize=6.75,color=INK)
-        ax.text((edges[1]+edges[2])/2,i,r.gene_family,ha='center',va='center',fontsize=6.35,color=GREY)
-        nr=int(r.n_literature_mapped_studies); nu=int(r.n_literature_active_phase_up_studies)
-        p=r.condensate_family_percentile
-        vals=[(f'{r.scope_adjusted_story_score:.2f}',r.scope_adjusted_story_score/9),
-              (f'{100*r.consensus_rank_pct_mean:.1f}',r.consensus_rank_pct_mean),
-              (f'{nu} / {nr}',nu/nr if nr else None),
-              (f'{100*p:.1f}' if pd.notna(p) else 'NA',1-p if pd.notna(p) else None)]
-        for j,(value,level) in enumerate(vals,start=2):
-            x0,x1=edges[j]+.006,edges[j+1]-.006
-            if level is None:
-                fill='#F0F0F0'
-            else:
-                fill=cmap(.02+.60*min(max(float(level),0),1))
-            ax.add_patch(Rectangle((x0,i-.405),x1-x0,.81,facecolor=fill,edgecolor='none'))
-            ax.text((x0+x1)/2,i,value,ha='center',va='center',fontsize=6.8,color=INK)
-    fig.text(.025,.070,'Model importance percentile: higher is better. Condensate rank percentile: lower is better.',
-             fontsize=6.8,color=GREY,ha='left')
-    fig.text(.025,.045,'Darker cells follow these directions, higher score, or up/mapped fraction. NA: no condensate rank.',
-             fontsize=6.65,color=GREY,ha='left')
-    fig.text(.025,.020,'All 22 pass both scored morphotype flags. Tier A is a heuristic score band.',
-             fontsize=6.75,color=INK,ha='left')
+    y=0
+    for name, _ in FIGURE3_GROUPS:
+        ax.text(.005,y,name,ha='left',va='center',fontsize=7.5,fontweight='bold',color=BLUE)
+        ax.plot([0,1],[y+.30,y+.30],color=GRID,lw=.55)
+        y+=1
+        group_rows=list(t[t.display_group.eq(name)].iterrows())
+        labels=[textwrap.fill(r.short_product,width=28,break_long_words=False,break_on_hyphens=False)
+                for _,r in group_rows]
+        for row_index,(_,r) in enumerate(group_rows):
+            ax.text(.005,y,labels[row_index],
+                    ha='left',va='center',fontsize=7.1,color=INK,linespacing=1.05)
+            family_x=(edges[1]+edges[2])/2
+            ax.text(family_x,y,r.gene_family,ha='center',va='center',fontsize=6.8,color=GREY)
+            if r.marker_display:
+                ax.text(edges[2]-.008,y-.13,'*',ha='right',va='center',fontsize=7.4,color=INK)
+            p=float(r.carrier_purity_fraction)
+            ax.add_patch(Rectangle((edges[3]+.012,y-.39),edges[4]-edges[3]-.024,.78,
+                                   facecolor=cmap(p),edgecolor='none'))
+            nu,nr=int(r.n_literature_active_phase_up_studies),int(r.n_literature_mapped_studies)
+            rank=r.condensate_percentile_display
+            vals=[f'{r.carrier_count}/426',r.carrier_purity_percent_display,
+                  f'{nu}/{nr}  {r.active_up_organism_codes}',
+                  f'{rank:.1f}' if pd.notna(rank) else 'NA',r.corrected_score_display]
+            for j,value in enumerate(vals,2):
+                color='white' if j==3 and p>=.60 else INK
+                ax.text((edges[j]+edges[j+1])/2,y,value,ha='center',va='center',
+                        fontsize=7.1 if j!=6 else 6.9,color=color)
+            consecutive_wrapped=(row_index+1<len(labels) and '\n' in labels[row_index]
+                                 and '\n' in labels[row_index+1])
+            y+=1.2 if consecutive_wrapped else 1
+    assert abs(y-27.4)<1e-10
+    ax.plot([0,1],[y-.50,y-.50],color=GRID,lw=.65)
+    # The only color scale is the carrier percentage, fixed at 0-100%.
+    key=fig.add_axes([.025,.134,.25,.012])
+    gradient=np.linspace(0,1,256)[None,:]
+    key.imshow(gradient,aspect='auto',cmap=cmap,extent=[0,100,0,1],vmin=0,vmax=1)
+    key.set_yticks([]);key.set_xticks([0,50,100]);key.tick_params(axis='x',labelsize=6.5,length=2,pad=1)
+    for spine in key.spines.values():spine.set_visible(False)
+    fig.text(.295,.139,'nifHDK+ among carriers (%) | Panel reference: 26.3%',
+             ha='left',va='center',fontsize=6.8,color=GREY)
+    fig.text(.025,.095,'Cr: Crocosphaera; Tr: Trichodesmium; No: Nostoc (strains in caption).',fontsize=6.9,color=GREY)
+    fig.text(.025,.073,'Condensate percentile: lower is a higher rank; NA: no mapped rank.',fontsize=6.9,color=GREY)
+    fig.text(.025,.051,'* Also mapped from the supplied gene-level top-100 list.',fontsize=6.9,color=GREY)
+    fig.text(.025,.025,'Display groups and carrier percentages are descriptive; tier selection is unchanged.',
+             fontsize=6.9,color=INK)
     save(fig,dest,'Figure3_TierA_evidence')
     return t
 
@@ -249,8 +321,8 @@ def figure5(a,t,dest):
     return {'A_mean_per_family_up_fraction':{'strict':broad/100,'other':other/100},
             'mapped_condensate_families':int(len(cc)), 'pattern':ABUNDANT}
 
-CAPTIONS='''Figure 3. Annotation matrix for all 22 Tier A Model-Supported families under the corrected score.
-Rows are all 22 Tier A families (corrected adjusted score >=6.0 after ubiquitous-control, nif-keyword and housekeeping exclusions), ordered by decreasing score then family ID. The correction removes unverified cross-atlas identifier evidence and its imported HGT penalty while retaining the Highly Pure inventory offset; all other weights and thresholds are unchanged. Columns show corrected score, released mean model-importance percentile across available model/run entries, active-phase-up/mapped-study counts, and condensate rank percentile. The score retains a flat weight for historical inventory membership and does not incorporate corrected-model importance. Percentiles use a 0-100 scale: higher released model importance is better; lower condensate rank is better. Darker cells follow these directions, higher score or up/mapped fraction; shading is scaled separately by column. NA means no mapped condensate rank. Product labels are abbreviated (DH, dehydrogenase; PP, diphosphate); complete labels are in the source data. All 22 satisfy both scored morphotype flags. Tier A is a heuristic score band. These annotations guide experiments without independently validating candidates or establishing genetic requirement.
+CAPTIONS='''Figure 3. Family prevalence and annotations for all 22 Tier A Model-Supported families.
+Rows use heuristic product-annotation groups and, within each group, decreasing carrier purity followed by family ID. These display groups do not change scores or tier membership. Carriers gives the number of panel genomes containing the family. Shading shows the percentage of those carriers labeled nifHDK-positive, not coverage of positive genomes or evidence strength; 112 of 426 panel genomes are positive (26.3%). Active-up gives studies with an active-phase-up annotation over studies with a mapped protein, followed by the contributing organisms: Cr, Crocosphaera subtropica ATCC 51142; Tr, Trichodesmium erythraeum IMS101; No, Nostoc punctiforme PCC 73102. Study coverage and response rules differ, so these are descriptive counts. Condensate percentile summarizes the best mapped protein per family; lower values indicate higher ranks. NA means no mapped rank. The corrected score selected Tier A at >=6.0 after the stated exclusions and is shown for reference. An asterisk marks a match in the supplied gene-level top-100 mapping. Product labels are abbreviated (DH, dehydrogenase; PP, diphosphate); full labels accompany the source data. These annotations guide experiments without independently validating candidates or establishing genetic requirement.
 
 Figure 5. Detection opportunity and family prevalence constrain annotation summaries.
 (A) Among Model-Supported families mapped in at least one external proteomics study, the proportion with any active-phase-up annotation is shown by mapped-study count and the strict unicellular-breadth flag (>=3 strict-proxy unicellular and >=1 filamentous-proxy diazotroph carrier). The reported 22.3% values are means of each family's active-up-study count divided by its mapped-study count, not pooled per-study probabilities. (B) The proportion of condensate-mapped candidate families in the top 10% of mapped family ranks is shown by inventory and carrier-genome count. Bins are half-open [40,60), [60,80), [80,130), and [130,infinity), matching the diagnostic stratification through 130 genomes. All nonempty strata are shown, including the 11 Highly Pure families at 80-129 carriers; no Highly Pure family has 130 or more carriers. (C) Matches to a product-name pattern covering proteostasis, translation, and amino-acid metabolism are shown across mapped-study counts in all 476 Model-Supported families. Diagnostic strata retain the frozen 476 Model-Supported families, including three ubiquitous controls excluded from shortlist eligibility. Under the corrected score, the pattern matches 16 of 22 Tier A families (72.7%). Tier A is a selected subset overlapping those strata, not an independent comparison group. Under each panel, k/n gives the numerator and denominator in matching series order and color; 0/0 denotes an empty stratum with no plotted estimate. Error bars are descriptive 95% Wilson intervals for family proportions and do not account for phylogenetic or other dependencies among families. Product-name matching is a heuristic diagnostic, not a validated functional classification. These patterns motivate detection- and prevalence-aware interpretation; they do not establish absence of biological roles for individual candidates.
@@ -267,9 +339,9 @@ def main():
     a=pd.read_csv(args.all_composite_csv)
     assert a.related_atlas_score.eq(0).all() and not truth(a.hgt_passenger_flag).any()
     t=figure3(a,args.output_dir); diag=figure5(a,t,args.output_dir)
-    (args.output_dir/'figure_captions.txt').write_text(CAPTIONS,encoding='utf-8')
+    (args.output_dir/'figure_captions.txt').write_text(CAPTIONS,encoding='utf-8',newline='\n')
     caption3,caption5=CAPTIONS.strip().split('\n\n',1)
-    (args.output_dir/'Figure3_caption.txt').write_text(caption3+'\n',encoding='utf-8')
+    (args.output_dir/'Figure3_caption.txt').write_text(caption3+'\n',encoding='utf-8',newline='\n')
     (args.output_dir/'Figure5_caption.txt').write_text(caption5+'\n',encoding='utf-8')
     shutil.copyfile(args.output_dir/'Figure3_TierA_evidence.png',args.output_dir/'Figure3_all_TierA.png')
     shutil.copyfile(args.output_dir/'Figure5_annotation_diagnostics.png',args.output_dir/'Figure5_diagnostics.png')
@@ -277,12 +349,15 @@ def main():
               'all_composite_csv':args.all_composite_csv.name,
               'source_sha256':hashlib.sha256(args.all_composite_csv.read_bytes()).hexdigest(),
               'n_inventory_families':len(a),'n_figure3_families':len(t),
-              'figure3_size_inches':[6.2,4.85],'figure5_size_inches':[6.2,5.95],
+              'figure3_size_inches':[6.2,7.2],'figure5_size_inches':[6.2,5.95],
               'png_dpi':300,'diagnostic_notes':diag,
-              'model_percentile_definition':'Mean absolute-importance percentile across available model/run entries; higher is better; displayed 0-100.',
+              'figure3_display_order':'Fixed heuristic product-annotation groups; decreasing carrier purity, then family ID within each group. Does not alter selection.',
+              'figure3_shading':'nifHDK-positive carriers / all carriers; fixed 0-100 percent scale. Counts recomputed from the frozen matrix and labels.',
+              'figure3_marker':'Also mapped from the supplied gene-level top-100 list; not independent validation.',
+              'model_percentile_definition':'Mean absolute-importance percentile across available model/run entries; retained in source data, not displayed in Figure 3.',
               'condensate_percentile_definition':'Condensate rank divided by mapped-family count; lower is better; displayed 0-100.',
               'model_direction_source':'unified_pipeline_clean/nif_downstream_code/11_build_fox_gene_report.py:194-195,389,438'}
-    (args.output_dir/'figure_provenance.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
+    (args.output_dir/'figure_provenance.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8',newline='\n')
     print(json.dumps(manifest,indent=2))
 
 if __name__=='__main__': main()

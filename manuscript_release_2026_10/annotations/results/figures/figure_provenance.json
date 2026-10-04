@@ -6,7 +6,7 @@
   "n_figure3_families": 22,
   "figure3_size_inches": [
     6.2,
-    4.85
+    7.2
   ],
   "figure5_size_inches": [
     6.2,
@@ -21,7 +21,10 @@
     "mapped_condensate_families": 1303,
     "pattern": "clp|chaperon|dnak|groe|grol|dnaj|grpe|release factor|translation|elongation factor|typa|trna|nyn|ribosom|isopropylmalate|threonine synthase|ketol-acid|dihydroxy-acid|aminomutase|amino acid"
   },
-  "model_percentile_definition": "Mean absolute-importance percentile across available model/run entries; higher is better; displayed 0-100.",
+  "model_percentile_definition": "Mean absolute-importance percentile across available model/run entries; retained in source data, not displayed in Figure 3.",
   "condensate_percentile_definition": "Condensate rank divided by mapped-family count; lower is better; displayed 0-100.",
-  "model_direction_source": "unified_pipeline_clean/nif_downstream_code/11_build_fox_gene_report.py:194-195,389,438"
+  "model_direction_source": "unified_pipeline_clean/nif_downstream_code/11_build_fox_gene_report.py:194-195,389,438",
+  "figure3_display_order": "Fixed heuristic product-annotation groups; decreasing carrier purity, then family ID within each group. Does not alter selection.",
+  "figure3_shading": "nifHDK-positive carriers / all carriers; fixed 0-100 percent scale. Counts recomputed from the frozen matrix and labels.",
+  "figure3_marker": "Also mapped from the supplied gene-level top-100 list; not independent validation."
 }
