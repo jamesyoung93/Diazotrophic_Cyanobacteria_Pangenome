@@ -1,0 +1,128 @@
+{
+  "inputs/model_fold_assignments.csv": {
+    "upstream_sha256": "4aab916d3e8448e13340c7b4021e86e3d7301390640f2363b05cd21503818353",
+    "upstream_basename": "model_fold_assignments.csv",
+    "subset": false
+  },
+  "inputs/genome_protein_family_map.tsv": {
+    "upstream_sha256": "40af670dc7ba51a141f4c35e42c43aaea848c68b937c5abc62f11f7b289c24fb",
+    "upstream_basename": "genome_protein_family_map.tsv",
+    "subset": true,
+    "subset_rule": "Only retained protein/family rows for GCF_047302775.1 and GCF_047302855.1;358 rows. The complete matrix and metadata remain unchanged."
+  },
+  "inputs/public_status/cohort_batch_00.json": {
+    "upstream_sha256": "2057a08c9eae63b7cde4f381942294c9066ee92898c84f47eae8779156325085",
+    "upstream_basename": "cohort_batch_00.json",
+    "subset": false
+  },
+  "inputs/public_status/cohort_batch_01.json": {
+    "upstream_sha256": "4ae89f10c44f24573670181e52a5bbe4d510e401c7b11e852957607ab59b508d",
+    "upstream_basename": "cohort_batch_01.json",
+    "subset": false
+  },
+  "inputs/public_status/cohort_batch_02.json": {
+    "upstream_sha256": "3c6b491316f1668f30b7679154001a9784c0a134c6ec38f85b8d408c163fe11b",
+    "upstream_basename": "cohort_batch_02.json",
+    "subset": false
+  },
+  "inputs/public_status/cohort_batch_03.json": {
+    "upstream_sha256": "17bd2c0394f1acd3748aea8a6b2ab1ddf19b3faa1e792675d1e176ed1a88829d",
+    "upstream_basename": "cohort_batch_03.json",
+    "subset": false
+  },
+  "inputs/public_status/cohort_batch_04.json": {
+    "upstream_sha256": "59da1bae26d19fcc89930a7aa7bdc8c7b7cb914cca4f9afffc8aaf93110d2048",
+    "upstream_basename": "cohort_batch_04.json",
+    "subset": false
+  },
+  "inputs/public_status/cohort_batch_05.json": {
+    "upstream_sha256": "165694706fea953184c0d4fb09b0bf5f33f31f3b22242b243ddd33f44132194e",
+    "upstream_basename": "cohort_batch_05.json",
+    "subset": false
+  },
+  "inputs/public_status/cohort_batch_06.json": {
+    "upstream_sha256": "679035a4cad2fc2848ddd5ee0ab03f2cd20090f20587f8e846fd1f1e37459fe7",
+    "upstream_basename": "cohort_batch_06.json",
+    "subset": false
+  },
+  "inputs/public_status/cohort_batch_07.json": {
+    "upstream_sha256": "7c481091e95458231da9d93b4f44ebd7ea6eddfc7401d22dc40e8d7961ad36f2",
+    "upstream_basename": "cohort_batch_07.json",
+    "subset": false
+  },
+  "inputs/public_status/cohort_batch_08.json": {
+    "upstream_sha256": "9aa1c341db13a4c6733721ce2b1543ec8ac7e151a3fb6aa98a7f34534e1dc260",
+    "upstream_basename": "cohort_batch_08.json",
+    "subset": false
+  },
+  "inputs/public_status/historical_versions.json": {
+    "upstream_sha256": "38b7ba4a8c4cd25298e6d2f89bf996ce5596393724611f56249ae9a28dc7a6d2",
+    "upstream_basename": "historical_versions.json",
+    "subset": false
+  },
+  "inputs/public_status/retrieval_manifest.json": {
+    "upstream_sha256": "6b5fc3d5d83b2ba7b770f8ba32612bdc16dc68c6464dc9bd073c7e3811363a30",
+    "upstream_basename": "retrieval_manifest.json",
+    "subset": false
+  },
+  "inputs/public_status/GCF_047302775.1.json": {
+    "upstream_sha256": "eb7b0e3691b32f78c88fa8ab9fb8509dbc7480090f43b8cbf8945b9c6ead3786",
+    "upstream_basename": "GCF_047302775.1.json",
+    "subset": false
+  },
+  "inputs/public_status/GCF_047302855.1.json": {
+    "upstream_sha256": "d5326ff331184698c1a9f6ab5d72bccc17a40c8a919da3ba873053150499db03",
+    "upstream_basename": "GCF_047302855.1.json",
+    "subset": false
+  },
+  "inputs/public_status/cohort_status_reconciled.csv": {
+    "upstream_sha256": "24d2a35886a978cbbc206d41b2c766ac9ef1c7040f8799b6d9f96801f391f124",
+    "upstream_basename": "cohort_status_reconciled.csv",
+    "subset": false
+  },
+  "inputs/taxonomy_genus_audit.csv": {
+    "upstream_sha256": "4f1cd083a636ab365f128040933f332d1fb7f8a0b571ac3943ea8aea7a6f0d2a",
+    "upstream_basename": "taxonomy_genus_audit.csv",
+    "subset": false
+  },
+  "inputs/taxonomy_public/pilot_S9506_SS51.json": {
+    "upstream_sha256": "5ef4544e7f8d4628ec1e4873ade01a3bf7d4aeffce2c3d27ea9c347a6988b4b3",
+    "upstream_basename": "pilot_S9506_SS51.json",
+    "subset": false
+  },
+  "inputs/taxonomy_public/retrieval_manifest.json": {
+    "upstream_sha256": "b6f2e44997c99db6472f9bcead3393988bd7e31bd488c4f9dc252136c3c1a392",
+    "upstream_basename": "retrieval_manifest.json",
+    "subset": false
+  },
+  "inputs/taxonomy_public/taxonomy_batch_00.json": {
+    "upstream_sha256": "91d51eb8a105cf4c63e4e03d3ccc7bdca48bddb1dc84647238a498159c0f2138",
+    "upstream_basename": "taxonomy_batch_00.json",
+    "subset": false
+  },
+  "inputs/taxonomy_public/taxonomy_batch_01.json": {
+    "upstream_sha256": "8a50df58913c941bf9e90486043a16ff0359885db6636b7458a2a8dda15cdb0d",
+    "upstream_basename": "taxonomy_batch_01.json",
+    "subset": false
+  },
+  "inputs/taxonomy_public/taxonomy_batch_02.json": {
+    "upstream_sha256": "4a0f464d94fc9d6c0b2faa5d7eefc71e7edf918a5dff61e02e6bd22d9fafd89b",
+    "upstream_basename": "taxonomy_batch_02.json",
+    "subset": false
+  },
+  "inputs/taxonomy_public/taxonomy_batch_03.json": {
+    "upstream_sha256": "38d2efca369cc04e8b64230ffa9d6d33578058a82ae960f26b2ab9be056fdac5",
+    "upstream_basename": "taxonomy_batch_03.json",
+    "subset": false
+  },
+  "inputs/taxonomy_public/taxonomy_batch_04.json": {
+    "upstream_sha256": "ac246b1a78443967b126caec4dc56409ead8a9876a938a22ef0f8f296fe4631f",
+    "upstream_basename": "taxonomy_batch_04.json",
+    "subset": false
+  },
+  "inputs/taxonomy_public/taxonomy_batch_05.json": {
+    "upstream_sha256": "eef0508e5f0c8274afdf870529fc1164c979ff55a11b0277d027462cc2967745",
+    "upstream_basename": "taxonomy_batch_05.json",
+    "subset": false
+  }
+}

@@ -1,0 +1,6 @@
+model,n_families,max_absolute_importance_difference,changed_average_ranks,spearman,top50_overlap,top100_overlap
+Gradient Boosting,624,0.0,0,1.0,50,100
+Logistic Regression,624,3.573619872243583e-11,0,1.0,50,100
+Random Forest,624,0.0,0,1.0,50,100
+XGBoost,624,0.0,0,0.9999999999999999,50,100
+four_model_percentile_consensus,624,0.0,0,1.0,50,100

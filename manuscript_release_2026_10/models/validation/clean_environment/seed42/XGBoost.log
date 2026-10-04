@@ -1,0 +1,63 @@
+
+============================================================
+Running XGBoost with Genus-level CV
+============================================================
+
+Fold 1/5
+  Train: 380 genomes, Test: 46 genomes
+  Train diazotroph: 80/380 (21.1%)
+  Test  diazotroph: 32/46 (69.6%)
+  Accuracy: 0.8478
+  Precision: 0.8205
+  Recall: 1.0000
+  F1: 0.9014
+  ROC-AUC: 0.9844
+
+Fold 2/5
+  Train: 309 genomes, Test: 117 genomes
+  Train diazotroph: 91/309 (29.4%)
+  Test  diazotroph: 21/117 (17.9%)
+  Accuracy: 0.9316
+  Precision: 0.7407
+  Recall: 0.9524
+  F1: 0.8333
+  ROC-AUC: 0.9673
+
+Fold 3/5
+  Train: 397 genomes, Test: 29 genomes
+  Train diazotroph: 95/397 (23.9%)
+  Test  diazotroph: 17/29 (58.6%)
+  Accuracy: 0.6207
+  Precision: 0.7143
+  Recall: 0.5882
+  F1: 0.6452
+  ROC-AUC: 0.8186
+
+Fold 4/5
+  Train: 282 genomes, Test: 144 genomes
+  Train diazotroph: 84/282 (29.8%)
+  Test  diazotroph: 28/144 (19.4%)
+  Accuracy: 0.8403
+  Precision: 0.5676
+  Recall: 0.7500
+  F1: 0.6462
+  ROC-AUC: 0.8701
+
+Fold 5/5
+  Train: 336 genomes, Test: 90 genomes
+  Train diazotroph: 98/336 (29.2%)
+  Test  diazotroph: 14/90 (15.6%)
+  Accuracy: 0.7556
+  Precision: 0.3571
+  Recall: 0.7143
+  F1: 0.4762
+  ROC-AUC: 0.8252
+
+============================================================
+XGBoost - AGGREGATE RESULTS
+============================================================
+ACCURACY    : 0.7992 +/- 0.1176
+PRECISION   : 0.6400 +/- 0.1827
+RECALL      : 0.8010 +/- 0.1717
+F1          : 0.7004 +/- 0.1691
+ROC_AUC     : 0.8931 +/- 0.0783

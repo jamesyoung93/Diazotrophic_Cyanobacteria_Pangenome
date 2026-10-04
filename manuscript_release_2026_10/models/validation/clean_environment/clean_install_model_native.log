@@ -1,0 +1,16 @@
+Windows fatal exception: code 0xc0000374
+
+Current thread 0x00000654 (most recent call first):
+  File "<REFERENCE_RUNTIME>\lib\ntpath.py", line 66 in normcase
+  File "<REFERENCE_RUNTIME>\lib\ntpath.py", line 594 in _readlink_deep
+  File "<REFERENCE_RUNTIME>\lib\ntpath.py", line 652 in _getfinalpathname_nonstrict
+  File "<REFERENCE_RUNTIME>\lib\ntpath.py", line 695 in realpath
+  File "<AUDIT_ROOT>\repro_environment\lib\site-packages\threadpoolctl.py", line 548 in _realpath
+  File "<AUDIT_ROOT>\repro_environment\lib\site-packages\threadpoolctl.py", line 1134 in _make_controller_from_path
+  File "<AUDIT_ROOT>\repro_environment\lib\site-packages\threadpoolctl.py", line 1100 in _find_libraries_with_enum_process_module_ex
+  File "<AUDIT_ROOT>\repro_environment\lib\site-packages\threadpoolctl.py", line 972 in _load_libraries
+  File "<AUDIT_ROOT>\repro_environment\lib\site-packages\threadpoolctl.py", line 818 in __init__
+  File "<AUDIT_ROOT>\repro_environment\lib\site-packages\threadpoolctl.py", line 794 in __init__
+  File "<AUDIT_ROOT>\portable_model_audit\run_audit.py", line 75 in seed42
+  File "<AUDIT_ROOT>\portable_model_audit\run_audit.py", line 181 in main
+  File "<AUDIT_ROOT>\portable_model_audit\run_audit.py", line 188 in <module>

@@ -1,0 +1,27 @@
+{
+  "status": "Proposed revision for author review",
+  "all_composite_csv": "corrected_AllComposite.csv",
+  "source_sha256": "3b3ebe290eed8a49f03c3a30c137010df9ed1b812d5a5dff46f08bd1b0930c7d",
+  "n_inventory_families": 1457,
+  "n_figure3_families": 22,
+  "figure3_size_inches": [
+    6.2,
+    4.85
+  ],
+  "figure5_size_inches": [
+    6.2,
+    5.95
+  ],
+  "png_dpi": 300,
+  "diagnostic_notes": {
+    "A_mean_per_family_up_fraction": {
+      "strict": 0.22337278106508876,
+      "other": 0.22275641025641024
+    },
+    "mapped_condensate_families": 1303,
+    "pattern": "clp|chaperon|dnak|groe|grol|dnaj|grpe|release factor|translation|elongation factor|typa|trna|nyn|ribosom|isopropylmalate|threonine synthase|ketol-acid|dihydroxy-acid|aminomutase|amino acid"
+  },
+  "model_percentile_definition": "Mean absolute-importance percentile across available model/run entries; higher is better; displayed 0-100.",
+  "condensate_percentile_definition": "Condensate rank divided by mapped-family count; lower is better; displayed 0-100.",
+  "model_direction_source": "unified_pipeline_clean/nif_downstream_code/11_build_fox_gene_report.py:194-195,389,438"
+}

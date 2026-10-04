@@ -1,0 +1,81 @@
+HISTORICAL RELEASE DIAGNOSTICS: frozen1457 inventory, original31 TierA and174 shortlist. Not current167 results.
+
+============================================================================================
+D1  Table 2 'Other / unassigned' is not an uncharacterized bin
+============================================================================================
+  Model-Supported 'Other / unassigned': 287
+    specific named function : 247 (86%)
+    generic / hypothetical  : 40 (14%)
+  truly generic/hypothetical names across ALL Model-Supported bins: 74 of 476 (16%)
+
+============================================================================================
+D2  Carbon metabolism is under-counted ~8x by the keyword binner
+============================================================================================
+  Model-Supported central carbon-metabolism enzymes by product name: 29
+  of which binned 'Carbon metabolism & NAD(P)H supply': 4
+  landed in: {'Other / unassigned': 23, 'Carbon metabolism & NAD(P)H supply': 4, 'O2 protection & redox homeostasis': 1, 'Respiration & bioenergetics': 1}
+
+============================================================================================
+D3  Substring bug: 'fur' (ferric uptake regulator) matches inside 'sulfur'
+============================================================================================
+  sulfur-metabolism enzymes filed as 'Regulation': 6
+    GF_00324  ATP-dependent sacrificial sulfur transferase LarE
+    GF_01688  sulfurtransferase TusA family protein
+    GF_00359  DNA sulfur modification protein DndE
+    GF_00591  cysteine desulfurase
+    GF_00559  cysteine desulfurase family protein
+    GF_01843  sulfur carrier protein ThiS
+
+============================================================================================
+D4  What the composite score is made of (Tier A + B, Model-Supported)
+============================================================================================
+  model_score                    mean 2.00  (37% of score)
+  morphotype_breadth_score       mean 2.67  (50% of score)
+  literature_proteomics_score    mean 0.51  (9% of score)
+  related_atlas_score            mean 0.13  (2% of score)
+  condensate_score               mean 0.08  (1% of score)
+  Tier B 'strong cross-evidence' families with ZERO external evidence: 60 of 138
+  Tier A families passing both morphotype flags: 31 of 31 (saturated gate)
+  Spearman(model consensus rank, composite score): rho=+0.10  -> score is nearly blind to model rank
+  median model rank pct: Tier A 0.54 vs other MS 0.48
+
+============================================================================================
+D5  Proteomics annotation association conditional on detection opportunities
+============================================================================================
+  logit up ~ ... : strict  OR=0.89  p=0.732
+  logit up ~ ... : nmap    OR=2.22  p=8.35e-07
+  logit up ~ ... : rank    OR=1.69  p=0.426
+  mean family-level active-up/mapped-study ratio: strict 0.223  vs  not strict 0.223
+  overall mean family-level ratio: 0.223  (descriptive family-weighted ratio; not a per-study probability)
+  => '71 of 174' (41%) vs 9.5% baseline is not evidence of convergence
+
+============================================================================================
+D6  Condensate 'selectivity' for Model-Supported is confounded with prevalence
+============================================================================================
+  Model-Supported OR, controlling #mapped proteins only : 2.81 (p=4.7e-08)
+  Model-Supported OR, also controlling carrier genomes   : 0.97 (p=0.93)
+  carrier-genome prevalence OR                           : 3.25 (p=2.1e-06)
+  (descriptive single-mapped-row stratum:, MS 18.1% vs HP 6.7%)
+  median carrier genomes: Model-Supported 117, Highly Pure 55 (HP max 85) -> inventories barely overlap in prevalence
+  within matched prevalence strata (one-sided Fisher, uncorrected):
+     40-60  carriers: MS 13.2% (5/38)  HP  4.9% (29/595)  OR=2.96 p=0.0458
+     60-80  carriers: MS 10.0% (5/50)  HP 10.4% (34/328)  OR=0.96 p=0.611
+     80-130 carriers: MS 12.6% (15/119)  HP 27.3% (3/11)  OR=0.38 p=0.954
+  => contrast is confounded with prevalence and inconsistent within matched strata;
+     the manuscript's 'selectivity is biologically informative' claim needs a prevalence-matched test
+
+============================================================================================
+D7  Functional composition shifts with proteomic detectability
+============================================================================================
+  detected in 0 proteomes:   8% proteostasis/translation/amino-acid  (n=203)
+  detected in 1 proteomes:  18% proteostasis/translation/amino-acid  (n=115)
+  detected in 2 proteomes:  25% proteostasis/translation/amino-acid  (n=75)
+  detected in 3 proteomes:  31% proteostasis/translation/amino-acid  (n=49)
+  detected in 4 proteomes:  35% proteostasis/translation/amino-acid  (n=34)
+  Tier A: 58%
+
+============================================================================================
+D8  Within- versus between-role co-occurrence correlation (exploratory permutation)
+============================================================================================
+  all 426 genomes  within-minus-between r = -0.002   permutation p = 0.613
+  112 diazotrophs  within-minus-between r = -0.008   permutation p = 0.817

@@ -1,0 +1,8 @@
+{
+  "independent_metric_checks": 960,
+  "reconstructed_predictions": 17040,
+  "fold_masks_verified": 50,
+  "scalers_verified": 200,
+  "max_absolute_metric_discrepancy": 2.886579864025407e-15,
+  "source_splits_match": true
+}

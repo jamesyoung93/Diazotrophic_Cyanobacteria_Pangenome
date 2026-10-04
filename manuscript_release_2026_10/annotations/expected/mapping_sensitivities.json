@@ -1,0 +1,188 @@
+{
+  "exclude_selected_ambiguous": {
+    "excluded_protein_rows": 5,
+    "retained_protein_rows": 2120,
+    "families_with_removed_rows": 5,
+    "families_losing_all_rows": 5,
+    "families_losing_released_best_annotation": 5,
+    "retained_mapped_families": 1306,
+    "analyses": {
+      "conservative": {
+        "families_numeric_score_changes": 1,
+        "tier_counts": {
+          "Tier B: strong cross-evidence accessory": 140,
+          "Tier A: story-leading accessory": 22,
+          "Tier HP: evidence-supported high-purity marker": 5
+        },
+        "shortlist_count": 167,
+        "activeup_shortlist": 65,
+        "shortlist_removed_ids": [],
+        "shortlist_added_ids": [],
+        "TierA_count": 22,
+        "TierA_lost_ids": [],
+        "TierA_added_ids": [],
+        "tier_migrations": []
+      },
+      "fixed_reference": {
+        "families_numeric_score_changes": 1,
+        "tier_counts": {
+          "Tier B: strong cross-evidence accessory": 140,
+          "Tier A: story-leading accessory": 22,
+          "Tier HP: evidence-supported high-purity marker": 5
+        },
+        "shortlist_count": 167,
+        "activeup_shortlist": 65,
+        "shortlist_removed_ids": [],
+        "shortlist_added_ids": [],
+        "TierA_count": 22,
+        "TierA_lost_ids": [],
+        "TierA_added_ids": [],
+        "tier_migrations": []
+      }
+    }
+  },
+  "exclude_cluster_only_fallback": {
+    "excluded_protein_rows": 804,
+    "retained_protein_rows": 1321,
+    "families_with_removed_rows": 218,
+    "families_losing_all_rows": 0,
+    "families_losing_released_best_annotation": 164,
+    "retained_mapped_families": 1311,
+    "analyses": {
+      "conservative": {
+        "families_numeric_score_changes": 36,
+        "tier_counts": {
+          "Tier B: strong cross-evidence accessory": 139,
+          "Tier A: story-leading accessory": 22,
+          "Tier HP: evidence-supported high-purity marker": 5
+        },
+        "shortlist_count": 166,
+        "activeup_shortlist": 64,
+        "shortlist_removed_ids": [
+          "GF_02157"
+        ],
+        "shortlist_added_ids": [],
+        "TierA_count": 22,
+        "TierA_lost_ids": [],
+        "TierA_added_ids": [],
+        "tier_migrations": [
+          {
+            "gene_family": "GF_02157",
+            "product": "acetolactate synthase small subunit",
+            "candidate_set": "Model-Supported",
+            "prior_tier": "Tier B: strong cross-evidence accessory",
+            "priority_tier": "Tier E: lower current evidence",
+            "prior_condensate_score": 0.3,
+            "condensate_score": 0.0,
+            "prior_adjusted_score": 4.55,
+            "scope_adjusted_story_score": 4.25,
+            "n_literature_active_phase_up_studies": 1
+          }
+        ]
+      },
+      "fixed_reference": {
+        "families_numeric_score_changes": 22,
+        "tier_counts": {
+          "Tier B: strong cross-evidence accessory": 139,
+          "Tier A: story-leading accessory": 22,
+          "Tier HP: evidence-supported high-purity marker": 5
+        },
+        "shortlist_count": 166,
+        "activeup_shortlist": 64,
+        "shortlist_removed_ids": [
+          "GF_02157"
+        ],
+        "shortlist_added_ids": [],
+        "TierA_count": 22,
+        "TierA_lost_ids": [],
+        "TierA_added_ids": [],
+        "tier_migrations": [
+          {
+            "gene_family": "GF_02157",
+            "product": "acetolactate synthase small subunit",
+            "candidate_set": "Model-Supported",
+            "prior_tier": "Tier B: strong cross-evidence accessory",
+            "priority_tier": "Tier E: lower current evidence",
+            "prior_condensate_score": 0.3,
+            "condensate_score": 0.2,
+            "prior_adjusted_score": 4.55,
+            "scope_adjusted_story_score": 4.45,
+            "n_literature_active_phase_up_studies": 1
+          }
+        ]
+      }
+    }
+  },
+  "exclude_both": {
+    "excluded_protein_rows": 809,
+    "retained_protein_rows": 1316,
+    "families_with_removed_rows": 223,
+    "families_losing_all_rows": 5,
+    "families_losing_released_best_annotation": 169,
+    "retained_mapped_families": 1306,
+    "analyses": {
+      "conservative": {
+        "families_numeric_score_changes": 37,
+        "tier_counts": {
+          "Tier B: strong cross-evidence accessory": 139,
+          "Tier A: story-leading accessory": 22,
+          "Tier HP: evidence-supported high-purity marker": 5
+        },
+        "shortlist_count": 166,
+        "activeup_shortlist": 64,
+        "shortlist_removed_ids": [
+          "GF_02157"
+        ],
+        "shortlist_added_ids": [],
+        "TierA_count": 22,
+        "TierA_lost_ids": [],
+        "TierA_added_ids": [],
+        "tier_migrations": [
+          {
+            "gene_family": "GF_02157",
+            "product": "acetolactate synthase small subunit",
+            "candidate_set": "Model-Supported",
+            "prior_tier": "Tier B: strong cross-evidence accessory",
+            "priority_tier": "Tier E: lower current evidence",
+            "prior_condensate_score": 0.3,
+            "condensate_score": 0.0,
+            "prior_adjusted_score": 4.55,
+            "scope_adjusted_story_score": 4.25,
+            "n_literature_active_phase_up_studies": 1
+          }
+        ]
+      },
+      "fixed_reference": {
+        "families_numeric_score_changes": 23,
+        "tier_counts": {
+          "Tier B: strong cross-evidence accessory": 139,
+          "Tier A: story-leading accessory": 22,
+          "Tier HP: evidence-supported high-purity marker": 5
+        },
+        "shortlist_count": 166,
+        "activeup_shortlist": 64,
+        "shortlist_removed_ids": [
+          "GF_02157"
+        ],
+        "shortlist_added_ids": [],
+        "TierA_count": 22,
+        "TierA_lost_ids": [],
+        "TierA_added_ids": [],
+        "tier_migrations": [
+          {
+            "gene_family": "GF_02157",
+            "product": "acetolactate synthase small subunit",
+            "candidate_set": "Model-Supported",
+            "prior_tier": "Tier B: strong cross-evidence accessory",
+            "priority_tier": "Tier E: lower current evidence",
+            "prior_condensate_score": 0.3,
+            "condensate_score": 0.2,
+            "prior_adjusted_score": 4.55,
+            "scope_adjusted_story_score": 4.45,
+            "n_literature_active_phase_up_studies": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+stored_genus,audit_group
+'Nostoc,'Nostoc
+Acaryochloris,Acaryochloris
+Aliinostoc,Aliinostoc
+Allocoleopsis,Allocoleopsis
+Altericista,Altericista
+Anabaena,Anabaena
+Anthocerotibacter,Anthocerotibacter
+Arthrospira,Arthrospira
+Calothrix,Calothrix
+Candidatus,Candidatus
+Capilliphycus,Capilliphycus
+Chlorogloeopsis,Chlorogloeopsis
+Chondrocystis,Chondrocystis
+Chroococcidiopsis,Chroococcidiopsis
+Crinalium,Crinalium
+Crocosphaera,Crocosphaera
+Cyanobacterium,Cyanobacterium
+Cyanobium,Cyanobium
+Cylindrospermopsis,Cylindrospermopsis
+Dactylococcopsis,Dactylococcopsis
+Desertifilum,Desertifilum
+Dolichospermum,Dolichospermum
+Egbenema,Egbenema
+Euhalothece,Euhalothece
+Fischerella,Fischerella
+Geitlerinema,Geitlerinema
+Geminocystis,Geminocystis
+Gloeobacter,Gloeobacter
+Gloeocapsa,Gloeocapsa
+Gloeocapsopsis,Gloeocapsopsis
+Gloeothece,Gloeothece
+Halomicronema,Halomicronema
+Halothece,Halothece
+Halotia,Halotia
+Kovacikia,Kovacikia
+Leptodesmis,Leptodesmis
+Leptolyngbya,Leptolyngbya + [Leptolyngbya]
+Leptothermofonsia,Leptothermofonsia
+Limnospira,Limnospira
+Microcoleus,Microcoleus
+Microcystis,Microcystis
+Moorena,Moorena
+Nodularia,Nodularia
+Nostoc,Nostoc
+Nostocales,Nostocales
+Okeanomitos,Okeanomitos
+Oxynema,Oxynema
+Parasynechococcus,Parasynechococcus
+Parathermosynechococcus,Parathermosynechococcus
+Phormidium,Phormidium + [Phormidium]
+Picosynechococcus,Picosynechococcus
+Planktothricoides,Planktothricoides
+Planktothrix,Planktothrix
+Pleurocapsa,Pleurocapsa
+Prochlorococcus,Prochlorococcus + Synechococcus + [Synechococcus]
+Pseudanabaena,Pseudanabaena
+Richelia,Richelia
+Rippkaea,Rippkaea
+Rivularia,Rivularia
+Stanieria,Stanieria
+Synechococcus,Prochlorococcus + Synechococcus + [Synechococcus]
+Synechocystis,Synechocystis
+Thalassoporum,Thalassoporum
+Thermocoleostomius,Thermocoleostomius
+Thermoleptolyngbya,Thermoleptolyngbya
+Thermostichus,Thermostichus
+Thermosynechococcus,Thermosynechococcus
+Tolypothrix,Tolypothrix
+Trichodesmium,Trichodesmium
+Trichormus,Trichormus
+Trichothermofontia,Trichothermofontia
+[Leptolyngbya],Leptolyngbya + [Leptolyngbya]
+[Phormidium],Phormidium + [Phormidium]
+[Synechococcus],Prochlorococcus + Synechococcus + [Synechococcus]
+cyanobacterium,cyanobacterium

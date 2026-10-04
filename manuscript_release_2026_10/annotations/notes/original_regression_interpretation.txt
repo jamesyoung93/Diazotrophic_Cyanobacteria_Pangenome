@@ -1,0 +1,43 @@
+Independent statistical audit of source package v2 diagnostics
+Source: outputs/repo_cleanup_work/manuscript_release_2026_06/workbooks/proteomics_composite_family_evidence.xlsx, AllComposite.
+Reproducibility: independent_checks.py; numerical output independent_checks.txt.
+
+The original regressions reproduce. They justify cautious annotation/resource framing but do not establish that every external evidence layer is explained by prevalence or detectability.
+
+D5 PROTEOMICS
+Original model, n=273 detected Model-Supported families: up ~ strict breadth + mapped-study count + model rank.
+Strict breadth OR 0.891 (95% Wald CI 0.459-1.729), p=0.732.
+Mapped-study count OR 2.223 (1.618-3.054), p=8.35e-7.
+Model rank OR 1.692 (0.464-6.171), p=0.426.
+Categorical mapped-study count sensitivity: breadth OR 0.805 (0.403-1.609), p=0.540.
+These are lack-of-association results, not equivalence. The precision does not exclude a material positive or negative breadth association.
+The reported 22.3% vs 22.3% is the unweighted mean across families of active-up studies / mapped studies. It is not a universal per-study or per-protein probability. Pooled family-study fractions are 22.302% broad and 22.901% narrow. Repeated family-study observations are dependent, and study identities/conditions are heterogeneous.
+Common support is limited: narrow families have 80/21/3/0 observations with 1/2/3/4 mapped studies; broad families have 35/54/46/34.
+Mapped-study count measures both biological distribution and technical mapping/detection; these regressions do not measure protein abundance directly.
+The test does not itself establish that enrichment among the top 174 disappears against a matched selection null. Active-up counts already contribute to the score selecting these families, so 71/174 is descriptive evidence coverage rather than independent validation.
+References: pkg/scripts/editorial_diagnostics.py lines 84-97; pkg/07_EDITORIAL_ARCHITECTURE.md lines 109-121; source build_proteomics_composite_evidence.py lines 465-475 and 743-746.
+
+D6 CONDENSATE
+Mapped sample: Highly Pure n=934, prevalence 40-85, median55; Model-Supported n=369, prevalence41-426, median117.
+Inventory OR controlling log mapped rows: 2.811 (1.940-4.072), p=4.66e-8.
+After log carrier-genome count: 0.973 (0.528-1.794), p=.930.
+Carrier-genome OR per unit log count: 3.253 (1.998-5.296), p=2.11e-6. This is per e-fold increase, not per genome.
+Common prevalence range41-85 contains only106/369 Model-Supported and886/934 Highly Pure; 71% of mapped Model-Supported families lie outside shared support. The full regression therefore assumes a shared log-linear relationship outside that range.
+Restricting to shared range and repeating the same regression: inventoryOR1.045 (0.512-2.133), p=.903. This supports attenuation but the wide interval does not establish equivalence.
+The 80-130 stratum is not closely matched: all11 Highly Pure families lie at80-85 whereas Model-Supported extends through129. Calling its apparent reversal biological is unwarranted.
+Single-mapped-protein contrast addresses the simplest maximum-of-many concern; it does not rule out every mapping/selection artifact. Use 'the contrast persisted among single-mapped-protein families'.
+References: pkg/scripts/editorial_diagnostics.py lines99-121; pkg/07_EDITORIAL_ARCHITECTURE.md lines123-134.
+
+D7 TIER A COMPOSITION
+Original regex class count: Tier A18/31 (58.1%); other Model-Supported66/445 (14.8%).
+The monotonic overall share by mapped-study count (8%,18%,25%,31%,35%) is descriptive. It is not a test of whether detection explains the Tier A composition.
+Exploratory logistic model regex_class ~ TierA + categorical mapped-study count: TierA OR4.772 (2.075-10.976), p=.000236. Restricting to strict-breadth families: OR4.270 (1.834-9.941), p=.000762.
+In the four-study stratum: Tier A8/10 in regex class versus4/24 other families. In the three-study stratum:7/12 versus8/37.
+Thus mapped-study count alone does not explain away Tier A's composition. The source package assertion 'Detectability explains much of the pattern' should not be adopted as a finding. A safe statement is that study coverage varies with functional composition and complicates interpretation of Tier A. The independent sensitivity is exploratory, uses the same heuristic class and selected tier, and does not establish diazotrophy-specific biology.
+References: pkg/scripts/editorial_diagnostics.py lines124-129; pkg/07_EDITORIAL_ARCHITECTURE.md lines136-142.
+
+D8 MODULE LANGUAGE
+The category-label permutation tests assess average within-minus-between correlation for the included role labels and eligible families. Large one-sided p-values are no detected excess, not proof of no co-occurrence, no modules, or biological equivalence. Their global average can miss individual co-occurring subsets. 'Functional category' remains a reasonable naming choice unless modules were defined empirically.
+References: pkg/scripts/editorial_diagnostics.py lines131-145; pkg/07_EDITORIAL_ARCHITECTURE.md lines144-150.
+
+All confidence intervals here are ordinary model-based Wald intervals, without phylogenetic or inter-family dependence correction. Present diagnostics as exploratory sensitivity analyses, not causal decomposition or definitive validation tests.

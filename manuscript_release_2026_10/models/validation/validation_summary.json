@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "scope": "Fresh-copy execution in the existing Windows Anaconda scientific runtime. This is separate from any clean-install test.",
+  "fitted_models": 460,
+  "reference_prediction_rows": 38706,
+  "independent_metric_checks": 2784,
+  "maximum_reference_probability_difference": 0.0,
+  "exact_numeric_function_AST_matches_primary_repeated_test": true,
+  "exact_sensitivity_analysis_source_matches_fresh_copy_tests": true,
+  "comparison_tolerance": {
+    "rtol": 1e-10,
+    "atol": 1e-12
+  },
+  "cases": {
+    "seed42": {
+      "status": "PASS",
+      "independent_metric_checks": 96,
+      "reference_prediction_rows": 1704,
+      "maximum_reference_probability_delta": 0.0,
+      "maximum_independent_metric_delta": 2.3314683517128287e-15,
+      "fresh_copy_directory": "portable_model_audit_v2_recheck_01"
+    },
+    "repeated": {
+      "status": "PASS",
+      "independent_metric_checks": 960,
+      "reference_prediction_rows": 17040,
+      "maximum_reference_probability_delta": 0.0,
+      "maximum_independent_metric_delta": 2.886579864025407e-15,
+      "fresh_copy_directory": "portable_model_audit_v2_recheck_01"
+    },
+    "sample_identity": {
+      "status": "PASS",
+      "reference_prediction_rows": 10212,
+      "maximum_reference_probability_difference": 0.0,
+      "exact_fold_assignments_and_feature_masks_match": true,
+      "independent_verification": {
+        "status": "PASS",
+        "independent_score_checks": 864,
+        "maximum_score_discrepancy": 2.3314683517128287e-15,
+        "original_fold_ids_retained_for_all_local_exclusion_arms": true,
+        "group_and_sample_overlap_checks_passed": true,
+        "independently_verified_masks": 20,
+        "LR_predictions_reconstructed": 5106,
+        "total_prediction_rows": 10212,
+        "single_class_test_folds": 0
+      },
+      "fresh_copy_directory": "portable_model_audit_v2_recheck_01"
+    },
+    "current_status": {
+      "status": "PASS",
+      "reference_prediction_rows": 4830,
+      "maximum_reference_probability_difference": 0.0,
+      "exact_fold_assignments_and_feature_masks_match": true,
+      "independent_verification": {
+        "status": "PASS",
+        "independent_score_checks": 432,
+        "maximum_score_discrepancy": 1.4432899320127035e-15,
+        "original_fold_ids_retained_for_all_local_exclusion_arms": true,
+        "group_and_sample_overlap_checks_passed": true,
+        "independently_verified_masks": 10,
+        "LR_predictions_reconstructed": 2415,
+        "total_prediction_rows": 4830,
+        "single_class_test_folds": 0
+      },
+      "fresh_copy_directory": "portable_model_audit_v2_recheck_01"
+    },
+    "official_taxonomy": {
+      "status": "PASS",
+      "reference_prediction_rows": 4920,
+      "maximum_reference_probability_difference": 0.0,
+      "exact_fold_assignments_and_feature_masks_match": true,
+      "independent_verification": {
+        "status": "PASS",
+        "independent_score_checks": 432,
+        "maximum_score_discrepancy": 2.6645352591003757e-15,
+        "official_genus_numeric_sort_seed42_splits_verified": true,
+        "group_and_sample_overlap_checks_passed": true,
+        "independently_verified_masks": 10,
+        "LR_predictions_reconstructed": 2460,
+        "total_prediction_rows": 4920,
+        "single_class_test_folds": 0
+      },
+      "fresh_copy_directory": "portable_model_audit_v2_recheck_02"
+    }
+  },
+  "runtime_caveat": "The separate isolated primary run completed20 fits with threadpoolctl3.6.0 and consistently versioned SciPy1.13.1/OpenBLAS. Its strict probability comparison FAILS at the unchanged tolerance, with140 LR discrepancies up to4.6691e-10; reported metrics, masks, class decisions and importance ranks agree. See validation/clean_environment/REPORT.txt.",
+  "separate_clean_environment_primary_comparison": {
+    "strict_probability_comparison": "FAIL",
+    "strict_rtol": 1e-10,
+    "strict_atol": 1e-12,
+    "strict_failure_preserved": true,
+    "prediction_rows": 1704,
+    "strict_probability_mismatches": 140,
+    "maximum_absolute_probability_difference": 4.669040709615047e-10,
+    "decision_label_changes": 0,
+    "exact_feature_masks_equal": true,
+    "exact_global_purity_descriptive_equal": true,
+    "changed_score_order_or_tie_pairs": 2,
+    "saved_numerical_values_compared": 460,
+    "maximum_saved_metric_difference": 1.1102230246251565e-16,
+    "all_saved_metrics_same_to_4_decimals": true,
+    "unique_changed_score_pairs": 1,
+    "changed_score_pairs_all_same_class": true,
+    "independent_metric_checks": 432,
+    "maximum_independent_metric_difference": 2.3314683517128287e-15,
+    "audit_importance_ranks_unchanged": true,
+    "no_retraining": true,
+    "no_tolerance_relaxation": true,
+    "scientific_parameters_changed": false,
+    "input_sha256": {
+      "reference/AUDIT_ONLY_cv_importance_Gradient_Boosting.csv": "48b2070db11e03fb6ab1268bbe181dadcaf6264e3fc9cb5023fd285bee7533fd",
+      "reference/AUDIT_ONLY_cv_importance_Logistic_Regression.csv": "cab57b68971802ce552950374268c2286fdcb4282e187d63aa7b33776873c570",
+      "reference/AUDIT_ONLY_cv_importance_Random_Forest.csv": "1d835af3eee6adce3f11eb73e38e1d1048a560889445e9e32b063d1557fb1a8e",
+      "reference/AUDIT_ONLY_cv_importance_XGBoost.csv": "574e6c1b8f58a2d839de885f0d6ea43faf4f26c398657ddc66852f8fc363661f",
+      "reference/boundary_families_legacy_resource_membership.csv": "87451320e323bd5b5991a5517d0162ba52e8f2b3002d6c5c02a94c7e502372cc",
+      "reference/exact_global_purity_descriptive.csv": "420fa226c5e15a422eb94e4b663d9275af628550c54ee61a6ac849fd2ca44605",
+      "reference/fold_features.csv": "a46f38464132ff57a285e024fe38a2384df1a2b13798b976f0a0ea24b9fb4686",
+      "reference/fold_metrics.csv": "befa7713cd23154a25b21009242beb9505e4f6b124bd6a75077a3e679fcc56bc",
+      "reference/independent_metric_checks.csv": "8f01b21ea1d8525ba51eb2bd6ef2760424216e74d75b92967cf04e834db3e2c9",
+      "reference/independent_verification.csv": "bf79f67009c194bb2e493eef7e4b19f4830348c22c234132b2e553f8ca99fba4",
+      "reference/oof_predictions.csv": "ee60c483e72afe44c0e065f0e44b03437642792a16817e2e4d5bdb4e3e9ac04d",
+      "reference/summary.csv": "5e045f8624df1abc719b524f5a73468f7fad88beeb55de014e839e464cc2e281",
+      "clean/AUDIT_ONLY_cv_importance_Gradient_Boosting.csv": "48b2070db11e03fb6ab1268bbe181dadcaf6264e3fc9cb5023fd285bee7533fd",
+      "clean/AUDIT_ONLY_cv_importance_Logistic_Regression.csv": "932018dcc1a34226f332f76b4405a393de6aa8f4e0deb7e5243c602c89e9d600",
+      "clean/AUDIT_ONLY_cv_importance_Random_Forest.csv": "1d835af3eee6adce3f11eb73e38e1d1048a560889445e9e32b063d1557fb1a8e",
+      "clean/AUDIT_ONLY_cv_importance_XGBoost.csv": "574e6c1b8f58a2d839de885f0d6ea43faf4f26c398657ddc66852f8fc363661f",
+      "clean/exact_global_purity_descriptive.csv": "420fa226c5e15a422eb94e4b663d9275af628550c54ee61a6ac849fd2ca44605",
+      "clean/fold_features.csv": "f1a1317fa8b8038fd59adbceae81c30316b8c0acc11f030cb2f78cbe846db3a1",
+      "clean/fold_metrics.csv": "874837e5b26e92093f3dba0c06bb6fe648d29d15cbef6d791159cb6af3a6d09f",
+      "clean/oof_predictions.csv": "365b2e981f4869bf15df0ac6b8fde232f6dc1565accd01d17e1afec2c707f422",
+      "clean/summary.csv": "e9e2629c00ae9f7c66674159f41895be7dcaa3400acbc474ef686cfee056d461"
+    }
+  },
+  "separate_additional20_fit_training_prevalence": {
+    "status": "PASS",
+    "scope": "Separate additional20-fit sensitivity; main all-mode460-fit contract unchanged.",
+    "reference_prediction_rows": 1704,
+    "maximum_reference_probability_difference": 0.0,
+    "exact_assignments_and_masks_match": true,
+    "independent_verification": {
+      "status": "PASS",
+      "independent_score_checks": 144,
+      "maximum_score_discrepancy": 2.4424906541753444e-15,
+      "original_fold_ids_retained_for_all426": true,
+      "group_and_sample_overlap_checks_passed": true,
+      "independently_verified_masks": 5,
+      "LR_predictions_reconstructed": 426,
+      "total_prediction_rows": 1704,
+      "single_class_test_folds": 0
+    }
+  }
+}

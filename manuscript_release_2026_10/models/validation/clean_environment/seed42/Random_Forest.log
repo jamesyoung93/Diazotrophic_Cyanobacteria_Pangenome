@@ -1,0 +1,63 @@
+
+============================================================
+Running Random Forest with Genus-level CV
+============================================================
+
+Fold 1/5
+  Train: 380 genomes, Test: 46 genomes
+  Train diazotroph: 80/380 (21.1%)
+  Test  diazotroph: 32/46 (69.6%)
+  Accuracy: 0.9130
+  Precision: 0.9118
+  Recall: 0.9688
+  F1: 0.9394
+  ROC-AUC: 0.9844
+
+Fold 2/5
+  Train: 309 genomes, Test: 117 genomes
+  Train diazotroph: 91/309 (29.4%)
+  Test  diazotroph: 21/117 (17.9%)
+  Accuracy: 0.9573
+  Precision: 0.8636
+  Recall: 0.9048
+  F1: 0.8837
+  ROC-AUC: 0.9772
+
+Fold 3/5
+  Train: 397 genomes, Test: 29 genomes
+  Train diazotroph: 95/397 (23.9%)
+  Test  diazotroph: 17/29 (58.6%)
+  Accuracy: 0.6552
+  Precision: 0.7333
+  Recall: 0.6471
+  F1: 0.6875
+  ROC-AUC: 0.7745
+
+Fold 4/5
+  Train: 282 genomes, Test: 144 genomes
+  Train diazotroph: 84/282 (29.8%)
+  Test  diazotroph: 28/144 (19.4%)
+  Accuracy: 0.9514
+  Precision: 1.0000
+  Recall: 0.7500
+  F1: 0.8571
+  ROC-AUC: 0.9594
+
+Fold 5/5
+  Train: 336 genomes, Test: 90 genomes
+  Train diazotroph: 98/336 (29.2%)
+  Test  diazotroph: 14/90 (15.6%)
+  Accuracy: 0.8667
+  Precision: 0.7500
+  Recall: 0.2143
+  F1: 0.3333
+  ROC-AUC: 0.5686
+
+============================================================
+Random Forest - AGGREGATE RESULTS
+============================================================
+ACCURACY    : 0.8687 +/- 0.1247
+PRECISION   : 0.8517 +/- 0.1119
+RECALL      : 0.6970 +/- 0.2980
+F1          : 0.7402 +/- 0.2461
+ROC_AUC     : 0.8528 +/- 0.1810

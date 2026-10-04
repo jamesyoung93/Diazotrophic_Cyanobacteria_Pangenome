@@ -1,0 +1,30 @@
+{
+  "scope": "Presentation edits relative to the copied, audited packages. Scientific inputs and expected/reference outputs are unchanged. Figure 5 assets are regenerated from unchanged source values.",
+  "files": [
+    {
+      "file": "annotations/notes/original_regression_interpretation.txt",
+      "previous_sha256": "727e1c3e7ba5c700d32fc7a047a46b1021c14b9f09cb9472e7cb1fe53fa5397f",
+      "current_sha256": "e982786bcbd8696f2c3d897e6d477ef5cfa7745227ca84d8827dea8a83754c4b"
+    },
+    {
+      "file": "annotations/README.md",
+      "previous_sha256": "15ee8113feebb186bf31c476ae2afd20f1d9d6e709f7538b428698f63a34441d",
+      "current_sha256": "d55f462849435b8b6b2f74c5a6f525e66de5a841d9b572564fff1cb443e28467"
+    },
+    {
+      "file": "annotations/scripts/plot_figures.py",
+      "previous_sha256": "8e501c67b4aae71d57b9f962b7254ffcdb4dfb3e4414f760e76bab491f00b8f8",
+      "current_sha256": "2d24397f34d2e8f3a4cb0feb0feadffe24b90c8a0c0a1f8194432042b023c13d"
+    },
+    {
+      "file": "models/README.md",
+      "previous_sha256": "1d0d5817acd36119d64aafa3973307179ac766b0e70a26a446f69e29f4d62295",
+      "current_sha256": "848b1b6bb5f6cccc8590b3833208c5515445cab023cd15a1e5ca7c9d43218dea"
+    },
+    {
+      "file": "models/validation/clean_environment/clean_annotation_install.log",
+      "previous_sha256": "861ee9e12ac7b09c02daee7d4acb501c15ac4eb2f32bc3cc67615a6d4a53e256",
+      "current_sha256": "5f05832a131996c1aa5c893a9e200ec0965bc439b2b72bc15fceaca5e67df4b9"
+    }
+  ]
+}

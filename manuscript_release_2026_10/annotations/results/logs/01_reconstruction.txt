@@ -1,0 +1,173 @@
+{
+  "tier_counts": {
+    "Tier E: lower current evidence": 1111,
+    "De-emphasize: housekeeping/lineage": 160,
+    "Tier B: strong cross-evidence accessory": 138,
+    "Tier A: story-leading accessory": 31,
+    "Core/diagnostic control": 12,
+    "Tier HP: evidence-supported high-purity marker": 5
+  },
+  "shortlist_symmetric_difference": [],
+  "discrepancy_counts": {},
+  "atlas_join_summary": {
+    "id_matches": 309,
+    "exact_product_same_id_matches": 0,
+    "same_id_different_product": 309,
+    "id_matches_without_any_normalized_product_match": 172,
+    "product_matches_without_id_match": 474,
+    "tierA_id_matches": 14,
+    "tierB_id_matches": 27,
+    "tierA_id_matches_without_any_product_match": [],
+    "hgt_flags_imported_on_id": 1,
+    "hgt_flags_with_nonmatching_same_id_product": 1
+  },
+  "atlas_only_sensitivity": {
+    "description": "Set related-atlas additive component A=0 and recompute the existing Highly Pure max(1-A,0) scope adjustment. Preserve all other released rules, including the imported HGT penalty. Diagnostic only; not substituted for released tiers.",
+    "changed_tier_count": 14,
+    "tier_counts": {
+      "Tier E: lower current evidence": 1116,
+      "De-emphasize: housekeeping/lineage": 160,
+      "Tier B: strong cross-evidence accessory": 142,
+      "Tier A: story-leading accessory": 22,
+      "Core/diagnostic control": 12,
+      "Tier HP: evidence-supported high-purity marker": 5
+    },
+    "shortlist_count": 169,
+    "removed_from_shortlist": [
+      "GF_00866",
+      "GF_00969",
+      "GF_01635",
+      "GF_01675",
+      "GF_01819"
+    ],
+    "added_to_shortlist": [],
+    "changes": [
+      {
+        "gene_family": "GF_00079",
+        "product": "ATP-dependent Clp protease proteolytic subunit",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00104",
+        "product": "15-cis-phytoene desaturase",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00136",
+        "product": "ferredoxin:protochlorophyllide reductase (ATP-dependent) subunit B",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00360",
+        "product": "inorganic diphosphatase",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.5,
+        "related_atlas_score": 0.75,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00622",
+        "product": "amino acid ABC transporter ATP-binding protein",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00624",
+        "product": "NADP-dependent isocitrate dehydrogenase",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00866",
+        "product": "adenosylhomocysteinase",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "scope_adjusted_story_score": 4.75,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 4.25,
+        "tier_if_omit_atlas_component_only": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_00969",
+        "product": "phosphoribulokinase",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "scope_adjusted_story_score": 4.75,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 4.25,
+        "tier_if_omit_atlas_component_only": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01635",
+        "product": "acetyl-CoA carboxylase carboxyltransferase subunit alpha",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "scope_adjusted_story_score": 4.75,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 4.25,
+        "tier_if_omit_atlas_component_only": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01675",
+        "product": "signal peptide peptidase SppA",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "scope_adjusted_story_score": 4.75,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 4.25,
+        "tier_if_omit_atlas_component_only": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01816",
+        "product": "photosynthetic/respiratory NAD(P)H-quinone oxidoreductase subunit K",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_01818",
+        "product": "glucose-6-phosphate dehydrogenase",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_01819",
+        "product": "threonine synthase",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "scope_adjusted_story_score": 4.75,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 4.25,
+        "tier_if_omit_atlas_component_only": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01860",
+        "product": "hypothetical protein",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      }
+    ]
+  }
+}

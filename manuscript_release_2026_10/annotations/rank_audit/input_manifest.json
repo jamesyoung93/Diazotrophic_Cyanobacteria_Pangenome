@@ -1,0 +1,68 @@
+{
+  "frozen_model_supported476.tsv": {
+    "staged_sha256": "fb4db77725739fb71303a972d8eb16933bd206082c50de729cbff36495142920",
+    "source_sha256": "fb4db77725739fb71303a972d8eb16933bd206082c50de729cbff36495142920",
+    "source_basename": "tier1_positive_model_selected.tsv",
+    "subset": false
+  },
+  "released_Random_Forest.csv": {
+    "staged_sha256": "93e2c7a4afc5a548bfdcbb8313e5eda956a9fbe738a1d23c4f92dc6a5a02a96e",
+    "source_sha256": "93e2c7a4afc5a548bfdcbb8313e5eda956a9fbe738a1d23c4f92dc6a5a02a96e",
+    "source_basename": "feature_importance_Random_Forest.csv",
+    "subset": false
+  },
+  "corrected_Random_Forest.csv": {
+    "staged_sha256": "1d835af3eee6adce3f11eb73e38e1d1048a560889445e9e32b063d1557fb1a8e",
+    "source_sha256": "1d835af3eee6adce3f11eb73e38e1d1048a560889445e9e32b063d1557fb1a8e",
+    "source_basename": "AUDIT_ONLY_cv_importance_Random_Forest.csv",
+    "subset": false
+  },
+  "released_Gradient_Boosting.csv": {
+    "staged_sha256": "f6986a862cdd447a4d3e38db82a02cba129f7917c48967170cce40748b636d00",
+    "source_sha256": "f6986a862cdd447a4d3e38db82a02cba129f7917c48967170cce40748b636d00",
+    "source_basename": "feature_importance_Gradient_Boosting.csv",
+    "subset": false
+  },
+  "corrected_Gradient_Boosting.csv": {
+    "staged_sha256": "48b2070db11e03fb6ab1268bbe181dadcaf6264e3fc9cb5023fd285bee7533fd",
+    "source_sha256": "48b2070db11e03fb6ab1268bbe181dadcaf6264e3fc9cb5023fd285bee7533fd",
+    "source_basename": "AUDIT_ONLY_cv_importance_Gradient_Boosting.csv",
+    "subset": false
+  },
+  "released_Logistic_Regression.csv": {
+    "staged_sha256": "cd82dc6c397792efc247d9ef638ed728c858b49974e417e3833b6fda076f2f75",
+    "source_sha256": "cd82dc6c397792efc247d9ef638ed728c858b49974e417e3833b6fda076f2f75",
+    "source_basename": "feature_importance_Logistic_Regression.csv",
+    "subset": false
+  },
+  "corrected_Logistic_Regression.csv": {
+    "staged_sha256": "cab57b68971802ce552950374268c2286fdcb4282e187d63aa7b33776873c570",
+    "source_sha256": "cab57b68971802ce552950374268c2286fdcb4282e187d63aa7b33776873c570",
+    "source_basename": "AUDIT_ONLY_cv_importance_Logistic_Regression.csv",
+    "subset": false
+  },
+  "released_XGBoost.csv": {
+    "staged_sha256": "70232f0b309f2815385deb501ed7351cac98d950a9d99612d34866b9f9c65ddb",
+    "source_sha256": "70232f0b309f2815385deb501ed7351cac98d950a9d99612d34866b9f9c65ddb",
+    "source_basename": "feature_importance_XGBoost.csv",
+    "subset": false
+  },
+  "corrected_XGBoost.csv": {
+    "staged_sha256": "574e6c1b8f58a2d839de885f0d6ea43faf4f26c398657ddc66852f8fc363661f",
+    "source_sha256": "574e6c1b8f58a2d839de885f0d6ea43faf4f26c398657ddc66852f8fc363661f",
+    "source_basename": "AUDIT_ONLY_cv_importance_XGBoost.csv",
+    "subset": false
+  },
+  "current_global_replay_fold_importances.csv": {
+    "staged_sha256": "3675f3cad6f514c71d132255f46546f4152d3965a1eb24068dc975496b025065",
+    "source_sha256": "7d268aab46116d898939fbb696cf273061182f79a0bc9296ddf904d41750b629",
+    "source_basename": "model_fold_importances.csv",
+    "subset": true
+  },
+  "exact_corrected_family_LR_coefficients_50fits.csv": {
+    "staged_sha256": "3d8e03ee5fde3a32aada39cbe728de0cf98c8cbfa15dfdc72befab573faf80c5",
+    "source_sha256": "c347789735fd40b92fa764912b77b2903a1532e770843623598e10d72ecef74d",
+    "source_basename": "fold_scalers_and_coefficients.csv",
+    "subset": true
+  }
+}

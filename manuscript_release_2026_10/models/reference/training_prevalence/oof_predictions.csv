@@ -1,0 +1,1705 @@
+scenario,model,fold,assembly_accession,genus,audit_group,y_true,y_prob,y_pred
+training_prevalence_at_least40,Random Forest,1,GCF_000009705.1,Nostoc,Nostoc,1,0.982020091020091,1
+training_prevalence_at_least40,Random Forest,1,GCF_000011385.1,Gloeobacter,Gloeobacter,0,0.2202687539237084,0
+training_prevalence_at_least40,Random Forest,1,GCF_000020025.1,Nostoc,Nostoc,1,0.934147384478267,1
+training_prevalence_at_least40,Random Forest,1,GCF_000025125.1,Candidatus,Candidatus,1,0.39441326369731955,0
+training_prevalence_at_least40,Random Forest,1,GCF_000196515.1,'Nostoc,'Nostoc,1,0.8794458474532003,1
+training_prevalence_at_least40,Random Forest,1,GCF_000316625.1,Nostoc,Nostoc,1,0.9747705905205905,1
+training_prevalence_at_least40,Random Forest,1,GCF_000316645.1,Nostoc,Nostoc,1,0.9645249107617527,1
+training_prevalence_at_least40,Random Forest,1,GCF_000317105.1,Oxynema,Oxynema,0,0.5860040812223274,1
+training_prevalence_at_least40,Random Forest,1,GCF_000317555.1,Gloeocapsa,Gloeocapsa,0,0.7436577187002881,1
+training_prevalence_at_least40,Random Forest,1,GCF_000317615.1,Dactylococcopsis,Dactylococcopsis,0,0.43535291331278536,0
+training_prevalence_at_least40,Random Forest,1,GCF_000484535.1,Gloeobacter,Gloeobacter,0,0.20749097614593062,0
+training_prevalence_at_least40,Random Forest,1,GCF_001548375.1,Nostoc,Nostoc,1,0.9555150029708852,1
+training_prevalence_at_least40,Random Forest,1,GCF_001767235.1,Moorena,Moorena,0,0.5751849025157848,1
+training_prevalence_at_least40,Random Forest,1,GCF_001854205.2,Moorena,Moorena,0,0.45677983536071776,0
+training_prevalence_at_least40,Random Forest,1,GCF_002075285.2,Halomicronema,Halomicronema,0,0.3969428581394525,0
+training_prevalence_at_least40,Random Forest,1,GCF_002075285.3,Halomicronema,Halomicronema,0,0.4023873025838969,0
+training_prevalence_at_least40,Random Forest,1,GCF_002368355.1,Chondrocystis,Chondrocystis,0,0.35419678830884266,0
+training_prevalence_at_least40,Random Forest,1,GCF_002813575.1,Nostoc,Nostoc,1,0.9002170282847528,1
+training_prevalence_at_least40,Random Forest,1,GCF_002896875.1,Nostoc,Nostoc,1,0.9623715728715729,1
+training_prevalence_at_least40,Random Forest,1,GCF_002949735.1,Nostoc,Nostoc,1,0.9243834955893782,1
+training_prevalence_at_least40,Random Forest,1,GCF_002949795.1,Nostoc,Nostoc,1,0.9441653942462765,1
+training_prevalence_at_least40,Random Forest,1,GCF_003443655.1,Nostoc,Nostoc,1,0.9496268315018316,1
+training_prevalence_at_least40,Random Forest,1,GCF_009372195.1,Nostoc,Nostoc,1,0.9695155677655678,1
+training_prevalence_at_least40,Random Forest,1,GCF_009873495.1,Nostoc,Nostoc,1,0.9287925864984691,1
+training_prevalence_at_least40,Random Forest,1,GCF_012295525.1,Oxynema,Oxynema,0,0.46457287369576394,0
+training_prevalence_at_least40,Random Forest,1,GCF_013343235.1,Nostoc,Nostoc,1,0.9463834955893781,1
+training_prevalence_at_least40,Random Forest,1,GCF_013393905.1,Nostoc,Nostoc,1,0.9436766242443485,1
+training_prevalence_at_least40,Random Forest,1,GCF_013393925.1,Nostoc,Nostoc,1,0.9348279400338225,1
+training_prevalence_at_least40,Random Forest,1,GCF_013393945.1,Nostoc,Nostoc,1,0.9695003885003883,1
+training_prevalence_at_least40,Random Forest,1,GCF_014023275.1,Nostoc,Nostoc,1,0.9738887362637364,1
+training_prevalence_at_least40,Random Forest,1,GCF_016446395.1,[Phormidium],[Phormidium],0,0.44882998036535177,0
+training_prevalence_at_least40,Random Forest,1,GCF_017164015.1,Nostoc,Nostoc,1,0.9663322700691122,1
+training_prevalence_at_least40,Random Forest,1,GCF_019056575.1,Richelia,Richelia,1,0.9735594693404289,1
+training_prevalence_at_least40,Random Forest,1,GCF_019976755.1,Nostoc,Nostoc,1,0.9823444055944054,1
+training_prevalence_at_least40,Random Forest,1,GCF_021018745.1,Gloeobacter,Gloeobacter,0,0.2202687539237084,0
+training_prevalence_at_least40,Random Forest,1,GCF_022063185.1,Nostoc,Nostoc,1,0.9563886318360002,1
+training_prevalence_at_least40,Random Forest,1,GCF_023734775.1,Nostoc,Nostoc,1,0.8467867059411178,1
+training_prevalence_at_least40,Random Forest,1,GCF_026802175.1,Thermocoleostomius,Thermocoleostomius,1,0.7190675402598775,1
+training_prevalence_at_least40,Random Forest,1,GCF_028623165.1,Nostoc,Nostoc,1,0.8836653942462763,1
+training_prevalence_at_least40,Random Forest,1,GCF_038050375.1,Okeanomitos,Okeanomitos,1,0.9499141430464957,1
+training_prevalence_at_least40,Random Forest,1,GCF_038096175.1,Nostoc,Nostoc,1,0.9517069221628044,1
+training_prevalence_at_least40,Random Forest,1,GCF_040564635.1,Planktothricoides,Planktothricoides,0,0.4117324644911332,0
+training_prevalence_at_least40,Random Forest,1,GCF_043099725.1,Nostoc,Nostoc,1,0.9428834955893781,1
+training_prevalence_at_least40,Random Forest,1,GCF_043099735.1,Nostoc,Nostoc,1,0.9537189656748479,1
+training_prevalence_at_least40,Random Forest,1,GCF_052692655.1,Nostoc,Nostoc,1,0.9348267190326014,1
+training_prevalence_at_least40,Random Forest,1,GCF_052692665.1,Nostoc,Nostoc,1,0.9349634156692977,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000009705.1,Nostoc,Nostoc,1,0.9998949483218494,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000011385.1,Gloeobacter,Gloeobacter,0,0.0016338259168911548,0
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000020025.1,Nostoc,Nostoc,1,0.9999054208102052,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000025125.1,Candidatus,Candidatus,1,0.996121189015383,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000196515.1,'Nostoc,'Nostoc,1,0.5161141835567888,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000316625.1,Nostoc,Nostoc,1,0.9999054147778834,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000316645.1,Nostoc,Nostoc,1,0.9998401008891794,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000317105.1,Oxynema,Oxynema,0,0.593512541426351,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000317555.1,Gloeocapsa,Gloeocapsa,0,0.37184905050325134,0
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000317615.1,Dactylococcopsis,Dactylococcopsis,0,0.9983654148240614,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_000484535.1,Gloeobacter,Gloeobacter,0,0.003118030997900828,0
+training_prevalence_at_least40,Gradient Boosting,1,GCF_001548375.1,Nostoc,Nostoc,1,0.9996484052587381,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_001767235.1,Moorena,Moorena,0,0.9945380489760015,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_001854205.2,Moorena,Moorena,0,0.49206606166494776,0
+training_prevalence_at_least40,Gradient Boosting,1,GCF_002075285.2,Halomicronema,Halomicronema,0,0.5845790228993812,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_002075285.3,Halomicronema,Halomicronema,0,0.4551439808995687,0
+training_prevalence_at_least40,Gradient Boosting,1,GCF_002368355.1,Chondrocystis,Chondrocystis,0,0.004742541464281541,0
+training_prevalence_at_least40,Gradient Boosting,1,GCF_002813575.1,Nostoc,Nostoc,1,0.999725460815881,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_002896875.1,Nostoc,Nostoc,1,0.9999009343680894,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_002949735.1,Nostoc,Nostoc,1,0.9999054208102052,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_002949795.1,Nostoc,Nostoc,1,0.9998863500830548,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_003443655.1,Nostoc,Nostoc,1,0.9998987818656907,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_009372195.1,Nostoc,Nostoc,1,0.9999033059017862,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_009873495.1,Nostoc,Nostoc,1,0.9998619918185142,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_012295525.1,Oxynema,Oxynema,0,0.5189453265788858,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_013343235.1,Nostoc,Nostoc,1,0.9999054147778834,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_013393905.1,Nostoc,Nostoc,1,0.9998189502192679,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_013393925.1,Nostoc,Nostoc,1,0.9998619918185142,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_013393945.1,Nostoc,Nostoc,1,0.999903571358101,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_014023275.1,Nostoc,Nostoc,1,0.9999033059017862,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_016446395.1,[Phormidium],[Phormidium],0,0.5584690647547064,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_017164015.1,Nostoc,Nostoc,1,0.9998559496582728,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_019056575.1,Richelia,Richelia,1,0.99979645334875,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_019976755.1,Nostoc,Nostoc,1,0.9998990615189886,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_021018745.1,Gloeobacter,Gloeobacter,0,0.0016338259168911548,0
+training_prevalence_at_least40,Gradient Boosting,1,GCF_022063185.1,Nostoc,Nostoc,1,0.9998440783599742,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_023734775.1,Nostoc,Nostoc,1,0.996945571142235,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_026802175.1,Thermocoleostomius,Thermocoleostomius,1,0.9356550762436899,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_028623165.1,Nostoc,Nostoc,1,0.9998341761987423,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_038050375.1,Okeanomitos,Okeanomitos,1,0.9997255820944019,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_038096175.1,Nostoc,Nostoc,1,0.9974645449785979,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_040564635.1,Planktothricoides,Planktothricoides,0,0.853784214891785,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_043099725.1,Nostoc,Nostoc,1,0.9999054147778834,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_043099735.1,Nostoc,Nostoc,1,0.9999054147778834,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_052692655.1,Nostoc,Nostoc,1,0.9998620006198213,1
+training_prevalence_at_least40,Gradient Boosting,1,GCF_052692665.1,Nostoc,Nostoc,1,0.9998568252911861,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_000009705.1,Nostoc,Nostoc,1,0.9991464572780644,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_000011385.1,Gloeobacter,Gloeobacter,0,0.06579967989520293,0
+training_prevalence_at_least40,Logistic Regression,1,GCF_000020025.1,Nostoc,Nostoc,1,0.9991384771067028,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_000025125.1,Candidatus,Candidatus,1,0.9673579855315645,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_000196515.1,'Nostoc,'Nostoc,1,0.9812635406986441,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_000316625.1,Nostoc,Nostoc,1,0.9997396268247412,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_000316645.1,Nostoc,Nostoc,1,0.9998538232389014,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_000317105.1,Oxynema,Oxynema,0,0.05446889453116001,0
+training_prevalence_at_least40,Logistic Regression,1,GCF_000317555.1,Gloeocapsa,Gloeocapsa,0,0.9055688323397122,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_000317615.1,Dactylococcopsis,Dactylococcopsis,0,0.7710611953086446,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_000484535.1,Gloeobacter,Gloeobacter,0,0.02322847642774392,0
+training_prevalence_at_least40,Logistic Regression,1,GCF_001548375.1,Nostoc,Nostoc,1,0.9882941455937557,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_001767235.1,Moorena,Moorena,0,0.5090475577441484,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_001854205.2,Moorena,Moorena,0,0.24357271919453793,0
+training_prevalence_at_least40,Logistic Regression,1,GCF_002075285.2,Halomicronema,Halomicronema,0,0.8757356164514734,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_002075285.3,Halomicronema,Halomicronema,0,0.7053793310066763,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_002368355.1,Chondrocystis,Chondrocystis,0,0.01775261981903669,0
+training_prevalence_at_least40,Logistic Regression,1,GCF_002813575.1,Nostoc,Nostoc,1,0.9993989978738809,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_002896875.1,Nostoc,Nostoc,1,0.9998208336300329,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_002949735.1,Nostoc,Nostoc,1,0.9988288786825603,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_002949795.1,Nostoc,Nostoc,1,0.9904184812098922,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_003443655.1,Nostoc,Nostoc,1,0.9999140681039902,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_009372195.1,Nostoc,Nostoc,1,0.9999804742184722,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_009873495.1,Nostoc,Nostoc,1,0.9984712563138705,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_012295525.1,Oxynema,Oxynema,0,0.13832153763796598,0
+training_prevalence_at_least40,Logistic Regression,1,GCF_013343235.1,Nostoc,Nostoc,1,0.999206784563524,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_013393905.1,Nostoc,Nostoc,1,0.9961501033420423,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_013393925.1,Nostoc,Nostoc,1,0.9973689454863748,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_013393945.1,Nostoc,Nostoc,1,0.9958322873895445,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_014023275.1,Nostoc,Nostoc,1,0.9999761778559291,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_016446395.1,[Phormidium],[Phormidium],0,0.6417234091692526,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_017164015.1,Nostoc,Nostoc,1,0.9994538196238654,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_019056575.1,Richelia,Richelia,1,0.9978578295672487,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_019976755.1,Nostoc,Nostoc,1,0.9977408226355149,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_021018745.1,Gloeobacter,Gloeobacter,0,0.08162708761839363,0
+training_prevalence_at_least40,Logistic Regression,1,GCF_022063185.1,Nostoc,Nostoc,1,0.9997167720061352,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_023734775.1,Nostoc,Nostoc,1,0.996901842295649,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_026802175.1,Thermocoleostomius,Thermocoleostomius,1,0.9655866298055437,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_028623165.1,Nostoc,Nostoc,1,0.9387411103699,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_038050375.1,Okeanomitos,Okeanomitos,1,0.9992614826299698,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_038096175.1,Nostoc,Nostoc,1,0.9975024231296099,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_040564635.1,Planktothricoides,Planktothricoides,0,0.39019485903616885,0
+training_prevalence_at_least40,Logistic Regression,1,GCF_043099725.1,Nostoc,Nostoc,1,0.9994902268976471,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_043099735.1,Nostoc,Nostoc,1,0.9998298735902686,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_052692655.1,Nostoc,Nostoc,1,0.9946979401036476,1
+training_prevalence_at_least40,Logistic Regression,1,GCF_052692665.1,Nostoc,Nostoc,1,0.9955303650492912,1
+training_prevalence_at_least40,XGBoost,1,GCF_000009705.1,Nostoc,Nostoc,1,0.9976034760475159,1
+training_prevalence_at_least40,XGBoost,1,GCF_000011385.1,Gloeobacter,Gloeobacter,0,0.5422499775886536,1
+training_prevalence_at_least40,XGBoost,1,GCF_000020025.1,Nostoc,Nostoc,1,0.9975963234901428,1
+training_prevalence_at_least40,XGBoost,1,GCF_000025125.1,Candidatus,Candidatus,1,0.8654064536094666,1
+training_prevalence_at_least40,XGBoost,1,GCF_000196515.1,'Nostoc,'Nostoc,1,0.9752233624458313,1
+training_prevalence_at_least40,XGBoost,1,GCF_000316625.1,Nostoc,Nostoc,1,0.9977807402610779,1
+training_prevalence_at_least40,XGBoost,1,GCF_000316645.1,Nostoc,Nostoc,1,0.9901093244552612,1
+training_prevalence_at_least40,XGBoost,1,GCF_000317105.1,Oxynema,Oxynema,0,0.6438694596290588,1
+training_prevalence_at_least40,XGBoost,1,GCF_000317555.1,Gloeocapsa,Gloeocapsa,0,0.681456446647644,1
+training_prevalence_at_least40,XGBoost,1,GCF_000317615.1,Dactylococcopsis,Dactylococcopsis,0,0.9215812087059021,1
+training_prevalence_at_least40,XGBoost,1,GCF_000484535.1,Gloeobacter,Gloeobacter,0,0.4101420044898987,0
+training_prevalence_at_least40,XGBoost,1,GCF_001548375.1,Nostoc,Nostoc,1,0.9854055643081665,1
+training_prevalence_at_least40,XGBoost,1,GCF_001767235.1,Moorena,Moorena,0,0.8994883894920349,1
+training_prevalence_at_least40,XGBoost,1,GCF_001854205.2,Moorena,Moorena,0,0.7272846698760986,1
+training_prevalence_at_least40,XGBoost,1,GCF_002075285.2,Halomicronema,Halomicronema,0,0.7853448987007141,1
+training_prevalence_at_least40,XGBoost,1,GCF_002075285.3,Halomicronema,Halomicronema,0,0.777572751045227,1
+training_prevalence_at_least40,XGBoost,1,GCF_002368355.1,Chondrocystis,Chondrocystis,0,0.019189639016985893,0
+training_prevalence_at_least40,XGBoost,1,GCF_002813575.1,Nostoc,Nostoc,1,0.9972809553146362,1
+training_prevalence_at_least40,XGBoost,1,GCF_002896875.1,Nostoc,Nostoc,1,0.9963834285736084,1
+training_prevalence_at_least40,XGBoost,1,GCF_002949735.1,Nostoc,Nostoc,1,0.9970567226409912,1
+training_prevalence_at_least40,XGBoost,1,GCF_002949795.1,Nostoc,Nostoc,1,0.996769905090332,1
+training_prevalence_at_least40,XGBoost,1,GCF_003443655.1,Nostoc,Nostoc,1,0.9984425902366638,1
+training_prevalence_at_least40,XGBoost,1,GCF_009372195.1,Nostoc,Nostoc,1,0.9993886947631836,1
+training_prevalence_at_least40,XGBoost,1,GCF_009873495.1,Nostoc,Nostoc,1,0.990741491317749,1
+training_prevalence_at_least40,XGBoost,1,GCF_012295525.1,Oxynema,Oxynema,0,0.3326133191585541,0
+training_prevalence_at_least40,XGBoost,1,GCF_013343235.1,Nostoc,Nostoc,1,0.996556282043457,1
+training_prevalence_at_least40,XGBoost,1,GCF_013393905.1,Nostoc,Nostoc,1,0.9924822449684143,1
+training_prevalence_at_least40,XGBoost,1,GCF_013393925.1,Nostoc,Nostoc,1,0.9896546602249146,1
+training_prevalence_at_least40,XGBoost,1,GCF_013393945.1,Nostoc,Nostoc,1,0.9973215460777283,1
+training_prevalence_at_least40,XGBoost,1,GCF_014023275.1,Nostoc,Nostoc,1,0.9992984533309937,1
+training_prevalence_at_least40,XGBoost,1,GCF_016446395.1,[Phormidium],[Phormidium],0,0.16518712043762207,0
+training_prevalence_at_least40,XGBoost,1,GCF_017164015.1,Nostoc,Nostoc,1,0.9977658987045288,1
+training_prevalence_at_least40,XGBoost,1,GCF_019056575.1,Richelia,Richelia,1,0.9960905909538269,1
+training_prevalence_at_least40,XGBoost,1,GCF_019976755.1,Nostoc,Nostoc,1,0.9891690015792847,1
+training_prevalence_at_least40,XGBoost,1,GCF_021018745.1,Gloeobacter,Gloeobacter,0,0.5422499775886536,1
+training_prevalence_at_least40,XGBoost,1,GCF_022063185.1,Nostoc,Nostoc,1,0.9961568713188171,1
+training_prevalence_at_least40,XGBoost,1,GCF_023734775.1,Nostoc,Nostoc,1,0.996661901473999,1
+training_prevalence_at_least40,XGBoost,1,GCF_026802175.1,Thermocoleostomius,Thermocoleostomius,1,0.6504963040351868,1
+training_prevalence_at_least40,XGBoost,1,GCF_028623165.1,Nostoc,Nostoc,1,0.9923100471496582,1
+training_prevalence_at_least40,XGBoost,1,GCF_038050375.1,Okeanomitos,Okeanomitos,1,0.9973674416542053,1
+training_prevalence_at_least40,XGBoost,1,GCF_038096175.1,Nostoc,Nostoc,1,0.9922454953193665,1
+training_prevalence_at_least40,XGBoost,1,GCF_040564635.1,Planktothricoides,Planktothricoides,0,0.5663684010505676,1
+training_prevalence_at_least40,XGBoost,1,GCF_043099725.1,Nostoc,Nostoc,1,0.9967325925827026,1
+training_prevalence_at_least40,XGBoost,1,GCF_043099735.1,Nostoc,Nostoc,1,0.9980670809745789,1
+training_prevalence_at_least40,XGBoost,1,GCF_052692655.1,Nostoc,Nostoc,1,0.9912220239639282,1
+training_prevalence_at_least40,XGBoost,1,GCF_052692665.1,Nostoc,Nostoc,1,0.9913422465324402,1
+training_prevalence_at_least40,Random Forest,2,GCF_000007925.1,Prochlorococcus,Prochlorococcus,0,0.061513203463203464,0
+training_prevalence_at_least40,Random Forest,2,GCF_000011465.1,Prochlorococcus,Prochlorococcus,0,0.0626658266746502,0
+training_prevalence_at_least40,Random Forest,2,GCF_000011485.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_000012465.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_000012645.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_000015645.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_000015665.1,Prochlorococcus,Prochlorococcus,0,0.0626658266746502,0
+training_prevalence_at_least40,Random Forest,2,GCF_000015685.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_000015705.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_000015965.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_000018065.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_000018105.1,Acaryochloris,Acaryochloris,0,0.45915573770914314,0
+training_prevalence_at_least40,Random Forest,2,GCF_000019485.1,Picosynechococcus,Picosynechococcus,0,0.23613857444584999,0
+training_prevalence_at_least40,Random Forest,2,GCF_000317495.1,Crinalium,Crinalium,0,0.6588214236743649,1
+training_prevalence_at_least40,Random Forest,2,GCF_000317515.1,Allocoleopsis,Allocoleopsis,1,0.5380945350945351,1
+training_prevalence_at_least40,Random Forest,2,GCF_000757845.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_000757865.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_001521855.1,Picosynechococcus,Picosynechococcus,0,0.22707508238235788,0
+training_prevalence_at_least40,Random Forest,2,GCF_001548395.1,Leptolyngbya,Leptolyngbya,1,0.5778204994180224,1
+training_prevalence_at_least40,Random Forest,2,GCF_001548435.1,Leptolyngbya,Leptolyngbya,0,0.5026732577989249,1
+training_prevalence_at_least40,Random Forest,2,GCF_001548455.1,Fischerella,Fischerella,1,0.947652541902542,1
+training_prevalence_at_least40,Random Forest,2,GCF_001693255.1,Picosynechococcus,Picosynechococcus,0,0.2386499095160085,0
+training_prevalence_at_least40,Random Forest,2,GCF_001693275.1,Picosynechococcus,Picosynechococcus,0,0.227186193493469,0
+training_prevalence_at_least40,Random Forest,2,GCF_001693295.1,Picosynechococcus,Picosynechococcus,0,0.24482975091643822,0
+training_prevalence_at_least40,Random Forest,2,GCF_002142475.1,Leptolyngbya,Leptolyngbya,1,0.5365805597881234,1
+training_prevalence_at_least40,Random Forest,2,GCF_002142495.1,Leptolyngbya,Leptolyngbya,1,0.5365805597881234,1
+training_prevalence_at_least40,Random Forest,2,GCF_002163975.1,Nostocales,Nostocales,1,0.9551691364191364,1
+training_prevalence_at_least40,Random Forest,2,GCF_002368255.1,Leptolyngbya,Leptolyngbya,1,0.5617482948308584,1
+training_prevalence_at_least40,Random Forest,2,GCF_003054475.1,Nodularia,Nodularia,1,0.8953347877612583,1
+training_prevalence_at_least40,Random Forest,2,GCF_003060805.1,Arthrospira,Arthrospira,0,0.3944049836329249,0
+training_prevalence_at_least40,Random Forest,2,GCF_008121535.1,Dolichospermum,Dolichospermum,1,0.7946145525870756,1
+training_prevalence_at_least40,Random Forest,2,GCF_012516395.1,Dolichospermum,Dolichospermum,1,0.8258198750423981,1
+training_prevalence_at_least40,Random Forest,2,GCF_016403105.1,Leptolyngbya,Leptolyngbya,0,0.3226637351039054,0
+training_prevalence_at_least40,Random Forest,2,GCF_016745315.1,Arthrospira,Arthrospira,0,0.4260824189427131,0
+training_prevalence_at_least40,Random Forest,2,GCF_018336915.1,Acaryochloris,Acaryochloris,0,0.4585396870930925,0
+training_prevalence_at_least40,Random Forest,2,GCF_021497025.1,Acaryochloris,Acaryochloris,0,0.4192058790882319,0
+training_prevalence_at_least40,Random Forest,2,GCF_022372495.1,Leptolyngbya,Leptolyngbya,1,0.5617482948308584,1
+training_prevalence_at_least40,Random Forest,2,GCF_022376295.1,Nodularia,Nodularia,1,0.899512998439469,1
+training_prevalence_at_least40,Random Forest,2,GCF_022701255.1,Microcoleus,Microcoleus,0,0.45250420987058937,0
+training_prevalence_at_least40,Random Forest,2,GCF_022701275.1,Microcoleus,Microcoleus,0,0.4114517900681694,0
+training_prevalence_at_least40,Random Forest,2,GCF_024347835.1,Acaryochloris,Acaryochloris,0,0.4622817881293112,0
+training_prevalence_at_least40,Random Forest,2,GCF_024584745.1,Dolichospermum,Dolichospermum,1,0.849421479320473,1
+training_prevalence_at_least40,Random Forest,2,GCF_027359355.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_027359375.1,Prochlorococcus,Prochlorococcus,0,0.0626658266746502,0
+training_prevalence_at_least40,Random Forest,2,GCF_027359395.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_027359415.1,Prochlorococcus,Prochlorococcus,0,0.0626658266746502,0
+training_prevalence_at_least40,Random Forest,2,GCF_027359475.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_027359525.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_027359575.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_027359595.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_032163395.1,Gloeocapsopsis,Gloeocapsopsis,0,0.7468027666777667,1
+training_prevalence_at_least40,Random Forest,2,GCF_032393985.1,Fischerella,Fischerella,1,0.9608118825618825,1
+training_prevalence_at_least40,Random Forest,2,GCF_032598965.1,Leptolyngbya,Leptolyngbya,1,0.6289593605568836,1
+training_prevalence_at_least40,Random Forest,2,GCF_032620035.1,Leptolyngbya,Leptolyngbya,1,0.539013099470663,1
+training_prevalence_at_least40,Random Forest,2,GCF_034092375.1,Prochlorococcus,Prochlorococcus,0,0.0586560606060606,0
+training_prevalence_at_least40,Random Forest,2,GCF_034092395.1,Prochlorococcus,Prochlorococcus,0,0.0586560606060606,0
+training_prevalence_at_least40,Random Forest,2,GCF_034092415.1,Prochlorococcus,Prochlorococcus,0,0.05980868381750734,0
+training_prevalence_at_least40,Random Forest,2,GCF_034092465.1,Prochlorococcus,Prochlorococcus,0,0.059505653514477036,0
+training_prevalence_at_least40,Random Forest,2,GCF_034093315.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_037094475.1,Microcoleus,Microcoleus,0,0.35876461413005123,0
+training_prevalence_at_least40,Random Forest,2,GCF_042465725.1,Microcoleus,Microcoleus,0,0.4949689060939062,0
+training_prevalence_at_least40,Random Forest,2,GCF_043099305.1,Chlorogloeopsis,Chlorogloeopsis,1,0.9663580031080029,1
+training_prevalence_at_least40,Random Forest,2,GCF_043099315.1,Chlorogloeopsis,Chlorogloeopsis,1,0.950852203352203,1
+training_prevalence_at_least40,Random Forest,2,GCF_047302725.1,Prochlorococcus,Prochlorococcus,0,0.0626658266746502,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302745.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302755.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302765.1,Prochlorococcus,Prochlorococcus,0,0.061513203463203464,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302795.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302805.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302855.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302865.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302875.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302905.1,Prochlorococcus,Prochlorococcus,0,0.061513203463203464,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302975.1,Prochlorococcus,Prochlorococcus,0,0.061513203463203464,0
+training_prevalence_at_least40,Random Forest,2,GCF_047302985.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047303155.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047303165.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047303175.1,Prochlorococcus,Prochlorococcus,0,0.0626658266746502,0
+training_prevalence_at_least40,Random Forest,2,GCF_047303345.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047303415.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047303465.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047303495.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047303505.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047303555.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304495.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304505.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304515.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304525.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304535.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304605.1,Prochlorococcus,Prochlorococcus,0,0.061513203463203464,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304615.1,Prochlorococcus,Prochlorococcus,0,0.061513203463203464,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304625.1,Prochlorococcus,Prochlorococcus,0,0.061513203463203464,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304675.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304685.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304785.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047304905.1,Prochlorococcus,Prochlorococcus,0,0.025578885837709366,0
+training_prevalence_at_least40,Random Forest,2,GCF_047305015.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047305065.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047305115.1,Prochlorococcus,Prochlorococcus,0,0.0626658266746502,0
+training_prevalence_at_least40,Random Forest,2,GCF_047305125.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047305135.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047305145.1,Prochlorococcus,Prochlorococcus,0,0.064723907482731,0
+training_prevalence_at_least40,Random Forest,2,GCF_047305155.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047305225.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047305235.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_047497115.1,Prochlorococcus,Prochlorococcus,0,0.0626658266746502,0
+training_prevalence_at_least40,Random Forest,2,GCF_047497125.1,Prochlorococcus,Prochlorococcus,0,0.0626658266746502,0
+training_prevalence_at_least40,Random Forest,2,GCF_047649235.1,Leptolyngbya,Leptolyngbya,1,0.5679427392753028,1
+training_prevalence_at_least40,Random Forest,2,GCF_047947085.1,Prochlorococcus,Prochlorococcus,0,0.0636127963716199,0
+training_prevalence_at_least40,Random Forest,2,GCF_904830765.1,Planktothrix,Planktothrix,0,0.4770394265320737,0
+training_prevalence_at_least40,Random Forest,2,GCF_904830775.1,Planktothrix,Planktothrix,0,0.4834881444807916,0
+training_prevalence_at_least40,Random Forest,2,GCF_904830845.1,Planktothrix,Planktothrix,0,0.4907753572680044,0
+training_prevalence_at_least40,Random Forest,2,GCF_904830855.1,Planktothrix,Planktothrix,0,0.478325140817788,0
+training_prevalence_at_least40,Random Forest,2,GCF_904830915.1,Planktothrix,Planktothrix,0,0.47707514081778796,0
+training_prevalence_at_least40,Random Forest,2,GCF_904830925.1,Planktothrix,Planktothrix,1,0.5193826573753044,1
+training_prevalence_at_least40,Random Forest,2,GCF_904830935.1,Planktothrix,Planktothrix,0,0.46239323775353197,0
+training_prevalence_at_least40,Random Forest,2,GCF_977012465.1,Leptolyngbya,Leptolyngbya,1,0.32463411045675905,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000007925.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000011465.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000011485.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000012465.1,Prochlorococcus,Prochlorococcus,0,0.00014176721192809118,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000012645.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000015645.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000015665.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000015685.1,Prochlorococcus,Prochlorococcus,0,0.00014176721192809118,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000015705.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000015965.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000018065.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000018105.1,Acaryochloris,Acaryochloris,0,0.896934758064979,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000019485.1,Picosynechococcus,Picosynechococcus,0,8.814804000908025e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000317495.1,Crinalium,Crinalium,0,0.009653668515205766,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000317515.1,Allocoleopsis,Allocoleopsis,1,0.9596056266330583,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000757845.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_000757865.1,Prochlorococcus,Prochlorococcus,0,0.00011603596329017675,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_001521855.1,Picosynechococcus,Picosynechococcus,0,8.814804000908025e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_001548395.1,Leptolyngbya,Leptolyngbya,1,0.9939977511995934,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_001548435.1,Leptolyngbya,Leptolyngbya,0,0.4449996669344662,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_001548455.1,Fischerella,Fischerella,1,0.999547446127902,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_001693255.1,Picosynechococcus,Picosynechococcus,0,0.00014638686968188435,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_001693275.1,Picosynechococcus,Picosynechococcus,0,8.814804000908025e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_001693295.1,Picosynechococcus,Picosynechococcus,0,8.814804000908025e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_002142475.1,Leptolyngbya,Leptolyngbya,1,0.8752609711100755,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_002142495.1,Leptolyngbya,Leptolyngbya,1,0.8752609711100755,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_002163975.1,Nostocales,Nostocales,1,0.9998328615472029,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_002368255.1,Leptolyngbya,Leptolyngbya,1,0.8752609711100755,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_003054475.1,Nodularia,Nodularia,1,0.9939865521396302,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_003060805.1,Arthrospira,Arthrospira,0,0.00022720113821937462,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_008121535.1,Dolichospermum,Dolichospermum,1,0.9986761975180022,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_012516395.1,Dolichospermum,Dolichospermum,1,0.9366072527367183,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_016403105.1,Leptolyngbya,Leptolyngbya,0,0.000609396118116873,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_016745315.1,Arthrospira,Arthrospira,0,0.0002986533200028177,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_018336915.1,Acaryochloris,Acaryochloris,0,0.9190190484133992,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_021497025.1,Acaryochloris,Acaryochloris,0,0.8986759687724173,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_022372495.1,Leptolyngbya,Leptolyngbya,1,0.8752609711100755,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_022376295.1,Nodularia,Nodularia,1,0.8040199203711981,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_022701255.1,Microcoleus,Microcoleus,0,0.001356130107413925,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_022701275.1,Microcoleus,Microcoleus,0,0.06231303313387091,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_024347835.1,Acaryochloris,Acaryochloris,0,0.896934758064979,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_024584745.1,Dolichospermum,Dolichospermum,1,0.9991998977642979,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_027359355.1,Prochlorococcus,Prochlorococcus,0,0.00014176721192809118,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_027359375.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_027359395.1,Prochlorococcus,Prochlorococcus,0,0.00011603596329017675,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_027359415.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_027359475.1,Prochlorococcus,Prochlorococcus,0,0.00014176721192809118,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_027359525.1,Prochlorococcus,Prochlorococcus,0,0.00014176721192809118,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_027359575.1,Prochlorococcus,Prochlorococcus,0,0.00011603596329017675,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_027359595.1,Prochlorococcus,Prochlorococcus,0,0.00014176721192809118,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_032163395.1,Gloeocapsopsis,Gloeocapsopsis,0,0.14933172632289257,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_032393985.1,Fischerella,Fischerella,1,0.9996055445136378,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_032598965.1,Leptolyngbya,Leptolyngbya,1,0.9987320527503487,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_032620035.1,Leptolyngbya,Leptolyngbya,1,0.881218130315156,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_034092375.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_034092395.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_034092415.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_034092465.1,Prochlorococcus,Prochlorococcus,0,0.00014176721192809118,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_034093315.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_037094475.1,Microcoleus,Microcoleus,0,0.998317031432969,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_042465725.1,Microcoleus,Microcoleus,0,0.8427185187514491,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_043099305.1,Chlorogloeopsis,Chlorogloeopsis,1,0.9997957181521826,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_043099315.1,Chlorogloeopsis,Chlorogloeopsis,1,0.9997656234099332,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302725.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302745.1,Prochlorococcus,Prochlorococcus,0,0.00011603596329017675,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302755.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302765.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302795.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302805.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302855.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302865.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302875.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302905.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302975.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047302985.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047303155.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047303165.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047303175.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047303345.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047303415.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047303465.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047303495.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047303505.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047303555.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304495.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304505.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304515.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304525.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304535.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304605.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304615.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304625.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304675.1,Prochlorococcus,Prochlorococcus,0,0.00014176721192809118,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304685.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304785.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047304905.1,Prochlorococcus,Prochlorococcus,0,4.208875676793819e-05,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047305015.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047305065.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047305115.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047305125.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047305135.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047305145.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047305155.1,Prochlorococcus,Prochlorococcus,0,0.00014176721192809118,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047305225.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047305235.1,Prochlorococcus,Prochlorococcus,0,0.00011603596329017675,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047497115.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047497125.1,Prochlorococcus,Prochlorococcus,0,0.00014149175306202522,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047649235.1,Leptolyngbya,Leptolyngbya,1,0.9008789970209591,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_047947085.1,Prochlorococcus,Prochlorococcus,0,0.00011581049538821465,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_904830765.1,Planktothrix,Planktothrix,0,0.9834975501705929,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_904830775.1,Planktothrix,Planktothrix,0,0.9795178634241576,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_904830845.1,Planktothrix,Planktothrix,0,0.9913142389824865,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_904830855.1,Planktothrix,Planktothrix,0,0.9859775488875909,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_904830915.1,Planktothrix,Planktothrix,0,0.9697062285180768,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_904830925.1,Planktothrix,Planktothrix,1,0.6259002262154122,1
+training_prevalence_at_least40,Gradient Boosting,2,GCF_904830935.1,Planktothrix,Planktothrix,0,0.013837063633500608,0
+training_prevalence_at_least40,Gradient Boosting,2,GCF_977012465.1,Leptolyngbya,Leptolyngbya,1,0.007662196309661485,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000007925.1,Prochlorococcus,Prochlorococcus,0,0.0008627707506148541,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000011465.1,Prochlorococcus,Prochlorococcus,0,0.001169851043223019,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000011485.1,Prochlorococcus,Prochlorococcus,0,0.0002519312480065646,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000012465.1,Prochlorococcus,Prochlorococcus,0,0.00123724108900591,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000012645.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000015645.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000015665.1,Prochlorococcus,Prochlorococcus,0,0.001169851043223019,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000015685.1,Prochlorococcus,Prochlorococcus,0,0.00123724108900591,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000015705.1,Prochlorococcus,Prochlorococcus,0,0.00014413097824645288,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000015965.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000018065.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000018105.1,Acaryochloris,Acaryochloris,0,0.8954328855211461,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_000019485.1,Picosynechococcus,Picosynechococcus,0,0.011845398447034352,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000317495.1,Crinalium,Crinalium,0,0.19454878500581585,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000317515.1,Allocoleopsis,Allocoleopsis,1,0.41685575229127986,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000757845.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_000757865.1,Prochlorococcus,Prochlorococcus,0,0.001034419116009092,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_001521855.1,Picosynechococcus,Picosynechococcus,0,0.0012975173597832394,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_001548395.1,Leptolyngbya,Leptolyngbya,1,0.9708032182522894,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_001548435.1,Leptolyngbya,Leptolyngbya,0,0.007985340164619789,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_001548455.1,Fischerella,Fischerella,1,0.9994466290147119,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_001693255.1,Picosynechococcus,Picosynechococcus,0,0.015125572187713371,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_001693275.1,Picosynechococcus,Picosynechococcus,0,0.0035198077903568327,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_001693295.1,Picosynechococcus,Picosynechococcus,0,0.016976677712404808,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_002142475.1,Leptolyngbya,Leptolyngbya,1,0.19430417767114802,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_002142495.1,Leptolyngbya,Leptolyngbya,1,0.2720946570604322,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_002163975.1,Nostocales,Nostocales,1,0.998044856877509,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_002368255.1,Leptolyngbya,Leptolyngbya,1,0.3268881451381783,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_003054475.1,Nodularia,Nodularia,1,0.9809006014287561,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_003060805.1,Arthrospira,Arthrospira,0,0.031159399285524223,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_008121535.1,Dolichospermum,Dolichospermum,1,0.9715192480230298,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_012516395.1,Dolichospermum,Dolichospermum,1,0.924694687048229,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_016403105.1,Leptolyngbya,Leptolyngbya,0,0.0012733395385207795,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_016745315.1,Arthrospira,Arthrospira,0,0.005910923984037603,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_018336915.1,Acaryochloris,Acaryochloris,0,0.9447620128075513,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_021497025.1,Acaryochloris,Acaryochloris,0,0.9103701333896406,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_022372495.1,Leptolyngbya,Leptolyngbya,1,0.2820226267764308,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_022376295.1,Nodularia,Nodularia,1,0.9988766214129804,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_022701255.1,Microcoleus,Microcoleus,0,0.0030074312503572237,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_022701275.1,Microcoleus,Microcoleus,0,0.0007864329644710466,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_024347835.1,Acaryochloris,Acaryochloris,0,0.8996380007297242,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_024584745.1,Dolichospermum,Dolichospermum,1,0.9663786369472175,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_027359355.1,Prochlorococcus,Prochlorococcus,0,0.00123724108900591,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_027359375.1,Prochlorococcus,Prochlorococcus,0,0.001169851043223019,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_027359395.1,Prochlorococcus,Prochlorococcus,0,0.001034419116009092,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_027359415.1,Prochlorococcus,Prochlorococcus,0,0.0009780655587722595,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_027359475.1,Prochlorococcus,Prochlorococcus,0,0.00123724108900591,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_027359525.1,Prochlorococcus,Prochlorococcus,0,0.00123724108900591,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_027359575.1,Prochlorococcus,Prochlorococcus,0,0.001034419116009092,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_027359595.1,Prochlorococcus,Prochlorococcus,0,0.00123724108900591,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_032163395.1,Gloeocapsopsis,Gloeocapsopsis,0,0.2220855492227784,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_032393985.1,Fischerella,Fischerella,1,0.9994119306132044,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_032598965.1,Leptolyngbya,Leptolyngbya,1,0.5082036493579812,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_032620035.1,Leptolyngbya,Leptolyngbya,1,0.20856218968693435,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_034092375.1,Prochlorococcus,Prochlorococcus,0,0.0006646548905790757,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_034092395.1,Prochlorococcus,Prochlorococcus,0,0.001316466583518369,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_034092415.1,Prochlorococcus,Prochlorococcus,0,0.0009464310144341744,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_034092465.1,Prochlorococcus,Prochlorococcus,0,0.0007543190366323031,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_034093315.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_037094475.1,Microcoleus,Microcoleus,0,0.003057297718755646,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_042465725.1,Microcoleus,Microcoleus,0,0.0059132313019652025,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_043099305.1,Chlorogloeopsis,Chlorogloeopsis,1,0.995084019689106,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_043099315.1,Chlorogloeopsis,Chlorogloeopsis,1,0.9869483502575791,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302725.1,Prochlorococcus,Prochlorococcus,0,0.001169851043223019,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302745.1,Prochlorococcus,Prochlorococcus,0,0.001034419116009092,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302755.1,Prochlorococcus,Prochlorococcus,0,0.0002519312480065646,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302765.1,Prochlorococcus,Prochlorococcus,0,0.0008627707506148541,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302795.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302805.1,Prochlorococcus,Prochlorococcus,0,0.0002519312480065646,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302855.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302865.1,Prochlorococcus,Prochlorococcus,0,0.0002519312480065646,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302875.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302905.1,Prochlorococcus,Prochlorococcus,0,0.0008627707506148541,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302975.1,Prochlorococcus,Prochlorococcus,0,0.0008627707506148541,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047302985.1,Prochlorococcus,Prochlorococcus,0,0.0002519312480065646,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047303155.1,Prochlorococcus,Prochlorococcus,0,0.00014413097824645288,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047303165.1,Prochlorococcus,Prochlorococcus,0,0.00027198954419166654,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047303175.1,Prochlorococcus,Prochlorococcus,0,0.0009780655587722595,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047303345.1,Prochlorococcus,Prochlorococcus,0,0.00027198954419166654,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047303415.1,Prochlorococcus,Prochlorococcus,0,0.00027198954419166654,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047303465.1,Prochlorococcus,Prochlorococcus,0,0.0002519312480065646,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047303495.1,Prochlorococcus,Prochlorococcus,0,0.0002519312480065646,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047303505.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047303555.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304495.1,Prochlorococcus,Prochlorococcus,0,0.00027198954419166654,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304505.1,Prochlorococcus,Prochlorococcus,0,0.00027198954419166654,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304515.1,Prochlorococcus,Prochlorococcus,0,0.00027198954419166654,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304525.1,Prochlorococcus,Prochlorococcus,0,0.0015521538926562698,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304535.1,Prochlorococcus,Prochlorococcus,0,0.0015521538926562698,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304605.1,Prochlorococcus,Prochlorococcus,0,0.0008627707506148541,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304615.1,Prochlorococcus,Prochlorococcus,0,0.0007212916823944154,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304625.1,Prochlorococcus,Prochlorococcus,0,0.0007212916823944154,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304675.1,Prochlorococcus,Prochlorococcus,0,0.00123724108900591,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304685.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304785.1,Prochlorococcus,Prochlorococcus,0,0.00027198954419166654,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047304905.1,Prochlorococcus,Prochlorococcus,0,0.00027198954419166654,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047305015.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047305065.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047305115.1,Prochlorococcus,Prochlorococcus,0,0.001169851043223019,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047305125.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047305135.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047305145.1,Prochlorococcus,Prochlorococcus,0,0.0016497998424220965,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047305155.1,Prochlorococcus,Prochlorococcus,0,0.00123724108900591,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047305225.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047305235.1,Prochlorococcus,Prochlorococcus,0,0.001034419116009092,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047497115.1,Prochlorococcus,Prochlorococcus,0,0.001169851043223019,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047497125.1,Prochlorococcus,Prochlorococcus,0,0.001169851043223019,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047649235.1,Leptolyngbya,Leptolyngbya,1,0.34561795094617087,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_047947085.1,Prochlorococcus,Prochlorococcus,0,0.0012977750779540745,0
+training_prevalence_at_least40,Logistic Regression,2,GCF_904830765.1,Planktothrix,Planktothrix,0,0.7688464186780802,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_904830775.1,Planktothrix,Planktothrix,0,0.853885742015993,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_904830845.1,Planktothrix,Planktothrix,0,0.8975037697820917,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_904830855.1,Planktothrix,Planktothrix,0,0.8399159457773325,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_904830915.1,Planktothrix,Planktothrix,0,0.9201002989210281,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_904830925.1,Planktothrix,Planktothrix,1,0.994888063901503,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_904830935.1,Planktothrix,Planktothrix,0,0.7876153652605581,1
+training_prevalence_at_least40,Logistic Regression,2,GCF_977012465.1,Leptolyngbya,Leptolyngbya,1,0.0025854782559553012,0
+training_prevalence_at_least40,XGBoost,2,GCF_000007925.1,Prochlorococcus,Prochlorococcus,0,0.004715987481176853,0
+training_prevalence_at_least40,XGBoost,2,GCF_000011465.1,Prochlorococcus,Prochlorococcus,0,0.006526255048811436,0
+training_prevalence_at_least40,XGBoost,2,GCF_000011485.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_000012465.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_000012645.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_000015645.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_000015665.1,Prochlorococcus,Prochlorococcus,0,0.006526255048811436,0
+training_prevalence_at_least40,XGBoost,2,GCF_000015685.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_000015705.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_000015965.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_000018065.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_000018105.1,Acaryochloris,Acaryochloris,0,0.5920734405517578,1
+training_prevalence_at_least40,XGBoost,2,GCF_000019485.1,Picosynechococcus,Picosynechococcus,0,0.013772139325737953,0
+training_prevalence_at_least40,XGBoost,2,GCF_000317495.1,Crinalium,Crinalium,0,0.6488054990768433,1
+training_prevalence_at_least40,XGBoost,2,GCF_000317515.1,Allocoleopsis,Allocoleopsis,1,0.9261439442634583,1
+training_prevalence_at_least40,XGBoost,2,GCF_000757845.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_000757865.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_001521855.1,Picosynechococcus,Picosynechococcus,0,0.010073368437588215,0
+training_prevalence_at_least40,XGBoost,2,GCF_001548395.1,Leptolyngbya,Leptolyngbya,1,0.7462447285652161,1
+training_prevalence_at_least40,XGBoost,2,GCF_001548435.1,Leptolyngbya,Leptolyngbya,0,0.13201574981212616,0
+training_prevalence_at_least40,XGBoost,2,GCF_001548455.1,Fischerella,Fischerella,1,0.9915980100631714,1
+training_prevalence_at_least40,XGBoost,2,GCF_001693255.1,Picosynechococcus,Picosynechococcus,0,0.013362306170165539,0
+training_prevalence_at_least40,XGBoost,2,GCF_001693275.1,Picosynechococcus,Picosynechococcus,0,0.009733185172080994,0
+training_prevalence_at_least40,XGBoost,2,GCF_001693295.1,Picosynechococcus,Picosynechococcus,0,0.013674227520823479,0
+training_prevalence_at_least40,XGBoost,2,GCF_002142475.1,Leptolyngbya,Leptolyngbya,1,0.27637290954589844,0
+training_prevalence_at_least40,XGBoost,2,GCF_002142495.1,Leptolyngbya,Leptolyngbya,1,0.29897046089172363,0
+training_prevalence_at_least40,XGBoost,2,GCF_002163975.1,Nostocales,Nostocales,1,0.9961161613464355,1
+training_prevalence_at_least40,XGBoost,2,GCF_002368255.1,Leptolyngbya,Leptolyngbya,1,0.27637290954589844,0
+training_prevalence_at_least40,XGBoost,2,GCF_003054475.1,Nodularia,Nodularia,1,0.9510038495063782,1
+training_prevalence_at_least40,XGBoost,2,GCF_003060805.1,Arthrospira,Arthrospira,0,0.030289027839899063,0
+training_prevalence_at_least40,XGBoost,2,GCF_008121535.1,Dolichospermum,Dolichospermum,1,0.9733411073684692,1
+training_prevalence_at_least40,XGBoost,2,GCF_012516395.1,Dolichospermum,Dolichospermum,1,0.936564028263092,1
+training_prevalence_at_least40,XGBoost,2,GCF_016403105.1,Leptolyngbya,Leptolyngbya,0,0.01337758544832468,0
+training_prevalence_at_least40,XGBoost,2,GCF_016745315.1,Arthrospira,Arthrospira,0,0.036306701600551605,0
+training_prevalence_at_least40,XGBoost,2,GCF_018336915.1,Acaryochloris,Acaryochloris,0,0.6298884153366089,1
+training_prevalence_at_least40,XGBoost,2,GCF_021497025.1,Acaryochloris,Acaryochloris,0,0.5869861841201782,1
+training_prevalence_at_least40,XGBoost,2,GCF_022372495.1,Leptolyngbya,Leptolyngbya,1,0.27637290954589844,0
+training_prevalence_at_least40,XGBoost,2,GCF_022376295.1,Nodularia,Nodularia,1,0.9869743585586548,1
+training_prevalence_at_least40,XGBoost,2,GCF_022701255.1,Microcoleus,Microcoleus,0,0.018699128180742264,0
+training_prevalence_at_least40,XGBoost,2,GCF_022701275.1,Microcoleus,Microcoleus,0,0.023601464927196503,0
+training_prevalence_at_least40,XGBoost,2,GCF_024347835.1,Acaryochloris,Acaryochloris,0,0.586379885673523,1
+training_prevalence_at_least40,XGBoost,2,GCF_024584745.1,Dolichospermum,Dolichospermum,1,0.6730930805206299,1
+training_prevalence_at_least40,XGBoost,2,GCF_027359355.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_027359375.1,Prochlorococcus,Prochlorococcus,0,0.006526255048811436,0
+training_prevalence_at_least40,XGBoost,2,GCF_027359395.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_027359415.1,Prochlorococcus,Prochlorococcus,0,0.006526255048811436,0
+training_prevalence_at_least40,XGBoost,2,GCF_027359475.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_027359525.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_027359575.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_027359595.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_032163395.1,Gloeocapsopsis,Gloeocapsopsis,0,0.21280917525291443,0
+training_prevalence_at_least40,XGBoost,2,GCF_032393985.1,Fischerella,Fischerella,1,0.995497465133667,1
+training_prevalence_at_least40,XGBoost,2,GCF_032598965.1,Leptolyngbya,Leptolyngbya,1,0.6865788698196411,1
+training_prevalence_at_least40,XGBoost,2,GCF_032620035.1,Leptolyngbya,Leptolyngbya,1,0.40318843722343445,0
+training_prevalence_at_least40,XGBoost,2,GCF_034092375.1,Prochlorococcus,Prochlorococcus,0,0.004715987481176853,0
+training_prevalence_at_least40,XGBoost,2,GCF_034092395.1,Prochlorococcus,Prochlorococcus,0,0.004715987481176853,0
+training_prevalence_at_least40,XGBoost,2,GCF_034092415.1,Prochlorococcus,Prochlorococcus,0,0.006526255048811436,0
+training_prevalence_at_least40,XGBoost,2,GCF_034092465.1,Prochlorococcus,Prochlorococcus,0,0.006365165580064058,0
+training_prevalence_at_least40,XGBoost,2,GCF_034093315.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_037094475.1,Microcoleus,Microcoleus,0,0.07072314620018005,0
+training_prevalence_at_least40,XGBoost,2,GCF_042465725.1,Microcoleus,Microcoleus,0,0.061790209263563156,0
+training_prevalence_at_least40,XGBoost,2,GCF_043099305.1,Chlorogloeopsis,Chlorogloeopsis,1,0.9971976280212402,1
+training_prevalence_at_least40,XGBoost,2,GCF_043099315.1,Chlorogloeopsis,Chlorogloeopsis,1,0.9959375858306885,1
+training_prevalence_at_least40,XGBoost,2,GCF_047302725.1,Prochlorococcus,Prochlorococcus,0,0.006526255048811436,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302745.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302755.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302765.1,Prochlorococcus,Prochlorococcus,0,0.004715987481176853,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302795.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302805.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302855.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302865.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302875.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302905.1,Prochlorococcus,Prochlorococcus,0,0.004715987481176853,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302975.1,Prochlorococcus,Prochlorococcus,0,0.004715987481176853,0
+training_prevalence_at_least40,XGBoost,2,GCF_047302985.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047303155.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047303165.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047303175.1,Prochlorococcus,Prochlorococcus,0,0.006526255048811436,0
+training_prevalence_at_least40,XGBoost,2,GCF_047303345.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047303415.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047303465.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047303495.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047303505.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047303555.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304495.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304505.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304515.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304525.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304535.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304605.1,Prochlorococcus,Prochlorococcus,0,0.004715987481176853,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304615.1,Prochlorococcus,Prochlorococcus,0,0.004715987481176853,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304625.1,Prochlorococcus,Prochlorococcus,0,0.004715987481176853,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304675.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304685.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304785.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047304905.1,Prochlorococcus,Prochlorococcus,0,0.0015355247305706143,0
+training_prevalence_at_least40,XGBoost,2,GCF_047305015.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047305065.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047305115.1,Prochlorococcus,Prochlorococcus,0,0.006526255048811436,0
+training_prevalence_at_least40,XGBoost,2,GCF_047305125.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047305135.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047305145.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047305155.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_047305225.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_047305235.1,Prochlorococcus,Prochlorococcus,0,0.006695599760860205,0
+training_prevalence_at_least40,XGBoost,2,GCF_047497115.1,Prochlorococcus,Prochlorococcus,0,0.006526255048811436,0
+training_prevalence_at_least40,XGBoost,2,GCF_047497125.1,Prochlorococcus,Prochlorococcus,0,0.006526255048811436,0
+training_prevalence_at_least40,XGBoost,2,GCF_047649235.1,Leptolyngbya,Leptolyngbya,1,0.43113794922828674,0
+training_prevalence_at_least40,XGBoost,2,GCF_047947085.1,Prochlorococcus,Prochlorococcus,0,0.006864993367344141,0
+training_prevalence_at_least40,XGBoost,2,GCF_904830765.1,Planktothrix,Planktothrix,0,0.5177344083786011,1
+training_prevalence_at_least40,XGBoost,2,GCF_904830775.1,Planktothrix,Planktothrix,0,0.6137275695800781,1
+training_prevalence_at_least40,XGBoost,2,GCF_904830845.1,Planktothrix,Planktothrix,0,0.6104309558868408,1
+training_prevalence_at_least40,XGBoost,2,GCF_904830855.1,Planktothrix,Planktothrix,0,0.5767514109611511,1
+training_prevalence_at_least40,XGBoost,2,GCF_904830915.1,Planktothrix,Planktothrix,0,0.7057649493217468,1
+training_prevalence_at_least40,XGBoost,2,GCF_904830925.1,Planktothrix,Planktothrix,1,0.7818586230278015,1
+training_prevalence_at_least40,XGBoost,2,GCF_904830935.1,Planktothrix,Planktothrix,0,0.27401724457740784,0
+training_prevalence_at_least40,XGBoost,2,GCF_977012465.1,Leptolyngbya,Leptolyngbya,1,0.009642177261412144,0
+training_prevalence_at_least40,Random Forest,3,GCF_000021825.1,Gloeothece,Gloeothece,1,0.33113828465995643,0
+training_prevalence_at_least40,Random Forest,3,GCF_000147335.1,Gloeothece,Gloeothece,1,0.35926864630037997,0
+training_prevalence_at_least40,Random Forest,3,GCF_000312705.1,Anabaena,Anabaena,1,0.9633064435564433,1
+training_prevalence_at_least40,Random Forest,3,GCF_000316605.1,[Leptolyngbya],[Leptolyngbya],0,0.13521489885326898,0
+training_prevalence_at_least40,Random Forest,3,GCF_000317025.1,Pleurocapsa,Pleurocapsa,1,0.31236010506521344,0
+training_prevalence_at_least40,Random Forest,3,GCF_000317045.1,Geitlerinema,Geitlerinema,0,0.47166166679943755,0
+training_prevalence_at_least40,Random Forest,3,GCF_000317065.1,Thalassoporum,Thalassoporum,0,0.2059987196003863,0
+training_prevalence_at_least40,Random Forest,3,GCF_000317575.1,Stanieria,Stanieria,0,0.3377174815102634,0
+training_prevalence_at_least40,Random Forest,3,GCF_000317635.1,Halothece,Halothece,1,0.15139703928130388,0
+training_prevalence_at_least40,Random Forest,3,GCF_000317695.1,Anabaena,Anabaena,1,0.9786265123765123,1
+training_prevalence_at_least40,Random Forest,3,GCF_001277295.1,Anabaena,Anabaena,0,0.9727948717948717,1
+training_prevalence_at_least40,Random Forest,3,GCF_001548095.1,Geminocystis,Geminocystis,0,0.21123062946768378,0
+training_prevalence_at_least40,Random Forest,3,GCF_001548115.1,Geminocystis,Geminocystis,0,0.20783344332049766,0
+training_prevalence_at_least40,Random Forest,3,GCF_002355455.1,Stanieria,Stanieria,0,0.3356951181523737,0
+training_prevalence_at_least40,Random Forest,3,GCF_007904085.1,Euhalothece,Euhalothece,1,0.13265606797826163,0
+training_prevalence_at_least40,Random Forest,3,GCF_009498015.1,Anabaena,Anabaena,1,0.9861260683760683,1
+training_prevalence_at_least40,Random Forest,3,GCF_013177315.1,Thermoleptolyngbya,Thermoleptolyngbya,1,0.59704705183242,1
+training_prevalence_at_least40,Random Forest,3,GCF_016919485.1,Thermoleptolyngbya,Thermoleptolyngbya,1,0.5997149395003076,1
+training_prevalence_at_least40,Random Forest,3,GCF_018389385.1,Anthocerotibacter,Anthocerotibacter,0,0.13398122349057268,0
+training_prevalence_at_least40,Random Forest,3,GCF_019891175.1,Leptothermofonsia,Leptothermofonsia,1,0.7052943731105494,1
+training_prevalence_at_least40,Random Forest,3,GCF_032705245.1,Thermoleptolyngbya,Thermoleptolyngbya,0,0.5938526073879755,1
+training_prevalence_at_least40,Random Forest,3,GCF_047275885.1,Anabaena,Anabaena,1,0.9769789238539238,1
+training_prevalence_at_least40,Random Forest,3,GCF_047276495.1,Capilliphycus,Capilliphycus,1,0.3156751417146153,0
+training_prevalence_at_least40,Random Forest,3,GCF_048568235.1,Anabaena,Anabaena,1,0.9885546398046398,1
+training_prevalence_at_least40,Random Forest,3,GCF_048568275.1,Anabaena,Anabaena,1,0.9814713064713065,1
+training_prevalence_at_least40,Random Forest,3,GCF_049200465.1,Leptothermofonsia,Leptothermofonsia,0,0.5831787101787101,1
+training_prevalence_at_least40,Random Forest,3,GCF_049315035.1,Anabaena,Anabaena,1,0.9756845931845932,1
+training_prevalence_at_least40,Random Forest,3,GCF_050235535.1,Aliinostoc,Aliinostoc,1,0.9808181818181818,1
+training_prevalence_at_least40,Random Forest,3,GCF_963665995.1,Pleurocapsa,Pleurocapsa,0,0.21709320396478826,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_000021825.1,Gloeothece,Gloeothece,1,0.6510874258266912,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_000147335.1,Gloeothece,Gloeothece,1,0.009127076615861351,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_000312705.1,Anabaena,Anabaena,1,0.9999393550376936,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_000316605.1,[Leptolyngbya],[Leptolyngbya],0,5.1175548821925796e-05,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_000317025.1,Pleurocapsa,Pleurocapsa,1,0.47334881040067617,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_000317045.1,Geitlerinema,Geitlerinema,0,0.889242646120393,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_000317065.1,Thalassoporum,Thalassoporum,0,9.176124541964614e-05,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_000317575.1,Stanieria,Stanieria,0,0.007969038863582141,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_000317635.1,Halothece,Halothece,1,0.0003868209638479215,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_000317695.1,Anabaena,Anabaena,1,0.999948361621894,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_001277295.1,Anabaena,Anabaena,0,0.9999393550376936,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_001548095.1,Geminocystis,Geminocystis,0,9.527611627170948e-05,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_001548115.1,Geminocystis,Geminocystis,0,0.00013111191126573903,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_002355455.1,Stanieria,Stanieria,0,0.01465192037306184,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_007904085.1,Euhalothece,Euhalothece,1,0.00021082765775760418,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_009498015.1,Anabaena,Anabaena,1,0.9999496714440201,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_013177315.1,Thermoleptolyngbya,Thermoleptolyngbya,1,0.9990303397802199,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_016919485.1,Thermoleptolyngbya,Thermoleptolyngbya,1,0.9990303397802199,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_018389385.1,Anthocerotibacter,Anthocerotibacter,0,7.099559225816324e-05,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_019891175.1,Leptothermofonsia,Leptothermofonsia,1,0.9989658214776066,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_032705245.1,Thermoleptolyngbya,Thermoleptolyngbya,0,0.8443526188119372,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_047275885.1,Anabaena,Anabaena,1,0.999948361621894,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_047276495.1,Capilliphycus,Capilliphycus,1,0.0008786977568905623,0
+training_prevalence_at_least40,Gradient Boosting,3,GCF_048568235.1,Anabaena,Anabaena,1,0.9999473795670741,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_048568275.1,Anabaena,Anabaena,1,0.9999473795670741,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_049200465.1,Leptothermofonsia,Leptothermofonsia,0,0.9461005464488232,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_049315035.1,Anabaena,Anabaena,1,0.999948361621894,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_050235535.1,Aliinostoc,Aliinostoc,1,0.999948361621894,1
+training_prevalence_at_least40,Gradient Boosting,3,GCF_963665995.1,Pleurocapsa,Pleurocapsa,0,0.0003020513645817833,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_000021825.1,Gloeothece,Gloeothece,1,0.14893560455656832,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_000147335.1,Gloeothece,Gloeothece,1,0.09308442807776057,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_000312705.1,Anabaena,Anabaena,1,0.9977162730635205,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_000316605.1,[Leptolyngbya],[Leptolyngbya],0,0.002857883745085867,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_000317025.1,Pleurocapsa,Pleurocapsa,1,0.022704466477662753,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_000317045.1,Geitlerinema,Geitlerinema,0,0.9814976201750387,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_000317065.1,Thalassoporum,Thalassoporum,0,0.0008889757375713587,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_000317575.1,Stanieria,Stanieria,0,0.0017738363342485678,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_000317635.1,Halothece,Halothece,1,0.004420338197380517,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_000317695.1,Anabaena,Anabaena,1,0.999997359386537,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_001277295.1,Anabaena,Anabaena,0,0.9984369919345322,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_001548095.1,Geminocystis,Geminocystis,0,0.0017174825112970687,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_001548115.1,Geminocystis,Geminocystis,0,0.004263310290415403,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_002355455.1,Stanieria,Stanieria,0,0.01968096793579105,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_007904085.1,Euhalothece,Euhalothece,1,0.00045614235451974834,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_009498015.1,Anabaena,Anabaena,1,0.999997954232298,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_013177315.1,Thermoleptolyngbya,Thermoleptolyngbya,1,0.9963797372132929,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_016919485.1,Thermoleptolyngbya,Thermoleptolyngbya,1,0.9959983721051374,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_018389385.1,Anthocerotibacter,Anthocerotibacter,0,0.0016341871670791156,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_019891175.1,Leptothermofonsia,Leptothermofonsia,1,0.9017631953849777,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_032705245.1,Thermoleptolyngbya,Thermoleptolyngbya,0,0.9985965559756678,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_047275885.1,Anabaena,Anabaena,1,0.999984208908455,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_047276495.1,Capilliphycus,Capilliphycus,1,0.04791359084877775,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_048568235.1,Anabaena,Anabaena,1,0.9997363497657662,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_048568275.1,Anabaena,Anabaena,1,0.999844701140507,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_049200465.1,Leptothermofonsia,Leptothermofonsia,0,0.39787362929178494,0
+training_prevalence_at_least40,Logistic Regression,3,GCF_049315035.1,Anabaena,Anabaena,1,0.9999949595942467,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_050235535.1,Aliinostoc,Aliinostoc,1,0.999988965650525,1
+training_prevalence_at_least40,Logistic Regression,3,GCF_963665995.1,Pleurocapsa,Pleurocapsa,0,0.001263814291013383,0
+training_prevalence_at_least40,XGBoost,3,GCF_000021825.1,Gloeothece,Gloeothece,1,0.5221897959709167,1
+training_prevalence_at_least40,XGBoost,3,GCF_000147335.1,Gloeothece,Gloeothece,1,0.21569646894931793,0
+training_prevalence_at_least40,XGBoost,3,GCF_000312705.1,Anabaena,Anabaena,1,0.9982331991195679,1
+training_prevalence_at_least40,XGBoost,3,GCF_000316605.1,[Leptolyngbya],[Leptolyngbya],0,0.007104822900146246,0
+training_prevalence_at_least40,XGBoost,3,GCF_000317025.1,Pleurocapsa,Pleurocapsa,1,0.08674109727144241,0
+training_prevalence_at_least40,XGBoost,3,GCF_000317045.1,Geitlerinema,Geitlerinema,0,0.6878607273101807,1
+training_prevalence_at_least40,XGBoost,3,GCF_000317065.1,Thalassoporum,Thalassoporum,0,0.011076933704316616,0
+training_prevalence_at_least40,XGBoost,3,GCF_000317575.1,Stanieria,Stanieria,0,0.0696408823132515,0
+training_prevalence_at_least40,XGBoost,3,GCF_000317635.1,Halothece,Halothece,1,0.014711849391460419,0
+training_prevalence_at_least40,XGBoost,3,GCF_000317695.1,Anabaena,Anabaena,1,0.998706579208374,1
+training_prevalence_at_least40,XGBoost,3,GCF_001277295.1,Anabaena,Anabaena,0,0.9981043338775635,1
+training_prevalence_at_least40,XGBoost,3,GCF_001548095.1,Geminocystis,Geminocystis,0,0.021257935091853142,0
+training_prevalence_at_least40,XGBoost,3,GCF_001548115.1,Geminocystis,Geminocystis,0,0.02485787495970726,0
+training_prevalence_at_least40,XGBoost,3,GCF_002355455.1,Stanieria,Stanieria,0,0.11613143235445023,0
+training_prevalence_at_least40,XGBoost,3,GCF_007904085.1,Euhalothece,Euhalothece,1,0.003402646631002426,0
+training_prevalence_at_least40,XGBoost,3,GCF_009498015.1,Anabaena,Anabaena,1,0.9989525079727173,1
+training_prevalence_at_least40,XGBoost,3,GCF_013177315.1,Thermoleptolyngbya,Thermoleptolyngbya,1,0.8492048978805542,1
+training_prevalence_at_least40,XGBoost,3,GCF_016919485.1,Thermoleptolyngbya,Thermoleptolyngbya,1,0.8492048978805542,1
+training_prevalence_at_least40,XGBoost,3,GCF_018389385.1,Anthocerotibacter,Anthocerotibacter,0,0.029650896787643433,0
+training_prevalence_at_least40,XGBoost,3,GCF_019891175.1,Leptothermofonsia,Leptothermofonsia,1,0.5286224484443665,1
+training_prevalence_at_least40,XGBoost,3,GCF_032705245.1,Thermoleptolyngbya,Thermoleptolyngbya,0,0.8116328120231628,1
+training_prevalence_at_least40,XGBoost,3,GCF_047275885.1,Anabaena,Anabaena,1,0.9979497790336609,1
+training_prevalence_at_least40,XGBoost,3,GCF_047276495.1,Capilliphycus,Capilliphycus,1,0.22700946033000946,0
+training_prevalence_at_least40,XGBoost,3,GCF_048568235.1,Anabaena,Anabaena,1,0.9991142153739929,1
+training_prevalence_at_least40,XGBoost,3,GCF_048568275.1,Anabaena,Anabaena,1,0.9991004467010498,1
+training_prevalence_at_least40,XGBoost,3,GCF_049200465.1,Leptothermofonsia,Leptothermofonsia,0,0.6499060392379761,1
+training_prevalence_at_least40,XGBoost,3,GCF_049315035.1,Anabaena,Anabaena,1,0.9982549548149109,1
+training_prevalence_at_least40,XGBoost,3,GCF_050235535.1,Aliinostoc,Aliinostoc,1,0.9984312653541565,1
+training_prevalence_at_least40,XGBoost,3,GCF_963665995.1,Pleurocapsa,Pleurocapsa,0,0.013202088885009289,0
+training_prevalence_at_least40,Random Forest,4,GCF_000009725.1,Synechocystis,Synechocystis,0,0.3649000296940406,0
+training_prevalence_at_least40,Random Forest,4,GCF_000010065.1,Synechococcus,Synechococcus,0,0.19589208147610784,0
+training_prevalence_at_least40,Random Forest,4,GCF_000012505.1,Synechococcus,Synechococcus,0,0.04514196689386563,0
+training_prevalence_at_least40,Random Forest,4,GCF_000012525.1,Synechococcus,Synechococcus,0,0.2133122262006643,0
+training_prevalence_at_least40,Random Forest,4,GCF_000012625.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_000013205.1,Synechococcus,Synechococcus,1,0.04546072610400415,0
+training_prevalence_at_least40,Random Forest,4,GCF_000013225.1,Synechococcus,Synechococcus,1,0.04546072610400415,0
+training_prevalence_at_least40,Random Forest,4,GCF_000014265.1,Trichodesmium,Trichodesmium,1,0.31295643756827957,0
+training_prevalence_at_least40,Random Forest,4,GCF_000014585.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_000021805.1,Rippkaea,Rippkaea,1,0.5883987179401264,1
+training_prevalence_at_least40,Random Forest,4,GCF_000063505.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_000063525.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_000161795.2,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_000179235.2,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_000270265.1,Synechocystis,Synechocystis,0,0.38139255106156206,0
+training_prevalence_at_least40,Random Forest,4,GCF_000284135.1,Synechocystis,Synechocystis,0,0.3769481066171176,0
+training_prevalence_at_least40,Random Forest,4,GCF_000284215.1,Synechocystis,Synechocystis,0,0.3769481066171176,0
+training_prevalence_at_least40,Random Forest,4,GCF_000284455.1,Synechocystis,Synechocystis,0,0.36605263878086025,0
+training_prevalence_at_least40,Random Forest,4,GCF_000316515.1,Cyanobium,Cyanobium,0,0.01184373734563608,0
+training_prevalence_at_least40,Random Forest,4,GCF_000316575.1,Calothrix,Calothrix,1,0.9667328504828505,1
+training_prevalence_at_least40,Random Forest,4,GCF_000316685.1,Synechococcus,Synechococcus,0,0.11737521289856896,0
+training_prevalence_at_least40,Random Forest,4,GCF_000317085.1,Synechococcus,Synechococcus,0,0.1387790800984006,0
+training_prevalence_at_least40,Random Forest,4,GCF_000317125.1,Chroococcidiopsis,Chroococcidiopsis,1,0.5771824353537908,1
+training_prevalence_at_least40,Random Forest,4,GCF_000317435.1,Calothrix,Calothrix,1,0.7623942128133302,1
+training_prevalence_at_least40,Random Forest,4,GCF_000340785.1,Synechocystis,Synechocystis,0,0.3876211835401945,0
+training_prevalence_at_least40,Random Forest,4,GCF_000478825.2,Synechocystis,Synechocystis,0,0.3617360825300935,0
+training_prevalence_at_least40,Random Forest,4,GCF_000734895.2,Calothrix,Calothrix,1,0.7873792180042178,1
+training_prevalence_at_least40,Random Forest,4,GCF_000737535.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_000737575.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_000737595.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_000817325.1,Synechococcus,Synechococcus,0,0.18871897223241038,0
+training_prevalence_at_least40,Random Forest,4,GCF_001182765.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_001318385.1,Synechocystis,Synechocystis,0,0.3769481066171176,0
+training_prevalence_at_least40,Random Forest,4,GCF_001746915.2,Desertifilum,Desertifilum,1,0.4397464659523483,0
+training_prevalence_at_least40,Random Forest,4,GCF_001885215.1,Synechococcus,Synechococcus,0,0.024924072043617837,0
+training_prevalence_at_least40,Random Forest,4,GCF_002368175.1,Calothrix,Calothrix,1,0.9815604256854256,1
+training_prevalence_at_least40,Random Forest,4,GCF_002368395.1,Calothrix,Calothrix,1,0.802794913419913,1
+training_prevalence_at_least40,Random Forest,4,GCF_002368455.1,Calothrix,Calothrix,1,0.8289421035191156,1
+training_prevalence_at_least40,Random Forest,4,GCF_003015225.1,Synechocystis,Synechocystis,0,0.3769481066171176,0
+training_prevalence_at_least40,Random Forest,4,GCF_003367075.2,Cylindrospermopsis,Cylindrospermopsis,1,0.6632419892199303,1
+training_prevalence_at_least40,Random Forest,4,GCF_003846445.2,Synechococcus,Synechococcus,0,0.2020144267778649,0
+training_prevalence_at_least40,Random Forest,4,GCF_003957805.1,Synechococcus,Synechococcus,0,0.18871897223241038,0
+training_prevalence_at_least40,Random Forest,4,GCF_004209775.1,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_008807075.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_009498715.2,Synechococcus,Synechococcus,0,0.1827189722324104,0
+training_prevalence_at_least40,Random Forest,4,GCF_011769525.1,Tolypothrix,Tolypothrix,1,0.961904748029748,1
+training_prevalence_at_least40,Random Forest,4,GCF_014217875.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279535.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279555.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279595.1,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279615.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279635.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279655.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279755.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279775.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279795.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279815.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279835.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279855.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279875.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279895.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279955.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014279975.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014280015.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014280035.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014280055.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014280075.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014280095.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014280115.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014280175.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014280195.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014280215.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014280235.1,Cyanobium,Cyanobium,0,0.01853518315472895,0
+training_prevalence_at_least40,Random Forest,4,GCF_014304795.1,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_014304815.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_014489415.1,Cylindrospermopsis,Cylindrospermopsis,1,0.6859550123079535,1
+training_prevalence_at_least40,Random Forest,4,GCF_015840335.1,Synechococcus,Synechococcus,0,0.04514196689386563,0
+training_prevalence_at_least40,Random Forest,4,GCF_015840525.1,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_015840715.1,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_015840915.1,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_015841355.1,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_018139025.1,Cylindrospermopsis,Cylindrospermopsis,1,0.6799910873440286,1
+training_prevalence_at_least40,Random Forest,4,GCF_018282115.1,Synechocystis,Synechocystis,0,0.3726623923314032,0
+training_prevalence_at_least40,Random Forest,4,GCF_018399015.1,Cyanobium,Cyanobium,0,0.01853518315472895,0
+training_prevalence_at_least40,Random Forest,4,GCF_018845095.1,Synechocystis,Synechocystis,0,0.3769481066171176,0
+training_prevalence_at_least40,Random Forest,4,GCF_019924095.1,Synechocystis,Synechocystis,0,0.31056138223039315,0
+training_prevalence_at_least40,Random Forest,4,GCF_019977735.1,Calothrix,Calothrix,1,0.8399509737338682,1
+training_prevalence_at_least40,Random Forest,4,GCF_021379005.1,Leptodesmis,Leptodesmis,1,0.4793730458138353,0
+training_prevalence_at_least40,Random Forest,4,GCF_021650815.1,Cylindrospermopsis,Cylindrospermopsis,1,0.6819521263050673,1
+training_prevalence_at_least40,Random Forest,4,GCF_022869765.1,Synechocystis,Synechocystis,0,0.382402652071663,0
+training_prevalence_at_least40,Random Forest,4,GCF_022984195.1,Synechococcus,Synechococcus,0,0.1860523055657437,0
+training_prevalence_at_least40,Random Forest,4,GCF_023078835.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_023115425.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_023546805.1,Chroococcidiopsis,Chroococcidiopsis,1,0.5802872984858278,1
+training_prevalence_at_least40,Random Forest,4,GCF_025677855.1,Tolypothrix,Tolypothrix,1,0.9539141275391276,1
+training_prevalence_at_least40,Random Forest,4,GCF_025860405.1,Tolypothrix,Tolypothrix,1,0.9712258158508158,1
+training_prevalence_at_least40,Random Forest,4,GCF_026240635.1,Trichothermofontia,Trichothermofontia,1,0.28487202095290326,0
+training_prevalence_at_least40,Random Forest,4,GCF_029953635.1,Halotia,Halotia,1,0.9859522005772005,1
+training_prevalence_at_least40,Random Forest,4,GCF_030544905.1,Synechococcus,Synechococcus,0,0.18871897223241038,0
+training_prevalence_at_least40,Random Forest,4,GCF_036630065.1,Synechococcus,Synechococcus,0,0.18871897223241038,0
+training_prevalence_at_least40,Random Forest,4,GCF_036630075.1,Synechococcus,Synechococcus,0,0.18871897223241038,0
+training_prevalence_at_least40,Random Forest,4,GCF_036630085.1,Synechococcus,Synechococcus,0,0.1827189722324104,0
+training_prevalence_at_least40,Random Forest,4,GCF_036630095.1,Synechococcus,Synechococcus,0,0.18871897223241038,0
+training_prevalence_at_least40,Random Forest,4,GCF_036630105.1,Synechococcus,Synechococcus,0,0.18071897223241035,0
+training_prevalence_at_least40,Random Forest,4,GCF_036630115.1,Synechococcus,Synechococcus,0,0.18538563889907703,0
+training_prevalence_at_least40,Random Forest,4,GCF_040371545.1,Synechococcus,Synechococcus,0,0.04514196689386563,0
+training_prevalence_at_least40,Random Forest,4,GCF_040436315.1,Synechocystis,Synechocystis,1,0.4016506033282349,0
+training_prevalence_at_least40,Random Forest,4,GCF_044923475.1,Altericista,Altericista,1,0.29853080293889117,0
+training_prevalence_at_least40,Random Forest,4,GCF_046846445.1,Synechocystis,Synechocystis,0,0.3755195351885461,0
+training_prevalence_at_least40,Random Forest,4,GCF_046847935.1,Synechocystis,Synechocystis,0,0.3769481066171176,0
+training_prevalence_at_least40,Random Forest,4,GCF_046847945.1,Synechocystis,Synechocystis,0,0.3769481066171176,0
+training_prevalence_at_least40,Random Forest,4,GCF_046847955.1,Synechocystis,Synechocystis,0,0.3769481066171176,0
+training_prevalence_at_least40,Random Forest,4,GCF_047302735.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047302775.1,Synechococcus,Synechococcus,0,0.00012658227848101267,0
+training_prevalence_at_least40,Random Forest,4,GCF_047302785.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047303025.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047303035.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047303045.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047304065.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047304175.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047304245.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047304545.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047304555.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047304705.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047304715.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047304725.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047497135.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047716785.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047716805.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_047716815.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_048077055.1,Egbenema,Egbenema,1,0.5098830295521471,1
+training_prevalence_at_least40,Random Forest,4,GCF_050408035.1,Synechocystis,Synechocystis,0,0.3699758843948953,0
+training_prevalence_at_least40,Random Forest,4,GCF_050422935.1,Synechococcus,Synechococcus,0,0.18871897223241038,0
+training_prevalence_at_least40,Random Forest,4,GCF_050920705.1,Cyanobium,Cyanobium,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_051201415.1,Cylindrospermopsis,Cylindrospermopsis,1,0.6863157626687036,1
+training_prevalence_at_least40,Random Forest,4,GCF_900088535.1,Cyanobium,Cyanobium,0,0.01853518315472895,0
+training_prevalence_at_least40,Random Forest,4,GCF_963920465.1,Synechococcus,Synechococcus,0,0.0009111976630963972,0
+training_prevalence_at_least40,Random Forest,4,GCF_963920475.1,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_963920485.1,Cyanobium,Cyanobium,0,0.04514196689386563,0
+training_prevalence_at_least40,Random Forest,4,GCF_963920495.1,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_963920505.1,Synechococcus,Synechococcus,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_977927515.1,Cyanobium,Cyanobium,0,0.01853518315472895,0
+training_prevalence_at_least40,Random Forest,4,GCF_977927535.1,Cyanobium,Cyanobium,0,0.016174072043617836,0
+training_prevalence_at_least40,Random Forest,4,GCF_977927545.1,Cyanobium,Cyanobium,0,0.016174072043617836,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000009725.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000010065.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000012505.1,Synechococcus,Synechococcus,0,7.520002116545395e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000012525.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000012625.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000013205.1,Synechococcus,Synechococcus,1,3.9325385191518405e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000013225.1,Synechococcus,Synechococcus,1,3.9325385191518405e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000014265.1,Trichodesmium,Trichodesmium,1,0.0010747284780816971,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000014585.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000021805.1,Rippkaea,Rippkaea,1,0.8586913330721427,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000063505.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000063525.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000161795.2,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000179235.2,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000270265.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000284135.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000284215.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000284455.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000316515.1,Cyanobium,Cyanobium,0,4.111731970514195e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000316575.1,Calothrix,Calothrix,1,0.9999492231043478,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000316685.1,Synechococcus,Synechococcus,0,0.1476521562462828,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000317085.1,Synechococcus,Synechococcus,0,0.000239645723901981,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000317125.1,Chroococcidiopsis,Chroococcidiopsis,1,0.1505658658882406,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000317435.1,Calothrix,Calothrix,1,0.9999403883054998,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000340785.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000478825.2,Synechocystis,Synechocystis,0,0.004668945498401539,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000734895.2,Calothrix,Calothrix,1,0.9947147559064883,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000737535.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000737575.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000737595.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_000817325.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_001182765.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_001318385.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_001746915.2,Desertifilum,Desertifilum,1,0.16920785581764314,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_001885215.1,Synechococcus,Synechococcus,0,0.004916904571409483,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_002368175.1,Calothrix,Calothrix,1,0.999942844530597,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_002368395.1,Calothrix,Calothrix,1,0.9985007235905936,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_002368455.1,Calothrix,Calothrix,1,0.9980099074125522,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_003015225.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_003367075.2,Cylindrospermopsis,Cylindrospermopsis,1,0.17165782018345827,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_003846445.2,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_003957805.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_004209775.1,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_008807075.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_009498715.2,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_011769525.1,Tolypothrix,Tolypothrix,1,0.9936805282874661,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014217875.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279535.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279555.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279595.1,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279615.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279635.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279655.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279755.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279775.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279795.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279815.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279835.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279855.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279875.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279895.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279955.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014279975.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014280015.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014280035.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014280055.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014280075.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014280095.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014280115.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014280175.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014280195.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014280215.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014280235.1,Cyanobium,Cyanobium,0,4.70878146980712e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014304795.1,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014304815.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_014489415.1,Cylindrospermopsis,Cylindrospermopsis,1,0.2479020963056473,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_015840335.1,Synechococcus,Synechococcus,0,9.167439823798106e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_015840525.1,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_015840715.1,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_015840915.1,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_015841355.1,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_018139025.1,Cylindrospermopsis,Cylindrospermopsis,1,0.22245077922693718,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_018282115.1,Synechocystis,Synechocystis,0,0.0008460897934866839,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_018399015.1,Cyanobium,Cyanobium,0,4.70878146980712e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_018845095.1,Synechocystis,Synechocystis,0,0.003527744057439338,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_019924095.1,Synechocystis,Synechocystis,0,0.00041037460873801304,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_019977735.1,Calothrix,Calothrix,1,0.9999343052403923,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_021379005.1,Leptodesmis,Leptodesmis,1,0.9018657573666388,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_021650815.1,Cylindrospermopsis,Cylindrospermopsis,1,0.1715093059601976,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_022869765.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_022984195.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_023078835.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_023115425.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_023546805.1,Chroococcidiopsis,Chroococcidiopsis,1,0.13003548783479507,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_025677855.1,Tolypothrix,Tolypothrix,1,0.9999301881766844,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_025860405.1,Tolypothrix,Tolypothrix,1,0.9999301881766844,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_026240635.1,Trichothermofontia,Trichothermofontia,1,0.25743669512977013,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_029953635.1,Halotia,Halotia,1,0.9999463076428046,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_030544905.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_036630065.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_036630075.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_036630085.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_036630095.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_036630105.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_036630115.1,Synechococcus,Synechococcus,0,7.535072638096383e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_040371545.1,Synechococcus,Synechococcus,0,7.520002116545395e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_040436315.1,Synechocystis,Synechocystis,1,0.10534697303138045,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_044923475.1,Altericista,Altericista,1,0.009200623303291975,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_046846445.1,Synechocystis,Synechocystis,0,0.003265537119634357,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_046847935.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_046847945.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_046847955.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047302735.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047302775.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047302785.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047303025.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047303035.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047303045.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047304065.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047304175.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047304245.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047304545.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047304555.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047304705.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047304715.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047304725.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047497135.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047716785.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047716805.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_047716815.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_048077055.1,Egbenema,Egbenema,1,0.9982870051361664,1
+training_prevalence_at_least40,Gradient Boosting,4,GCF_050408035.1,Synechocystis,Synechocystis,0,0.0033246841513851224,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_050422935.1,Synechococcus,Synechococcus,0,7.98003459532587e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_050920705.1,Cyanobium,Cyanobium,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_051201415.1,Cylindrospermopsis,Cylindrospermopsis,1,0.17153460140017593,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_900088535.1,Cyanobium,Cyanobium,0,4.70878146980712e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_963920465.1,Synechococcus,Synechococcus,0,3.9325770135406524e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_963920475.1,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_963920485.1,Cyanobium,Cyanobium,0,9.167439823798106e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_963920495.1,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_963920505.1,Synechococcus,Synechococcus,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_977927515.1,Cyanobium,Cyanobium,0,4.70878146980712e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_977927535.1,Cyanobium,Cyanobium,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Gradient Boosting,4,GCF_977927545.1,Cyanobium,Cyanobium,0,5.743249624711419e-05,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000009725.1,Synechocystis,Synechocystis,0,0.3096243525927886,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000010065.1,Synechococcus,Synechococcus,0,0.0019364282884440308,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000012505.1,Synechococcus,Synechococcus,0,0.0022295801505178223,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000012525.1,Synechococcus,Synechococcus,0,0.0037897767856896027,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000012625.1,Synechococcus,Synechococcus,0,0.00031947613300023974,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000013205.1,Synechococcus,Synechococcus,1,0.00014006385604095308,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000013225.1,Synechococcus,Synechococcus,1,0.00014001533574776296,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000014265.1,Trichodesmium,Trichodesmium,1,0.030666808834364942,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000014585.1,Synechococcus,Synechococcus,0,0.000488770379703538,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000021805.1,Rippkaea,Rippkaea,1,0.9743512710556534,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_000063505.1,Synechococcus,Synechococcus,0,0.0005496721519986606,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000063525.1,Synechococcus,Synechococcus,0,0.0002851955997631795,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000161795.2,Synechococcus,Synechococcus,0,0.00039412818324509867,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000179235.2,Synechococcus,Synechococcus,0,0.0010189663287607674,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000270265.1,Synechocystis,Synechocystis,0,0.33427758149960135,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000284135.1,Synechocystis,Synechocystis,0,0.37767738727397865,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000284215.1,Synechocystis,Synechocystis,0,0.34456826378479793,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000284455.1,Synechocystis,Synechocystis,0,0.30958324003244764,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000316515.1,Cyanobium,Cyanobium,0,0.0007392972898842122,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000316575.1,Calothrix,Calothrix,1,0.996536079669199,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_000316685.1,Synechococcus,Synechococcus,0,0.00021818732747814576,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000317085.1,Synechococcus,Synechococcus,0,0.005602717506754628,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000317125.1,Chroococcidiopsis,Chroococcidiopsis,1,0.9324969390793348,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_000317435.1,Calothrix,Calothrix,1,0.9810160632253676,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_000340785.1,Synechocystis,Synechocystis,0,0.3934317369202168,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000478825.2,Synechocystis,Synechocystis,0,0.6406807497953441,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_000734895.2,Calothrix,Calothrix,1,0.9997301035423382,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_000737535.1,Synechococcus,Synechococcus,0,0.00019071138127835889,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000737575.1,Synechococcus,Synechococcus,0,0.00020379240800542982,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000737595.1,Synechococcus,Synechococcus,0,0.0003524765687306883,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_000817325.1,Synechococcus,Synechococcus,0,0.002670087759117918,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_001182765.1,Synechococcus,Synechococcus,0,0.00035938223797405463,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_001318385.1,Synechocystis,Synechocystis,0,0.34456826378479793,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_001746915.2,Desertifilum,Desertifilum,1,0.9698335657269095,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_001885215.1,Synechococcus,Synechococcus,0,0.0068092251776638866,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_002368175.1,Calothrix,Calothrix,1,0.9998195481826133,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_002368395.1,Calothrix,Calothrix,1,0.9658334274921414,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_002368455.1,Calothrix,Calothrix,1,0.9985811558052361,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_003015225.1,Synechocystis,Synechocystis,0,0.3740700793692977,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_003367075.2,Cylindrospermopsis,Cylindrospermopsis,1,0.5577032764334207,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_003846445.2,Synechococcus,Synechococcus,0,0.0027594425777583997,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_003957805.1,Synechococcus,Synechococcus,0,0.002670087759117918,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_004209775.1,Synechococcus,Synechococcus,0,0.0008044833597258067,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_008807075.1,Synechococcus,Synechococcus,0,0.0002764839316075947,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_009498715.2,Synechococcus,Synechococcus,0,0.002324334832096138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_011769525.1,Tolypothrix,Tolypothrix,1,0.99920789088637,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_014217875.1,Synechococcus,Synechococcus,0,0.0004882332672180936,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279535.1,Synechococcus,Synechococcus,0,0.00025860697274539425,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279555.1,Synechococcus,Synechococcus,0,0.0006054592769845656,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279595.1,Synechococcus,Synechococcus,0,0.0009864141566376964,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279615.1,Synechococcus,Synechococcus,0,0.00031947613300023974,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279635.1,Synechococcus,Synechococcus,0,0.00031947613300023974,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279655.1,Synechococcus,Synechococcus,0,0.0006054592769845656,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279755.1,Synechococcus,Synechococcus,0,0.00025860697274539425,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279775.1,Synechococcus,Synechococcus,0,0.0004753549561069631,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279795.1,Synechococcus,Synechococcus,0,0.00045814682452510443,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279815.1,Synechococcus,Synechococcus,0,0.0005586001358299668,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279835.1,Synechococcus,Synechococcus,0,0.0006054592769845656,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279855.1,Synechococcus,Synechococcus,0,0.00031889926185703306,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279875.1,Synechococcus,Synechococcus,0,0.00045814682452510443,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279895.1,Synechococcus,Synechococcus,0,0.00039412818324509867,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279955.1,Synechococcus,Synechococcus,0,0.00045814682452510443,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014279975.1,Synechococcus,Synechococcus,0,0.0002529326044594937,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014280015.1,Synechococcus,Synechococcus,0,0.0003843530822018592,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014280035.1,Synechococcus,Synechococcus,0,0.000452809468437349,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014280055.1,Synechococcus,Synechococcus,0,0.00035938223797405463,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014280075.1,Synechococcus,Synechococcus,0,0.00031947613300023974,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014280095.1,Synechococcus,Synechococcus,0,0.0004049589059787816,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014280115.1,Synechococcus,Synechococcus,0,0.0003957637749215522,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014280175.1,Synechococcus,Synechococcus,0,0.0003416751414837809,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014280195.1,Synechococcus,Synechococcus,0,0.00035938223797405463,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014280215.1,Synechococcus,Synechococcus,0,0.00017407152016131794,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014280235.1,Cyanobium,Cyanobium,0,0.0015915415381849772,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014304795.1,Synechococcus,Synechococcus,0,0.0008994998603024249,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014304815.1,Synechococcus,Synechococcus,0,0.0003034741356168138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_014489415.1,Cylindrospermopsis,Cylindrospermopsis,1,0.6143555917572373,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_015840335.1,Synechococcus,Synechococcus,0,0.005227864935715555,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_015840525.1,Synechococcus,Synechococcus,0,0.001000876691753059,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_015840715.1,Synechococcus,Synechococcus,0,0.0006617520614601253,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_015840915.1,Synechococcus,Synechococcus,0,0.001000876691753059,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_015841355.1,Synechococcus,Synechococcus,0,0.0013540028845598184,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_018139025.1,Cylindrospermopsis,Cylindrospermopsis,1,0.5775221654019823,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_018282115.1,Synechocystis,Synechocystis,0,0.22876438919485498,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_018399015.1,Cyanobium,Cyanobium,0,0.0011452936678015173,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_018845095.1,Synechocystis,Synechocystis,0,0.7873348503405009,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_019924095.1,Synechocystis,Synechocystis,0,0.061631519082532824,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_019977735.1,Calothrix,Calothrix,1,0.9992208726209918,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_021379005.1,Leptodesmis,Leptodesmis,1,0.8001786699777644,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_021650815.1,Cylindrospermopsis,Cylindrospermopsis,1,0.5570918794629064,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_022869765.1,Synechocystis,Synechocystis,0,0.31945261488641924,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_022984195.1,Synechococcus,Synechococcus,0,0.0024133327835438286,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_023078835.1,Synechococcus,Synechococcus,0,0.0004882332672180936,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_023115425.1,Synechococcus,Synechococcus,0,0.0004366409361984874,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_023546805.1,Chroococcidiopsis,Chroococcidiopsis,1,0.9612973121485967,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_025677855.1,Tolypothrix,Tolypothrix,1,0.9997849454828113,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_025860405.1,Tolypothrix,Tolypothrix,1,0.9997947597631417,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_026240635.1,Trichothermofontia,Trichothermofontia,1,0.002262648408277256,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_029953635.1,Halotia,Halotia,1,0.9997634248332995,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_030544905.1,Synechococcus,Synechococcus,0,0.002670087759117918,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_036630065.1,Synechococcus,Synechococcus,0,0.002372145103822877,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_036630075.1,Synechococcus,Synechococcus,0,0.002372145103822877,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_036630085.1,Synechococcus,Synechococcus,0,0.002324334832096138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_036630095.1,Synechococcus,Synechococcus,0,0.002372145103822877,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_036630105.1,Synechococcus,Synechococcus,0,0.0017399674979916055,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_036630115.1,Synechococcus,Synechococcus,0,0.0035598932021175143,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_040371545.1,Synechococcus,Synechococcus,0,0.0018588553670479437,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_040436315.1,Synechocystis,Synechocystis,1,0.13369573345407018,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_044923475.1,Altericista,Altericista,1,0.05119824186147287,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_046846445.1,Synechocystis,Synechocystis,0,0.22109082527203386,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_046847935.1,Synechocystis,Synechocystis,0,0.34456826378479793,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_046847945.1,Synechocystis,Synechocystis,0,0.34456826378479793,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_046847955.1,Synechocystis,Synechocystis,0,0.34456826378479793,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047302735.1,Synechococcus,Synechococcus,0,0.000488770379703538,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047302775.1,Synechococcus,Synechococcus,0,0.00035621324726446967,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047302785.1,Synechococcus,Synechococcus,0,0.00045814682452510443,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047303025.1,Synechococcus,Synechococcus,0,0.00018566326490363603,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047303035.1,Synechococcus,Synechococcus,0,0.0003034741356168138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047303045.1,Synechococcus,Synechococcus,0,0.0003034741356168138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047304065.1,Synechococcus,Synechococcus,0,0.0003034741356168138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047304175.1,Synechococcus,Synechococcus,0,0.0003034741356168138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047304245.1,Synechococcus,Synechococcus,0,0.00031889926185703306,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047304545.1,Synechococcus,Synechococcus,0,0.0003034741356168138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047304555.1,Synechococcus,Synechococcus,0,0.0003034741356168138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047304705.1,Synechococcus,Synechococcus,0,0.0003034741356168138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047304715.1,Synechococcus,Synechococcus,0,0.00032552851064691863,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047304725.1,Synechococcus,Synechococcus,0,0.00039683872160686107,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047497135.1,Synechococcus,Synechococcus,0,0.0003034741356168138,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047716785.1,Synechococcus,Synechococcus,0,0.0004915906763412871,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047716805.1,Synechococcus,Synechococcus,0,0.0004366409361984874,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_047716815.1,Synechococcus,Synechococcus,0,0.00045814682452510443,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_048077055.1,Egbenema,Egbenema,1,0.8841492938917754,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_050408035.1,Synechocystis,Synechocystis,0,0.35457583653072117,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_050422935.1,Synechococcus,Synechococcus,0,0.0030634127766109905,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_050920705.1,Cyanobium,Cyanobium,0,0.0011505734970000288,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_051201415.1,Cylindrospermopsis,Cylindrospermopsis,1,0.5729895972615208,1
+training_prevalence_at_least40,Logistic Regression,4,GCF_900088535.1,Cyanobium,Cyanobium,0,0.00182140441976565,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_963920465.1,Synechococcus,Synechococcus,0,0.0004366409361984874,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_963920475.1,Synechococcus,Synechococcus,0,0.0012492830988333568,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_963920485.1,Cyanobium,Cyanobium,0,0.0039603457967521604,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_963920495.1,Synechococcus,Synechococcus,0,0.0008951610884730623,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_963920505.1,Synechococcus,Synechococcus,0,0.0011505734970000288,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_977927515.1,Cyanobium,Cyanobium,0,0.0016194171435629044,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_977927535.1,Cyanobium,Cyanobium,0,0.001000876691753059,0
+training_prevalence_at_least40,Logistic Regression,4,GCF_977927545.1,Cyanobium,Cyanobium,0,0.0012492830988333568,0
+training_prevalence_at_least40,XGBoost,4,GCF_000009725.1,Synechocystis,Synechocystis,0,0.4634303152561188,0
+training_prevalence_at_least40,XGBoost,4,GCF_000010065.1,Synechococcus,Synechococcus,0,0.027954891324043274,0
+training_prevalence_at_least40,XGBoost,4,GCF_000012505.1,Synechococcus,Synechococcus,0,0.004195863381028175,0
+training_prevalence_at_least40,XGBoost,4,GCF_000012525.1,Synechococcus,Synechococcus,0,0.04752834886312485,0
+training_prevalence_at_least40,XGBoost,4,GCF_000012625.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_000013205.1,Synechococcus,Synechococcus,1,0.0009314300841651857,0
+training_prevalence_at_least40,XGBoost,4,GCF_000013225.1,Synechococcus,Synechococcus,1,0.0009244362590834498,0
+training_prevalence_at_least40,XGBoost,4,GCF_000014265.1,Trichodesmium,Trichodesmium,1,0.06726481765508652,0
+training_prevalence_at_least40,XGBoost,4,GCF_000014585.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_000021805.1,Rippkaea,Rippkaea,1,0.8286032676696777,1
+training_prevalence_at_least40,XGBoost,4,GCF_000063505.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_000063525.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_000161795.2,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_000179235.2,Synechococcus,Synechococcus,0,0.00233606924302876,0
+training_prevalence_at_least40,XGBoost,4,GCF_000270265.1,Synechocystis,Synechocystis,0,0.5118167400360107,1
+training_prevalence_at_least40,XGBoost,4,GCF_000284135.1,Synechocystis,Synechocystis,0,0.514762818813324,1
+training_prevalence_at_least40,XGBoost,4,GCF_000284215.1,Synechocystis,Synechocystis,0,0.5058072209358215,1
+training_prevalence_at_least40,XGBoost,4,GCF_000284455.1,Synechocystis,Synechocystis,0,0.42144328355789185,0
+training_prevalence_at_least40,XGBoost,4,GCF_000316515.1,Cyanobium,Cyanobium,0,0.0010759496362879872,0
+training_prevalence_at_least40,XGBoost,4,GCF_000316575.1,Calothrix,Calothrix,1,0.9950546026229858,1
+training_prevalence_at_least40,XGBoost,4,GCF_000316685.1,Synechococcus,Synechococcus,0,0.006587072275578976,0
+training_prevalence_at_least40,XGBoost,4,GCF_000317085.1,Synechococcus,Synechococcus,0,0.002181751886382699,0
+training_prevalence_at_least40,XGBoost,4,GCF_000317125.1,Chroococcidiopsis,Chroococcidiopsis,1,0.5033082962036133,1
+training_prevalence_at_least40,XGBoost,4,GCF_000317435.1,Calothrix,Calothrix,1,0.9739388227462769,1
+training_prevalence_at_least40,XGBoost,4,GCF_000340785.1,Synechocystis,Synechocystis,0,0.5058072209358215,1
+training_prevalence_at_least40,XGBoost,4,GCF_000478825.2,Synechocystis,Synechocystis,0,0.5840170383453369,1
+training_prevalence_at_least40,XGBoost,4,GCF_000734895.2,Calothrix,Calothrix,1,0.983283281326294,1
+training_prevalence_at_least40,XGBoost,4,GCF_000737535.1,Synechococcus,Synechococcus,0,0.0009420346468687057,0
+training_prevalence_at_least40,XGBoost,4,GCF_000737575.1,Synechococcus,Synechococcus,0,0.0009420346468687057,0
+training_prevalence_at_least40,XGBoost,4,GCF_000737595.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_000817325.1,Synechococcus,Synechococcus,0,0.027954891324043274,0
+training_prevalence_at_least40,XGBoost,4,GCF_001182765.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_001318385.1,Synechocystis,Synechocystis,0,0.5058072209358215,1
+training_prevalence_at_least40,XGBoost,4,GCF_001746915.2,Desertifilum,Desertifilum,1,0.5830429196357727,1
+training_prevalence_at_least40,XGBoost,4,GCF_001885215.1,Synechococcus,Synechococcus,0,0.002930998569354415,0
+training_prevalence_at_least40,XGBoost,4,GCF_002368175.1,Calothrix,Calothrix,1,0.9980114698410034,1
+training_prevalence_at_least40,XGBoost,4,GCF_002368395.1,Calothrix,Calothrix,1,0.8886664509773254,1
+training_prevalence_at_least40,XGBoost,4,GCF_002368455.1,Calothrix,Calothrix,1,0.9837820529937744,1
+training_prevalence_at_least40,XGBoost,4,GCF_003015225.1,Synechocystis,Synechocystis,0,0.5058072209358215,1
+training_prevalence_at_least40,XGBoost,4,GCF_003367075.2,Cylindrospermopsis,Cylindrospermopsis,1,0.670188844203949,1
+training_prevalence_at_least40,XGBoost,4,GCF_003846445.2,Synechococcus,Synechococcus,0,0.026267999783158302,0
+training_prevalence_at_least40,XGBoost,4,GCF_003957805.1,Synechococcus,Synechococcus,0,0.027954891324043274,0
+training_prevalence_at_least40,XGBoost,4,GCF_004209775.1,Synechococcus,Synechococcus,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_008807075.1,Synechococcus,Synechococcus,0,0.0009420346468687057,0
+training_prevalence_at_least40,XGBoost,4,GCF_009498715.2,Synechococcus,Synechococcus,0,0.026267999783158302,0
+training_prevalence_at_least40,XGBoost,4,GCF_011769525.1,Tolypothrix,Tolypothrix,1,0.9881131052970886,1
+training_prevalence_at_least40,XGBoost,4,GCF_014217875.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279535.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279555.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279595.1,Synechococcus,Synechococcus,0,0.00233606924302876,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279615.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279635.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279655.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279755.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279775.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279795.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279815.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279835.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279855.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279875.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279895.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279955.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_014279975.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_014280015.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014280035.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014280055.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014280075.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014280095.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014280115.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014280175.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014280195.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_014280215.1,Synechococcus,Synechococcus,0,0.0009420346468687057,0
+training_prevalence_at_least40,XGBoost,4,GCF_014280235.1,Cyanobium,Cyanobium,0,0.002306923270225525,0
+training_prevalence_at_least40,XGBoost,4,GCF_014304795.1,Synechococcus,Synechococcus,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_014304815.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_014489415.1,Cylindrospermopsis,Cylindrospermopsis,1,0.748844563961029,1
+training_prevalence_at_least40,XGBoost,4,GCF_015840335.1,Synechococcus,Synechococcus,0,0.004484165925532579,0
+training_prevalence_at_least40,XGBoost,4,GCF_015840525.1,Synechococcus,Synechococcus,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_015840715.1,Synechococcus,Synechococcus,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_015840915.1,Synechococcus,Synechococcus,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_015841355.1,Synechococcus,Synechococcus,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_018139025.1,Cylindrospermopsis,Cylindrospermopsis,1,0.649013876914978,1
+training_prevalence_at_least40,XGBoost,4,GCF_018282115.1,Synechocystis,Synechocystis,0,0.29563891887664795,0
+training_prevalence_at_least40,XGBoost,4,GCF_018399015.1,Cyanobium,Cyanobium,0,0.002306923270225525,0
+training_prevalence_at_least40,XGBoost,4,GCF_018845095.1,Synechocystis,Synechocystis,0,0.6766601204872131,1
+training_prevalence_at_least40,XGBoost,4,GCF_019924095.1,Synechocystis,Synechocystis,0,0.11391717940568924,0
+training_prevalence_at_least40,XGBoost,4,GCF_019977735.1,Calothrix,Calothrix,1,0.9875972867012024,1
+training_prevalence_at_least40,XGBoost,4,GCF_021379005.1,Leptodesmis,Leptodesmis,1,0.664505660533905,1
+training_prevalence_at_least40,XGBoost,4,GCF_021650815.1,Cylindrospermopsis,Cylindrospermopsis,1,0.7021176218986511,1
+training_prevalence_at_least40,XGBoost,4,GCF_022869765.1,Synechocystis,Synechocystis,0,0.5058072209358215,1
+training_prevalence_at_least40,XGBoost,4,GCF_022984195.1,Synechococcus,Synechococcus,0,0.027954891324043274,0
+training_prevalence_at_least40,XGBoost,4,GCF_023078835.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_023115425.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_023546805.1,Chroococcidiopsis,Chroococcidiopsis,1,0.6250379085540771,1
+training_prevalence_at_least40,XGBoost,4,GCF_025677855.1,Tolypothrix,Tolypothrix,1,0.9955549836158752,1
+training_prevalence_at_least40,XGBoost,4,GCF_025860405.1,Tolypothrix,Tolypothrix,1,0.996220052242279,1
+training_prevalence_at_least40,XGBoost,4,GCF_026240635.1,Trichothermofontia,Trichothermofontia,1,0.024400167167186737,0
+training_prevalence_at_least40,XGBoost,4,GCF_029953635.1,Halotia,Halotia,1,0.9947814345359802,1
+training_prevalence_at_least40,XGBoost,4,GCF_030544905.1,Synechococcus,Synechococcus,0,0.027954891324043274,0
+training_prevalence_at_least40,XGBoost,4,GCF_036630065.1,Synechococcus,Synechococcus,0,0.026267999783158302,0
+training_prevalence_at_least40,XGBoost,4,GCF_036630075.1,Synechococcus,Synechococcus,0,0.026267999783158302,0
+training_prevalence_at_least40,XGBoost,4,GCF_036630085.1,Synechococcus,Synechococcus,0,0.026267999783158302,0
+training_prevalence_at_least40,XGBoost,4,GCF_036630095.1,Synechococcus,Synechococcus,0,0.026267999783158302,0
+training_prevalence_at_least40,XGBoost,4,GCF_036630105.1,Synechococcus,Synechococcus,0,0.023245692253112793,0
+training_prevalence_at_least40,XGBoost,4,GCF_036630115.1,Synechococcus,Synechococcus,0,0.014581221155822277,0
+training_prevalence_at_least40,XGBoost,4,GCF_040371545.1,Synechococcus,Synechococcus,0,0.004195863381028175,0
+training_prevalence_at_least40,XGBoost,4,GCF_040436315.1,Synechocystis,Synechocystis,1,0.380018949508667,0
+training_prevalence_at_least40,XGBoost,4,GCF_044923475.1,Altericista,Altericista,1,0.02438393421471119,0
+training_prevalence_at_least40,XGBoost,4,GCF_046846445.1,Synechocystis,Synechocystis,0,0.4614490270614624,0
+training_prevalence_at_least40,XGBoost,4,GCF_046847935.1,Synechocystis,Synechocystis,0,0.5058072209358215,1
+training_prevalence_at_least40,XGBoost,4,GCF_046847945.1,Synechocystis,Synechocystis,0,0.5058072209358215,1
+training_prevalence_at_least40,XGBoost,4,GCF_046847955.1,Synechocystis,Synechocystis,0,0.5058072209358215,1
+training_prevalence_at_least40,XGBoost,4,GCF_047302735.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_047302775.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_047302785.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_047303025.1,Synechococcus,Synechococcus,0,0.0009420346468687057,0
+training_prevalence_at_least40,XGBoost,4,GCF_047303035.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_047303045.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_047304065.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_047304175.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_047304245.1,Synechococcus,Synechococcus,0,0.0010069889249280095,0
+training_prevalence_at_least40,XGBoost,4,GCF_047304545.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_047304555.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_047304705.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_047304715.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_047304725.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_047497135.1,Synechococcus,Synechococcus,0,0.0010192852932959795,0
+training_prevalence_at_least40,XGBoost,4,GCF_047716785.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_047716805.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_047716815.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_048077055.1,Egbenema,Egbenema,1,0.516431450843811,1
+training_prevalence_at_least40,XGBoost,4,GCF_050408035.1,Synechocystis,Synechocystis,0,0.5058072209358215,1
+training_prevalence_at_least40,XGBoost,4,GCF_050422935.1,Synechococcus,Synechococcus,0,0.026267999783158302,0
+training_prevalence_at_least40,XGBoost,4,GCF_050920705.1,Cyanobium,Cyanobium,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_051201415.1,Cylindrospermopsis,Cylindrospermopsis,1,0.670188844203949,1
+training_prevalence_at_least40,XGBoost,4,GCF_900088535.1,Cyanobium,Cyanobium,0,0.002306923270225525,0
+training_prevalence_at_least40,XGBoost,4,GCF_963920465.1,Synechococcus,Synechococcus,0,0.0010895602172240615,0
+training_prevalence_at_least40,XGBoost,4,GCF_963920475.1,Synechococcus,Synechococcus,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_963920485.1,Cyanobium,Cyanobium,0,0.004484165925532579,0
+training_prevalence_at_least40,XGBoost,4,GCF_963920495.1,Synechococcus,Synechococcus,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_963920505.1,Synechococcus,Synechococcus,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_977927515.1,Cyanobium,Cyanobium,0,0.002306923270225525,0
+training_prevalence_at_least40,XGBoost,4,GCF_977927535.1,Cyanobium,Cyanobium,0,0.0021592366974800825,0
+training_prevalence_at_least40,XGBoost,4,GCF_977927545.1,Cyanobium,Cyanobium,0,0.0021592366974800825,0
+training_prevalence_at_least40,Random Forest,5,GCF_000010625.1,Microcystis,Microcystis,0,0.4163693250763684,0
+training_prevalence_at_least40,Random Forest,5,GCF_000011345.1,Thermosynechococcus,Thermosynechococcus,0,0.28749640669065757,0
+training_prevalence_at_least40,Random Forest,5,GCF_000017845.1,Crocosphaera,Crocosphaera,1,0.3309247467123594,0
+training_prevalence_at_least40,Random Forest,5,GCF_000195975.1,Parasynechococcus,Parasynechococcus,0,0.00013072453861927546,0
+training_prevalence_at_least40,Random Forest,5,GCF_000204075.1,Trichormus,Trichormus,1,0.9926850649350649,1
+training_prevalence_at_least40,Random Forest,5,GCF_000316665.1,Rivularia,Rivularia,1,0.8809180242272346,1
+training_prevalence_at_least40,Random Forest,5,GCF_000317475.1,Phormidium,Phormidium,0,0.2850642503631634,0
+training_prevalence_at_least40,Random Forest,5,GCF_000317655.1,Cyanobacterium,Cyanobacterium,0,0.22136180846157616,0
+training_prevalence_at_least40,Random Forest,5,GCF_000317675.1,Cyanobacterium,Cyanobacterium,0,0.2580194996975922,0
+training_prevalence_at_least40,Random Forest,5,GCF_000829235.1,cyanobacterium,cyanobacterium,1,0.20171053954645277,0
+training_prevalence_at_least40,Random Forest,5,GCF_000981785.1,Microcystis,Microcystis,0,0.385500341720543,0
+training_prevalence_at_least40,Random Forest,5,GCF_000981785.2,Microcystis,Microcystis,0,0.39408367505387626,0
+training_prevalence_at_least40,Random Forest,5,GCF_001264245.1,Microcystis,Microcystis,0,0.3858707768409781,0
+training_prevalence_at_least40,Random Forest,5,GCF_001704955.1,Microcystis,Microcystis,0,0.396510442730644,0
+training_prevalence_at_least40,Random Forest,5,GCF_001704955.2,Microcystis,Microcystis,0,0.39408367505387626,0
+training_prevalence_at_least40,Random Forest,5,GCF_001747005.2,Cyanobacterium,Cyanobacterium,0,0.24455917088176465,0
+training_prevalence_at_least40,Random Forest,5,GCF_002095975.1,Microcystis,Microcystis,0,0.4088816548518561,0
+training_prevalence_at_least40,Random Forest,5,GCF_002356215.1,[Synechococcus],[Synechococcus],0,0.16379855694700893,0
+training_prevalence_at_least40,Random Forest,5,GCF_002754935.1,Parathermosynechococcus,Parathermosynechococcus,0,0.27017452024377114,0
+training_prevalence_at_least40,Random Forest,5,GCF_002813895.1,Cyanobacterium,Cyanobacterium,0,0.2528066456292393,0
+training_prevalence_at_least40,Random Forest,5,GCF_003019735.1,Microcystis,Microcystis,0,0.42088688573208693,0
+training_prevalence_at_least40,Random Forest,5,GCF_003555505.1,Thermosynechococcus,Thermosynechococcus,0,0.29459042378467465,0
+training_prevalence_at_least40,Random Forest,5,GCF_003574135.1,cyanobacterium,cyanobacterium,1,0.23844603066352285,0
+training_prevalence_at_least40,Random Forest,5,GCF_003945305.1,Microcystis,Microcystis,0,0.4151572038642472,0
+training_prevalence_at_least40,Random Forest,5,GCF_003967015.1,Pseudanabaena,Pseudanabaena,1,0.16449042271797687,0
+training_prevalence_at_least40,Random Forest,5,GCF_003990665.1,Thermostichus,Thermostichus,0,0.28749640669065757,0
+training_prevalence_at_least40,Random Forest,5,GCF_008386235.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_009792235.1,Microcystis,Microcystis,0,0.4082923048743482,0
+training_prevalence_at_least40,Random Forest,5,GCF_009856605.1,Trichormus,Trichormus,1,0.9926850649350649,1
+training_prevalence_at_least40,Random Forest,5,GCF_010196425.1,Microcystis,Microcystis,0,0.39408367505387626,0
+training_prevalence_at_least40,Random Forest,5,GCF_012516315.1,Limnospira,Limnospira,0,0.2972247710064272,0
+training_prevalence_at_least40,Random Forest,5,GCF_017086385.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_019704275.1,Microcystis,Microcystis,0,0.3995382205084217,0
+training_prevalence_at_least40,Random Forest,5,GCF_020091585.1,Kovacikia,Kovacikia,0,0.5528522441009285,1
+training_prevalence_at_least40,Random Forest,5,GCF_020885515.1,cyanobacterium,cyanobacterium,1,0.22383972080364248,0
+training_prevalence_at_least40,Random Forest,5,GCF_021172085.1,Microcystis,Microcystis,0,0.4315497645199657,0
+training_prevalence_at_least40,Random Forest,5,GCF_023650955.1,Thermosynechococcus,Thermosynechococcus,0,0.29291307335732425,0
+training_prevalence_at_least40,Random Forest,5,GCF_023983615.1,Phormidium,Phormidium,1,0.3119098663204699,0
+training_prevalence_at_least40,Random Forest,5,GCF_025200965.1,Limnospira,Limnospira,0,0.28147078376559787,0
+training_prevalence_at_least40,Random Forest,5,GCF_025999095.1,Thermosynechococcus,Thermosynechococcus,0,0.28749640669065757,0
+training_prevalence_at_least40,Random Forest,5,GCF_026000695.1,Limnospira,Limnospira,0,0.3104255716763456,0
+training_prevalence_at_least40,Random Forest,5,GCF_026222535.1,Microcystis,Microcystis,0,0.4194957680778114,0
+training_prevalence_at_least40,Random Forest,5,GCF_027942295.1,Pseudanabaena,Pseudanabaena,0,0.1489373924149466,0
+training_prevalence_at_least40,Random Forest,5,GCF_029910235.1,Pseudanabaena,Pseudanabaena,1,0.1798976135663442,0
+training_prevalence_at_least40,Random Forest,5,GCF_029919255.1,cyanobacterium,cyanobacterium,1,0.23215792987542205,0
+training_prevalence_at_least40,Random Forest,5,GCF_030322965.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_030322985.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_030323025.1,Pseudanabaena,Pseudanabaena,0,0.160910184328915,0
+training_prevalence_at_least40,Random Forest,5,GCF_030323045.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_030518695.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_030518715.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_030518735.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_030553035.1,Microcystis,Microcystis,0,0.4088816548518561,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583185.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583205.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583225.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583255.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583295.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583315.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583335.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583355.1,Thermosynechococcus,Thermosynechococcus,0,0.28363804283229366,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583375.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583395.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583415.1,Thermosynechococcus,Thermosynechococcus,0,0.284514666208917,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583435.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583455.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583475.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583495.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583515.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583535.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031583555.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031586415.1,Thermosynechococcus,Thermosynechococcus,0,0.287923757118008,0
+training_prevalence_at_least40,Random Forest,5,GCF_031754835.1,Microcystis,Microcystis,0,0.36561567988479415,0
+training_prevalence_at_least40,Random Forest,5,GCF_033798705.1,Cyanobacterium,Cyanobacterium,0,0.25101949969759224,0
+training_prevalence_at_least40,Random Forest,5,GCF_035320825.1,Cyanobacterium,Cyanobacterium,0,0.25101949969759224,0
+training_prevalence_at_least40,Random Forest,5,GCF_036345015.1,Cyanobacterium,Cyanobacterium,1,0.24935283303092554,0
+training_prevalence_at_least40,Random Forest,5,GCF_038396575.1,Microcystis,Microcystis,0,0.41752841598545926,0
+training_prevalence_at_least40,Random Forest,5,GCF_038630775.1,Cyanobacterium,Cyanobacterium,0,0.2476861663642589,0
+training_prevalence_at_least40,Random Forest,5,GCF_041506625.1,Microcystis,Microcystis,0,0.4088816548518561,0
+training_prevalence_at_least40,Random Forest,5,GCF_045345185.1,Cyanobacterium,Cyanobacterium,0,0.26392691907559984,0
+training_prevalence_at_least40,Random Forest,5,GCF_048593405.1,Microcystis,Microcystis,0,0.385500341720543,0
+training_prevalence_at_least40,Random Forest,5,GCF_048820285.1,Microcystis,Microcystis,0,0.39408367505387626,0
+training_prevalence_at_least40,Random Forest,5,GCF_050500235.1,Microcystis,Microcystis,0,0.39408367505387626,0
+training_prevalence_at_least40,Random Forest,5,GCF_050500245.1,Microcystis,Microcystis,0,0.3813058972760984,0
+training_prevalence_at_least40,Random Forest,5,GCF_050500255.1,Microcystis,Microcystis,0,0.43880553652573767,0
+training_prevalence_at_least40,Random Forest,5,GCF_050563455.1,Crocosphaera,Crocosphaera,1,0.2468177645132719,0
+training_prevalence_at_least40,Random Forest,5,GCF_050711215.1,Microcystis,Microcystis,0,0.435883097853299,0
+training_prevalence_at_least40,Random Forest,5,GCF_051131155.1,Pseudanabaena,Pseudanabaena,0,0.1805292874480181,0
+training_prevalence_at_least40,Random Forest,5,GCF_947331815.1,Cyanobacterium,Cyanobacterium,1,0.2034532456707379,0
+training_prevalence_at_least40,Random Forest,5,GCF_976987195.1,Microcystis,Microcystis,0,0.3995382205084217,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000010625.1,Microcystis,Microcystis,0,0.17340926493326192,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000011345.1,Thermosynechococcus,Thermosynechococcus,0,0.00033495112082202404,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000017845.1,Crocosphaera,Crocosphaera,1,0.19713353573656545,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000195975.1,Parasynechococcus,Parasynechococcus,0,3.9261289184241124e-05,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000204075.1,Trichormus,Trichormus,1,0.9999283687831203,1
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000316665.1,Rivularia,Rivularia,1,0.9971272137939091,1
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000317475.1,Phormidium,Phormidium,0,8.83042631073272e-05,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000317655.1,Cyanobacterium,Cyanobacterium,0,0.00014229013220048875,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000317675.1,Cyanobacterium,Cyanobacterium,0,0.00783708372133912,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000829235.1,cyanobacterium,cyanobacterium,1,0.9944291896192035,1
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000981785.1,Microcystis,Microcystis,0,0.16036065798697263,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_000981785.2,Microcystis,Microcystis,0,0.16036065798697263,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_001264245.1,Microcystis,Microcystis,0,0.0013681047308029934,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_001704955.1,Microcystis,Microcystis,0,0.1886822011086602,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_001704955.2,Microcystis,Microcystis,0,0.22694576876561243,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_001747005.2,Cyanobacterium,Cyanobacterium,0,0.0002115125255382201,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_002095975.1,Microcystis,Microcystis,0,0.12184232457021957,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_002356215.1,[Synechococcus],[Synechococcus],0,9.064583779363115e-05,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_002754935.1,Parathermosynechococcus,Parathermosynechococcus,0,0.0003352224373454307,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_002813895.1,Cyanobacterium,Cyanobacterium,0,0.0002115125255382201,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_003019735.1,Microcystis,Microcystis,0,0.18869626238493595,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_003555505.1,Thermosynechococcus,Thermosynechococcus,0,0.00033495112082202404,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_003574135.1,cyanobacterium,cyanobacterium,1,0.9979480203998974,1
+training_prevalence_at_least40,Gradient Boosting,5,GCF_003945305.1,Microcystis,Microcystis,0,0.16036065798697263,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_003967015.1,Pseudanabaena,Pseudanabaena,1,0.00011182787668509744,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_003990665.1,Thermostichus,Thermostichus,0,0.00033495112082202404,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_008386235.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_009792235.1,Microcystis,Microcystis,0,0.6374194374400093,1
+training_prevalence_at_least40,Gradient Boosting,5,GCF_009856605.1,Trichormus,Trichormus,1,0.9999283687831203,1
+training_prevalence_at_least40,Gradient Boosting,5,GCF_010196425.1,Microcystis,Microcystis,0,0.22694576876561243,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_012516315.1,Limnospira,Limnospira,0,0.00016527867237522913,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_017086385.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_019704275.1,Microcystis,Microcystis,0,0.14593520265424412,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_020091585.1,Kovacikia,Kovacikia,0,0.9722798518759218,1
+training_prevalence_at_least40,Gradient Boosting,5,GCF_020885515.1,cyanobacterium,cyanobacterium,1,0.9986069869971299,1
+training_prevalence_at_least40,Gradient Boosting,5,GCF_021172085.1,Microcystis,Microcystis,0,0.12184232457021957,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_023650955.1,Thermosynechococcus,Thermosynechococcus,0,0.0003096144128912048,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_023983615.1,Phormidium,Phormidium,1,0.00025971583963750177,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_025200965.1,Limnospira,Limnospira,0,0.00011344504174745148,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_025999095.1,Thermosynechococcus,Thermosynechococcus,0,0.00033495112082202404,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_026000695.1,Limnospira,Limnospira,0,0.016343255233607554,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_026222535.1,Microcystis,Microcystis,0,0.16037302584646299,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_027942295.1,Pseudanabaena,Pseudanabaena,0,0.00013670473457351023,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_029910235.1,Pseudanabaena,Pseudanabaena,1,0.00013673897544740372,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_029919255.1,cyanobacterium,cyanobacterium,1,0.9979480203998974,1
+training_prevalence_at_least40,Gradient Boosting,5,GCF_030322965.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_030322985.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_030323025.1,Pseudanabaena,Pseudanabaena,0,6.6700746460881e-05,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_030323045.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_030518695.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_030518715.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_030518735.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_030553035.1,Microcystis,Microcystis,0,0.12184232457021957,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583185.1,Thermosynechococcus,Thermosynechococcus,0,0.00032853549949040317,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583205.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583225.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583255.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583295.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583315.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583335.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583355.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583375.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583395.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583415.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583435.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583455.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583475.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583495.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583515.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583535.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031583555.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031586415.1,Thermosynechococcus,Thermosynechococcus,0,0.00033521564338962444,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_031754835.1,Microcystis,Microcystis,0,0.16037302584646299,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_033798705.1,Cyanobacterium,Cyanobacterium,0,0.00783708372133912,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_035320825.1,Cyanobacterium,Cyanobacterium,0,0.00783708372133912,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_036345015.1,Cyanobacterium,Cyanobacterium,1,0.00783708372133912,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_038396575.1,Microcystis,Microcystis,0,0.172231643107771,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_038630775.1,Cyanobacterium,Cyanobacterium,0,0.00783708372133912,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_041506625.1,Microcystis,Microcystis,0,0.12184232457021957,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_045345185.1,Cyanobacterium,Cyanobacterium,0,0.009534299139362944,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_048593405.1,Microcystis,Microcystis,0,0.22694576876561243,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_048820285.1,Microcystis,Microcystis,0,0.22694576876561243,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_050500235.1,Microcystis,Microcystis,0,0.22694576876561243,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_050500245.1,Microcystis,Microcystis,0,0.22694576876561243,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_050500255.1,Microcystis,Microcystis,0,0.050731593401780725,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_050563455.1,Crocosphaera,Crocosphaera,1,0.10319500560697087,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_050711215.1,Microcystis,Microcystis,0,0.1886822011086602,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_051131155.1,Pseudanabaena,Pseudanabaena,0,8.172467152504426e-05,0
+training_prevalence_at_least40,Gradient Boosting,5,GCF_947331815.1,Cyanobacterium,Cyanobacterium,1,0.9979480203998974,1
+training_prevalence_at_least40,Gradient Boosting,5,GCF_976987195.1,Microcystis,Microcystis,0,0.14593520265424412,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_000010625.1,Microcystis,Microcystis,0,0.9749755651797904,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_000011345.1,Thermosynechococcus,Thermosynechococcus,0,0.0033330878061271674,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_000017845.1,Crocosphaera,Crocosphaera,1,0.7121512201635841,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_000195975.1,Parasynechococcus,Parasynechococcus,0,0.00022118348991566878,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_000204075.1,Trichormus,Trichormus,1,0.9980595216080295,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_000316665.1,Rivularia,Rivularia,1,0.9908279703440604,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_000317475.1,Phormidium,Phormidium,0,0.09439458552400012,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_000317655.1,Cyanobacterium,Cyanobacterium,0,0.0020326316059603657,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_000317675.1,Cyanobacterium,Cyanobacterium,0,0.05195332968621303,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_000829235.1,cyanobacterium,cyanobacterium,1,0.2702698692108748,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_000981785.1,Microcystis,Microcystis,0,0.9635086595058047,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_000981785.2,Microcystis,Microcystis,0,0.9593790839925967,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_001264245.1,Microcystis,Microcystis,0,0.7431300759369814,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_001704955.1,Microcystis,Microcystis,0,0.9563124111155292,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_001704955.2,Microcystis,Microcystis,0,0.9796889272185008,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_001747005.2,Cyanobacterium,Cyanobacterium,0,0.016308057340514305,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_002095975.1,Microcystis,Microcystis,0,0.8522139886383909,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_002356215.1,[Synechococcus],[Synechococcus],0,0.006761016491842445,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_002754935.1,Parathermosynechococcus,Parathermosynechococcus,0,0.001075986411228245,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_002813895.1,Cyanobacterium,Cyanobacterium,0,0.02457448639059057,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_003019735.1,Microcystis,Microcystis,0,0.9862424797590146,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_003555505.1,Thermosynechococcus,Thermosynechococcus,0,0.006434011196866274,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_003574135.1,cyanobacterium,cyanobacterium,1,0.5897988949181058,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_003945305.1,Microcystis,Microcystis,0,0.9733258326290798,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_003967015.1,Pseudanabaena,Pseudanabaena,1,0.0333119042813064,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_003990665.1,Thermostichus,Thermostichus,0,0.0036228059793566034,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_008386235.1,Thermosynechococcus,Thermosynechococcus,0,0.005272452141501106,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_009792235.1,Microcystis,Microcystis,0,0.9842180399921897,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_009856605.1,Trichormus,Trichormus,1,0.99792569424305,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_010196425.1,Microcystis,Microcystis,0,0.953824524391848,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_012516315.1,Limnospira,Limnospira,0,0.01784517093088544,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_017086385.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_019704275.1,Microcystis,Microcystis,0,0.9032434166009391,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_020091585.1,Kovacikia,Kovacikia,0,0.991437590132224,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_020885515.1,cyanobacterium,cyanobacterium,1,0.9503801272603798,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_021172085.1,Microcystis,Microcystis,0,0.8728889261874444,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_023650955.1,Thermosynechococcus,Thermosynechococcus,0,0.003455454708519658,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_023983615.1,Phormidium,Phormidium,1,0.0017207260408477047,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_025200965.1,Limnospira,Limnospira,0,0.00419437667169003,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_025999095.1,Thermosynechococcus,Thermosynechococcus,0,0.0036228059793566034,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_026000695.1,Limnospira,Limnospira,0,0.07716663301906113,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_026222535.1,Microcystis,Microcystis,0,0.9669564537186823,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_027942295.1,Pseudanabaena,Pseudanabaena,0,0.020429355630913686,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_029910235.1,Pseudanabaena,Pseudanabaena,1,0.08388429996762929,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_029919255.1,cyanobacterium,cyanobacterium,1,0.22216916853492275,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_030322965.1,Thermosynechococcus,Thermosynechococcus,0,0.005729774343031833,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_030322985.1,Thermosynechococcus,Thermosynechococcus,0,0.005272452141501106,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_030323025.1,Pseudanabaena,Pseudanabaena,0,0.0093004026808137,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_030323045.1,Thermosynechococcus,Thermosynechococcus,0,0.005272452141501106,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_030518695.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_030518715.1,Thermosynechococcus,Thermosynechococcus,0,0.005272452141501106,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_030518735.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_030553035.1,Microcystis,Microcystis,0,0.8816890583726783,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583185.1,Thermosynechococcus,Thermosynechococcus,0,0.013558440987874999,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583205.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583225.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583255.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583295.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583315.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583335.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583355.1,Thermosynechococcus,Thermosynechococcus,0,0.008876052492698691,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583375.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583395.1,Thermosynechococcus,Thermosynechococcus,0,0.005430244237692021,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583415.1,Thermosynechococcus,Thermosynechococcus,0,0.004881328658001625,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583435.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583455.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583475.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583495.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583515.1,Thermosynechococcus,Thermosynechococcus,0,0.00665480318326121,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583535.1,Thermosynechococcus,Thermosynechococcus,0,0.005272452141501106,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031583555.1,Thermosynechococcus,Thermosynechococcus,0,0.006862699744993103,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031586415.1,Thermosynechococcus,Thermosynechococcus,0,0.00371873145029402,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_031754835.1,Microcystis,Microcystis,0,0.9538560011745415,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_033798705.1,Cyanobacterium,Cyanobacterium,0,0.03408936154585021,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_035320825.1,Cyanobacterium,Cyanobacterium,0,0.03408936154585021,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_036345015.1,Cyanobacterium,Cyanobacterium,1,0.028754746914591994,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_038396575.1,Microcystis,Microcystis,0,0.917768294201557,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_038630775.1,Cyanobacterium,Cyanobacterium,0,0.020274768044412587,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_041506625.1,Microcystis,Microcystis,0,0.8816890583726783,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_045345185.1,Cyanobacterium,Cyanobacterium,0,0.016464643380818735,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_048593405.1,Microcystis,Microcystis,0,0.9763440550597817,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_048820285.1,Microcystis,Microcystis,0,0.953824524391848,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_050500235.1,Microcystis,Microcystis,0,0.973627250670102,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_050500245.1,Microcystis,Microcystis,0,0.9611656060761861,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_050500255.1,Microcystis,Microcystis,0,0.9763279943363392,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_050563455.1,Crocosphaera,Crocosphaera,1,0.7517334475311963,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_050711215.1,Microcystis,Microcystis,0,0.9580771281145434,1
+training_prevalence_at_least40,Logistic Regression,5,GCF_051131155.1,Pseudanabaena,Pseudanabaena,0,0.011087348583397156,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_947331815.1,Cyanobacterium,Cyanobacterium,1,0.34914780053210204,0
+training_prevalence_at_least40,Logistic Regression,5,GCF_976987195.1,Microcystis,Microcystis,0,0.9032434166009382,1
+training_prevalence_at_least40,XGBoost,5,GCF_000010625.1,Microcystis,Microcystis,0,0.3946099877357483,0
+training_prevalence_at_least40,XGBoost,5,GCF_000011345.1,Thermosynechococcus,Thermosynechococcus,0,0.011426113545894623,0
+training_prevalence_at_least40,XGBoost,5,GCF_000017845.1,Crocosphaera,Crocosphaera,1,0.7310382127761841,1
+training_prevalence_at_least40,XGBoost,5,GCF_000195975.1,Parasynechococcus,Parasynechococcus,0,0.000989733962342143,0
+training_prevalence_at_least40,XGBoost,5,GCF_000204075.1,Trichormus,Trichormus,1,0.9975457787513733,1
+training_prevalence_at_least40,XGBoost,5,GCF_000316665.1,Rivularia,Rivularia,1,0.9950146079063416,1
+training_prevalence_at_least40,XGBoost,5,GCF_000317475.1,Phormidium,Phormidium,0,0.02745947614312172,0
+training_prevalence_at_least40,XGBoost,5,GCF_000317655.1,Cyanobacterium,Cyanobacterium,0,0.04034408926963806,0
+training_prevalence_at_least40,XGBoost,5,GCF_000317675.1,Cyanobacterium,Cyanobacterium,0,0.09106394648551941,0
+training_prevalence_at_least40,XGBoost,5,GCF_000829235.1,cyanobacterium,cyanobacterium,1,0.2831248342990875,0
+training_prevalence_at_least40,XGBoost,5,GCF_000981785.1,Microcystis,Microcystis,0,0.24135200679302216,0
+training_prevalence_at_least40,XGBoost,5,GCF_000981785.2,Microcystis,Microcystis,0,0.23199908435344696,0
+training_prevalence_at_least40,XGBoost,5,GCF_001264245.1,Microcystis,Microcystis,0,0.11230174452066422,0
+training_prevalence_at_least40,XGBoost,5,GCF_001704955.1,Microcystis,Microcystis,0,0.24985548853874207,0
+training_prevalence_at_least40,XGBoost,5,GCF_001704955.2,Microcystis,Microcystis,0,0.37234705686569214,0
+training_prevalence_at_least40,XGBoost,5,GCF_001747005.2,Cyanobacterium,Cyanobacterium,0,0.07513901591300964,0
+training_prevalence_at_least40,XGBoost,5,GCF_002095975.1,Microcystis,Microcystis,0,0.1976850926876068,0
+training_prevalence_at_least40,XGBoost,5,GCF_002356215.1,[Synechococcus],[Synechococcus],0,0.00885337870568037,0
+training_prevalence_at_least40,XGBoost,5,GCF_002754935.1,Parathermosynechococcus,Parathermosynechococcus,0,0.010133443400263786,0
+training_prevalence_at_least40,XGBoost,5,GCF_002813895.1,Cyanobacterium,Cyanobacterium,0,0.10070745646953583,0
+training_prevalence_at_least40,XGBoost,5,GCF_003019735.1,Microcystis,Microcystis,0,0.272720605134964,0
+training_prevalence_at_least40,XGBoost,5,GCF_003555505.1,Thermosynechococcus,Thermosynechococcus,0,0.014308231882750988,0
+training_prevalence_at_least40,XGBoost,5,GCF_003574135.1,cyanobacterium,cyanobacterium,1,0.554349958896637,1
+training_prevalence_at_least40,XGBoost,5,GCF_003945305.1,Microcystis,Microcystis,0,0.3902909755706787,0
+training_prevalence_at_least40,XGBoost,5,GCF_003967015.1,Pseudanabaena,Pseudanabaena,1,0.046642109751701355,0
+training_prevalence_at_least40,XGBoost,5,GCF_003990665.1,Thermostichus,Thermostichus,0,0.011426113545894623,0
+training_prevalence_at_least40,XGBoost,5,GCF_008386235.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_009792235.1,Microcystis,Microcystis,0,0.47721198201179504,0
+training_prevalence_at_least40,XGBoost,5,GCF_009856605.1,Trichormus,Trichormus,1,0.9975457787513733,1
+training_prevalence_at_least40,XGBoost,5,GCF_010196425.1,Microcystis,Microcystis,0,0.39524999260902405,0
+training_prevalence_at_least40,XGBoost,5,GCF_012516315.1,Limnospira,Limnospira,0,0.051469624042510986,0
+training_prevalence_at_least40,XGBoost,5,GCF_017086385.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_019704275.1,Microcystis,Microcystis,0,0.2211829125881195,0
+training_prevalence_at_least40,XGBoost,5,GCF_020091585.1,Kovacikia,Kovacikia,0,0.7129179835319519,1
+training_prevalence_at_least40,XGBoost,5,GCF_020885515.1,cyanobacterium,cyanobacterium,1,0.7221606969833374,1
+training_prevalence_at_least40,XGBoost,5,GCF_021172085.1,Microcystis,Microcystis,0,0.2158573567867279,0
+training_prevalence_at_least40,XGBoost,5,GCF_023650955.1,Thermosynechococcus,Thermosynechococcus,0,0.01028608251363039,0
+training_prevalence_at_least40,XGBoost,5,GCF_023983615.1,Phormidium,Phormidium,1,0.03548642247915268,0
+training_prevalence_at_least40,XGBoost,5,GCF_025200965.1,Limnospira,Limnospira,0,0.0496361143887043,0
+training_prevalence_at_least40,XGBoost,5,GCF_025999095.1,Thermosynechococcus,Thermosynechococcus,0,0.011426113545894623,0
+training_prevalence_at_least40,XGBoost,5,GCF_026000695.1,Limnospira,Limnospira,0,0.1152103841304779,0
+training_prevalence_at_least40,XGBoost,5,GCF_026222535.1,Microcystis,Microcystis,0,0.45243513584136963,0
+training_prevalence_at_least40,XGBoost,5,GCF_027942295.1,Pseudanabaena,Pseudanabaena,0,0.029751813039183617,0
+training_prevalence_at_least40,XGBoost,5,GCF_029910235.1,Pseudanabaena,Pseudanabaena,1,0.01707838475704193,0
+training_prevalence_at_least40,XGBoost,5,GCF_029919255.1,cyanobacterium,cyanobacterium,1,0.4313066005706787,0
+training_prevalence_at_least40,XGBoost,5,GCF_030322965.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_030322985.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_030323025.1,Pseudanabaena,Pseudanabaena,0,0.008307984098792076,0
+training_prevalence_at_least40,XGBoost,5,GCF_030323045.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_030518695.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_030518715.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_030518735.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_030553035.1,Microcystis,Microcystis,0,0.1976850926876068,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583185.1,Thermosynechococcus,Thermosynechococcus,0,0.018634026870131493,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583205.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583225.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583255.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583295.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583315.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583335.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583355.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583375.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583395.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583415.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583435.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583455.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583475.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583495.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583515.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583535.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031583555.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031586415.1,Thermosynechococcus,Thermosynechococcus,0,0.014114621095359325,0
+training_prevalence_at_least40,XGBoost,5,GCF_031754835.1,Microcystis,Microcystis,0,0.2700195610523224,0
+training_prevalence_at_least40,XGBoost,5,GCF_033798705.1,Cyanobacterium,Cyanobacterium,0,0.0760362446308136,0
+training_prevalence_at_least40,XGBoost,5,GCF_035320825.1,Cyanobacterium,Cyanobacterium,0,0.0760362446308136,0
+training_prevalence_at_least40,XGBoost,5,GCF_036345015.1,Cyanobacterium,Cyanobacterium,1,0.07019872218370438,0
+training_prevalence_at_least40,XGBoost,5,GCF_038396575.1,Microcystis,Microcystis,0,0.3825087547302246,0
+training_prevalence_at_least40,XGBoost,5,GCF_038630775.1,Cyanobacterium,Cyanobacterium,0,0.07019872218370438,0
+training_prevalence_at_least40,XGBoost,5,GCF_041506625.1,Microcystis,Microcystis,0,0.1976850926876068,0
+training_prevalence_at_least40,XGBoost,5,GCF_045345185.1,Cyanobacterium,Cyanobacterium,0,0.05466616526246071,0
+training_prevalence_at_least40,XGBoost,5,GCF_048593405.1,Microcystis,Microcystis,0,0.39948102831840515,0
+training_prevalence_at_least40,XGBoost,5,GCF_048820285.1,Microcystis,Microcystis,0,0.39524999260902405,0
+training_prevalence_at_least40,XGBoost,5,GCF_050500235.1,Microcystis,Microcystis,0,0.39524999260902405,0
+training_prevalence_at_least40,XGBoost,5,GCF_050500245.1,Microcystis,Microcystis,0,0.3738340139389038,0
+training_prevalence_at_least40,XGBoost,5,GCF_050500255.1,Microcystis,Microcystis,0,0.2836052179336548,0
+training_prevalence_at_least40,XGBoost,5,GCF_050563455.1,Crocosphaera,Crocosphaera,1,0.6331279873847961,1
+training_prevalence_at_least40,XGBoost,5,GCF_050711215.1,Microcystis,Microcystis,0,0.26438257098197937,0
+training_prevalence_at_least40,XGBoost,5,GCF_051131155.1,Pseudanabaena,Pseudanabaena,0,0.01847684383392334,0
+training_prevalence_at_least40,XGBoost,5,GCF_947331815.1,Cyanobacterium,Cyanobacterium,1,0.4580153524875641,0
+training_prevalence_at_least40,XGBoost,5,GCF_976987195.1,Microcystis,Microcystis,0,0.2211829125881195,0

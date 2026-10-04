@@ -1,0 +1,132 @@
+{
+  "reference": {
+    "python": "3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "versions": {
+      "numpy": {
+        "module_version": "2.2.6",
+        "distribution_metadata_version": "2.2.6"
+      },
+      "pandas": {
+        "module_version": "2.3.3",
+        "distribution_metadata_version": "2.3.3"
+      },
+      "scipy": {
+        "module_version": "1.13.1",
+        "distribution_metadata_version": "1.13.0"
+      },
+      "scikit-learn": {
+        "module_version": "1.6.1",
+        "distribution_metadata_version": "1.6.1"
+      },
+      "xgboost": {
+        "module_version": "3.1.1",
+        "distribution_metadata_version": "3.1.1"
+      },
+      "threadpoolctl": {
+        "module_version": "3.5.0",
+        "distribution_metadata_version": "3.5.0"
+      },
+      "joblib": {
+        "module_version": "1.4.2",
+        "distribution_metadata_version": "1.4.2"
+      }
+    },
+    "threadpool_probe_outside_training": true,
+    "libraries": [
+      {
+        "environment": "reference",
+        "user_api": "blas",
+        "backend": "openblas",
+        "version": "0.3.29",
+        "library_name": "libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+        "path_length": 111,
+        "default_threads_outside_training": 16
+      },
+      {
+        "environment": "reference",
+        "user_api": "blas",
+        "backend": "mkl",
+        "version": "2023.1-Product",
+        "library_name": "mkl_rt.2.dll",
+        "path_length": 49,
+        "default_threads_outside_training": 8
+      },
+      {
+        "environment": "reference",
+        "user_api": "openmp",
+        "backend": "openmp",
+        "version": null,
+        "library_name": "vcomp140.dll",
+        "path_length": 69,
+        "default_threads_outside_training": 16
+      }
+    ],
+    "full_snapshot_sha256": "ac105b7bb91dabff1cb648ea8daf46e044dff9c75e945ed922ce5e7c1c167006"
+  },
+  "isolated": {
+    "python": "3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "versions": {
+      "numpy": {
+        "module_version": "2.2.6",
+        "distribution_metadata_version": "2.2.6"
+      },
+      "pandas": {
+        "module_version": "2.3.3",
+        "distribution_metadata_version": "2.3.3"
+      },
+      "scipy": {
+        "module_version": "1.13.1",
+        "distribution_metadata_version": "1.13.1"
+      },
+      "scikit-learn": {
+        "module_version": "1.6.1",
+        "distribution_metadata_version": "1.6.1"
+      },
+      "xgboost": {
+        "module_version": "3.1.1",
+        "distribution_metadata_version": "3.1.1"
+      },
+      "threadpoolctl": {
+        "module_version": "3.6.0",
+        "distribution_metadata_version": "3.6.0"
+      },
+      "joblib": {
+        "module_version": "1.4.2",
+        "distribution_metadata_version": "1.4.2"
+      }
+    },
+    "threadpool_probe_outside_training": true,
+    "libraries": [
+      {
+        "environment": "isolated",
+        "user_api": "blas",
+        "backend": "openblas",
+        "version": "0.3.29",
+        "library_name": "libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+        "path_length": 251,
+        "default_threads_outside_training": 16
+      },
+      {
+        "environment": "isolated",
+        "user_api": "blas",
+        "backend": "openblas",
+        "version": "0.3.27",
+        "library_name": "libopenblas_v0.3.27--3aa239bc726cfb0bd8e5330d8d4c15c6.dll",
+        "path_length": 251,
+        "default_threads_outside_training": 16
+      },
+      {
+        "environment": "isolated",
+        "user_api": "openmp",
+        "backend": "openmp",
+        "version": null,
+        "library_name": "vcomp140.dll",
+        "path_length": 209,
+        "default_threads_outside_training": 16
+      }
+    ],
+    "full_snapshot_sha256": "6c500fa3a80d1eeeae4ea4354676c6153e10cf45f8e12601055153667798c0f9"
+  }
+}

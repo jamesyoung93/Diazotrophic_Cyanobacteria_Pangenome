@@ -1,0 +1,7 @@
+environment,user_api,backend,version,library_name,path_length,default_threads_outside_training
+reference,blas,openblas,0.3.29,libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll,111,16
+reference,blas,mkl,2023.1-Product,mkl_rt.2.dll,49,8
+reference,openmp,openmp,,vcomp140.dll,69,16
+isolated,blas,openblas,0.3.29,libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll,251,16
+isolated,blas,openblas,0.3.27,libopenblas_v0.3.27--3aa239bc726cfb0bd8e5330d8d4c15c6.dll,251,16
+isolated,openmp,openmp,,vcomp140.dll,209,16

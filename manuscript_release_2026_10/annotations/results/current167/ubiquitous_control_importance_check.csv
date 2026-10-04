@@ -1,0 +1,13 @@
+gene_family,model,importance
+GF_01297,Random_Forest,0.0
+GF_01899,Random_Forest,0.0
+GF_01945,Random_Forest,0.0
+GF_01297,Gradient_Boosting,0.0
+GF_01899,Gradient_Boosting,0.0
+GF_01945,Gradient_Boosting,0.0
+GF_01297,Logistic_Regression,0.0
+GF_01899,Logistic_Regression,0.0
+GF_01945,Logistic_Regression,0.0
+GF_01297,XGBoost,0.0
+GF_01899,XGBoost,0.0
+GF_01945,XGBoost,0.0

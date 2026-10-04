@@ -1,0 +1,6 @@
+{
+  "input_hashes_pass": true,
+  "no_model_fitting": true,
+  "outputs": 3,
+  "reference_tables_match": true
+}

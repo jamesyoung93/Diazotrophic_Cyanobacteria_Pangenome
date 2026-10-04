@@ -1,0 +1,14 @@
+name: beyond-nif-model-audit-v2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.16
+  - pip
+  - pip:
+      - numpy==2.2.6
+      - pandas==2.3.3
+      - scipy==1.13.1
+      - scikit-learn==1.6.1
+      - xgboost==3.1.1
+      - threadpoolctl==3.6.0
+      - joblib==1.4.2

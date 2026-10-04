@@ -1,0 +1,122 @@
+CLEAN-ENVIRONMENT CROSS-BACKEND COMPARISON
+
+The isolated environment completes all 20 primary seed-42 fits after the Windows
+library-path workaround. It DOES NOT pass the original strict probability replay
+criterion (rtol=1e-10, atol=1e-12). That failure is preserved, not relabelled or
+fixed by increasing a tolerance. Of 1704 OOF probabilities, 140 LR values exceed
+that tolerance; maximum absolute difference is 4.669040709615047e-10.
+
+Independent comparison of saved outputs, without additional model fitting:
+              model   n  n_exactly_equal  strict_failures  max_abs_probability_difference  max_difference_over_original_allowance  decision_changes  minimum_clean_margin_from_half
+  Gradient Boosting 426              418                0               1.11022302463e-16                       1.24560991117e-06                 0                 0.0148998027987
+Logistic Regression 426                6              140               4.66904070962e-10                           15.7725276946                 0                 0.0735464005499
+      Random Forest 426              426                0                               0                                       0                 0                0.00171679941146
+            XGBoost 426              426                0                               0                                       0                 0               0.000257670879364
+
+The exact per-fold selected family masks and global descriptive purity table are
+identical. All 1704 predicted classes match. The 460 numerical metric/count
+comparisons agree to four decimals; the maximum numeric discrepancy is 1.11e-16.
+Every AUC/AP value, its fold mean/SD, and the PR trapezoid area match exactly as
+parsed from the CSVs. The tiny remaining differences occur in independently
+derived pooled classification or pooled-minus-mean values, not in reported AUC/AP.
+432 independent pairwise-AUC/threshold-AP/confusion/PR-area checks reproduce the
+saved results with maximum reconstruction error 2.34e-15.
+
+One almost tied, same-negative-class LR pair reverses relative ordering:
+GCF_019704275.1 versus GCF_976987195.1, both in fold 5. Its reference scores are
+0.7888818348501115 and 0.7888818348501128; clean scores are
+0.7888818349481395 and 0.7888818349481389. The single pair is counted in both
+fold-5 and pooled ordering checks. No class decision, AUC or AP changes.
+It would be inaccurate to say every probability ordering is bitwise identical.
+
+Audit-only importance ordering is identical for all four models and their
+four-model percentile consensus; all 624 average ranks match, top-50/top-100
+overlap is complete, and Spearman correlation is 1.0. LR absolute importances
+differ by at most 3.58e-11. No frozen inventory or ranking is rewritten.
+                          model  n_families  max_absolute_importance_difference  changed_average_ranks  spearman  top50_overlap  top100_overlap
+              Gradient Boosting         624                                   0                      0         1             50             100
+            Logistic Regression         624                   3.57361987224e-11                      0         1             50             100
+                  Random Forest         624                                   0                      0         1             50             100
+                        XGBoost         624                                   0                      0         1             50             100
+four_model_percentile_consensus         624                                   0                      0         1             50             100
+
+Runtime provenance
+Both runs use Python 3.10.16 on Windows. The reference environment's SciPy module
+reports 1.13.1 while installed distribution metadata reports 1.13.0. The isolated
+wheel consistently reports 1.13.1. Both NumPy builds load OpenBLAS 0.3.29; reference
+SciPy uses Intel MKL 2023.1, whereas the isolated SciPy wheel uses OpenBLAS 0.3.27.
+Thus the small LR differences are consistent with a numerical-backend/build
+change. This is not a controlled experiment isolating BLAS as the sole cause.
+
+environment       package loaded_module_version distribution_metadata_version
+  reference         numpy                 2.2.6                         2.2.6
+  reference        pandas                 2.3.3                         2.3.3
+  reference         scipy                1.13.1                        1.13.0
+  reference  scikit-learn                 1.6.1                         1.6.1
+  reference       xgboost                 3.1.1                         3.1.1
+  reference threadpoolctl                 3.5.0                         3.5.0
+  reference        joblib                 1.4.2                         1.4.2
+   isolated         numpy                 2.2.6                         2.2.6
+   isolated        pandas                 2.3.3                         2.3.3
+   isolated         scipy                1.13.1                        1.13.1
+   isolated  scikit-learn                 1.6.1                         1.6.1
+   isolated       xgboost                 3.1.1                         3.1.1
+   isolated threadpoolctl                 3.6.0                         3.6.0
+   isolated        joblib                 1.4.2                         1.4.2
+
+Loaded native libraries (thread counts here are a read-only probe OUTSIDE model
+fitting; every analysis fit itself requested one CPU/BLAS thread):
+environment user_api  backend        version                                              library_name  path_length  default_threads_outside_training
+  reference     blas openblas         0.3.29 libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll          111                                16
+  reference     blas      mkl 2023.1-Product                                              mkl_rt.2.dll           49                                 8
+  reference   openmp   openmp           None                                              vcomp140.dll           69                                16
+   isolated     blas openblas         0.3.29 libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll          251                                16
+   isolated     blas openblas         0.3.27 libopenblas_v0.3.27--3aa239bc726cfb0bd8e5330d8d4c15c6.dll          251                                16
+   isolated   openmp   openmp           None                                              vcomp140.dll          209                                16
+
+The runtime snapshot was captured after annotation-only extras installation began.
+The seven model dependencies in the table remained at their recorded versions;
+clean_annotation_install.log records additional matplotlib/openpyxl/statsmodels/
+Pillow packages and dependencies. The saved model run's runtime.json independently
+records the six principal module versions at training time. No packages were
+installed or changed by this comparison script.
+
+Windows native crash and workaround
+The initial isolated run with threadpoolctl 3.5.0 terminated with Windows fatal
+exception 0xc0000374. The captured stack passes through threadpoolctl Windows
+DLL enumeration/_make_controller_from_path/_realpath. Its installed library
+paths exceeded 260 characters. The official threadpoolctl 3.6.0 changelog states
+support for Windows library paths longer than 260 characters (PR 189):
+https://raw.githubusercontent.com/joblib/threadpoolctl/3.6.0/CHANGES.md
+https://github.com/joblib/threadpoolctl/pull/189
+This mechanism and the stack support the long-path diagnosis. With threadpoolctl
+3.6.0 and reference joblib 1.4.2, all 20 primary model fits completed without that
+native crash, followed by the ordinary Python strict-comparison AssertionError
+described above. Scientific analysis code and model parameters were unchanged.
+Requirements now select the documented threadpoolctl fix. A successful native
+run and agreement in reported metrics are distinct from passing strict replay.
+
+Scope
+This isolated-environment test covers the four-model primary seed-42 run only.
+It is not proof that all repeated/identity/status/taxonomy runs reproduce in this
+different backend. All five modes separately reproduced exactly in fresh copies
+under the original existing runtime. No additional training was needed for this
+cross-backend comparison, and no comparison tolerance was relaxed.
+
+Artifacts
+comparison_summary.json retains strict_probability_comparison=FAIL. CSVs show
+every probability comparison, score-order changes, every metric comparison,
+independent reconstruction, exact-ranking comparison and runtime provenance.
+Export-schema normalization only reconciles column names, adds independently
+calculated pooled classifications where absent, and calculates pooled-minus-mean;
+it is documented in export_schema_normalization.csv. Raw tables are unchanged.
+
+The portable bundle includes compare_clean_backend.py and copied clean outputs.
+From the bundle, regenerate this read-only comparison with:
+    python compare_clean_backend.py --reference reference/seed42 --clean validation/clean_environment/seed42 --out cross_backend_rerun
+That diagnostic writes a FAIL result but returns normally after completing its
+analysis. To reproduce the original strict assertion as a nonzero exit, add:
+    --assert-strict
+The default training CLI still enforces the original strict comparison. In this
+clean backend it exits with that expected assertion after saving primary results;
+the failure must not be interpreted as bitwise or strict numerical reproduction.

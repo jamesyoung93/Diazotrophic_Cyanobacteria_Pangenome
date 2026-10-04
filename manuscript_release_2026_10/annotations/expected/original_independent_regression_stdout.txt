@@ -1,0 +1,91 @@
+D5 original 273 complete rank 273
+                 OR    CI_low   CI_high             p
+Intercept  0.105432  0.040400  0.275146  4.292324e-06
+strict     0.890712  0.458910  1.728812  7.323163e-01
+nmap       2.222880  1.617753  3.054357  8.350714e-07
+rank       1.692030  0.463939  6.170997  4.256584e-01
+family-weighted and study-weighted rates
+0 104 0.22275641025641024 0.22900763358778625 nmapmean 1.2596153846153846
+1 169 0.22337278106508876 0.22302158273381295 nmapmean 2.467455621301775
+             sum  size      mean
+strict nmap                     
+0      1      17    80  0.212500
+       2      10    21  0.476190
+       3       2     3  0.666667
+1      1       6    35  0.171429
+       2      25    54  0.462963
+       3      25    46  0.543478
+       4      24    34  0.705882
+D5 categorical opportunities sensitivity
+                     OR    CI_low    CI_high         p
+Intercept      0.212585  0.092773   0.487131  0.000252
+C(nmap)[T.2]   3.805318  1.869457   7.745800  0.000228
+C(nmap)[T.3]   5.753149  2.425696  13.645038  0.000072
+C(nmap)[T.4]  11.681797  4.219570  32.340824  0.000002
+strict         0.805491  0.403232   1.609038  0.540080
+rank           1.533072  0.418376   5.617700  0.519021
+D6 mapped sample and ranges                  size  min  max  median
+candidate_set                          
+Highly Pure       934   40   85    55.0
+Model-Supported   369   41  426   117.0
+D6 original without prevalence
+                     OR    CI_low   CI_high             p
+Intercept      0.073052  0.055816  0.095610  5.742011e-81
+ms             2.810652  1.940039  4.071963  4.661820e-08
+np.log(nrows)  1.148396  0.836655  1.576294  3.918424e-01
+D6 original with prevalence
+                                OR    CI_low   CI_high             p
+Intercept                 0.000626  0.000085  0.004602  4.200272e-13
+ms                        0.973001  0.527600  1.794410  9.301558e-01
+np.log(nrows)             1.220512  0.887626  1.678240  2.200662e-01
+np.log(n_member_genomes)  3.252731  1.997836  5.295860  2.108224e-06
+D6 common support 41 85     sum  size      mean
+ms                     
+0    64   886  0.072235
+1    11   106  0.103774
+D6 common support regression
+                                 OR        CI_low    CI_high         p
+Intercept                  0.000003  9.108476e-09   0.000693  0.000007
+ms                         1.045435  5.124153e-01   2.132906  0.902794
+np.log(nrows)              1.414539  9.942457e-01   2.012501  0.053870
+np.log(n_member_genomes)  12.501137  3.172487e+00  49.260539  0.000306
+D6 original strata
+40 60     sum  size      mean
+ms                     
+0    29   595  0.048739
+1     5    38  0.131579
+60 80     sum  size      mean
+ms                     
+0    34   328  0.103659
+1     5    50  0.100000
+80 130     sum  size      mean
+ms                     
+0     3    11  0.272727
+1    15   119  0.126050
+D7 cross-tab             sum  size      mean
+tierA nmap                     
+0     0      17   203  0.083744
+      1      21   113  0.185841
+      2      16    68  0.235294
+      3       8    37  0.216216
+      4       4    24  0.166667
+1     1       0     2  0.000000
+      2       3     7  0.428571
+      3       7    12  0.583333
+      4       8    10  0.800000
+D7 exploratory compositional association conditional on mapped studies
+                    OR    CI_low    CI_high             p
+Intercept     0.091398  0.055624   0.150180  3.636935e-21
+C(nmap)[T.1]  2.351147  1.181220   4.679815  1.492560e-02
+C(nmap)[T.2]  3.091492  1.477788   6.467315  2.726345e-03
+C(nmap)[T.3]  3.077766  1.309491   7.233839  9.926328e-03
+C(nmap)[T.4]  3.573346  1.389006   9.192765  8.253269e-03
+tierA         4.771857  2.074528  10.976287  2.360399e-04
+D7 strict only sample 210
+                    OR    CI_low    CI_high         p
+Intercept     0.108108  0.038534   0.303301  0.000024
+C(nmap)[T.1]  1.359582  0.330922   5.585805  0.670058
+C(nmap)[T.2]  3.751847  1.139630  12.351683  0.029633
+C(nmap)[T.3]  2.905126  0.833357  10.127419  0.094160
+C(nmap)[T.4]  3.140174  0.851698  11.577687  0.085644
+tierA         4.269593  1.833761   9.941006  0.000762

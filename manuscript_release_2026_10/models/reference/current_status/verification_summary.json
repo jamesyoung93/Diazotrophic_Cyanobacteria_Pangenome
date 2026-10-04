@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "independent_score_checks": 432,
+  "maximum_score_discrepancy": 1.4432899320127035e-15,
+  "original_fold_ids_retained_for_all_local_exclusion_arms": true,
+  "group_and_sample_overlap_checks_passed": true,
+  "independently_verified_masks": 10,
+  "LR_predictions_reconstructed": 2415,
+  "total_prediction_rows": 4830,
+  "single_class_test_folds": 0
+}

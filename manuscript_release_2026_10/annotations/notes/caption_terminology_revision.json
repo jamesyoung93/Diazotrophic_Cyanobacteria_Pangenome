@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "revision": "Figure3 caption terminology correction after verified clean replay",
+  "old_phrase": "ubiquitous-control, core and housekeeping exclusions",
+  "new_phrase": "ubiquitous-control, nif-keyword and housekeeping exclusions",
+  "changed_files": [
+    {
+      "file": "scripts/plot_figures.py",
+      "old_sha256": "ce19352d3128a9c775a05de1ab9cdbae69720d5601af3f7efa6fe076eaa83989",
+      "new_sha256": "8e501c67b4aae71d57b9f962b7254ffcdb4dfb3e4414f760e76bab491f00b8f8",
+      "change": "core -> nif-keyword in Figure3 exclusion phrase only"
+    },
+    {
+      "file": "results/figures/figure_captions.txt",
+      "old_sha256": "d078cec228dcec950bc289f6a2eabe71a23b10be8fe3a3ab241e41343e7ecac9",
+      "new_sha256": "0295d2173b2476193e7544bdd0a54bfb9e50f2829aa0e05656ba529d9a7049e1",
+      "change": "core -> nif-keyword in Figure3 exclusion phrase only"
+    },
+    {
+      "file": "results/figures/Figure3_caption.txt",
+      "old_sha256": "5454aa4e910d3ab847467e541f2917f6f1a3913918ccc5c239650c50b35f867f",
+      "new_sha256": "27e31a92addda827b421a925ffb4da3df1c98e7478e8124363879d9fb2414d66",
+      "change": "core -> nif-keyword in Figure3 exclusion phrase only"
+    },
+    {
+      "file": "../proposed_score_revision_v2/figures/Figure3_caption.txt",
+      "old_sha256": "5454aa4e910d3ab847467e541f2917f6f1a3913918ccc5c239650c50b35f867f",
+      "new_sha256": "27e31a92addda827b421a925ffb4da3df1c98e7478e8124363879d9fb2414d66",
+      "change": "core -> nif-keyword in Figure3 exclusion phrase only"
+    }
+  ],
+  "algorithm_change": false,
+  "data_change": false,
+  "image_change": false,
+  "all_other_existing_package_files_byte_identical": true,
+  "protected_data_image_metadata_files_verified": 113,
+  "generator_static_caption_agreement": true,
+  "numerical_reproduction_verifier": "PASS; checked saved outputs against existing independent targets without refitting or plotting",
+  "preceding_archive": "portable_annotation_audit_20260930T035420Z.zip",
+  "preceding_archive_sha256": "d7fd3f13738fad490970c8a379371902a557f8f2aba7d06537243ae264773cca",
+  "verification_scope": "Prior fresh-extraction and clean-environment proofs still describe the preceding full replay. This final change affects only caption text; all numerical source/output and image files remain byte-identical."
+}

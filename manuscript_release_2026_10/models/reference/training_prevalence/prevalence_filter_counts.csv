@@ -1,0 +1,6 @@
+scenario,fold,n_train,n_test,n_train_pos,n_test_pos,n_train_genera,n_test_genera,n_features,primary_family_count,families_removed_by_training_prevalence,training_prevalence_fraction_at40
+training_prevalence_at_least40,1,380,46,80,32,60,15,555,650.0,95.0,0.10526315789473684
+training_prevalence_at_least40,2,309,117,91,21,60,15,518,568.0,50.0,0.12944983818770225
+training_prevalence_at_least40,3,397,29,95,17,60,15,552,584.0,32.0,0.10075566750629723
+training_prevalence_at_least40,4,282,144,84,28,60,15,543,653.0,110.0,0.14184397163120568
+training_prevalence_at_least40,5,336,90,98,14,60,15,449,620.0,171.0,0.11904761904761904

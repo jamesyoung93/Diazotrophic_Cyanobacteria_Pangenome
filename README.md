@@ -8,41 +8,31 @@ The original unified workflow performs:
 - assembly metadata enrichment and filtering to complete RefSeq (`GCF`) cyanobacterial genomes;
 - MMseqs2 protein-family clustering and presence/absence matrix construction;
 - supervised classification and feature ranking of protein families associated with diazotrophy;
-- postprocessing to separate model-selected accessory families from near-diagnostic high-purity `nif`/context families.
+- postprocessing to separate historically Model-Supported candidates from high-purity diagnostic/context families.
 
 ## Current manuscript release
 
-The current manuscript-facing June 2026 release is in:
+The [October 2026 release](manuscript_release_2026_10/README.md) contains the current analysis, figure assets, frozen inputs and reproducibility checks. Start with its [cohort sensitivity](manuscript_release_2026_10/docs/COHORT_AND_TAXONOMY_SENSITIVITY.md) and [functional annotation](manuscript_release_2026_10/docs/FUNCTIONAL_ANNOTATION.md) notes.
 
-`manuscript_release_2026_06/`
-
-That folder contains the current tables and scripts used to align the core 426-genome protein-family model with biological interpretation layers:
-
-- `476` Model-Supported accessory candidate families;
-- `981` Highly Pure `nif`/near-core context families;
-- related protein-family atlas product/function concordance;
-- external literature proteomics evidence restricted to nitrogen-fixation-relevant active-phase-up responses;
-- morphotype-breadth proxy and annotation review;
-- HGT-proximity and alternative-nitrogenase audit summaries where available;
-- condensate-driver ranking overlays used only as indirect prioritization evidence.
-
-The local Cyanothece proteomics screen and FOX ensemble probability are retained only as historical/contextual analyses in older materials; they are not part of the current composite scoring used in the June 2026 manuscript release.
+The release preserves 476 historically Model-Supported and 981 Highly Pure families. The corrected shortlist contains 167 families. External proteomics, morphotype-proxy and condensate annotations guide experimental prioritization; they do not provide independent validation. The [June release](manuscript_release_2026_06/) remains available as a historical record.
 
 ## Directory layout
 
-- `manuscript_release_2026_06/`  
-  Current manuscript-facing result tables, release notes, figure assets, and overlay scripts.
-- `unified_pipeline_clean/`  
+- `manuscript_release_2026_10/`
+  Current frozen analysis, figures, detailed audit notes and automated checks.
+- `manuscript_release_2026_06/`
+  Historical June result tables, figure assets and overlay scripts.
+- `unified_pipeline_clean/`
   Primary entrypoint for the core pangenome/modeling workflow.
-- `unified_pipeline_clean/nif_hdk_scan_release_clean/`  
+- `unified_pipeline_clean/nif_hdk_scan_release_clean/`
   Upstream marker scan, hit summarization, and assembly metadata enrichment.
-- `unified_pipeline_clean/nif_downstream_code/`  
+- `unified_pipeline_clean/nif_downstream_code/`
   Downstream pangenome build, modeling, and postprocessing scripts.
-- `tests/`  
+- `tests/`
   Lightweight unit tests for filtering and mode selection logic.
-- `docs/`  
+- `docs/`
   Reproducibility and archival guidance.
-- `scripts/`  
+- `scripts/`
   Helper scripts for capturing environment metadata.
 
 ## Quick start for HPC environments

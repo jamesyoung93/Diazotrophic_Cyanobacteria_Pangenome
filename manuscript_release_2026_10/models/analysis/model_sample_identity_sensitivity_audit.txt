@@ -1,0 +1,147 @@
+SAMPLE IDENTITY AND GROUPING SENSITIVITY -- AUDIT ONLY
+
+Two negative-labeled records, GCF_047302775.1 (stored Synechococcus sp. MIT
+S9506) and GCF_047302855.1 (stored Prochlorococcus marinus SS51), have identical
+178-family binary vectors, identical179 retained protein-accession/family pairs,
+and matching saved assembly length1,627,281bp, GC31%, one-contig/N50 metadata
+and nif-hit fields. Their original held-out folds are4 and2 respectively.
+These observations concern retained features/accessions and summary metadata;
+they do not demonstrate identity of the complete genomic sequences.
+
+The public NCBI Datasets snapshots retrieved2026-09-30 UTC show MIT S9506
+currently suppressed with a contamination reason, whereas SS51 is current.
+Their public assembly summary statistics also match, including GCcount507552,
+and BioSamples differ. Current status is not backdated to original collection.
+Thus remove_MIT_S9506 is a currently-suppressed-record sensitivity; remove_SS51
+is the paired influence check, not a recommendation that its record is invalid.
+Public evidence: sample_identity_public/GCF_047302775.1.json,
+GCF_047302855.1.json, cohort_batch_*.json and retrieval_manifest.json.
+
+Design
+The two single-row exclusions preserve the original seed42 fold IDs of every
+surviving row. All four classifiers and two one-predictor Logistic Regression
+baselines are refit with original model defaults and exact training-only purity
+(10*k>n and10*k<9*n) and at least3 training genera. Standardization is training
+only. The fixed original2286-family matrix remains globally defined.
+
+A separate conservative connected-group analysis links the stored genus labels
+Synechococcus, Prochlorococcus and [Synechococcus]; Leptolyngbya and
+[Leptolyngbya]; and Phormidium and [Phormidium]. It creates71 grouping units,
+repartitions them using the original deterministic shuffled-round-robin splitter
+with seed42, and uses these units for the training breadth filter. Bracketed
+names may encode taxonomic uncertainty; this is a grouping sensitivity, not
+a curated taxonomy correction. Merging entire genera is deliberately broader
+than resolving the flagged pair. Grouping changes many train/test assignments.
+The audit-group breadth filter changes zero selected features relative to
+stored-genus breadth within those same connected-group folds.
+
+Metrics
+Unweighted AUC is averaged equally across five held-out folds, with sample SD.
+Pooled genome AUC combines OOF scores giving each genome equal weight.
+Genus-weighted AUC uses weight1/n_g per genome, recomputed in the evaluated
+population. Stored-genus weights are retained for comparison; an additional
+audit-group-weighted metric uses the71 connected groups. These are distinct
+estimands, especially with unequal folds and differing fitted probability scales.
+None is selected after observing which gives the strongest result.
+
+Results
+                   scenario                         model  roc_auc_mean  roc_auc_sd  genus_balanced_auc_mean  pooled_roc_auc  pooled_genus_balanced_auc  average_precision_mean
+           original_control                 Random Forest      0.852807    0.180992                 0.841727        0.921121                   0.782330                0.805046
+           original_control             Gradient Boosting      0.867528    0.124157                 0.844826        0.856389                   0.788752                0.789789
+           original_control           Logistic Regression      0.878442    0.094886                 0.851856        0.893284                   0.804112                0.797236
+           original_control                       XGBoost      0.893105    0.078294                 0.871495        0.914212                   0.815405                0.847197
+           original_control       assembly_length_only_LR      0.816491    0.131265                 0.708670        0.884128                   0.675559                0.726781
+           original_control retained_family_count_only_LR      0.748654    0.216095                 0.733181        0.760663                   0.766748                0.709286
+           remove_MIT_S9506                 Random Forest      0.861566    0.172888                 0.853555        0.922695                   0.787740                0.807647
+           remove_MIT_S9506             Gradient Boosting      0.865834    0.111033                 0.856355        0.854333                   0.789310                0.790324
+           remove_MIT_S9506           Logistic Regression      0.878462    0.094315                 0.851658        0.892543                   0.804671                0.794376
+           remove_MIT_S9506                       XGBoost      0.864981    0.115228                 0.849491        0.896637                   0.796197                0.781477
+           remove_MIT_S9506       assembly_length_only_LR      0.816432    0.131181                 0.708666        0.883814                   0.675543                0.726781
+           remove_MIT_S9506 retained_family_count_only_LR      0.748233    0.216248                 0.732801        0.760526                   0.766342                0.709306
+                remove_SS51                 Random Forest      0.861035    0.172510                 0.853200        0.922495                   0.792055                0.806817
+                remove_SS51             Gradient Boosting      0.876222    0.118010                 0.853529        0.864174                   0.793657                0.798610
+                remove_SS51           Logistic Regression      0.878743    0.094368                 0.852056        0.892429                   0.804069                0.795128
+                remove_SS51                       XGBoost      0.871863    0.116655                 0.863948        0.905423                   0.806448                0.804443
+                remove_SS51       assembly_length_only_LR      0.816336    0.131103                 0.708670        0.883786                   0.675548                0.726781
+                remove_SS51 retained_family_count_only_LR      0.748372    0.215904                 0.733155        0.760497                   0.766951                0.709286
+connected_group_repartition                 Random Forest      0.820288    0.120762                 0.817067        0.917254                   0.794356                0.838882
+connected_group_repartition             Gradient Boosting      0.830530    0.089590                 0.831885        0.911397                   0.819491                0.824271
+connected_group_repartition           Logistic Regression      0.851975    0.096126                 0.850970        0.932865                   0.837607                0.833426
+connected_group_repartition                       XGBoost      0.843936    0.106075                 0.861466        0.928799                   0.849764                0.829780
+connected_group_repartition       assembly_length_only_LR      0.735668    0.159888                 0.661528        0.864906                   0.667111                0.681646
+connected_group_repartition retained_family_count_only_LR      0.748867    0.113143                 0.740278        0.675202                   0.687397                0.784558
+
+Connected-group weighting, explicitly distinguished from stored-genus weighting:
+                        model  genus_balanced_auc_mean  pooled_genus_balanced_auc  audit_group_balanced_auc_mean  pooled_audit_group_balanced_auc
+                Random Forest                 0.817067                   0.794356                       0.813408                         0.781362
+            Gradient Boosting                 0.831885                   0.819491                       0.819524                         0.803761
+          Logistic Regression                 0.850970                   0.837607                       0.840536                         0.826775
+                      XGBoost                 0.861466                   0.849764                       0.856723                         0.841369
+      assembly_length_only_LR                 0.661528                   0.667111                       0.656425                         0.657560
+retained_family_count_only_LR                 0.740278                   0.687397                       0.740518                         0.693685
+
+Fold/cohort and exact selected-feature counts:
+                   scenario  fold  n_train  n_test  n_train_pos  n_test_pos  n_test_stored_genera  n_test_audit_groups  n_features  n_features_if_stored_genus_breadth removed_by_conservative_breadth
+           original_control     1      380      46           80          32                    15                   15         650                                 650                                
+           original_control     2      309     117           91          21                    15                   15         568                                 568                                
+           original_control     3      397      29           95          17                    15                   15         584                                 584                                
+           original_control     4      282     144           84          28                    15                   15         653                                 653                                
+           original_control     5      336      90           98          14                    15                   15         620                                 620                                
+           remove_MIT_S9506     1      379      46           80          32                    15                   15         650                                 650                                
+           remove_MIT_S9506     2      308     117           91          21                    15                   15         568                                 568                                
+           remove_MIT_S9506     3      396      29           95          17                    15                   15         584                                 584                                
+           remove_MIT_S9506     4      282     143           84          28                    15                   15         653                                 653                                
+           remove_MIT_S9506     5      335      90           98          14                    15                   15         620                                 620                                
+                remove_SS51     1      379      46           80          32                    15                   15         650                                 650                                
+                remove_SS51     2      309     116           91          21                    15                   15         568                                 568                                
+                remove_SS51     3      396      29           95          17                    15                   15         584                                 584                                
+                remove_SS51     4      281     144           84          28                    15                   15         653                                 653                                
+                remove_SS51     5      335      90           98          14                    15                   15         620                                 620                                
+connected_group_repartition     1      394      32          103           9                    15                   15         581                                 581                                
+connected_group_repartition     2      399      27           92          20                    14                   14         597                                 597                                
+connected_group_repartition     3      364      62           80          32                    15                   14         580                                 580                                
+connected_group_repartition     4      360      66          100          12                    15                   14         629                                 629                                
+connected_group_repartition     5      187     239           73          39                    16                   14         694                                 694                                
+
+Interpretation
+Local removal has model-dependent influence. LR changes little for either row;
+RF mean-fold AUC rises by approximately0.008–0.009, while XGBoost decreases
+by approximately0.021–0.028. This is measurable influence and does not establish
+that this pair alone drives discrimination. The same-row original-OOF reference
+separates score changes from simply deleting a scored observation.
+
+The connected-group mean-fold AUCs are0.8203 RF,0.8305 GB,0.8520 LR and
+0.8439 XGBoost; length-only is0.7357 and family-count-only0.7489. One test
+fold contains239 of426 genomes. This repartition cannot attribute its changes
+specifically to the suspicious pair, alias handling or any single taxonomic
+error. It tests a deliberately different blocking assumption. It is descriptive
+single-partition sensitivity, not an inferential test or independent validation.
+
+Verification
+{
+  "status": "PASS",
+  "independent_score_checks": 864,
+  "maximum_score_discrepancy": 2.3314683517128287e-15,
+  "original_fold_ids_retained_for_both_removal_arms": true,
+  "group_and_sample_overlap_checks_passed": true,
+  "independently_verified_masks": 20,
+  "LR_predictions_reconstructed": 5106,
+  "total_prediction_rows": 10212,
+  "single_class_test_folds": 0
+}
+The original-control replay reproduces all2556 previously saved probabilities
+for four classifiers and two baselines (maximum absolute difference recorded in
+design_manifest.json). No class-empty test folds occur. The independent checker
+reconstructs weighted/unweighted pairwise AUC and threshold AP, recalculates
+all feature masks, checks label/fold/group disjointness, and rebuilds LR scores
+from saved coefficients and independently recomputed training scalers.
+
+Artifacts
+model_sample_identity_sensitivity/: summary.csv, fold_metrics.csv,
+oof_predictions.csv, fold_assignments.csv, fold_family_features.csv,
+fold_cohort_and_mask_counts.csv, lr_scalers_and_coefficients.csv,
+original_OOF_same_rows_reference.csv, sensitivity_differences.csv,
+stored_genus_to_audit_group.csv, flagged_pair_evidence.csv, design_manifest.json,
+independent_metric_verification.csv and verification_summary.json.
+
+Portable commands are in README.md; use run_audit.py or run_sensitivities.py.

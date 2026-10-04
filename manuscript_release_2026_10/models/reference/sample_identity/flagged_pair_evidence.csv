@@ -1,0 +1,3 @@
+assembly_accession,organism_full,genus,is_diazotroph,total_ungapped_length,gc_percent,number_of_contigs,contig_n50,best_hit_ids
+GCF_047302775.1,Synechococcus sp. MIT S9506,Synechococcus,False,1627281,31.0,1,1627281,H=WP_032523679.1;D=WP_032523680.1;K=WP_032523680.1
+GCF_047302855.1,Prochlorococcus marinus str. SS51,Prochlorococcus,False,1627281,31.0,1,1627281,H=WP_032523679.1;D=WP_032523680.1;K=WP_032523680.1

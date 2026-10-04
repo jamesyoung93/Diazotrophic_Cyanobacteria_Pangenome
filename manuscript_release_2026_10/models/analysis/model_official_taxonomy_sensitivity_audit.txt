@@ -1,0 +1,138 @@
+DATED OFFICIAL GENUS-RANK SENSITIVITY -- FIXED MATRIX, AUDIT ONLY
+
+The dated NCBI taxonomy reconciliation resolves a true genus-rank taxonomic
+identifier for 422 of the 426 retained assembly records, spanning 73 official
+genus IDs. Four records lack a genus-rank assignment in the retrieved taxonomy
+lineage and are explicitly excluded; all four carry the positive nif-derived
+label. They are GCF_029919255.1, GCF_003574135.1, GCF_002163975.1 and
+GCF_000829235.1. No genus is fabricated from a name token such as Candidatus.
+Inputs: taxonomy_genus_audit.csv; raw lineage snapshots and retrieval hashes in
+taxonomy_public/taxonomy_batch_*.json and retrieval_manifest.json.
+
+The retained-feature-identical flagged pair is still assigned to different official
+genera: MIT S9506 to Synechococcus (tax ID 1129), SS51 to Prochlorococcus (1218).
+They remain in different folds in the all-resolved arm. The current-and-resolved
+arm excludes suppressed MIT S9506. Official taxonomy alone therefore does not
+resolve that sample-identity concern, and its grouping is distinct from the earlier
+deliberately conservative connected-genus sensitivity.
+
+Two bounded arms are predeclared: all 422 genus-resolved records (108 positive,
+314 negative) and current-assembly plus genus-resolved records (398 records,
+103 positive, 295 negative, spanning 70 official genus IDs). The latter excludes
+22 currently suppressed records, three previous versions and three additional
+current records without genus rank; one unresolved record was already suppressed.
+Previous versions are not equated with demonstrated quality failures.
+
+For EACH retained cohort, unique integer official genus IDs are sorted numerically,
+then shuffled using np.random.default_rng(42), allocated round-robin to five
+folds, and test genomes retain sorted accession order. Numeric order is declared
+explicitly; alphabetic string order or the original first-occurrence name order
+would yield a different partition. Training/test official genus IDs are disjoint.
+The training breadth criterion counts official genus IDs. Exact integer purity
+uses 10*k>n and 10*k<9*n among carriers in the training fold. Four classifiers
+and two one-predictor Logistic Regression baselines retain original parameters,
+training-only scaling and one CPU/BLAS thread. No tuning is performed.
+
+The fixed 2286-family matrix, clustering and global family-prevalence vocabulary
+remain unchanged. The frozen 476/981 resource and ranking are not rewritten.
+This is a sensitivity to a dated taxonomy/grouping assumption, population
+exclusion and repartition together; it cannot isolate a taxonomy-only or
+leakage-only effect. It is not whole-genome deduplication or external validation.
+
+All metrics (AUC mean is the unweighted average of five held-out-fold AUCs):
+                   scenario                         model  n_genomes  n_positive  n_official_genera  roc_auc_mean  roc_auc_sd  average_precision_mean  pooled_roc_auc  pooled_average_precision
+ official_genus_resolved422                 Random Forest        422         108                 73      0.889777    0.123734                0.868481        0.918259                  0.850054
+ official_genus_resolved422             Gradient Boosting        422         108                 73      0.820852    0.119825                0.756711        0.875619                  0.771684
+ official_genus_resolved422           Logistic Regression        422         108                 73      0.873070    0.099996                0.780444        0.892457                  0.765294
+ official_genus_resolved422                       XGBoost        422         108                 73      0.870550    0.117725                0.834330        0.910459                  0.830783
+ official_genus_resolved422       assembly_length_only_LR        422         108                 73      0.752911    0.231751                0.668980        0.885026                  0.669738
+ official_genus_resolved422 retained_family_count_only_LR        422         108                 73      0.813438    0.096718                0.782931        0.773443                  0.745130
+official_genus_current_only                 Random Forest        398         103                 70      0.904784    0.029468                0.809453        0.903735                  0.831317
+official_genus_current_only             Gradient Boosting        398         103                 70      0.804112    0.151139                0.657801        0.798108                  0.456280
+official_genus_current_only           Logistic Regression        398         103                 70      0.844146    0.108513                0.791764        0.910087                  0.824440
+official_genus_current_only                       XGBoost        398         103                 70      0.869349    0.082130                0.810271        0.917492                  0.841711
+official_genus_current_only       assembly_length_only_LR        398         103                 70      0.819670    0.064339                0.718722        0.892776                  0.727989
+official_genus_current_only retained_family_count_only_LR        398         103                 70      0.807974    0.165970                0.705770        0.729784                  0.709385
+
+Genus weighting, retaining both meanings explicitly:
+genus_balanced refers to ORIGINAL stored genus-name tokens (useful for comparing
+with prior audit tables). audit_group_balanced refers to CURRENT official genus
+IDs, the grouping units used in these train/test splits. Each genome's weight is
+1 divided by the count of its group in the evaluated population; positive and
+negative total weights are normalized separately by the AUC calculation.
+Both fold-mean and pooled views are shown, rather than selecting a favorable one.
+                   scenario                         model  genus_balanced_auc_mean  pooled_genus_balanced_auc  audit_group_balanced_auc_mean  pooled_audit_group_balanced_auc  audit_group_balanced_average_precision_mean  pooled_audit_group_balanced_average_precision
+ official_genus_resolved422                 Random Forest                 0.803319                   0.768504                       0.808288                         0.776082                                     0.854696                                       0.814840
+ official_genus_resolved422             Gradient Boosting                 0.746122                   0.725673                       0.756016                         0.735026                                     0.810648                                       0.784776
+ official_genus_resolved422           Logistic Regression                 0.841473                   0.806580                       0.840201                         0.802174                                     0.869246                                       0.819944
+ official_genus_resolved422                       XGBoost                 0.828743                   0.794174                       0.836646                         0.801806                                     0.877249                                       0.836072
+ official_genus_resolved422       assembly_length_only_LR                 0.675445                   0.671296                       0.682890                         0.661389                                     0.713492                                       0.593163
+ official_genus_resolved422 retained_family_count_only_LR                 0.766593                   0.734348                       0.772808                         0.745680                                     0.830200                                       0.803049
+official_genus_current_only                 Random Forest                 0.792784                   0.723671                       0.795987                         0.736622                                     0.837199                                       0.797068
+official_genus_current_only             Gradient Boosting                 0.755301                   0.693054                       0.757695                         0.713403                                     0.784234                                       0.724249
+official_genus_current_only           Logistic Regression                 0.755115                   0.718587                       0.758856                         0.733105                                     0.819298                                       0.771153
+official_genus_current_only                       XGBoost                 0.770605                   0.720741                       0.775373                         0.735167                                     0.835139                                       0.784116
+official_genus_current_only       assembly_length_only_LR                 0.627505                   0.661476                       0.649258                         0.658408                                     0.689600                                       0.625438
+official_genus_current_only retained_family_count_only_LR                 0.777852                   0.699531                       0.789277                         0.712007                                     0.823627                                       0.791354
+
+Fold sizes, label composition, group coverage and feature counts:
+                   scenario  fold  n_train  n_test  n_train_pos  n_test_pos  n_train_genera  n_test_genera  n_train_official_genera  n_test_official_genera  n_features
+ official_genus_resolved422     1      378      44          100           8              60             16                       58                      15         607
+ official_genus_resolved422     2      276     146           93          15              61             15                       58                      15         635
+ official_genus_resolved422     3      378      44           95          13              58             17                       58                      15         624
+ official_genus_resolved422     4      269     153           55          53              61             14                       59                      14         636
+ official_genus_resolved422     5      387      35           89          19              59             15                       59                      14         573
+official_genus_current_only     1      302      96           93          10              55             15                       56                      14         542
+official_genus_current_only     2      346      52           83          20              56             15                       56                      14         614
+official_genus_current_only     3      339      59           61          42              57             14                       56                      14         633
+official_genus_current_only     4      232     166           87          16              58             14                       56                      14         629
+official_genus_current_only     5      373      25           88          15              56             14                       56                      14         613
+
+Interpretation
+The all-resolved mean-fold AUCs are 0.890 RF, 0.821 GB, 0.873 LR and 0.871
+XGBoost, with length-only 0.753 and retained-family-count-only 0.813. The
+current-and-resolved results are 0.905, 0.804, 0.844 and 0.869, respectively,
+with length-only 0.820 and family-count-only 0.808. Family LR exceeds length
+in both arms, but its mean-fold difference is only about 0.024 in the latter.
+GB falls below both single-size baselines in that latter partition. These are
+model-dependent comparisons, not a universal claim of incremental content
+discrimination. Unequal fold sizes and taxonomic weights materially affect
+the estimand: high fold-mean or pooled-genome AUC alone should not substitute
+for the accompanying equal-genus metrics.
+
+The original-OOF same-surviving-row reference is saved with its ORIGINAL fold
+assignments, and official-genus weights are applied to that restricted reference
+population. Its mean-fold comparison therefore changes partition as well as
+fitting; its pooled comparison holds population and weights fixed but still
+changes fitting/split assignment. Neither comparison isolates a single mechanism.
+No inferential p value is assigned to these dependent, single-seed partitions.
+
+Verification
+{
+  "status": "PASS",
+  "independent_score_checks": 432,
+  "maximum_score_discrepancy": 2.6645352591003757e-15,
+  "official_genus_numeric_sort_seed42_splits_verified": true,
+  "group_and_sample_overlap_checks_passed": true,
+  "independently_verified_masks": 10,
+  "LR_predictions_reconstructed": 2460,
+  "total_prediction_rows": 4920,
+  "single_class_test_folds": 0
+}
+An independent verifier recalculates partitions from numeric tax IDs, checks
+all population exclusions, checks train/test group disjointness, recomputes ten
+training masks, derives AUC by weighted positive-negative pair comparisons and
+AP by threshold integration, and reconstructs all 2460 LR probabilities from
+saved coefficients and independently recomputed training means/scales. Both
+classes occur in every held-out fold. Input hashes, exact parameters and runtime
+versions are in design_manifest.json.
+
+Artifacts in model_official_taxonomy_sensitivity/
+summary.csv, fold_metrics.csv, oof_predictions.csv, fold_assignments.csv,
+fold_family_features.csv, fold_cohort_and_mask_counts.csv,
+lr_scalers_and_coefficients.csv, original_OOF_same_rows_reference.csv,
+sensitivity_differences.csv, frozen_official_genus_input.csv,
+excluded_unresolved_genus.csv, independent_metric_verification.csv,
+verification_summary.json and design_manifest.json.
+
+Portable command: python run_audit.py --mode official_taxonomy --out fresh_results

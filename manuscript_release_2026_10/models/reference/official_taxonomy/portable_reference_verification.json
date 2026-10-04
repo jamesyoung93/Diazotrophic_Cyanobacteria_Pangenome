@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "reference_prediction_rows": 4920,
+  "maximum_reference_probability_difference": 0.0,
+  "exact_fold_assignments_and_feature_masks_match": true
+}

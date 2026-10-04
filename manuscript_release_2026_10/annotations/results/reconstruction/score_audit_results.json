@@ -1,0 +1,845 @@
+{
+  "method": "Independent input reconstruction; no production score functions imported; workbook only validation target.",
+  "sources": {
+    "inventory": {
+      "path": "morphotype_bridge_family_inventory.tsv",
+      "sha256": "c81dafb48e47ceecd521ac24f9f441bfdd898be4ba5cb68350f70e4272510441"
+    },
+    "normalized_proteomics": {
+      "path": "normalized_proteins.csv",
+      "sha256": "5f62339ba7ea0053be617376d7f043cfd89a8501fc45168ff2b55f5734c29bd5"
+    },
+    "related_atlas_cache": {
+      "path": "aryal_task7_hgt_proximity_from_github.csv",
+      "sha256": "439db6aeb24f4821315e0b8b9f40dc81e121d9feca90c362815cc319875b7f9a"
+    },
+    "raw_condensate_ranking": {
+      "path": "condensate_protein_ranking.csv",
+      "sha256": "2e6e3ef3490a72f23de3d8dfdffd97ef43e42a460d10ed2ec253f73ba61b2246"
+    },
+    "protein_family_map": {
+      "path": "genome_protein_family_map.tsv",
+      "sha256": "d7d562ea80c127494cadffc4b71a4d20575e3fbde7052c61a2a8c420c0c388f5"
+    },
+    "family_matrix": {
+      "path": "gene_family_matrix.csv",
+      "sha256": "e6d330006b66ad2272a72767ac5e92f0ad01ec4f106ed0447bf274d2512fce59"
+    },
+    "genome_metadata": {
+      "path": "genome_metadata.csv",
+      "sha256": "044087de8d407fa7d070efbf33906e806a9c3c47498b0ba224050d5bc76804f9"
+    },
+    "workbook": {
+      "path": "proteomics_composite_family_evidence.xlsx",
+      "sha256": "a7348b545657e05563753bde14f8e4ddc37d099ce8ae333803e3bd7a25262708"
+    },
+    "released_scorer": {
+      "path": "released_composite_scorer.py",
+      "sha256": "c5179fae71253a1d56eb8f472d6e99bc63e65d9e84d4497f625462008fc72345"
+    },
+    "atlas_join_generator": {
+      "path": "released_atlas_join_generator.py",
+      "sha256": "18850780cfa4323f8358a0fb5a005575a918a7aa3eecca550ab104aa546701d9"
+    }
+  },
+  "candidate_count": 1457,
+  "reconstructed_tier_counts": {
+    "Tier E: lower current evidence": 1111,
+    "De-emphasize: housekeeping/lineage": 160,
+    "Tier B: strong cross-evidence accessory": 138,
+    "Tier A: story-leading accessory": 31,
+    "Core/diagnostic control": 12,
+    "Tier HP: evidence-supported high-purity marker": 5
+  },
+  "unique_selected_count": 174,
+  "top_sheet_count": 174,
+  "top_sheet_sorted_by_documented_keys": true,
+  "selected_id_symmetric_difference": [],
+  "column_discrepancies": {},
+  "comparison_missingness_note": "For active_phase_up_context_count only, released blanks correspond to independently verified empty context sets and are compared as0. All other fields retain their original missingness semantics.",
+  "context_count_blank_to_verified_zero": 1318,
+  "raw_source_counts": {
+    "normalized_protein_rows": 6426,
+    "matrix_rows": 426,
+    "diazotroph_metadata": 112,
+    "raw_condensate_rows": 31021,
+    "mapped_condensate_rows": 2125,
+    "condensate_families": 1311,
+    "atlas_cache_rows": 503
+  },
+  "proteomics": {
+    "positive_candidate_families": 139,
+    "positive_selected_families": 71,
+    "max_mapped_studies": 4,
+    "max_active_up_studies": 2,
+    "count_violations_up_exceeds_mapped": 0,
+    "welkie_dynamic_max_ties": []
+  },
+  "atlas_join": {
+    "id_matches": 309,
+    "exact_product_same_id_matches": 0,
+    "same_id_different_product": 309,
+    "id_matches_without_any_normalized_product_match": 172,
+    "product_matches_without_id_match": 474,
+    "tierA_id_matches": 14,
+    "tierB_id_matches": 27,
+    "tierA_id_matches_without_any_product_match": [],
+    "hgt_flags_imported_on_id": 1,
+    "hgt_flags_with_nonmatching_same_id_product": 1,
+    "nonmatching_products_examples": [
+      {
+        "gene_family": "GF_00001",
+        "product": "ACP S-malonyltransferase",
+        "atlas_product_by_same_id": "hypothetical protein",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00099",
+        "product": "lipid-A-disaccharide synthase",
+        "atlas_product_by_same_id": "type II toxin-antitoxin system HicB family antitoxin",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00103",
+        "product": "photosystem II protein Psb27",
+        "atlas_product_by_same_id": "lipoyl synthase",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00140",
+        "product": "dihydroorotase",
+        "atlas_product_by_same_id": "adenosine deaminase",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00172",
+        "product": "photosystem I reaction center protein subunit XI",
+        "atlas_product_by_same_id": "adenylosuccinate lyase",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00173",
+        "product": "beta-carotene hydroxylase",
+        "atlas_product_by_same_id": "argininosuccinate lyase",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00176",
+        "product": "glutathione-disulfide reductase",
+        "atlas_product_by_same_id": "50S ribosomal protein L13",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00177",
+        "product": "ABC transporter ATP-binding protein",
+        "atlas_product_by_same_id": "dihydroxy-acid dehydratase",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00182",
+        "product": "photosystem I reaction center subunit II PsaD",
+        "atlas_product_by_same_id": "heterocyst differentiation master regulator HetR",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00184",
+        "product": "hypothetical protein",
+        "atlas_product_by_same_id": "excinuclease ABC subunit UvrB",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00186",
+        "product": "(S)-8-amino-7-oxononanoate synthase BioU",
+        "atlas_product_by_same_id": "elongation factor P",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00202",
+        "product": "2'-O-glycosyltransferase CruG",
+        "atlas_product_by_same_id": "DUF3593 domain-containing protein",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.75,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00206",
+        "product": "solanesyl diphosphate synthase",
+        "atlas_product_by_same_id": "transketolase",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00207",
+        "product": "DUF1517 domain-containing protein",
+        "atlas_product_by_same_id": "response regulator transcription factor",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.75,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00209",
+        "product": "DNA repair protein RecN",
+        "atlas_product_by_same_id": "proline--tRNA ligase",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00211",
+        "product": "ABC transporter ATP-binding protein",
+        "atlas_product_by_same_id": "phasin family protein",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00212",
+        "product": "GNAT family N-acetyltransferase",
+        "atlas_product_by_same_id": "polyribonucleotide nucleotidyltransferase",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00213",
+        "product": "carbohydrate kinase",
+        "atlas_product_by_same_id": "photosystem II q(b) protein",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00216",
+        "product": "Crp/Fnr family transcriptional regulator",
+        "atlas_product_by_same_id": "carbon-nitrogen hydrolase family protein",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      },
+      {
+        "gene_family": "GF_00217",
+        "product": "heat-inducible transcriptional repressor HrcA",
+        "atlas_product_by_same_id": "ABC transporter ATP-binding protein",
+        "priority_tier": "Tier E: lower current evidence",
+        "related_atlas_score": 0.5,
+        "hgt_passenger_flag": false
+      }
+    ]
+  },
+  "atlas_only_omission_sensitivity": {
+    "description": "Set related-atlas additive component A=0 and recompute the existing Highly Pure max(1-A,0) scope adjustment. Preserve all other released rules, including the imported HGT penalty. Diagnostic only; not substituted for released tiers.",
+    "changed_tier_count": 14,
+    "tier_counts": {
+      "Tier E: lower current evidence": 1116,
+      "De-emphasize: housekeeping/lineage": 160,
+      "Tier B: strong cross-evidence accessory": 142,
+      "Tier A: story-leading accessory": 22,
+      "Core/diagnostic control": 12,
+      "Tier HP: evidence-supported high-purity marker": 5
+    },
+    "shortlist_count": 169,
+    "removed_from_shortlist": [
+      "GF_00866",
+      "GF_00969",
+      "GF_01635",
+      "GF_01675",
+      "GF_01819"
+    ],
+    "added_to_shortlist": [],
+    "changes": [
+      {
+        "gene_family": "GF_00079",
+        "product": "ATP-dependent Clp protease proteolytic subunit",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00104",
+        "product": "15-cis-phytoene desaturase",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00136",
+        "product": "ferredoxin:protochlorophyllide reductase (ATP-dependent) subunit B",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00360",
+        "product": "inorganic diphosphatase",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.5,
+        "related_atlas_score": 0.75,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00622",
+        "product": "amino acid ABC transporter ATP-binding protein",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00624",
+        "product": "NADP-dependent isocitrate dehydrogenase",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00866",
+        "product": "adenosylhomocysteinase",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "scope_adjusted_story_score": 4.75,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 4.25,
+        "tier_if_omit_atlas_component_only": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_00969",
+        "product": "phosphoribulokinase",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "scope_adjusted_story_score": 4.75,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 4.25,
+        "tier_if_omit_atlas_component_only": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01635",
+        "product": "acetyl-CoA carboxylase carboxyltransferase subunit alpha",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "scope_adjusted_story_score": 4.75,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 4.25,
+        "tier_if_omit_atlas_component_only": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01675",
+        "product": "signal peptide peptidase SppA",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "scope_adjusted_story_score": 4.75,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 4.25,
+        "tier_if_omit_atlas_component_only": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01816",
+        "product": "photosynthetic/respiratory NAD(P)H-quinone oxidoreductase subunit K",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_01818",
+        "product": "glucose-6-phosphate dehydrogenase",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_01819",
+        "product": "threonine synthase",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "scope_adjusted_story_score": 4.75,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 4.25,
+        "tier_if_omit_atlas_component_only": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01860",
+        "product": "hypothetical protein",
+        "priority_tier": "Tier A: story-leading accessory",
+        "scope_adjusted_story_score": 6.25,
+        "related_atlas_score": 0.5,
+        "adjusted_score_if_omit_atlas_component_only": 5.75,
+        "tier_if_omit_atlas_component_only": "Tier B: strong cross-evidence accessory"
+      }
+    ]
+  },
+  "omission_sensitivity": {
+    "description": "Diagnostic only: omit identifier-based atlas score for MS and imported HGT penalty; HP scope total remains1.0. Not an alternative recommended score.",
+    "changed_tier_count": 14,
+    "changes": [
+      {
+        "gene_family": "GF_00079",
+        "priority_tier": "Tier A: story-leading accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00104",
+        "priority_tier": "Tier A: story-leading accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00136",
+        "priority_tier": "Tier A: story-leading accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00360",
+        "priority_tier": "Tier A: story-leading accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00622",
+        "priority_tier": "Tier A: story-leading accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00624",
+        "priority_tier": "Tier A: story-leading accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_00866",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_00969",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01635",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01675",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01816",
+        "priority_tier": "Tier A: story-leading accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_01818",
+        "priority_tier": "Tier A: story-leading accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier B: strong cross-evidence accessory"
+      },
+      {
+        "gene_family": "GF_01819",
+        "priority_tier": "Tier B: strong cross-evidence accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier E: lower current evidence"
+      },
+      {
+        "gene_family": "GF_01860",
+        "priority_tier": "Tier A: story-leading accessory",
+        "tier_if_omit_atlas_component_and_imported_hgt_flag": "Tier B: strong cross-evidence accessory"
+      }
+    ]
+  },
+  "ties": {
+    "selected_score_tuple_tie_groups": 12,
+    "selected_families_in_ties": 157,
+    "groups": [
+      {
+        "tier": "Tier A: story-leading accessory",
+        "adjusted": 6.05,
+        "unadjusted": 6.05,
+        "sum": 6.05,
+        "n": 3
+      },
+      {
+        "tier": "Tier A: story-leading accessory",
+        "adjusted": 6.15,
+        "unadjusted": 6.15,
+        "sum": 6.15,
+        "n": 4
+      },
+      {
+        "tier": "Tier A: story-leading accessory",
+        "adjusted": 6.25,
+        "unadjusted": 6.25,
+        "sum": 6.25,
+        "n": 9
+      },
+      {
+        "tier": "Tier A: story-leading accessory",
+        "adjusted": 7.25,
+        "unadjusted": 7.25,
+        "sum": 7.25,
+        "n": 7
+      },
+      {
+        "tier": "Tier B: strong cross-evidence accessory",
+        "adjusted": 4.65,
+        "unadjusted": 4.65,
+        "sum": 4.65,
+        "n": 2
+      },
+      {
+        "tier": "Tier B: strong cross-evidence accessory",
+        "adjusted": 4.75,
+        "unadjusted": 4.75,
+        "sum": 4.75,
+        "n": 65
+      },
+      {
+        "tier": "Tier B: strong cross-evidence accessory",
+        "adjusted": 4.95,
+        "unadjusted": 4.95,
+        "sum": 4.95,
+        "n": 11
+      },
+      {
+        "tier": "Tier B: strong cross-evidence accessory",
+        "adjusted": 5.05,
+        "unadjusted": 5.05,
+        "sum": 5.05,
+        "n": 6
+      },
+      {
+        "tier": "Tier B: strong cross-evidence accessory",
+        "adjusted": 5.15,
+        "unadjusted": 5.15,
+        "sum": 5.15,
+        "n": 3
+      },
+      {
+        "tier": "Tier B: strong cross-evidence accessory",
+        "adjusted": 5.25,
+        "unadjusted": 5.25,
+        "sum": 5.25,
+        "n": 18
+      },
+      {
+        "tier": "Tier B: strong cross-evidence accessory",
+        "adjusted": 5.75,
+        "unadjusted": 5.75,
+        "sum": 5.75,
+        "n": 25
+      },
+      {
+        "tier": "Tier B: strong cross-evidence accessory",
+        "adjusted": 5.95,
+        "unadjusted": 5.95,
+        "sum": 5.95,
+        "n": 4
+      }
+    ],
+    "condensate_best_score_ties": 2,
+    "condensate_both_sortkey_ties": 0
+  },
+  "condensate": {
+    "quantile_boundaries": {
+      "0.01": {
+        "last_in_rank": 13,
+        "denominator_all_mapped_families": 1311
+      },
+      "0.05": {
+        "last_in_rank": 65,
+        "denominator_all_mapped_families": 1311
+      },
+      "0.1": {
+        "last_in_rank": 131,
+        "denominator_all_mapped_families": 1311
+      },
+      "0.2": {
+        "last_in_rank": 262,
+        "denominator_all_mapped_families": 1311
+      }
+    },
+    "mapping_conflicts": [
+      [
+        "WP_010995492.1",
+        "WP_044522383.1",
+        "GF_02224",
+        "GF_01616"
+      ],
+      [
+        "WP_010998713.1",
+        "WP_010994225.1",
+        "GF_01362",
+        "GF_00288"
+      ],
+      [
+        "WP_010998072.1",
+        "WP_010998965.1",
+        "GF_01261",
+        "GF_02116"
+      ],
+      [
+        "WP_010997804.1",
+        "WP_010995904.1",
+        "GF_01426",
+        "GF_00832"
+      ],
+      [
+        "WP_044523356.1",
+        "WP_010995904.1",
+        "GF_01326",
+        "GF_00832"
+      ],
+      [
+        "WP_010994350.1",
+        "WP_010998214.1",
+        "GF_00289",
+        "GF_01528"
+      ],
+      [
+        "WP_010994912.1",
+        "WP_010996688.1",
+        "GF_01265",
+        "GF_01363"
+      ],
+      [
+        "WP_010998262.1",
+        "WP_041455902.1",
+        "GF_00969",
+        "GF_01889"
+      ],
+      [
+        "WP_010998715.1",
+        "WP_010994318.1",
+        "GF_00821",
+        "GF_00253"
+      ],
+      [
+        "WP_010996491.1",
+        "WP_010999243.1",
+        "GF_01629",
+        "GF_01782"
+      ],
+      [
+        "WP_010995766.1",
+        "WP_010995767.1",
+        "GF_01505",
+        "GF_00454"
+      ],
+      [
+        "WP_010994379.1",
+        "WP_011318294.1",
+        "GF_01756",
+        "GF_01422"
+      ],
+      [
+        "WP_010995254.1",
+        "WP_010996554.1",
+        "GF_00894",
+        "GF_00753"
+      ],
+      [
+        "WP_010996043.1",
+        "WP_010994208.1",
+        "GF_01489",
+        "GF_00402"
+      ],
+      [
+        "WP_010995610.1",
+        "WP_044520961.1",
+        "GF_02221",
+        "GF_00526"
+      ],
+      [
+        "WP_010998846.1",
+        "WP_044520689.1",
+        "GF_02173",
+        "GF_00953"
+      ],
+      [
+        "WP_010998863.1",
+        "WP_044520689.1",
+        "GF_00177",
+        "GF_00953"
+      ],
+      [
+        "WP_044520988.1",
+        "WP_044520689.1",
+        "GF_01884",
+        "GF_00953"
+      ],
+      [
+        "WP_010996140.1",
+        "WP_044520689.1",
+        "GF_01593",
+        "GF_00953"
+      ],
+      [
+        "WP_010998744.1",
+        "WP_010997705.1",
+        "GF_01655",
+        "GF_00046"
+      ],
+      [
+        "WP_010995469.1",
+        "WP_010998322.1",
+        "GF_00558",
+        "GF_00655"
+      ],
+      [
+        "WP_010996068.1",
+        "WP_010996423.1",
+        "GF_00270",
+        "GF_00801"
+      ]
+    ],
+    "ambiguous_accession_count": 55
+  },
+  "thresholds": {
+    "exactly_6_nonexcluded_MS": [],
+    "exactly_4_5_nonexcluded": [],
+    "excluded_with_adjusted_ge4_5": [
+      {
+        "gene_family": "GF_00526",
+        "priority_tier": "Core/diagnostic control",
+        "scope_adjusted_story_score": 5.05
+      },
+      {
+        "gene_family": "GF_02221",
+        "priority_tier": "Core/diagnostic control",
+        "scope_adjusted_story_score": 4.75
+      },
+      {
+        "gene_family": "GF_00178",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 4.65
+      },
+      {
+        "gene_family": "GF_00309",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 4.95
+      },
+      {
+        "gene_family": "GF_00343",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 6.45
+      },
+      {
+        "gene_family": "GF_00349",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 5.15
+      },
+      {
+        "gene_family": "GF_00353",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 5.15
+      },
+      {
+        "gene_family": "GF_00393",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 5.65
+      },
+      {
+        "gene_family": "GF_00404",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 4.75
+      },
+      {
+        "gene_family": "GF_00531",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 4.75
+      },
+      {
+        "gene_family": "GF_00688",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 5.65
+      },
+      {
+        "gene_family": "GF_00727",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 5.05
+      },
+      {
+        "gene_family": "GF_00755",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 4.75
+      },
+      {
+        "gene_family": "GF_00796",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 5.05
+      },
+      {
+        "gene_family": "GF_00857",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 5.05
+      },
+      {
+        "gene_family": "GF_00958",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 4.95
+      },
+      {
+        "gene_family": "GF_01399",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 5.05
+      },
+      {
+        "gene_family": "GF_01460",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 4.75
+      },
+      {
+        "gene_family": "GF_01580",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 4.95
+      },
+      {
+        "gene_family": "GF_01900",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 4.95
+      },
+      {
+        "gene_family": "GF_01904",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 4.75
+      },
+      {
+        "gene_family": "GF_01926",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 5.05
+      },
+      {
+        "gene_family": "GF_02140",
+        "priority_tier": "De-emphasize: housekeeping/lineage",
+        "scope_adjusted_story_score": 6.25
+      }
+    ]
+  }
+}

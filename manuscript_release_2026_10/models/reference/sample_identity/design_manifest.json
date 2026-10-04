@@ -1,0 +1,199 @@
+{
+  "scenarios": [
+    {
+      "name": "original_control",
+      "removed_accession": null,
+      "grouping_changed": false
+    },
+    {
+      "name": "remove_MIT_S9506",
+      "removed_accession": "GCF_047302775.1",
+      "grouping_changed": false
+    },
+    {
+      "name": "remove_SS51",
+      "removed_accession": "GCF_047302855.1",
+      "grouping_changed": false
+    },
+    {
+      "name": "connected_group_repartition",
+      "removed_accession": null,
+      "grouping_changed": true
+    }
+  ],
+  "scope": "Fixed original2286-family matrix. Single-row exclusions preserve original saved fold IDs. Connected-group sensitivity recomputes five round-robin folds with seed42 and71 groups. Not whole-genome deduplication or curated taxonomy.",
+  "grouping_edges": [
+    [
+      "Synechococcus",
+      "Prochlorococcus"
+    ],
+    [
+      "Synechococcus",
+      "[Synechococcus]"
+    ],
+    [
+      "Leptolyngbya",
+      "[Leptolyngbya]"
+    ],
+    [
+      "Phormidium",
+      "[Phormidium]"
+    ]
+  ],
+  "training_filter": "Exact10%/90% purity and>=3 training audit groups. Audit groups equal stored genus labels except connected_group_repartition.",
+  "metric_weights": "genus_balanced uses unchanged stored-genus tokens for comparability; audit_group_balanced uses connected group units. Both pooled and within-fold forms are exported.",
+  "model_parameters": {
+    "Random Forest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 10,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 5,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "Gradient Boosting": {
+      "ccp_alpha": 0.0,
+      "criterion": "friedman_mse",
+      "init": null,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_depth": 5,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "n_estimators": 100,
+      "n_iter_no_change": null,
+      "random_state": 42,
+      "subsample": 1.0,
+      "tol": 0.0001,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "Logistic Regression": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "XGBoost": {
+      "objective": "binary:logistic",
+      "base_score": null,
+      "booster": null,
+      "callbacks": null,
+      "colsample_bylevel": null,
+      "colsample_bynode": null,
+      "colsample_bytree": 0.8,
+      "device": null,
+      "early_stopping_rounds": null,
+      "enable_categorical": false,
+      "eval_metric": "logloss",
+      "feature_types": null,
+      "feature_weights": null,
+      "gamma": null,
+      "grow_policy": null,
+      "importance_type": null,
+      "interaction_constraints": null,
+      "learning_rate": 0.1,
+      "max_bin": null,
+      "max_cat_threshold": null,
+      "max_cat_to_onehot": null,
+      "max_delta_step": null,
+      "max_depth": 5,
+      "max_leaves": null,
+      "min_child_weight": null,
+      "missing": NaN,
+      "monotone_constraints": null,
+      "multi_strategy": null,
+      "n_estimators": 200,
+      "n_jobs": 1,
+      "num_parallel_tree": null,
+      "random_state": 42,
+      "reg_alpha": null,
+      "reg_lambda": null,
+      "sampling_method": null,
+      "scale_pos_weight": null,
+      "subsample": 0.8,
+      "tree_method": null,
+      "validate_parameters": null,
+      "verbosity": null,
+      "use_label_encoder": false
+    },
+    "assembly_length_only_LR": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "retained_family_count_only_LR": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "python": "3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scipy": "1.13.1",
+  "sklearn": "1.6.1",
+  "xgboost": "3.1.1",
+  "threads": 1,
+  "input_sha256": {
+    "unified_pipeline_clean\\unified_pipeline_run_public\\gene_family_matrix.csv": "e6d330006b66ad2272a72767ac5e92f0ad01ec4f106ed0447bf274d2512fce59",
+    "unified_pipeline_clean\\unified_pipeline_run_public\\complete_genomes_with_proteins.csv": "b002c153991e80e2b9943dfe42af1a29c6d1b3da3719ce31d6bc7a2b8fda8b11",
+    "unified_pipeline_clean\\unified_pipeline_run_public\\genome_protein_family_map.tsv": "40af670dc7ba51a141f4c35e42c43aaea848c68b937c5abc62f11f7b289c24fb",
+    "unified_pipeline_clean\\nif_downstream_code\\04_classify.py": "743657fc6157bb3b9e595853e193a47e431a538ed854f7637659b3e4fd904628"
+  },
+  "original_control_max_prediction_difference": 1.1102230246251565e-16,
+  "completed_fits": 120
+}

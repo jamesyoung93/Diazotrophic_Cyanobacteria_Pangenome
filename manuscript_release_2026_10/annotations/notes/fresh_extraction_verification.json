@@ -1,0 +1,390 @@
+{
+  "status": "PASS",
+  "tested_archive_sha256": "512f54190c091cae9e96a1510121a718e97ba928529724bf01c3a3a9b7e674fb",
+  "test": "Unzip to a new long-path folder, run every step to a new fresh_results folder; no precomputed results used as generated outputs.",
+  "command": "python run_all.py --out fresh_results",
+  "scientific_inputs_and_scripts_identical_to_final_package": 40,
+  "all_generated_csv_comparisons": [
+    {
+      "file": "current167/control_migrations_vs169.csv",
+      "rows": 3,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "current167/corrected_AllComposite.csv",
+      "rows": 1457,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "current167/corrected_TopFamilies.csv",
+      "rows": 167,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "current167/prior169_AllComposite.csv",
+      "rows": 1457,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "current167/prior169_TopFamilies.csv",
+      "rows": 169,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "current167/released_AllComposite.csv",
+      "rows": 1457,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "current167/released_TopFamilies.csv",
+      "rows": 174,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "current167/score_migrations.csv",
+      "rows": 114,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "current167/tier_migrations.csv",
+      "rows": 17,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "current167/ubiquitous_control_importance_check.csv",
+      "rows": 12,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "current167/ubiquitous_controls.csv",
+      "rows": 3,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "figures/Figure3_source.csv",
+      "rows": 22,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "figures/Figure5_AC_family_source.csv",
+      "rows": 476,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "figures/Figure5_B_family_source.csv",
+      "rows": 1303,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "figures/Figure5_summary_source.csv",
+      "rows": 22,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_both_conservative_all_scores.csv",
+      "rows": 1457,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_both_conservative_tier_migrations.csv",
+      "rows": 1,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_both_excluded_protein_rows.csv",
+      "rows": 809,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_both_family_annotation.csv",
+      "rows": 1311,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_both_fixed_reference_all_scores.csv",
+      "rows": 1457,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_both_fixed_reference_tier_migrations.csv",
+      "rows": 1,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_cluster_only_fallback_conservative_all_scores.csv",
+      "rows": 1457,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_cluster_only_fallback_conservative_tier_migrations.csv",
+      "rows": 1,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_cluster_only_fallback_excluded_protein_rows.csv",
+      "rows": 804,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_cluster_only_fallback_family_annotation.csv",
+      "rows": 1311,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_cluster_only_fallback_fixed_reference_all_scores.csv",
+      "rows": 1457,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_cluster_only_fallback_fixed_reference_tier_migrations.csv",
+      "rows": 1,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_selected_ambiguous_conservative_all_scores.csv",
+      "rows": 1457,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_selected_ambiguous_conservative_tier_migrations.csv",
+      "rows": 0,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_selected_ambiguous_excluded_protein_rows.csv",
+      "rows": 5,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_selected_ambiguous_family_annotation.csv",
+      "rows": 1311,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_selected_ambiguous_fixed_reference_all_scores.csv",
+      "rows": 1457,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "mapping_sensitivity/exclude_selected_ambiguous_fixed_reference_tier_migrations.csv",
+      "rows": 0,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "model_rank/all_frozen476_repeated_LR_stability.csv",
+      "rows": 476,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "model_rank/rank_comparison_family_detail.csv",
+      "rows": 9900,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "model_rank/rank_comparison_summary.csv",
+      "rows": 18,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "rank_sensitivity/current_MS_shortlist162_rank_stability.csv",
+      "rows": 162,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "rank_sensitivity/current_TierA22_rank_stability.csv",
+      "rows": 22,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "rank_sensitivity/current_TierB140_rank_stability.csv",
+      "rows": 140,
+      "numeric_match": true,
+      "byte_match": true
+    },
+    {
+      "file": "rank_sensitivity/frozen476_rank_stability.csv",
+      "rows": 476,
+      "numeric_match": true,
+      "byte_match": true
+    }
+  ],
+  "figure_pngs": {
+    "Figure3_TierA_evidence.png": {
+      "sha256": "12f323014013f43cf2daed985142db8b3859ba12a9a159ac8dc9993e0765f415",
+      "byte_identical": true
+    },
+    "Figure5_annotation_diagnostics.png": {
+      "sha256": "f18a92e7da804eeb59386caf0db90f3d8dd128a28cbd2b086675270711c0051b",
+      "byte_identical": true
+    }
+  },
+  "verification": {
+    "status": "PASS",
+    "reference_scope": "Expected files were captured from completed audits before constructing this package; no expected values are regenerated by run_all.py.",
+    "checks": [
+      {
+        "file": "current167/corrected_AllComposite.csv",
+        "rows": 1457,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "current167/corrected_TopFamilies.csv",
+        "rows": 167,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "current167/score_migrations.csv",
+        "rows": 114,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "current167/tier_migrations.csv",
+        "rows": 17,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "current167/ubiquitous_controls.csv",
+        "rows": 3,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "current167/control_migrations_vs169.csv",
+        "rows": 3,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "figures/Figure3_source.csv",
+        "rows": 22,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "figures/Figure5_AC_family_source.csv",
+        "rows": 476,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "figures/Figure5_B_family_source.csv",
+        "rows": 1303,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "figures/Figure5_summary_source.csv",
+        "rows": 22,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "rank_sensitivity/current_MS_shortlist162_rank_stability.csv",
+        "rows": 162,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "rank_sensitivity/current_TierA22_rank_stability.csv",
+        "rows": 22,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "rank_sensitivity/current_TierB140_rank_stability.csv",
+        "rows": 140,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "rank_sensitivity/frozen476_rank_stability.csv",
+        "rows": 476,
+        "status": "numeric/text match"
+      },
+      {
+        "file": "reconstruction/score_family_reconstruction.json",
+        "rows": 1457,
+        "status": "independent raw-input reconstruction matches pre-bundle reconstruction"
+      },
+      {
+        "file": "mapping_sensitivity/summary.json",
+        "status": "all sensitivity counts, scores and migrations match pre-bundle audit"
+      },
+      {
+        "file": "diagnostics/independent_regressions.json",
+        "status": "all independent regression output numerical tokens match original audit",
+        "numeric_tokens": 272
+      },
+      {
+        "file": "logs/03_historical_diagnostics.txt",
+        "status": "historical D1-D8 numerical result lines match original audit",
+        "lines": 34,
+        "numeric_tokens": 95
+      }
+    ]
+  },
+  "runtime": {
+    "python": "3.10.16",
+    "packages": {
+      "numpy": {
+        "module_version": "2.2.6",
+        "distribution_metadata_version": "2.2.6"
+      },
+      "pandas": {
+        "module_version": "2.3.3",
+        "distribution_metadata_version": "2.3.3"
+      },
+      "scipy": {
+        "module_version": "1.13.1",
+        "distribution_metadata_version": "1.13.0"
+      },
+      "statsmodels": {
+        "module_version": "0.14.4",
+        "distribution_metadata_version": "0.14.4"
+      },
+      "openpyxl": {
+        "module_version": "3.1.5",
+        "distribution_metadata_version": "3.1.5"
+      },
+      "matplotlib": {
+        "module_version": "3.10.7",
+        "distribution_metadata_version": "3.10.7"
+      },
+      "pillow": {
+        "module_version": "11.1.0",
+        "distribution_metadata_version": "10.4.0"
+      }
+    }
+  },
+  "prior_packaging_failure": "Initial extraction exposed Windows sibling-module import failure at260 characters. The packaged scoring script now loads its exact local companion by explicit file location. Repeated full long-path replay passed.",
+  "scope": "Fresh extraction uses the existing scientific runtime. Any separate clean-environment replay is recorded independently."
+}
