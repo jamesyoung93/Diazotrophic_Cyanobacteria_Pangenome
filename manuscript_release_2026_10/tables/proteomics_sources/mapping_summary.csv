@@ -1,0 +1,13 @@
+study_id,paper_short,organism,map_status,n_source_proteins
+Held_2022_Trichodesmium_IMS101,Held et al. 2022,Trichodesmium erythraeum IMS101,mapped_to_family,195
+Held_2022_Trichodesmium_IMS101,Held et al. 2022,Trichodesmium erythraeum IMS101,mapped_to_wp_not_in_filtered_family_atlas,2179
+Held_2022_Trichodesmium_IMS101,Held et al. 2022,Trichodesmium erythraeum IMS101,unmapped,16
+Panda_2025_Crocosphaera_ATCC51142,Panda et al. 2025,Crocosphaera subtropica ATCC 51142,mapped_to_family,206
+Panda_2025_Crocosphaera_ATCC51142,Panda et al. 2025,Crocosphaera subtropica ATCC 51142,mapped_to_wp_not_in_filtered_family_atlas,1832
+Panda_2025_Crocosphaera_ATCC51142,Panda et al. 2025,Crocosphaera subtropica ATCC 51142,unmapped,12
+Sandh_2014_Nostoc_punctiforme,Sandh et al. 2014,Nostoc punctiforme PCC 73102,mapped_to_family,507
+Sandh_2014_Nostoc_punctiforme,Sandh et al. 2014,Nostoc punctiforme PCC 73102,mapped_to_wp_not_in_filtered_family_atlas,361
+Sandh_2014_Nostoc_punctiforme,Sandh et al. 2014,Nostoc punctiforme PCC 73102,unmapped,16
+Welkie_2014_Cyanothece_PCC7822,Welkie et al. 2014,Gloeothece verrucosa PCC 7822,mapped_to_family,204
+Welkie_2014_Cyanothece_PCC7822,Welkie et al. 2014,Gloeothece verrucosa PCC 7822,mapped_to_wp_not_in_filtered_family_atlas,893
+Welkie_2014_Cyanothece_PCC7822,Welkie et al. 2014,Gloeothece verrucosa PCC 7822,unmapped,5

@@ -158,11 +158,11 @@ def main():
     (out/'workbook_payload.json').write_text(json.dumps(payload,allow_nan=False),encoding='utf-8')
     (out/'score_revision_summary.json').write_text(json.dumps(result,indent=2,allow_nan=False),encoding='utf-8')
     pd.DataFrame(importance_records).to_csv(out/'ubiquitous_control_importance_check.csv',index=False)
-    (out/'README.txt').write_text('Proposed revision for author review. The original workbook, 476/981 discovery inventories and previous 169-family correction snapshot are unchanged.\n'
-        'This pass excludes all three matrix-verified ubiquitous families before tier assignment. Numeric scores are retained for traceability.\n'
-        'Corrected shortlist:167 =22 A +140 B +5 HP;65 have an active-up annotation. The prior169 pass and raw release remain available alongside corrected outputs.\n'
-        'Use score_current.py with its companion score_rules.py; pass --workbook, --matrix, --prior-corrected-csv, --independent-reconstruction and --output-dir as needed.\n'
-        'Full-inventory diagnostics use frozen476 MS; score decomposition uses162 shortlisted MS A+B.\n',encoding='utf-8')
+    (out/'README.txt').write_text('Current shortlist: 167 families = 22 Tier A + 140 Tier B + 5 Highly Pure; 65 have an active-phase-up annotation.\n'
+        'Use corrected_TopFamilies.csv for the shortlist and corrected_AllComposite.csv for all 1,457 families.\n'
+        'Three matrix-verified ubiquitous controls are excluded before tier assignment. Their numeric scores and inventory membership are retained.\n'
+        'Full-inventory diagnostics use 476 Model-Supported families; shortlist score decomposition uses 162 Model-Supported families.\n'
+        'Replay also generates intermediate comparison tables for verification. See the annotation README for methods and interpretation.\n',encoding='utf-8')
     print(json.dumps({'corrected':summary,'controls':result['control_records'],
         'tier_changed_vs169_count':result['tier_changed_vs169_count'],
         'independent_check':result['independent_raw_input_reconstruction_agreement']},indent=2))

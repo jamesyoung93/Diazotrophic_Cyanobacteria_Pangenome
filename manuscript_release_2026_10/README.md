@@ -1,33 +1,31 @@
-# October 2026 manuscript release
+# Manuscript data and analysis
 
-This release contains the frozen data, analysis code, figures and detailed notes for *Beyond nif*. Protein-family content predicts the nifHDK label across held-out genus groups. The two historical candidate inventories serve different purposes. External annotation layers help choose experiments; they do not independently validate genetic requirement or convergent biological support.
+This directory contains the data, code, figures and methods notes for *Beyond nif*. The primary panel contains 426 assembly versions (112 nifHDK-positive and 314 comparison genomes) and 2,286 retained protein families. The inventories contain 476 Model-Supported and 981 Highly Pure families. The experimental shortlist contains 22 Tier A, 140 Tier B and 5 Highly Pure families.
 
-## Start here
+## Contents
 
-- [Cohort and taxonomy sensitivity](docs/COHORT_AND_TAXONOMY_SENSITIVITY.md): the 426-genome panel, dated 401-current analysis, retained-profile identity concern, taxonomy and prevalence checks.
-- [Functional annotation](docs/FUNCTIONAL_ANNOTATION.md): the meaning and limitations of the legacy categories, product-name patterns and category co-occurrence test.
-- [Annotation replay](annotations/README.md): reconstruct source annotations, reproduce the corrected 167-family shortlist and regenerate Figures 3 and 5.
-- [Model audit](models/README.md): fixed-matrix prediction, genome-length baselines, saved predictions and optional model refits.
-- [Figures](figures/): manuscript figure assets. Figure 4 retains its historical analysis scope; see its source files.
-- [Release notes](RELEASE_NOTES.md): changes from the June release and limits of verification.
-
-The primary panel contains 426 assembly versions (112 nifHDK-positive and 314 comparison genomes) and 2,286 retained protein families. The frozen inventories contain 476 historically Model-Supported and 981 Highly Pure families. The current shortlist contains 22 Tier A, 140 Tier B and 5 Highly Pure families. Three ubiquitous Model-Supported families remain in the inventory but are excluded from prioritization. Tier names are heuristic score bands, not levels of validation.
+- [Annotation results](annotations/README.md): current scores, candidate workbook, reconstructed study annotations, mapping sensitivities and Figures 3/5.
+- [Prediction analysis](models/README.md): fixed-matrix prediction, genome-length baselines, saved predictions and model refits.
+- [Figures](figures/): the five manuscript figures and captions, including the Figure 4 comparison source tables.
+- [Supporting tables](tables/README.md): the related-atlas comparison, nif-keyword audit and proteomics source index used in the manuscript.
+- [Cohort and taxonomy sensitivity](docs/COHORT_AND_TAXONOMY_SENSITIVITY.md): dated assembly-status, retained-profile, genus and prevalence analyses.
+- [Functional annotation](docs/FUNCTIONAL_ANNOTATION.md): category definitions and limits of product-name matching and co-occurrence tests.
 
 ## Reproduce
 
 Use Python 3.10.16 and the pinned dependencies. From the repository root:
 
 ```sh
-python -m pip install -r manuscript_release_2026_10/requirements.txt
+python -m pip install -r requirements.txt
 python manuscript_release_2026_10/scripts/run_release_checks.py --out release_verification
 ```
 
-Choose a new output directory outside the release. The runner verifies release hashes before and after execution, reconstructs annotations against frozen validation targets, and independently checks saved model metrics and predictions in a temporary copy of the reference outputs. It does not fit models. See the model README for the separate 460-fit replay and 20-fit training-prevalence check. Inputs include the dated NCBI responses, so replay does not require live data downloads.
+Choose a new output directory outside this directory. The runner verifies hashes before and after execution, reconstructs annotations against frozen validation targets, and checks saved model metrics and predictions in a copy of the reference outputs. Inputs include dated NCBI responses; replay needs no live input downloads.
 
-GitHub Actions runs release-integrity checks, the annotation replay and saved-model verification on Windows. These checks do not certify a full end-to-end rebuild from downloaded genomes. In a separate clean environment, primary model fitting preserved masks, class decisions, reported AUC/AP and importance ranks but failed the unchanged strict probability tolerance for 140 logistic-regression predictions (maximum difference 4.67e-10). That failure remains documented in the model bundle; tolerances have not been relaxed.
+This check does not fit models or rebuild sequence clusters from raw genomes. Separate model-refit commands cover 460 fits plus a 20-fit training-prevalence analysis. A clean-environment primary refit preserved masks, class decisions, reported AUC/AP and importance ranks but failed the unchanged strict probability tolerance for 140 logistic-regression predictions (maximum difference 4.67e-10). The [model validation record](models/validation/VALIDATION.md) documents that limit.
 
-## Scope and provenance
+## Interpretation and provenance
 
-This directory supersedes `manuscript_release_2026_06` for manuscript interpretation. The June files remain historical records. The original clustering and full-panel vocabulary remain fixed in all model sensitivities. Current NCBI status is not backdated to collection, and a verified original retrieval timestamp is unavailable.
+Clustering and the full-panel vocabulary remain fixed in the prediction sensitivities. Current NCBI status is not backdated to collection, and a verified original retrieval timestamp is unavailable. Three ubiquitous Model-Supported families remain in the inventory but are excluded from prioritization. Tier labels describe heuristic score bands.
 
-`RELEASE_SHA256.json` covers the released files. The annotation and model bundles also retain their input and reference manifests. Machine-readable legacy fields and filenames remain where needed for reproducibility, including older tier descriptions and proposed-revision status strings. Their historical wording does not override the interpretation above.
+`RELEASE_SHA256.json` covers this directory. Input and reference manifests preserve the exact data used by the analyses. Baseline inputs and comparison outputs remain where a current manuscript result or verification depends on them. Acquisition code revisions and data hashes are identified in the cohort note and model input manifest.

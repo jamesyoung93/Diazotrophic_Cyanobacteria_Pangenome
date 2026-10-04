@@ -5,11 +5,19 @@ on:
     paths:
       - 'manuscript_release_2026_10/**'
       - '.github/workflows/manuscript-release.yml'
+      - 'README.md'
+      - 'requirements.txt'
+      - 'unified_pipeline_clean/README.md'
+      - 'unified_pipeline_clean/docs/**'
   push:
     branches: [main]
     paths:
       - 'manuscript_release_2026_10/**'
       - '.github/workflows/manuscript-release.yml'
+      - 'README.md'
+      - 'requirements.txt'
+      - 'unified_pipeline_clean/README.md'
+      - 'unified_pipeline_clean/docs/**'
   workflow_dispatch:
 
 permissions:
@@ -36,6 +44,6 @@ jobs:
           channels: conda-forge
           conda-remove-defaults: 'true'
       - name: Install pinned analysis dependencies
-        run: conda run --no-capture-output -n manuscript python -m pip install -r manuscript_release_2026_10/requirements.txt
+        run: conda run --no-capture-output -n manuscript python -m pip install -r requirements.txt
       - name: Verify release, replay annotations and check saved model metrics
         run: conda run --no-capture-output -n manuscript python -B -X utf8 manuscript_release_2026_10/scripts/run_release_checks.py --out "$env:RUNNER_TEMP/manuscript-release-verification"

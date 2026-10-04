@@ -46,7 +46,7 @@
   "inputs/taxonomy_public/taxonomy_batch_05.json": "eef0508e5f0c8274afdf870529fc1164c979ff55a11b0277d027462cc2967745",
   "LICENSE": "50d6473aef57039a7755a02bd4df158b656545cf75ee264fda7037da336d89fe",
   "metric_interpretation.txt": "484fe31fef432b81c5963a3fe21e87bded4824ed956faaf82df8c0ac8b19c2e8",
-  "README.md": "848b1b6bb5f6cccc8590b3833208c5515445cab023cd15a1e5ca7c9d43218dea",
+  "README.md": "28dd96f3a37878e6c97eed585a39ff4a8006ecc2a959d54304d87596f78ab906",
   "reference/current_status/design_manifest.json": "51055ba827f5968f3691cc71c36fe19d4fd6643c3beebddbb2ec2ad7ceae77a8",
   "reference/current_status/fold_assignments.csv": "ebdd5acf308edf8c95e33d650d8e45d3f068ab160a0afed7fab5413c3a68b1e7",
   "reference/current_status/fold_cohort_and_mask_counts.csv": "f68ed2ec9015158e011285e76aa7e5ee780f42bf885fa80923183f93338882f2",
@@ -150,9 +150,6 @@
   "validation/clean_environment/audit_only_importance_rank_comparison.csv": "5840e406d38ac49d3673a360cb11b4e12d9e624d6c7a8056afbe72fc4cc7d330",
   "validation/clean_environment/backend_provenance.json": "2c50fdc2780cf8ffd8e3ff4e4f537ba3330d90d73192968eae17fe19caf6dc70",
   "validation/clean_environment/changed_score_order_pairs.csv": "9eb91482f94b4890010fc8a3e8d0a0296f5f34bc65cd5de79660218f9a6f695a",
-  "validation/clean_environment/clean_annotation_install.log": "5f05832a131996c1aa5c893a9e200ec0965bc439b2b72bc15fceaca5e67df4b9",
-  "validation/clean_environment/clean_install_model_native.log": "82837f434cf36f531f53600b764dc2f893289d4887c1740a671dd259a9321514",
-  "validation/clean_environment/clean_install_model_threadpool36.log": "2bffb0dcac8198ac4dca50c3cb7fb2fb18b022ca19d7fb3207abea4868438a35",
   "validation/clean_environment/comparison_summary.json": "0c604fb1c6d706d49439bec4d2448f1d15eb39d6dbfffc5bca81f8ecfc5e52d7",
   "validation/clean_environment/export_schema_normalization.csv": "c72726e6490c38361c7228c206d8c79f3acce9c8bd8fb17a6f288ca164936c99",
   "validation/clean_environment/independent_metric_reconstruction.csv": "9457acd6b8564bcfbe78d96df6bb347d3c0426136df4eb5705b4f81b0ca0f28c",
@@ -186,6 +183,6 @@
   "validation/repeated_fresh_copy_verification.json": "8b54a550d64c43646764ee06cdabad44d18ea83e4650bf9ffb26296601a3e1bb",
   "validation/sample_identity_fresh_copy_verification.json": "435dc87d1fc1615fc4be0b9b689daf180341e41c524c4fe77bec021b04d6a455",
   "validation/seed42_fresh_copy_verification.json": "ae6296d60ec66b45e956be481986638cd64c3b898337ce429c0c742b86df2a9d",
-  "validation/VALIDATION.md": "9640eacc356f51e861c7f66a9cfefffd4e6622e05e0525f0a504d436d1aebee1",
+  "validation/VALIDATION.md": "b5705cf0cb7e32de4aab15603ef3a5818f05bfa8b101a698536b8d42af9af55f",
   "validation/validation_summary.json": "44d78df8ce50090ad9ce81f976d33ae44b2cc77397af3e90e037818e82caee94"
 }

@@ -1,0 +1,32 @@
+metric	value	note
+Aryal CV label raw rows	771	complete_genomes_labeled-james.csv rows
+Aryal CV unique labels	449	deduplicated assembly_accession
+Aryal CV duplicated accessions	237	duplicates had no diazotroph-label conflicts
+Aryal CV split unique genomes	449	union of train/test split files
+Current manuscript matrix genomes	426	Diazotrophic_Cyanobacteria_Pangenome-main/unified_pipeline_clean/unified_pipeline_run_public/gene_family_matrix.csv
+Current manuscript matrix families	2286	Diazotrophic_Cyanobacteria_Pangenome-main/unified_pipeline_clean/unified_pipeline_run_public/gene_family_matrix.csv
+CV split genomes also in current matrix	416	97.65% of current matrix
+CV split genomes absent from current matrix	33	all are GCA accessions
+Current matrix genomes absent from CV split	10	all are GCF accessions
+Current Model-Supported families	476	Diazotrophic_Cyanobacteria_Pangenome-main/unified_pipeline_clean/unified_pipeline_run_public/fox_report/tier1_positive_model_selected.tsv
+Current Highly Pure families	981	Diazotrophic_Cyanobacteria_Pangenome-main/unified_pipeline_clean/unified_pipeline_run_public/fox_report/tier2_pure_positive_heldout.tsv
+Aryal Task7/Tier1-proxy families	503	https://raw.githubusercontent.com/erise-bnerc/predictive-comparative-genomics-for-diazotropy/main/new_analytical_task_results/task7_hgt_proximity.csv
+Aryal families found in current matrix columns	464	
+Aryal families found in current inventory	309	
+Aryal families found in current Model-Supported	110	
+Aryal families found in current Highly Pure	199	
+Current Model-Supported families recovered by Aryal Tier1 IDs	110	23.11% of current Model-Supported
+Current inventory families recovered by Aryal Tier1 IDs	309	21.21% of current 1457-family inventory
+Aryal-only Tier1 IDs vs current inventory	194	GF IDs absent from current Model-Supported/Highly Pure inventory
+Aryal-only Tier1 IDs vs current matrix	39	GF IDs absent from current 2,286-family matrix
+Shared Aryal/current-inventory exact product matches	0	out of 309 shared GF IDs
+Shared Aryal/current-inventory FOX-layer families	31	
+Shared Aryal/current-inventory proteomics directional families	33	
+Shared Aryal/current-inventory three-layer families	3	
+Aryal families with exact product match to current inventory	442	GF-ID independent product-level crosswalk
+Aryal informative products with exact current match	363	excludes hypothetical/DUF/generic family proteins
+Aryal product matches touching current Model-Supported	402	
+Aryal product matches touching current Highly Pure	153	
+Aryal product matches touching current FOX layer	47	
+Aryal product matches touching current proteomics directional layer	100	
+Aryal product matches touching current three-layer evidence	9	

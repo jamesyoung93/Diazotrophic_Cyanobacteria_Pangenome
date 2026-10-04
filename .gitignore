@@ -1,26 +1,18 @@
-# Never commit run outputs or downloads
+# Generated downloads and sequence-processing runs
+**/downloads/
 **/unified_pipeline_run/
-**/downloads/
-**/__pycache__/
-**/*.pyc
-**/*.out
-**/*.err
-
-# Generated run outputs (do not commit)
 unified_pipeline_clean/nif_hdk_scan_release_clean/results/
-unified_pipeline_clean/unified_pipeline_run/
-**/downloads/
-**/__pycache__/
-**/*.pyc
+unified_pipeline_clean/nif_hdk_scan_release_clean/logs/
+unified_pipeline_clean/reproducibility/
 
-# Keep large and non-reproducible artifacts out of GitHub
-unified_pipeline_clean/unified_pipeline_run/
-**/downloads/
+# Replay outputs belong outside the immutable release
+/release_verification/
+/annotation_replay/
+**/rerun_outputs/
+
+# Runtime files
 **/__pycache__/
 **/*.pyc
 **/*.out
 **/*.err
-
-# Allow the small public mirror to be committed
-!unified_pipeline_clean/unified_pipeline_run_public/
-!unified_pipeline_clean/unified_pipeline_run_public/**
+.pytest_cache/
