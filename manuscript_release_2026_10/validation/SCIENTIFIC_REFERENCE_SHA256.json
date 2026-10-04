@@ -1,5 +1,5 @@
 {
-  "scope": "Unchanged inputs and expected/reference results from the audited source bundles.",
+  "scope": "Frozen scientific inputs and reference results. The Figure 3 display reference adds matrix-verified carrier counts without changing Tier A membership or scores.",
   "files": {
     "annotations/inputs/raw/aryal_task7_hgt_proximity_from_github.csv": "439db6aeb24f4821315e0b8b9f40dc81e121d9feca90c362815cc319875b7f9a",
     "annotations/inputs/raw/complete_genomes_labeled.csv": "b2fb0638a2fd5cff9da431801e0f80da910b299cee0383c4e5612fa5304ebc43",
@@ -21,7 +21,7 @@
     "annotations/expected/current_MS_shortlist162_rank_stability.csv": "84e0af6426efef7e1f93d9957f5f8cd6933b43442007ead994c381b09ea6bfe9",
     "annotations/expected/current_TierA22_rank_stability.csv": "1dedca6029d39cfaa3232c3735ca143bfd26465d3aa67ec93d1149f6d0cd3e48",
     "annotations/expected/current_TierB140_rank_stability.csv": "fb92f095c927ab307b62173df4063fe4cc004cf6370a30f5e47dc93adaced27f",
-    "annotations/expected/figures/Figure3_source.csv": "497263cad6399f95c3d9de244e7519658cd74be3846c72330f20d02684e031a9",
+    "annotations/expected/figures/Figure3_source.csv": "26e069b2888a53283630a86fd9a16ea1e7e7aa8d3f3464ac1aaa349052448184",
     "annotations/expected/figures/Figure5_AC_family_source.csv": "1f58fe8933b2e656ee95031b10b1d1a060d52f81318e8e7a0e91fbbcb800ddde",
     "annotations/expected/figures/Figure5_B_family_source.csv": "8b5d1bd48fffb145cc7c7cacc3225fe5d177772cc724365c03b73b57ad6bcb43",
     "annotations/expected/figures/Figure5_summary_source.csv": "945f5e243b3d65a6b2d28d7cac8c41b814f6ac42df558f64050904d886ab59fa",
